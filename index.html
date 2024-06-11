@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>ZC French Language Pack documentation</title>
+    <style type="text/css">
+h1.title {
+  font-size: 2em;
+  font-weight: bold;
+text-shadow: 0.5em 0.5em 10px #999999;
+  text-align: center;
+}
+
+.title2 {
+  font-size: 1.5em;
+  margin-left: 40px;
+  font-weight: bold;
+text-shadow: 0.4em 0.4em 8px #999999;
+  text-align: left;
+}
+
+.title3 {
+  font-size: 1.2em;
+  margin-left: 50px;
+  font-weight: bold;
+text-shadow: 0.3em 0.3em 6px #999999;
+  text-align: left;
+  text-decoration: none;
+}
+
+.title4 {
+  font-size: 1.5em;
+  margin-left: 60px;
+text-shadow: 0.3em 0.2em 6px #999999;
+  text-align: left;
+  font-weight: bold;
+}
+
+.title5 {
+  font-size: 1em;
+  margin-left: 60px;
+text-shadow: 0.2em 0.2em 6px #999999;
+  text-align: left;
+}
+
+.title6 {
+  font-size: 1em;
+  margin-left: 60px;
+text-shadow: 0.3em 0.2em 6px #999999;
+  text-align: left;
+  font-weight: bold;
+}
+
+.texte {
+  margin-left: 60px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+.note {
+  margin-left: 60px;
+  margin-right: 40px;
+  text-align: left;
+  font-size: smaller;
+}
+
+.filelist {
+  margin-left: 80px;
+  margin-right: 40px;
+  text-align: left;
+  font-size: 1em;
+}
+
+.listtitle {
+  margin-left: -20px;
+  margin-right: 40px;
+  text-align: left;
+  font-size: 1em;
+}
+
+a.menu_links {
+  cursor: pointer;
+  font-size: 1.2em;
+  color: #006600;
+text-shadow: 0.3em 0.3em 6px silver;
+}
+
+a.anclink {
+  text-decoration: none;
+  font-style: italic;
+  cursor: pointer;
+  color: #000099;
+}
+
+.en {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.fr {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+#important {
+  font-weight: bold;
+  text-decoration: blink;
+  color: #cc0000;
+}
+
+#lang {
+  border-style: outset;
+  border-width: medium;
+  position: fixed;
+  right: 1%;
+  top: 2%;
+  z-index: 9;
+  cursor: pointer;
+}
+
+</style> </head>
+  <body>
+    <div class="en" id="en"> <img id="lang" src="flags-US-FR_small.webp" alt="Toggle language"
+
+        title="Pour changer entre l'anglais et le français, cliquez ici!" onclick="chglan()"
+
+        height="24" width="56">
+      <div>
+        <h1 class="title">Zen Cart v2 French language pack documentation</h1>
+      </div>
+      <p class="texte"><br>
+      </p>
+      <p class="texte">This language pack is an update for Zen Cart® version
+        2.0.0 and above of old French language files from v1.5.4 and v1.5.7 plus
+        added translations. It contains French language files for admin,
+        catalog, plugins and installer.</p>
+      <p class="title2">Install</p>
+      <p class="texte">Before starting there are few&nbsp; things to do or
+        check.</p>
+      <p class="texte">Don't forget, this language pack is for Zen Cart 2.0.0
+        and above! It is not compatible with older versions.</p>
+      <p class="texte">If you have a cart already installed, you must <span id="important">do
+          a complete backup including database</span>. For files a copy is easy,
+        but for database you must export it to an SQL file you can import again
+        later if necessary. This is a very important step! In case of troubles,
+        it will save you lot of time and more.<br>
+        Please, choose from below menu to get detailed explanations:<br>
+      </p>
+      <p class="title3"><a class="menu_links" onclick="shide('newinst')">New
+          cart installation</a></p>
+      <div id="newinst">
+        <p class="texte">You must prepare a server space, domain and database as
+          you would do for a standard Zen Cart® install.</p>
+        <p class="texte"><b>Extract Zen Cart v2.0.0</b> or newer you have just
+          downloaded and <b>copy all files</b> in your site folder. <b>Extract
+            Zen Cart French Language Pack</b> too and <b>copy admin, includes,
+            zc_install and zc_plugins folders</b>.</p>
+        <p class="texte">Now you should open your browser and in address bar
+          type your site address using your real domain in place of 'yoursite'
+          and http or https depending on your case:<br>
+          <b>https://yoursite.com/zc_install/</b> (or https://yoursite.com/ and
+          click on 'Click here' link)<br>
+        </p>
+        <p class="texte">Zen Cart installer will start in English, you can
+          change to French, and do some system checks. If there is no big
+          problem with system check, you can proceed to install like a normal
+          Zen Cart by clicking on 'Clean install' button. After your first login
+          in admin, installation is done!</p>
+        <p class="texte">Now <b>you must add French language to Zen Cart</b>
+          through 'admin&gt;Localization&gt;Languages'. This has to be done
+          manually through admin interface as it sets everything necessary for a
+          new language in Zen cart.</p>
+        <p class="texte">Name: French<br>
+          Code: fr<br>
+          Image: icon.gif<br>
+          Directory: french<br>
+          Sort Order: 0</p>
+        <p class="texte">Set French as default if you want. Then <b>import/run</b>
+          SQL queries in file '<b>..\sql\orders_status_update.sql</b>' (provided
+          with the language pack) to update order status table with French.</p>
+        <p class="texte">Now you can go to configuration chapter to get ready
+          for sale.</p>
+      </div>
+      <p class="title3"><a class="menu_links" onclick="shide('allinst')">Already
+          installed cart<br>
+        </a></p>
+      <div id="allinst">
+        <p class="texte">When installing over an existing Zen Cart 2.x.x, it is
+          easier than a new install.</p>
+        <p class="texte">First, <b>Extract Zen Cart French Language Pack</b>
+          and <b>rename admin folder</b> to the same name name of your running
+          Zen Cart®. Then <b>copy folders admin (renamed to your real admin
+            folder name), </b><b>includes, zc_install and zc_plugins</b> to
+          your cart.</p>
+        <p class="texte"><b>If</b> you have some <b>plugins installed</b>, you
+          <b>must add French language folder and files</b> to their language
+          folder. If you don't have the French translation for these plugins,
+          just copy 'english' folder and rename the copy to 'french'. If these
+          files are missing, Zen Cart® will crash when trying to use French
+          language. After that, you will have time to do the French translation
+          for these plugins later.</p>
+        <p class="texte">Now <b>you must add French language to Zen Cart</b>
+          through 'admin&gt;Localization&gt;Languages'. This has to be done
+          manually through admin interface as it sets everything necessary for a
+          new language in Zen cart.</p>
+        <p class="texte">Name: French<br>
+          Code: fr<br>
+          Image: icon.gif<br>
+          Directory: french<br>
+          Sort Order: 0</p>
+        <p class="texte">Set French as default if you want. Then <b>import/run</b>
+          SQL queries in file '<b>..\sql\orders_status_update.sql</b>' (provided
+          with the language pack) to update order status table with French.</p>
+        <p class="texte">If all is good, you can go to configuration chapter.</p>
+      </div>
+      <p class="title2">Configuration</p>
+      <p class="texte">You might want to set&nbsp; Euro as default currency, add
+        a new tax class (VTA) and rate, set your store location and postal code,
+        define some geo-zones for your shipping modules and set these modules
+        and payment ones too according to these zones.<br>
+        Please have a look at Zen Cart documentation, starting by here: <a href="https://docs.zen-cart.com/user/new_user_topics/"
+
+          title="Zen Cart Documentation" target="_blank">https://docs.zen-cart.com/user/new_user_topics/</a></p>
+      <p class="title3">Admin language:</p>
+      <p class="texte">Admin language in Zen Cart is peculiar, there are two
+        parts, one that use language files and another that use database to
+        store language relative data. Language files can easily be switch from
+        one language to another but with database it is more complicated and not
+        as safe. In Zen Cart, Database part is not switchable 'on the fly' and
+        for now translation for the database part is not provided, meaning you
+        will still have some English submenus in admin.</p>
+      <p class="title3">Recommended plugins</p>
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+
+          title="Language/Currency Links in Header" target="_blank">Language/Currency
+          Links in Header</a></p>
+      <p class="texte"></p>
+      <p class="texte">This plugin should be in any multilingual Zen Cart.
+        Having language switch in header is very useful and practical especially
+        on mobile displays.</p>
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+
+          title="Postcode auto fill plugin part 1" target="_blank">Postcode auto
+          fill</a></p>
+      <p class="texte">This plugin was designed to help customers to fill create
+        account or new address form. It simply auto fill state, city and
+        sometime part of street address, when customer entered is postal code.
+        It is not a necessary feature, but avoid errors like inconsistent
+        address where postal code and address do not correspond. Drawback is
+        that postal code databases are big and plugin had to be separated in two
+        parts. Importing big files in MySQL with phpMyAdmin could be problem too
+        if PHP and MySQL are not set properly.</p>
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
+
+          title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
+          1.5.7+)</a> </p>
+      <p class="texte">This plugin enhances Zen Cart images by adding a handler
+        to offer automatic resizing of images, caching thumbnails, and more. You
+        can upload multiple sizes of an image from the Admin image handler page.</p>
+      <p class="texte"> </p>
+      <p class="title2">Uninstall</p>
+      <p class="texte">Set default language to English or whatever you want and
+        <b>delete French language</b> from Zen Cart Admin menu
+        'Localization&gt;Languages'.<br>
+        Then you can delete all French language files in 'language/french/'
+        folders or just let them where they are if you plan to re-install French
+        language later.<br>
+        Don't forget to remove any admin setting you did specifically for
+        French. </p>
+      <p class="title2">Version history</p>
+      <p class="texte">v1.0.0 - June 12 2024<br>
+        Original release.</p>
+    </div>
+    <div class="fr" id="fr"> <img id="lang" src="flags-US-FR_small.webp" alt="Changer de langue"
+
+        title="Click here to change language between English and French" onclick="chglan()"
+
+        height="24" width="56">
+      <div>
+        <h1 class="title">Documentation pour Zen Cart v2 French language pack</h1>
+      </div>
+      <p class="texte"><br>
+      </p>
+      <p class="texte">Ce pack linguistique est une mise à jour pour Zen Cart®
+        version 2.0.0 et supérieure des anciens fichiers de langue française des
+        versions 1.5.4 et 1.5.7, ainsi que des traductions ajoutées. Il contient
+        des fichiers en français pour l'administration, le catalogue, les
+        plugins et le programme d'installation.</p>
+      <p class="title2">Instalatlion</p>
+      <p class="texte">Avant de commencer, il y a quelques points à vérifier.</p>
+      <p class="texte">N'oubliez pas que ce pack linguistique est destiné à Zen
+        Cart 2.0.0 et supérieur&nbsp;! Il n'est pas compatible avec les
+        anciennes versions.</p>
+      <p class="texte">Si vous avez un panier déjà installé, <span id="important">vous
+          devez effectuer une sauvegarde complète incluant la base de données</span>.
+        Pour les fichiers, une copie est facile, mais pour la base de données,
+        vous devez l'exporter vers un fichier SQL que vous pourrez réimporter
+        ultérieurement si nécessaire. Ceci est une étape très importante! En cas
+        de problème, cela vous fera gagner beaucoup de temps et bien plus
+        encore.</p>
+      <p class="texte">Veuillez choisir dans le menu ci-dessous pour obtenir des
+        explications détaillées&nbsp;: </p>
+      <p class="title3"><a class="menu_links" onclick="shide('newinstfr')">Nouvelle
+          installation</a></p>
+      <div id="newinstfr">
+        <p class="texte">Vous devez préparer un espace serveur, un domaine et
+          une base de données comme vous le feriez pour une installation Zen
+          Cart® standard.<b><br>
+          </b></p>
+        <p class="texte"><b>Décompressez Zen Cart v2.0.0</b> ou plus récent que
+          vous venez de télécharger et <b>copiez tous les fichiers</b> dans le
+          répertoire de votre nouveau site. <b>Décompressez également le pack
+            de langue française</b> et <b>copiez les dossiers admin, include,
+            zc_install et zc_plugins</b>.</p>
+        <p class="texte">Vous devez maintenant ouvrir votre navigateur et dans
+          la barre d'adresse, saisissez l'adresse de votre site en utilisant
+          votre domaine réel à la place de « votresite » et http ou https selon
+          votre cas&nbsp;:<br>
+          <b>https://yoursite.com/zc_install/</b></p>
+        <p class="texte">Le programme d'installation de Zen Cart démarrera en
+          anglais (vous pourrez passer au français) et effectuerq quelques
+          vérifications du système. S'il n'y a pas de gros problème avec la
+          vérification du système, vous pouvez procéder à l'installation comme
+          avec un Zen Cart normal en cliquant sur le bouton « Nouvelle
+          installation ». Après votre première connexion en admin,
+          l'installation est terminée !</p>
+        <p class="texte">Vous devez maintenant <b>ajouter la langue française à
+            Zen Cart</b> via 'admin&gt;Localisation&gt;Langues'. Cela doit être
+          fait manuellement via l'interface d'administration car elle configure
+          tout ce qui est nécessaire pour une nouvelle langue dans Zen Cart®.</p>
+        <p class="texte">Name: French<br>
+          Code: fr<br>
+          Image: icon.gif<br>
+          Directory: french<br>
+          Sort Order: 0</p>
+        <p class="texte">Définissez le français par défaut si vous le souhaitez.
+          Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>..\sql\orders_status_update.sql</b>'
+          (fourni avec le pack de langue) pour mettre à jour la table d'état des
+          commandes avec le français.</p>
+        <p class="texte">Vous pouvez maintenant aller au chapitre de
+          configuration pour vous préparer à la vente.</p>
+      </div>
+      <p class="title3"><a class="menu_links" onclick="shide('allinstfr')">Boutique
+          déjà installée</a></p>
+      <div id="allinstfr">
+        <p class="texte">Lors de l'installation sur un Zen Cart 2.x.x existant,
+          c'est plus facile qu'une nouvelle installation. Tout d’abord, <b>
+            décompressez le pack de langue française</b> et <b>renommez le
+            dossier admin</b> avec le même nom que celui de votre Zen Cart® en
+          cours d’utilisation. <b>Copiez ensuite les dossiers admin (renommé en
+            votre vrai nom de dossier administrateur), include, zc_install et
+            zc_plugins</b>.</p>
+        <p class="texte"><b>Si des plugins sont installés</b>, vous devez <b>ajouter
+            le dossier et les fichiers de langue française</b> à leur dossier de
+          langue. Si vous n'avez pas la traduction française de ces plugins,
+          copiez simplement le dossier « english » et renommez la copie en «
+          french ». Si ces fichiers sont manquants, Zen Cart® plantera lorsque
+          vous tenterez d'utiliser la langue française. Après cela, vous aurez
+          le temps de faire la traduction française de ces plugins plus tard.</p>
+        <p class="texte">Vous devez maintenant <b>ajouter la langue française à
+            Zen Cart</b> via 'admin&gt;Localisation&gt;Langues'. Cela doit être
+          fait manuellement via l'interface d'administration car elle configure
+          tout ce qui est nécessaire pour une nouvelle langue dans Zen Cart®.</p>
+        <p class="texte">Name: French<br>
+          Code: fr<br>
+          Image: icon.gif<br>
+          Directory: french<br>
+          Sort Order: 0</p>
+        <p class="texte">Définissez le français par défaut si vous le souhaitez.
+          Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>..\sql\orders_status_update.sql</b>'
+          (fourni avec le pack de langue) pour mettre à jour la table d'état des
+          commandes avec le français.</p>
+        <p class="texte">Vous pouvez maintenant aller au chapitre de
+          configuration pour vous préparer à la vente.</p>
+      </div>
+      <p class="title2">Configuration</p>
+      <p class="texte">Vous souhaiterez peut-être définir l'euro comme devise
+        par défaut, ajouter une nouvelle classe de taxe (VTA) et un nouveau
+        taux, définir l'emplacement de votre magasin et votre code postal,
+        définir des zones géographiques pour vos modules d'expédition et définir
+        également ces modules ainsi que ceux de paiement en fonction de ces
+        zones. . Veuillez consulter la documentation Zen Cart, en commençant par
+        ici&nbsp;: <a href="https://docs.zen-cart.com/user/new_user_topics/" title="Zen Cart Documentation"
+
+          target="_blank">https://docs.zen-cart.com/user/new_user_topics/</a></p>
+      <p class="texte"> </p>
+      <p class="title3">Langue d'administration</p>
+      <p class="texte">Le langage d'administration dans Zen Cart est
+        particulier, il y a deux parties, l'une qui utilise des fichiers de
+        langue et une autre qui utilise la base de données pour stocker les
+        données relatives à la langue. Avec les fichiers de langue, on peut
+        facilement passer d'une langue à une autre, mais avec une base de
+        données, c'est plus compliqué et moins sûr. Dans Zen Cart, la partie
+        base de données n'est pas commutable « à la volée » et pour l'instant,
+        la traduction de cette partie n'est pas fournie, ce qui signifie que
+        vous aurez toujours des sous-menus en anglais dans les sous-menus
+        d'administration.</p>
+      <p class="title3">Plugins recommandés</p>
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+
+          title="Language/Currency Links in Header" target="_blank">Language/Currency
+          Links in Header</a></p>
+      <p class="texte"></p>
+      <p class="texte">Ce plugin devrait être dans n'importe quel Zen Cart
+        multilingue. Avoir le changement de langue dans l’en-tête est très utile
+        et pratique notamment sur les écrans mobiles.</p>
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+
+          title="Postcode auto fill plugin part 1" target="_blank">Postcode auto
+          fill</a></p>
+      <p class="texte">Ce plugin a été conçu pour aider les clients à remplir un
+        formulaire de création de compte ou de nouvelle adresse. Il remplit
+        simplement automatiquement le département, la ville et parfois une
+        partie de l'adresse postale, lorsque le client a saisi son code postal.
+        Ce n'est pas une fonctionnalité nécessaire, mais évite les erreurs
+        telles qu'une adresse incohérente où le code postal et l'adresse ne
+        correspondent pas. L'inconvénient est que les bases de données de codes
+        postaux sont volumineuses et que le plugin a dû être séparé en deux
+        parties. L'importation de gros fichiers dans MySQL avec phpMyAdmin peut
+        également poser problème si PHP et MySQL ne sont pas correctement
+        configurés.</p>
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
+
+          title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
+          1.5.7+)</a> </p>
+      <p class="texte">Ce plugin améliore les images Zen Cart en ajoutant un
+        gestionnaire pour proposer un redimensionnement automatique des images,
+        la mise en cache des vignettes, etc. Vous pouvez télécharger plusieurs
+        tailles d’image à partir de la page du gestionnaire d’images Admin.</p>
+      <p class="texte"> </p>
+      <p class="title2">Uninstall</p>
+      <p class="texte">Définissez l'anglais comme la langue par défaut ou celle
+        de votre choix et <b>supprimez la langue française à partir du menu
+          administrateur</b> de Zen Cart « Localisation &gt; Langues ».<br>
+        Ensuite, vous pouvez supprimer tous les fichiers de langue française
+        dans les dossiers « langue/french/ » ou simplement les laisser là où ils
+        se trouvent si vous envisagez de réinstaller la langue française
+        ultérieurement.<br>
+        N'oubliez pas de modifier tout paramètre d'administration que vous avez
+        ajusté spécifiquement pour le français.</p>
+      <p class="title2">Historique des versions</p>
+      <p class="texte">v1.0.0 - June 12 2024<br>
+        Version originale.<br>
+        <br>
+      </p>
+      <p></p>
+    </div>
+    <script>
+		function shide(ele) {
+  		  var x = document.getElementById(ele);
+  		  if (x.style.display === "none") {
+    		  x.style.display = "block";
+  		  } else {
+    		  x.style.display = "none";
+  		  }
+		}
+		function montre(ele) {
+  		  var x = document.getElementById(ele);
+  		  if (x.style.display === "none") {
+    		  x.style.display = "block";
+  		  }
+		}
+		function chglan() {
+  		  var x = document.getElementById("en");
+		  var y = document.getElementById("fr");
+		  var m1 = document.getElementById("newinst");
+		  var m2 = document.getElementById("allinst");
+		  var m4 = document.getElementById("newinstfr");
+		  var m5 = document.getElementById("allinstfr");
+  		  if (x.style.display === "none") {
+			  if (m4.style.display === "block") {
+				m1.style.display = "block";
+				m4.style.display = "none";
+			  }
+			  if (m5.style.display === "block") {
+				m2.style.display = "block";
+				m5.style.display = "none";
+			  }
+    		x.style.display = "block";
+			  y.style.display = "none";
+  		  } else {
+			  if (m1.style.display === "block") {
+				m4.style.display = "block";
+				m1.style.display = "none";
+			  }
+			  if (m2.style.display === "block") {
+				m5.style.display = "block";
+				m2.style.display = "none";
+			  }
+			  y.style.display = "block";
+    		x.style.display = "none";
+  		  }
+		}
+		document.addEventListener("DOMContentLoaded", function() {
+    	document.getElementById("fr").style.display = "none";
+        document.getElementById("newinst").style.display = "none";
+        document.getElementById("allinst").style.display = "none";
+        document.getElementById("newinstfr").style.display = "none";
+        document.getElementById("allinstfr").style.display = "none";
+      });
+		</script>
+  </body>
+</html>

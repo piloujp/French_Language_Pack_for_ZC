@@ -1,0 +1,62 @@
+<?php
+$define = [
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ADMIN_TITLE' => 'Authorize.net (AIM)',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ERROR_CURL_NOT_FOUND' => 'Fonctions CURL introuvables - requises pour le module de paiement Authorize.net AIM',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CATALOG_TITLE' => 'Carte de Crédit',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_TYPE' => 'Type de carte de crédit: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_OWNER' => 'Propriétaire de la carte de crédit: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_NUMBER' => 'Numéro de la carte de crédit: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_EXPIRES' => 'Date d\'expiration de la carte: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CVV' => 'Numéro CVV',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_POPUP_CVV_LINK' => 'Qu\'est-ce que c\'est ?',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_JS_CC_OWNER' => '* Le nom du propriétaire de la carte de crédit doit comporter au moins  '.CC_OWNER_MIN_LENGTH.' caractères.\n',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_JS_CC_NUMBER' => '* Le numéro de carte doit comporter au moins '.CC_NUMBER_MIN_LENGTH.' caractères.\n',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_JS_CC_CVV' => '* Les 3 ou 4 derniers chiffres du numéro de vérification qui figurent généralement au dos de la carte de crédit.\n',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DECLINED_MESSAGE' => 'Votre carte de crédit a été refusée. Veuillez essayer une autre carte ou nous contacter pour plus d\'Information.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ERROR' => 'Erreur de carte de crédit !',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_AUTHENTICITY_AVERTISSEMENT' => 'AVERTISSEMENT: Problème sur hash de sécurité. Veuillez contacter immédiatement le propriétaire de la boutique. Votre commande n\' a *PAS* été complètement autorisée.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_BUTTON_TEXT' => 'Faire un remboursement',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_REFUND_CONFIRM_ERROR' => 'ERREUR: Vous avez demandé à faire un remboursement mais n\'avez pas coché la case de confirmation.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_INVALID_REFUND_AMOUNT' => 'ERREUR: Vous avez demandé un remboursement mais entré un montant invalide..',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CC_NUM_REQUIRED_ERROR' => 'ERREUR: Vous avez demandé un remboursement mais n\'avez pas entré les 4 derniers chiffres du numéro de carte de crédit.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_REFUND_INITIATED' => 'Remboursement initié. ID Transaction: %s - Code Autorisation: %s',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CAPTURE_CONFIRM_ERROR' => 'ERREUR: Vous avez demandé à faire un prélèvement mais n\'avez pas coché la case de confirmation.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_CAPTURE_BUTTON_TEXT' => 'Faire un prélèvement',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_INVALID_CAPTURE_AMOUNT' => 'ERREUR: Vous avez demandé un prélèvement mais sans entrer de montant.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_TRANS_ID_REQUIRED_ERROR' => 'ERREUR: Vous devez indiquer un ID de transaction.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CAPT_INITIATED' => 'Prélèvement de fonds initié. ID Transaction: %s - Code Autorisation: %s',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_BUTTON_TEXT' => 'Faire une annulation',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_VOID_CONFIRM_ERROR' => 'ERREUR: Vous avez demandé une annulation mais n\'avez pas coché la case de confirmation.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_VOID_INITIATED' => 'Annulation initiée. ID Transaction: %s - Code Autorisation: %s',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_TITLE' => '<strong>Rembourser des transactions</strong>',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND' => 'Vous pouvez rembourser de l\'argent sur la carte de crédit du client ici: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_REFUND_CONFIRM_CHECK' => 'Cochez cette case pour confirmer votre intention: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_AMOUNT_TEXT' => 'Entrez le montant que vous voulez rembourser',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_CC_NUM_TEXT' => 'Entrez les 4 derniers chiffres de la carte de crédit à rembourser.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_TRANS_ID' => 'Entrez l\'ID de la transaction d\'origine: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_TEXT_COMMENTS' => 'Notes (s\'afficheront dans l\'historique de commande): ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_DEFAULT_MESSAGE' => 'Remboursement effectué',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_REFUND_SUFFIX' => 'Vous pouvez rembourser une commande jusqu\'au montant déjà prélevé. Vous devez fournir les 4 derniers chiffres du numéro de carte de crédit utilisé sur la commande initiale.<br />Les remboursements doivent être effectués dans les 120 jours suivant la date de la transaction d\'origine.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_CAPTURE_TITLE' => '<strong>Prélever des transactions</strong>',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_CAPTURE' => 'Vous pouvez prélever des fonds précedement autorisés ici: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_CAPTURE_AMOUNT_TEXT' => 'Entrez le montant à prélever: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CAPTURE_CONFIRM_CHECK' => 'Cochez cette case pour confirmer votre intention: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_CAPTURE_TRANS_ID' => 'Entrez l\'ID de la transaction d\'origine: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_CAPTURE_TEXT_COMMENTS' => 'Notes (s\'afficheront dans l\'historique de commande): ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_CAPTURE_DEFAULT_MESSAGE' => 'Fonds précedement autorisés acceptés.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_CAPTURE_SUFFIX' => 'Les prélèvements doivent être effectués dans les 30 jours suivant l\'autorisation d\'origine. Vous pouvez prélever une commande uniquement UNE FOIS.<br />Veuiilez vous assurer que le montant indiqué soit correct.<br />Si vous laissez le montant à blanc, le montant d\'origine sera utilisé à la place.',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_TITLE' => '<strong>Annuler des transactions</strong>',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID' => 'Vous pouvez annuler une transaction qui n\'a pas encore été acceptée, ou une autorisation qui n\'a pas été prélevée.<br />Entrez l\'ID de transaction non acceptée ou d\'autorisation non prélevée:',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_VOID_CONFIRM_CHECK' => 'Cochez cette case pour confirmer votre intention: ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_TEXT_COMMENTS' => 'Notes (s\'afficheront dans l\'historique de commande): ',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_DEFAULT_MESSAGE' => 'Transaction annulée',
+    'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_SUFFIX' => 'Les annulations doivent être effectuées avant que la transaction d\'origine soit acceptée dans le batch journalier.',
+];
+
+if (defined('MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS') && MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS == 'True') {
+    $define['MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DESCRIPTION'] = '<a rel="noreferrer noopener" target="_blank" href="https://account.authorize.net/">Connexion marchand Authorize.net</a>' . (MODULE_PAYMENT_AUTHORIZENET_AIM_TESTMODE != 'Production' ? '<br><br>Informations sur les tests : <br><b>Numéros de carte de crédit à approbation automatique : </b><br>Visa#: 4007000000027<br>MasterCard#: 5424000000000015<br>Discover#: 6011000000000012<br>AMEX#: 370000000000002<br><br><b>Note:</b> Ces numéros de carte bancaire renverront un refus en mode live, et une approbation en mode test.  N\'importe quelle date future peut être utilisée pour la date d\'expiration et n\'importe quel numéro à 3 ou 4 chiffres (AMEX) peut être utilisé pour le code CVV.<br><br><b>Numéro de carte de crédit à refus automatique : </b><br><br>Card #: 4222222222222<br><br>Ce numéro de carte peut être utilisé pour recevoir des avis de refus à des fins de test.<br><br>' : '') . '<br><br>Consulter <a href="https://docs.zen-cart.com/user/payment/authorizenet_aim/" rel="noreferrer noopener" target="_blank">l\'article FAQ sur la configuration d\'AIM</a> pour des instructions de configuration détaillées.';
+} else {
+    $define['MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DESCRIPTION'] = '<a rel="noreferrer noopener" target="_blank" href="https://reseller.authorize.net/application?resellerId=10023">Cliquez ici pour créer un compte</a><br><br><a rel="noreferrer noopener" target="_blank" href="https://account.authorize.net/">Cliquez pour vous connecter à la zone marchand Authorize.net</a><br><br><strong>Requis :</strong><br><hr>*<strong>Compte Authorize.net</strong> (voir le lien ci-dessus pour vous inscrire)<br>*<strong>CURL est requis </strong>et DOIT être compilé dans PHP avec le support SSL par votre société d\'hébergement<br>*<strong>Nom d\'utilisateur Authorize.net et clé de transaction</strong> disponibles depuis votre espace marchand<br><br>Consultez <a href="https://docs.zen-cart.com/user/payment/authorizenet_aim/" rel="noreferrer noopener" target="_blank">l\'article FAQ sur la configuration d\'AIM</a> pour obtenir des instructions de configuration détaillées.';
+}
+
+return $define;
