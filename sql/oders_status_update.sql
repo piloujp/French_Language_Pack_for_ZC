@@ -5,3 +5,5 @@ UPDATE orders_status SET orders_status_name='En cours', sort_order=10 WHERE lang
 UPDATE orders_status SET orders_status_name='Livré', sort_order=20 WHERE language_id=@lgid AND orders_status_name='Delivered';
 UPDATE orders_status SET orders_status_name='Mise à jour', sort_order=30 WHERE language_id=@lgid AND orders_status_name='Update';
 #UPDATE orders_status SET orders_status_name='Envoyé', sort_order=15 WHERE language_id=@lgid AND orders_status_name='Sent';
+
+UPDATE products_options_stock_names SET pos_name='En rupture de stock' WHERE language_id=@lgid AND pos_name_id=1;
