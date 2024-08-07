@@ -70,7 +70,8 @@ $define = [
     'TEXT_MAX_ADMIN_DISPLAY_PRODUCTS_TO_CATEGORIES_COLUMNS_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_EZPAGE_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_PREVIEW' => 'La valeur doit être un entier.',
-/*    'CFG_GRP_TITLE_MY_STORE' => 'Ma Boutique',
+/*
+    'CFG_GRP_TITLE_MY_STORE' => 'Ma Boutique',
     'CFG_GRP_TITLE_MINIMUM_VALUES' => 'Valeurs minimales',
     'CFG_GRP_TITLE_MAXIMUM_VALUES' => 'Valeurs maximales',
     'CFG_GRP_TITLE_IMAGES' => 'Images',
