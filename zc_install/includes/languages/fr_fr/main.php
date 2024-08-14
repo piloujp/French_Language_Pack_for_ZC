@@ -15,7 +15,7 @@ return [
 'TEXT_INDEX_WARN_ERRORS' => 'Quelques autres problèmes : ',
 'TEXT_INDEX_WARN_ERRORS_ALT' => 'Quelques problemes : ',
 'TEXT_HEADER_MAIN' => 'CONSEIL : Les titres des champs sont des liens d\'aide cliquables qui expliquent la signification de chaque champ.',
-'TEXT_INDEX_HEADER_MAIN' => 'CONSEIL : Des informations supplémentaires peuvent être disponibles en cliquant sur les <strong>titres</strong> de certaines erreurs et avertissements.',
+'TEXT_INDEX_HEADER_MAIN' => 'CONSEIL : Les liens avec une <u>icône de point d\'interrogation <strong><i class="bi-question-circle"></i></strong></u> peuvent être cliqués pour expliquer plus en détail un champ de formulaire ou une erreur.',
 'TEXT_INSTALLER_CHOOSE_LANGUAGE' => 'Langue du programme d\'installation',
 'TEXT_HELP_CONTENT_CHOOSE_LANG' => 'Cette sélection de langue concerne uniquement le processus d\'installation.<br>Zen Cart&reg; est entièrement multilingue, prenant en charge <em>n\'importe quelle</em> langue (sous réserve qu\'un pack linguistique soit disponible/ayant été développé par la communauté).',
 'TEXT_PAGE_HEADING_SYSTEM_SETUP' => 'Installation du système',
@@ -76,8 +76,9 @@ return [
 'TEXT_EXAMPLE_USERNAME' => 'par ex. : Bill',
 'TEXT_ADMIN_SETUP_USER_EMAIL' => 'E-mail du superadministrateur : ',
 'TEXT_EXAMPLE_EMAIL' => 'par ex. : mon_email@exemple.com',
-'TEXT_ADMIN_SETUP_USER_EMAIL_REPEAT' => '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retapez&nbsp;l\'e-mail :',
+'TEXT_ADMIN_SETUP_USER_EMAIL_REPEAT' => '... Retapez l'e-mail : ',
 'TEXT_ADMIN_SETUP_USER_PASSWORD' => 'Mot de passe administrateur : ',
+'TEXT_ADMIN_SETUP_MATCHING_EMAIL' => 'Une adresse e-mail valide correspondante est requise.',
 'TEXT_ADMIN_SETUP_USER_PASSWORD_HELP' => '<strong>RAPPELEZ-VOUS CECI !!</strong> : Vous trouverez ci-dessous votre mot de passe temporaire initial pour votre compte de superadministrateur. Veuillez vous assurer d\'en prendre note.',
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY' => 'Répertoire administrateur : ',
 'TEXT_ADMIN_SETUP_ADMIN_DIRECTORY_HELP_DEFAULT' => 'Nous n\'avons pas pu changer automatiquement le nom de votre répertoire administrateur. Vous devez le renommer "admin" avant de pouvoir accéder à la zone d\'administration.',
@@ -88,7 +89,7 @@ return [
 'TEXT_COMPLETION_INSTALL_COMPLETE' => '',
 'TEXT_COMPLETION_INSTALL_LINKS_BELOW' => 'Les liens pour accéder au tableau de bord de votre zone d\'administration et à la vitrine de votre boutique sont présentés ci-dessous :',
 'TEXT_COMPLETION_UPGRADE_COMPLETE' => 'Félicitations, votre mise à niveau est maintenant terminée.',
-'TEXT_COMPLETION_ADMIN_DIRECTORY_WARNING' => 'Votre répertoire admin n\'a pas pu être renommé automatiquement, vous devrez renommer votre répertoire admin avant d\'y accéder',
+'TEXT_COMPLETION_ADMIN_DIRECTORY_WARNING' => 'Votre répertoire admin n\'a pas pu être renommé automatiquement, vous devrez renommer votre répertoire admin avant d\'y accéder.',
 'TEXT_COMPLETION_INSTALLATION_DIRECTORY_WARNING' => 'Vous devez <strong>maintenant</strong> supprimer le répertoire "zc_install" de votre serveur.',
 'TEXT_COMPLETION_INSTALLATION_DIRECTORY_EXPLANATION' => 'L\'accès administrateur est désactivé jusqu\'à ce que ce répertoire soit supprimé, pour empêcher des personnes non autorisées d\'utiliser le programme d\'installation et d\'écraser votre installation.',
 'TEXT_COMPLETION_CATALOG_LINK_TEXT' => 'Votre vitrine',
@@ -162,7 +163,7 @@ return [
 'TEXT_ERROR_CURL' => 'Problèmes avec l\'extension CURL - PHP signale que CURL n\'est pas présent.',
 'TEXT_ERROR_UPLOADS' => 'L\'extension Upload de PHP n\'est pas activée',
 'TEXT_ERROR_XML' => 'L\'extension XML de PHP n\'est pas activée',
-'TEXT_ERROR_GZIP' => 'L\'extension GZip de PHP n\'est pas activée<br>[ <i><strong>NOTE :</strong> Cela peut ne pas être pertinent si vous utilisez Nginx et gérez GZip avec Nginx.</i> ]',
+'TEXT_ERROR_GZIP' => 'L\'extension GZip de PHP n\'a pas été trouvée',
 'TEXT_ERROR_EXTENSION_NOT_LOADED' => 'L\'extension %s ne semble pas être chargée',
 'TEXT_ERROR_FUNCTION_DOES_NOT_EXIST' => 'La fonction PHP %s n\'existe pas',
 'TEXT_ERROR_CURL_LIVE_TEST' => 'Impossible d\'utiliser CURL pour contacter un serveur',
@@ -190,6 +191,8 @@ Vous pouvez procéder à l\'installation malgré cette situation, mais veuillez 
 'TEXT_HELP_CONTENT_CONNECTIONDATABASECHECK' => 'Nous avons essayé de nous connecter à MySQL en utilisant une connexion localhost. Cet échec ne signifie pas nécessairement que MySQL ne fonctionne pas, car certains hôtes nécessitent une adresse IP ou un nom d\'hôte pour la base de données MySQL.<br><br>Si vous utilisez effectivement localhost pour votre serveur de base de données, vous devez vérifier que MySQL fonctionne correctement.',
 'TEXT_HELP_TITLE_CHECKCURL' => '%%TEXT_ERROR_CURL%%',
 'TEXT_HELP_CONTENT_CHECKCURL' => 'CURL est un processus en arrière-plan utilisé par (PHP dans) votre boutique pour se connecter à des serveurs et services externes tels que des fournisseurs de paiement et d\'expédition afin de traiter les transactions ou d\'obtenir des devis d\'expédition en temps réel. Lorsque nous avons testé la fonctionnalité CURL sur votre serveur, nous n\'avons pas pu établir de connexion. Cela pourrait indiquer un problème avec la configuration de votre serveur Web. Veuillez contacter votre société d\'hébergement pour obtenir de l\'aide afin d\'activer la prise en charge de CURL sur votre serveur.<br><br>Si vous êtes un développeur exécutant ce site sur un serveur de développement hors ligne, il n\'est pas surprenant que CURL ne puisse pas se connecter pour ce test. CURL n\'est pas nécessaire à des fins de développement, sauf pour tester l\'activité transactionnelle, auquel cas une connexion en ligne sera requise.',
+'TEXT_HELP_TITLE_GZIP' => 'Extension PHP GZip non détectée.',
+'TEXT_HELP_CONTENT_GZIP' => 'GZip est couramment utilisé pour compresser le contenu des pages Web, afin d\'en réduire la taille, avant de le transmettre au navigateur, pour qu\'il soit transmis plus rapidement. Avec le serveur Web Apache, il doit être activé dans les paramètres de configuration PHP ; avec le serveur Web Nginx, il peut être activé directement dans les paramètres Nginx. Votre hébergeur peut s\'en occuper pour vous.<br><br>[ <i><strong>REMARQUE :</strong> Pour être clair : ceci peut être ignoré si vous utilisez Nginx et gérez GZip dans Nginx</i> (car nous ne pouvons pas le détecter facilement et automatiquement lorsque nginx est utilisé). ]',
 'TEXT_HELP_TITLE_ADMINSERVERDOMAIN' => 'Domaine du serveur d\'administration',
 'TEXT_HELP_CONTENT_ADMINSERVERDOMAIN' => 'Saisissez le nom de domaine pour accéder à votre zone d\'administration. Il est fortement recommandé d\'utiliser HTTPS (SSL) pour cette adresse. Consultez votre société d\'hébergement pour savoir comment activer SSL sur votre site.',
 'TEXT_HELP_TITLE_ENABLESSLCATALOG' => 'Activer SSL pour la vitrine ?',
@@ -223,7 +226,7 @@ Vous pouvez procéder à l\'installation malgré cette situation, mais veuillez 
 'TEXT_HELP_TITLE_SQLCACHEDIRECTORY' => 'Répertoire du cache SQL',
 'TEXT_HELP_CONTENT_SQLCACHEDIRECTORY' => 'Entrez le répertoire à utiliser pour la mise en cache basée sur les fichiers. Il s\'agit d\'un répertoire/dossier sur votre serveur Web, et ses autorisations doivent être définies sur écriture afin que le serveur Web (par exemple Apache) puisse y écrire des fichiers.',
 'TEXT_HELP_TITLE_ADMINUSER' => 'Nom du superadministrateur',
-'TEXT_HELP_CONTENT_ADMINUSER' => 'Ce sera le nom d\'utilisateur principal utilisé pour gérer votre accès administrateur et d\'autres comptes d\'utilisateur administrateur. Il bénéficiera de privilèges illimités.',
+'TEXT_HELP_CONTENT_ADMINUSER' => 'Ce sera le nom d\'utilisateur principal utilisé pour gérer votre accès administrateur et d\'autres comptes d\'utilisateur administrateur. Il bénéficiera de privilèges illimités.<br>Des utilisateurs supplémentaires avec différents niveaux d\'accès peuvent être ajoutés à partir du panneau d\'administration.',
 'TEXT_HELP_TITLE_ADMINEMAIL' => 'E-mail du superadministrateur',
 'TEXT_HELP_CONTENT_ADMINEMAIL' => 'Cette adresse e-mail sera utilisée pour la récupération de votre mot de passe en cas d\'oubli de votre mot de passe.',
 'TEXT_HELP_TITLE_ADMINEMAIL2' => 'Retapez l\'e-mail',
@@ -253,7 +256,7 @@ Vous pouvez procéder à l\'installation malgré cette situation, mais veuillez 
 'REASON_PRIMARY_KEY_ALREADY_EXISTS' => 'Impossible d\'ajouter une clé primaire à la table %s car une clé primaire existe déjà.',
 'REASON_CONFIG_GROUP_KEY_ALREADY_EXISTS' => 'Impossible d\'insérer la clé configuration_group "%s" car elle existe déjà',
 'REASON_CONFIG_GROUP_ID_ALREADY_EXISTS' => 'Impossible d\'insérer l\'ID de groupe_configuration "%s" car il existe déjà',
-'TEXT_COMPLETION_NGINX_TEXT' => '<u>Informations de sécurité importantes pour Nginx</u>',
+'TEXT_COMPLETION_NGINX_TEXT' => 'Cliquez pour afficher les <u>Informations de sécurité importantes pour Nginx</u>',
 'TEXT_HELP_TITLE_NGINXCONF' => 'Sécuriser Zen Cart sur les serveurs Web Nginx',
 'TEXT_HELP_CONTENT_NGINXCONF' => '<p>Your Zen Cart installation comes with security measures in a format native to the Apache Webserver. <br>
 See below to implement a similar set of measures for the Nginx Webserver.</p>
@@ -306,9 +309,9 @@ See below to implement a similar set of measures for the Nginx Webserver.</p>
 </li>
 <ol>
 </div>
-<div class="alert-box alert"> <strong>IMPORTANT:</strong> These location blocks should be <strong>BEFORE</strong> any other location blocks in your Nginx configuration server block for Zen Cart.</div>
+<div class="alert alert-danger"> <strong>IMPORTANT:</strong> These location blocks should be <strong>BEFORE</strong> any other location blocks in your Nginx configuration server block for Zen Cart.</div>
 <hr>',
-'TEXT_HELP_TITLE_AGREETOTERMS' => 'Agree To Terms',
+'TEXT_HELP_TITLE_AGREETOTERMS' => 'Accepter les conditions',
 'TEXT_HELP_CONTENT_AGREETOTERMS' => '<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" rel="noopener" target="_blank">Original GPL 2.0 text</a>
 <h2>The GNU General Public License (GPL)</h2>
 <h3>Version 2, June 1991</h3>
