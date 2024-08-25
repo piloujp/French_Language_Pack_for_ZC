@@ -3,7 +3,7 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Scott Wilson 2024 Apr 07 Modified in v2.0.1 $
+* @version $Id: brittainmark 2024 Jun 01 Modified in v2.1.0-alpha1 $
 */
 
 @setlocale(LC_TIME, ['fr_FR', 'fr_FR.utf8', 'fr', 'French']);
@@ -38,6 +38,7 @@ $define = [
     'BOX_CATALOG_CATEGORIES_PRODUCTS' => 'Catégories/Produits',
     'BOX_CATALOG_CATEGORY' => 'Catégorie',
     'BOX_CATALOG_FEATURED' => 'Produits phares',
+    'BOX_CATALOG_FEATURED_CATEGORIES' => 'Catégories phares',
     'BOX_CATALOG_MANUFACTURERS' => 'Fabricants',
     'BOX_CATALOG_PRODUCT' => 'Produit',
     'BOX_CATALOG_PRODUCT_OPTIONS_NAME' => 'Trieur de nom d\'option',
@@ -274,7 +275,7 @@ $define = [
     'IMAGE_ADD_BLANK_DISCOUNTS' => 'Ajouter ' . DISCOUNT_QTY_ADD . ' remises par quantité à blanc',
     'IMAGE_BACK' => 'Retour',
     'IMAGE_CANCEL' => 'Annuler',
-    'IMAGE_CATEGORIES_PRICE_MANAGER' => 'Gestion de prix par catégorie',
+    'IMAGE_CATEGORY' => 'Catégorie',
     'IMAGE_CONFIRM' => 'Confirmer',
     'IMAGE_COPY' => 'Copier',
     'IMAGE_COPY_TO' => 'Copier vers',
@@ -284,6 +285,7 @@ $define = [
     'IMAGE_DISPLAY' => 'Afficher',
     'IMAGE_EDIT' => 'Modifier',
     'IMAGE_EDIT_ATTRIBUTES' => 'Modifier les attributs',
+    'IMAGE_EDIT_CATEGORY' => 'Modifier la catégorie',
     'IMAGE_EDIT_PRODUCT' => 'Modifier le produit',
     'IMAGE_EMAIL' => 'E-mail',
     'IMAGE_FORGET_ONLY' => 'Oublier seulement',
@@ -387,6 +389,7 @@ $define = [
     'TABLE_HEADING_ACTION' => 'Action',
     'TABLE_HEADING_AVAILABLE_DATE' => 'Disponible',
     'TABLE_HEADING_ACTIVE_FROM' => 'Actif à partir de ',
+    'TABLE_HEADING_CATEGORY_NAME' => 'Nom de la catégorie',
     'TABLE_HEADING_COMMENTS' => 'Commentaires',
     'TABLE_HEADING_CONFIGURATION_TITLE' => 'Titre',
     'TABLE_HEADING_CONFIGURATION_VALUE' => 'Valeur',
