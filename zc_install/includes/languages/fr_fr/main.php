@@ -250,6 +250,7 @@ Vous pouvez procéder à l\'installation malgré cette situation, mais veuillez 
 'REASON_COLUMN_ALREADY_EXISTS' => 'Impossible d\'AJOUTER la colonne %s car elle existe déjà.',
 'REASON_COLUMN_DOESNT_EXIST_TO_DROP' => 'Impossible de SUPPRIMER la colonne %s car elle n\'existe pas.',
 'REASON_COLUMN_DOESNT_EXIST_TO_CHANGE' => 'Impossible de MODIFIER la colonne %s car elle n\'existe pas.',
+'REASON_COLUMN_DOESNT_EXIST' => 'Impossible de définir des valeurs dans la colonne %s car elle n\'existe pas.',
 'REASON_PRODUCT_TYPE_LAYOUT_KEY_ALREADY_EXISTS' => 'Impossible d\'insérer la clé de configuration prod-type-layout "%s" car elle existe déjà',
 'REASON_INDEX_DOESNT_EXIST_TO_DROP' => 'Impossible de supprimer l\'index %1$s sur la table %2$s car il n\'existe pas.',
 'REASON_PRIMARY_KEY_DOESNT_EXIST_TO_DROP' => 'Impossible de supprimer la clé primaire sur la table %s car elle n\'existe pas.',

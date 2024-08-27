@@ -173,7 +173,8 @@ a.anclink {
           Sort Order: 0</p>
         <p class="texte">Set French as default if you want. Then <b>import/run</b>
           SQL queries in file '<b>..\sql\orders_status_update.sql</b>' (provided
-          with the language pack) to update order status table with French.</p>
+          with the language pack) to update order status table with French.
+          Finally, <b>import French zones</b> into database using file '<b>..\sql\zones_francaises.sql</b>'.</p>
         <p class="texte">Now you can go to configuration chapter to get ready
           for sale.</p>
       </div>
@@ -206,7 +207,8 @@ a.anclink {
           Sort Order: 0</p>
         <p class="texte">Set French as default if you want. Then <b>import/run</b>
           SQL queries in file '<b>..\sql\orders_status_update.sql</b>' (provided
-          with the language pack) to update order status table with French.</p>
+          with the language pack) to update order status table with French.
+          Finally, <b>import French zones</b> into database using file '<b>..\sql\zones_francaises.sql</b>'.</p>
         <p class="texte">If all is good, you can go to configuration chapter.</p>
       </div>
       <p class="title2">Configuration</p>
@@ -222,8 +224,11 @@ a.anclink {
         store language relative data. Language files can easily be switch from
         one language to another but with database it is more complicated and not
         as safe. In Zen Cart base code, database part is not switchable 'on the
-        fly' and translation for the database part is not 100%, meaning you
-        might still have some English submenus in admin.</p>
+        fly', which means that some of the submenus will always remain in the
+        same language, the one saved in the database. You can change this
+        language by importing one of the following SQL files:</p>
+      <p class="texte">&nbsp;&nbsp;&nbsp; '..\sql\mysql_english_admin_menu.sql'<br>
+        &nbsp;&nbsp;&nbsp; '..\sql\mysql_french_admin_menu.sql'</p>
       <p class="title3">Recommended plugins</p>
       <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
           title="Language/Currency Links in Header" target="_blank">Language/Currency
@@ -249,6 +254,10 @@ a.anclink {
       <p class="texte">This plugin enhances Zen Cart images by adding a handler
         to offer automatic resizing of images, caching thumbnails, and more. You
         can upload multiple sizes of an image from the Admin image handler page.</p>
+      <p class="title3">Bonus content</p>
+      <p class="texte">You will find translation for few plugins in folder
+        'optional_plugins'.<br>
+      </p>
       <p class="texte"> </p>
       <p class="title2">Uninstall</p>
       <p class="texte">Set default language to English or whatever you want and
@@ -262,6 +271,9 @@ a.anclink {
       <p class="title2">Version history</p>
       <p class="texte">v1.0.0 - June 12 2024<br>
         Original release.</p>
+      <p class="texte">v1.1.0 - August 4 2024<br>
+        Added french zones.<br>
+        Added admin menus translation</p>
     </div>
     <div class="fr" id="fr"> <img id="lang" src="flags-US-FR_small.webp" alt="Changer de langue"
         title="Click here to change language between English and French" onclick="chglan()"
@@ -326,7 +338,8 @@ a.anclink {
         <p class="texte">Définissez le français par défaut si vous le souhaitez.
           Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>..\sql\orders_status_update.sql</b>'
           (fourni avec le pack de langue) pour mettre à jour la table d'état des
-          commandes avec le français.</p>
+          commandes avec le français. Finalement, <b>importer les zones
+            françaises</b> dans la base de données en utilisant le fichier '<b>..\sql\zones_francaises.sql</b>'.</p>
         <p class="texte">Vous pouvez maintenant aller au chapitre de
           configuration pour vous préparer à la vente.</p>
       </div>
@@ -359,7 +372,8 @@ a.anclink {
         <p class="texte">Définissez le français par défaut si vous le souhaitez.
           Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>..\sql\orders_status_update.sql</b>'
           (fourni avec le pack de langue) pour mettre à jour la table d'état des
-          commandes avec le français.</p>
+          commandes avec le français. Finalement, <b>importer les zones
+            françaises</b> dans la base de données en utilisant le fichier '<b>..\sql\zones_francaises.sql</b>'.</p>
         <p class="texte">Vous pouvez maintenant aller au chapitre de
           configuration pour vous préparer à la vente.</p>
       </div>
@@ -380,10 +394,12 @@ a.anclink {
         données relatives à la langue. Avec les fichiers de langue, on peut
         facilement passer d'une langue à une autre, mais avec une base de
         données, c'est plus compliqué et moins sûr. Dans le code de base de Zen
-        Cart, la partie base de données n'est pas commutable « à la volée » et
-        la traduction de cette partie n'est pas à 100%, ce qui signifie qu'il
-        est possible que vous trouviez des sous-menus en anglais dans les
-        sous-menus d'administration.</p>
+        Cart, la partie base de données n'est pas commutable « à la volée », ce
+        qui signifie qu'une partie des sous-menus restera toujours dans la même
+        langue, celle enregistrée dans la base de données. Vous pouvez changer
+        cette langue en important l'un des fichiers SQL suivants :</p>
+      <p class="texte">&nbsp;&nbsp;&nbsp; '..\sql\mysql_english_admin_menu.sql'<br>
+        &nbsp;&nbsp;&nbsp; '..\sql\mysql_french_admin_menu.sql'</p>
       <p class="title3">Plugins recommandés</p>
       <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
           title="Language/Currency Links in Header" target="_blank">Language/Currency
@@ -413,6 +429,10 @@ a.anclink {
         gestionnaire pour proposer un redimensionnement automatique des images,
         la mise en cache des vignettes, etc. Vous pouvez télécharger plusieurs
         tailles d’image à partir de la page du gestionnaire d’images Admin.</p>
+      <p class="title3">Bonus</p>
+      <p class="texte">Vous trouverez la traduction de quelques plugins dans le
+        dossier «&nbsp;optional_plugins&nbsp;».<br>
+      </p>
       <p class="texte"> </p>
       <p class="title2">Uninstall</p>
       <p class="texte">Définissez l'anglais comme la langue par défaut ou celle
@@ -425,10 +445,11 @@ a.anclink {
         N'oubliez pas de modifier tout paramètre d'administration que vous avez
         ajusté spécifiquement pour le français.</p>
       <p class="title2">Historique des versions</p>
-      <p class="texte">v1.0.0 - June 12 2024<br>
-        Version originale.<br>
-        <br>
-      </p>
+      <p class="texte">v1.0.0 - 12 juin 12 2024<br>
+        Version originale.</p>
+      <p class="texte">v1.1.0 - 4 août 2024<br>
+        Ajout des zones françaises.<br>
+        Ajout des traductions pour les menus de l'interface d'administration.</p>
       <p></p>
     </div>
     <script>
