@@ -10,10 +10,13 @@ SELECT countries_id FROM countries WHERE countries_iso_code_3 = 'SPM' INTO @coid
 SELECT countries_id FROM countries WHERE countries_iso_code_3 = 'WLF' INTO @coid9;
 SELECT countries_id FROM countries WHERE countries_iso_code_3 = 'ATF' INTO @coid10;
 
-ALTER TABLE zones MODIFY COLUMN zone_name VARCHAR(64);
+# Create a temporary table with old zones ids
+CREATE TABLE french_zones (PRIMARY KEY (zone_id)) as SELECT zone_id, zone_country_id, zone_code, zone_name FROM zones WHERE zone_country_id IN (@coid0,@coid1,@coid2,@coid3,@coid4,@coid5,@coid6,@coid7,@coid8,@coid9,@coid10);
 
-DELETE FROM zones WHERE zone_country_id = @coid0 OR zone_country_id = @coid1 OR zone_country_id = @coid2 OR zone_country_id = @coid3 OR zone_country_id = @coid4 OR zone_country_id = @coid5 OR zone_country_id = @coid6
- OR zone_country_id = @coid7 OR zone_country_id = @coid8 OR zone_country_id = @coid9 OR zone_country_id = @coid10;
+# Delete old French zones
+DELETE FROM zones WHERE zone_country_id IN (@coid0,@coid1,@coid2,@coid3,@coid4,@coid5,@coid6,@coid7,@coid8,@coid9,@coid10);
+
+ALTER TABLE zones MODIFY COLUMN zone_name VARCHAR(64);
 
 INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES
 (@coid0, '01', 'Ain'),
@@ -126,3 +129,13 @@ INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES
  (xxx, '977', 'Saint-Barthélemy'),
  (xxx, '978', 'Saint-Martin'),*/
 (@coid9, '986', 'Wallis et Futuna');
+
+# Update address book and zones to geo zones tables with new zones ids
+UPDATE address_book a JOIN french_zones fz ON a.entry_zone_id = fz.zone_id AND a.entry_country_id IN (@coid0,@coid1,@coid2,@coid3,@coid4,@coid5,@coid6,@coid7,@coid8,@coid9,@coid10) JOIN zones z ON z.zone_name = fz.zone_name SET a.entry_zone_id = z.zone_id;
+UPDATE zones_to_geo_zones gz JOIN french_zones fz ON gz.zone_id = fz.zone_id AND gz.zone_country_id IN (@coid0,@coid1,@coid2,@coid3,@coid4,@coid5,@coid6,@coid7,@coid8,@coid9,@coid10) JOIN zones z ON z.zone_name = fz.zone_name SET gz.zone_id = z.zone_id;
+
+# Update store zone
+UPDATE configuration cf JOIN french_zones fz ON cf.configuration_value = fz.zone_id JOIN zones z ON z.zone_name = fz.zone_name SET cf.configuration_value = z.zone_id WHERE configuration_key = 'STORE_ZONE';
+
+# Delete temporary table
+DROP TABLE french_zones;
