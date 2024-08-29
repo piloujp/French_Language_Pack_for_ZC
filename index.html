@@ -118,8 +118,10 @@ a.anclink {
 
 </style> </head>
   <body>
-    <div class="en" id="en"> <img id="lang" src="flags-US-FR_small.webp" alt="Toggle language"
-        title="Pour changer entre l'anglais et le français, cliquez ici!" onclick="chglan()"
+    <div class="en" id="en"> <img id="lang" src="flags-US-FR_small.webp" alt="Toggle language"
+
+        title="Pour changer entre l'anglais et le français, cliquez ici!" onclick="chglan()"
+
         height="24" width="56">
       <div>
         <h1 class="title">Zen Cart v2 French language pack documentation</h1>
@@ -147,8 +149,8 @@ a.anclink {
       <div id="newinst">
         <p class="texte">You must prepare a server space, domain and database as
           you would do for a standard Zen Cart® install.</p>
-        <p class="texte"><b>Extract Zen Cart v2.0.0</b> or newer you have just
-          downloaded and <b>copy all files</b> in your site folder. <b>Extract
+        <p class="texte"><b>Extract Zen Cart latest version</b> (v2.1.0) you
+          have just downloaded and <b>copy all files</b> in your site folder. <b>Extract
             Zen Cart French Language Pack</b> too and <b>copy admin, includes,
             zc_install and zc_plugins folders</b>.</p>
         <p class="texte">Now you should open your browser and in address bar
@@ -187,8 +189,7 @@ a.anclink {
         <p class="texte">First, <b>Extract Zen Cart French Language Pack</b>
           and <b>rename admin folder</b> to the same name name of your running
           Zen Cart®. Then <b>copy folders admin (renamed to your real admin
-            folder name), </b><b>includes, zc_install and zc_plugins</b> to
-          your cart.</p>
+            folder name), </b><b>includes and zc_plugins</b> to your cart.</p>
         <p class="texte"><b>If</b> you have some <b>plugins installed</b>, you
           <b>must add French language folder and files</b> to their language
           folder. If you don't have the French translation for these plugins,
@@ -216,28 +217,20 @@ a.anclink {
         a new tax class (VTA) and rate, set your store location and postal code,
         define some geo-zones for your shipping modules and set these modules
         and payment ones too according to these zones.<br>
-        Please have a look at Zen Cart documentation, starting by here: <a href="https://docs.zen-cart.com/user/new_user_topics/"
+        Please have a look at Zen Cart documentation, starting by here: <a href="https://docs.zen-cart.com/user/new_user_topics/"
+
           title="Zen Cart Documentation" target="_blank">https://docs.zen-cart.com/user/new_user_topics/</a></p>
-      <p class="title3">Admin language:</p>
-      <p class="texte">Admin language in Zen Cart is peculiar, there are two
-        parts, one that use language files and another that use database to
-        store language relative data. Language files can easily be switch from
-        one language to another but with database it is more complicated and not
-        as safe. In Zen Cart base code, database part is not switchable 'on the
-        fly', which means that some of the submenus will always remain in the
-        same language, the one saved in the database. You can change this
-        language by importing one of the following SQL files:</p>
-      <p class="texte">&nbsp;&nbsp;&nbsp; '..\sql\mysql_english_admin_menu.sql'<br>
-        &nbsp;&nbsp;&nbsp; '..\sql\mysql_french_admin_menu.sql'</p>
       <p class="title3">Recommended plugins</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+
           title="Language/Currency Links in Header" target="_blank">Language/Currency
           Links in Header</a></p>
       <p class="texte"></p>
       <p class="texte">This plugin should be in any multilingual Zen Cart.
         Having language switch in header is very useful and practical especially
         on mobile displays.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+
           title="Postcode auto fill plugin part 1" target="_blank">Postcode auto
           fill</a></p>
       <p class="texte">This plugin was designed to help customers to fill create
@@ -248,7 +241,8 @@ a.anclink {
         that postal code databases are big and plugin had to be separated in two
         parts. Importing big files in MySQL with phpMyAdmin could be problem too
         if PHP and MySQL are not set properly.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
+
           title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
           1.5.7+)</a> </p>
       <p class="texte">This plugin enhances Zen Cart images by adding a handler
@@ -274,9 +268,14 @@ a.anclink {
       <p class="texte">v1.1.0 - August 4 2024<br>
         Added french zones.<br>
         Added admin menus translation</p>
+      <p class="texte">v1.2.0 - September 1 2024<br>
+        Update for Zencart v2.1.0.<br>
+      </p>
     </div>
-    <div class="fr" id="fr"> <img id="lang" src="flags-US-FR_small.webp" alt="Changer de langue"
-        title="Click here to change language between English and French" onclick="chglan()"
+    <div class="fr" id="fr"> <img id="lang" src="flags-US-FR_small.webp" alt="Changer de langue"
+
+        title="Click here to change language between English and French" onclick="chglan()"
+
         height="24" width="56">
       <div>
         <h1 class="title">Documentation pour Zen Cart v2 French language pack</h1>
@@ -351,8 +350,7 @@ a.anclink {
             décompressez le pack de langue française</b> et <b>renommez le
             dossier admin</b> avec le même nom que celui de votre Zen Cart® en
           cours d’utilisation. <b>Copiez ensuite les dossiers admin (renommé en
-            votre vrai nom de dossier administrateur), include, zc_install et
-            zc_plugins</b>.</p>
+            votre vrai nom de dossier administrateur), include et zc_plugins</b>.</p>
         <p class="texte"><b>Si des plugins sont installés</b>, vous devez <b>ajouter
             le dossier et les fichiers de langue française</b> à leur dossier de
           langue. Si vous n'avez pas la traduction française de ces plugins,
@@ -384,31 +382,21 @@ a.anclink {
         définir des zones géographiques pour vos modules d'expédition et définir
         également ces modules ainsi que ceux de paiement en fonction de ces
         zones. . Veuillez consulter la documentation Zen Cart, en commençant par
-        ici&nbsp;: <a href="https://docs.zen-cart.com/user/new_user_topics/" title="Zen Cart Documentation"
+        ici&nbsp;: <a href="https://docs.zen-cart.com/user/new_user_topics/" title="Zen Cart Documentation"
+
           target="_blank">https://docs.zen-cart.com/user/new_user_topics/</a></p>
       <p class="texte"> </p>
-      <p class="title3">Langue d'administration</p>
-      <p class="texte">Le langage d'administration dans Zen Cart est
-        particulier, il y a deux parties, l'une qui utilise des fichiers de
-        langue et une autre qui utilise la base de données pour stocker les
-        données relatives à la langue. Avec les fichiers de langue, on peut
-        facilement passer d'une langue à une autre, mais avec une base de
-        données, c'est plus compliqué et moins sûr. Dans le code de base de Zen
-        Cart, la partie base de données n'est pas commutable « à la volée », ce
-        qui signifie qu'une partie des sous-menus restera toujours dans la même
-        langue, celle enregistrée dans la base de données. Vous pouvez changer
-        cette langue en important l'un des fichiers SQL suivants :</p>
-      <p class="texte">&nbsp;&nbsp;&nbsp; '..\sql\mysql_english_admin_menu.sql'<br>
-        &nbsp;&nbsp;&nbsp; '..\sql\mysql_french_admin_menu.sql'</p>
       <p class="title3">Plugins recommandés</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+
           title="Language/Currency Links in Header" target="_blank">Language/Currency
           Links in Header</a></p>
       <p class="texte"></p>
       <p class="texte">Ce plugin devrait être dans n'importe quel Zen Cart
         multilingue. Avoir le changement de langue dans l’en-tête est très utile
         et pratique notamment sur les écrans mobiles.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+
           title="Postcode auto fill plugin part 1" target="_blank">Postcode auto
           fill</a></p>
       <p class="texte">Ce plugin a été conçu pour aider les clients à remplir un
@@ -422,7 +410,8 @@ a.anclink {
         parties. L'importation de gros fichiers dans MySQL avec phpMyAdmin peut
         également poser problème si PHP et MySQL ne sont pas correctement
         configurés.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
+
           title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
           1.5.7+)</a> </p>
       <p class="texte">Ce plugin améliore les images Zen Cart en ajoutant un
@@ -450,6 +439,9 @@ a.anclink {
       <p class="texte">v1.1.0 - 4 août 2024<br>
         Ajout des zones françaises.<br>
         Ajout des traductions pour les menus de l'interface d'administration.</p>
+      <p class="texte">v1.2.0 - 1 septembre 2024<br>
+        Mise à jour pour la version 2.1.0 de Zen Cart.<br>
+        </p>
       <p></p>
     </div>
     <script>

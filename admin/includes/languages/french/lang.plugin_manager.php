@@ -48,10 +48,6 @@ $define = [
     'ERROR_NOT_FOUND_IN_SQL_FUNCTIONS_MAP' => 'Vérifiez votre instruction SQL. Une carte de fonctions SQL est introuvable pour : ',
     'ERROR_INVALID_SYNTAX' => 'Le tableau ne peut pas être identifié car la syntaxe n\'est pas valide dans : ',
     'ERROR_SQL_PATCH' => 'Erreur lors du traitement de l\'installation SQL.',
-// Plugin Display logs description
-    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_DISPLAYLOGS' => 'Affiche et gère les fichiers journaux de Zen Cart.',
-// Plugin Products' Options' Stock Manager description
-    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_POSM' => 'Ce plugin permet à votre site d\'attribuer des niveaux de stock et des numéros de modèle à vos produits en fonction de combinaisons produit-attributs (également appelées « variantes de produit » ou « stock par attributs »).',
 ];
 
 return $define;

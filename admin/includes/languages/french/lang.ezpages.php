@@ -32,8 +32,8 @@ $define = [
     'TABLE_HEADING_MOBILE_EXPLANATION' => 'Afficher sous forme de lien dans le menu mobile ? Les liens compatibles avec les appareils mobiles seront triés par ordre de tri et par titre.',
     'TABLE_HEADING_PAGE_OPEN_NEW_WINDOW' => 'Ouvrir dans<br />nouvelle fenêtre :',
     'TABLE_HEADING_PAGE_IS_VISIBLE' => 'La page est visible :',
-    'TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION' => 'Page affichée même si elle ne figure pas dans l\'en-tête, le pied de page ou la zone latérale<br>
-(Si tous les paramètres pour Visible et En-tête et Pied de page et Boîte latérale sont tous désactivés, les visiteurs qui tentent de voir la page recevront une réponse Page non trouvée.)',
+    'TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION' => '　La page est accessible même si elle n\'est pas liée dans l\'en-tête, le pied de page ou la zone latérale<br>
+(Mais si tous les paramètres pour Visible, En-tête, Pied de page et Zone latérale sont tous DÉSACTIVÉS, les visiteurs qui tentent de voir la page recevront une réponse Page non trouvée.)',
     'TEXT_DISPLAY_NUMBER_OF_PAGES' => 'Affiche <b>%1$d</b> à <b>%2$d</b> (de <b>%3$d</b> pages)',
     'IMAGE_NEW_PAGE' => 'Nouvelle page',
     'TEXT_INFO_PAGES_ID' => 'ID : ',
