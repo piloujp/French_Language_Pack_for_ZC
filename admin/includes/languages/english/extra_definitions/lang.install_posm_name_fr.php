@@ -7,7 +7,7 @@
 */
 
 $define = [
-    'INSTALL_PLUGIN_POS_NAME_1_FR' => 'En rupture de stock',
+    'INSTALL_PLUGIN_POSM_NAME_1_FR' => 'En rupture de stock',
 ];
 
 return $define;
