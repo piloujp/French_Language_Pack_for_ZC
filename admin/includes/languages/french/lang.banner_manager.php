@@ -3,27 +3,27 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2024 Aug 03 Modified in v2.1.0-alpha1 $
-*/
+ * @version $Id: DrByte 2024 Aug 07 Modified in v2.1.0-alpha2 $
+ */
 
 $define = [
     'HEADING_TITLE' => 'Gestion des Bannières',
     'TABLE_HEADING_BANNERS' => 'Bannières',
     'TABLE_HEADING_GROUPS' => 'Groupes',
+    'TABLE_HEADING_POSITIONS' => 'Positions',
     'TABLE_HEADING_STATISTICS' => 'Affichages / Clics',
     'TABLE_HEADING_BANNER_OPEN_NEW_WINDOWS' => 'Nouvelle fenêtre',
-    'TABLE_HEADING_BANNER_ON_SSL' => 'Afficher en SSL',
     'TABLE_HEADING_BANNER_SORT_ORDER' => 'Classement',
     'TEXT_BANNERS_TITLE' => 'Intitulé de la bannière :',
     'TEXT_BANNERS_URL' => 'URL de la bannière :',
     'TEXT_BANNERS_GROUP' => 'Groupe de bannières :',
     'TEXT_BANNERS_NEW_GROUP' => 'ou entrez un nouveau groupe de bannières ci-dessous',
-    'TEXT_BANNERS_IMAGE' => 'Télécharger l'image :',
+    'TEXT_BANNERS_IMAGE' => 'Télécharger l\'image :',
     'TEXT_BANNERS_CURRENT_IMAGE' => 'Image actuelle :',
-    'TEXT_BANNERS_IMAGE_LOCAL' => 'Nom de fichier de l'image actuelle affiché. Modifiez pour spécifier une image existante. Ou téléchargez-en une nouvelle.',
-    'TEXT_BANNERS_IMAGE_TARGET' => 'Dossier cible de l'image [Enregistrer sous] :',
-    'TEXT_BANNER_IMAGE_TARGET_INFO' => '<strong>Répertoire cible suggéré pour l'image téléchargée : </strong> '.DIR_FS_CATALOG_IMAGES.'banners/',
-    'TEXT_BANNERS_HTML_TEXT_INFO' => '<strong>REMARQUE : les bannières HTML ne suivent pas les clics sur la bannière. Les bannières HTML remplacent l'image de bannière spécifiée ci-dessus.</strong>',
+    'TEXT_BANNERS_IMAGE_LOCAL' => 'Nom de fichier de l\'image actuelle affiché. Modifiez pour spécifier une image existante. Ou téléchargez-en une nouvelle.',
+    'TEXT_BANNERS_IMAGE_TARGET' => 'Dossier cible de l\'image [Enregistrer sous] :',
+    'TEXT_BANNER_IMAGE_TARGET_INFO' => '<strong>Répertoire cible suggéré pour l\'image téléchargée : </strong> '.DIR_FS_CATALOG_IMAGES.'banners/',
+    'TEXT_BANNERS_HTML_TEXT_INFO' => '<strong>REMARQUE : les bannières HTML ne suivent pas les clics sur la bannière. Les bannières HTML remplacent l\'image de bannière spécifiée ci-dessus.</strong>',
     'TEXT_BANNERS_HTML_TEXT' => 'Texte HTML :',
     'TEXT_BANNERS_ALL_SORT_ORDER' => 'Classement - banner_box_all',
     'TEXT_BANNERS_ALL_SORT_ORDER_INFO' => '<strong>NOTE : La sidebox banners_box_all affichera les bannières selon leur ordre de classement</strong>',
@@ -41,8 +41,6 @@ $define = [
     'TEXT_INFO_BANNER_STATUS' => '<strong>NOTE :</strong> Le statut de la bannière sera actualisé selon la date de planification et les expositions',
     'TEXT_BANNERS_OPEN_NEW_WINDOWS' => 'Bannière dans nouvelle fenêtre',
     'TEXT_INFO_BANNER_OPEN_NEW_WINDOWS' => '<strong>NOTE :</strong> La bannière s\'ouvrira dans une nouvelle fenêtre',
-    'TEXT_BANNERS_ON_SSL' => 'Bannière en SSL',
-    'TEXT_INFO_BANNER_ON_SSL' => '<strong>NOTE :</strong> La bannière peut être affichée sur des pages sécurisées sans générer d\'erreurs',
     'TEXT_BANNERS_DATE_ADDED' => 'Date ajoutée :',
     'TEXT_BANNERS_SCHEDULED_AT_DATE' => 'Planifiée le : <b>%s</b>',
     'TEXT_BANNERS_EXPIRES_AT_DATE' => 'Expire le : <b>%s</b>',
@@ -62,17 +60,12 @@ $define = [
     'ERROR_UNKNOWN_STATUS_FLAG' => 'Erreur : Statut de drapeau inconnu.',
     'ERROR_BANNER_IMAGE_REQUIRED' => 'Erreur : Image de bannière requise.',
     'ERROR_UNKNOWN_BANNER_OPEN_NEW_WINDOW' => 'Erreur : La bannière n\'a pas pu être configurée pour s\'ouvrir dans une nouvelle fenêtre',
-    'ERROR_UNKNOWN_BANNER_ON_SSL' => 'Erreur : La bannière n\'a pas pu être configurée pour utiliser SSL',
     'ERROR_INVALID_SCHEDULED_DATE' => 'La date de l\'option « Planifié à » n\'est pas valide, veuillez la saisir à nouveau.',
     'ERROR_INVALID_EXPIRES_DATE' => 'La date de l\'option « Expire le » n\'est pas valide, veuillez la saisir à nouveau.',
-    'TEXT_LEGEND_BANNER_ON_SSL' => 'Afficher SSL',
     'TEXT_LEGEND_BANNER_OPEN_NEW_WINDOWS' => 'Nouvelle fenêtre',
     'IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_ON' => 'Ouverture dans nouvelle fenêtre - Activé',
     'IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_OFF' => 'Ouverture dans nouvelle fenêtre - Désactivé',
-    'IMAGE_ICON_BANNER_ON_SSL_ON' => 'Affichage sur pages sécurisées - Activé',
-    'IMAGE_ICON_BANNER_ON_SSL_OFF' => 'Affichage sur pages sécurisées - Désactivé',
     'SUCCESS_BANNER_OPEN_NEW_WINDOW_UPDATED' => 'SUCCÈS : La capacité de la bannière à s\'ouvrir dans une nouvelle fenêtre a été mis à jour.',
-    'SUCCESS_BANNER_ON_SSL_UPDATED' => 'SUCCÈS : La capacité de la bannière à s\'afficher avec SSL a été mis à jour.',
 ];
 
 return $define;
