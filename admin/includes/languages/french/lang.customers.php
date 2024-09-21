@@ -27,7 +27,6 @@ $define = [
     'TEXT_DELETE_INTRO' => 'Êtes-vous certain(e) de vouloir supprimer ce client ?',
     'TEXT_DELETE_REVIEWS' => 'Supprimer %s avis',
     'TEXT_INFO_HEADING_DELETE_CUSTOMER' => 'Supprimer le client',
-    'TYPE_BELOW' => 'Indiquez ci-dessous',
     'TEXT_INFO_NUMBER_OF_ORDERS' => 'Nombre de commandes :',
     'TEXT_INFO_LIFETIME_VALUE' => 'Valeur vie client :',
     'TEXT_INFO_LAST_ORDER' => 'Dernière commande :',
@@ -66,6 +65,12 @@ $define = [
     'TABLE_HEADING_WHOLESALE_LEVEL' => 'Niveau de gros',
     'TEXT_WHOLESALE_LEVEL' => 'Niveau de gros : ',
     'HELPTEXT_WHOLESALE_LEVEL' => 'Saisissez 0 pour les clients de « Détail » ou un niveau de tarification « En gros ». Un client peut bénéficier d\’un niveau de prix de gros ou faire partie d\’un groupe de prix réduits, mais pas les deux.',
+
+    // -----
+    // Added, since used by zen_prepare_country_zones_pull_down
+    //
+    'PLEASE_SELECT' => 'Veuillez sélectionner...',
+    'TYPE_BELOW' => 'Entrez votre choix ci-dessous...',
 ];
 
 return $define;
