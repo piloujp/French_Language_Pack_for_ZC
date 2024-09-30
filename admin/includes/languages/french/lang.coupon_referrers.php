@@ -20,10 +20,10 @@ $define = [
     'TEXT_REFERRER_DOMAIN' => 'Domaine referent?: ',
     'TEXT_NO_REFERRERS_FOUND' => 'Aucun referent trouve. Cliquez sur INSERER pour en ajouter un.',
     'TEXT_DISPLAY_NUMBER_OF_REFERRERS' => 'Affichage de <strong>%1$d</strong> a <strong>%2$d</strong> (sur <strong>%3$d</strong> referents)',
-    'ERROR_REFERRER_DOMAIN_UNIQUE_REQUIRED' => 'ERREUR?: Le domaine referent est obligatoire et doit etre unique.',
-    'ERROR_REFERRER_DOMAIN_ALREADY_EXISTS' => 'ERREUR?: Le domaine referent existe deja. Impossible d\'ajouter des domaines en double.',
-    'ERROR_COUPON_SELECTION_REQUIRED' => 'ERREUR?: Vous devez selectionner un coupon a attribuer au domaine referent.',
-    'ERROR_INVALID_COUPON_SPECIFIED' => 'ERREUR?: Coupon non valide selectionne.',
+    'ERROR_REFERRER_DOMAIN_UNIQUE_REQUIRED' => 'ERREUR?: le domaine referent est obligatoire et doit etre unique.',
+    'ERROR_REFERRER_DOMAIN_ALREADY_EXISTS' => 'ERREUR?: le domaine referent existe deja. Impossible d\'ajouter des domaines en double.',
+    'ERROR_COUPON_SELECTION_REQUIRED' => 'ERREUR?: vous devez selectionner un coupon a attribuer au domaine referent.',
+    'ERROR_INVALID_COUPON_SPECIFIED' => 'ERREUR?: coupon non valide selectionne.',
 ];
 
 return $define;

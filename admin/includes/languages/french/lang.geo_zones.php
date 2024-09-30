@@ -11,9 +11,9 @@ $define = [
     'TABLE_HEADING_COUNTRY_ZONE' => 'Zone',
     'TABLE_HEADING_TAX_ZONES' => 'Nom de la zone',
     'TABLE_HEADING_TAX_ZONES_DESCRIPTION' => 'Description de la zone',
-    'TEXT_LEGEND_TAX_AND_ZONES' => ': Zones et taxes définies',
-    'TEXT_LEGEND_ONLY_ZONES' => ': Zones définies mais ne pas des taxes',
-    'TEXT_LEGEND_NOT_CONF' => ': Non configurée',
+    'TEXT_LEGEND_TAX_AND_ZONES' => ': zones et taxes définies',
+    'TEXT_LEGEND_ONLY_ZONES' => ': zones définies mais ne pas des taxes',
+    'TEXT_LEGEND_NOT_CONF' => ': non configurée',
     'TEXT_INFO_HEADING_NEW_ZONE' => 'Nouvelle zone',
     'TEXT_INFO_NEW_ZONE_INTRO' => 'Veuillez entrer les informations pour cette nouvelle zone',
     'TEXT_INFO_HEADING_EDIT_ZONE' => 'Édition de la zone',
@@ -35,7 +35,7 @@ $define = [
     'TEXT_ALL_ZONES' => 'Toutes zones',
     'TEXT_ALL_COUNTRIES' => 'Tous les pays',
     'TEXT_INFO_NUMBER_TAX_RATES' => 'Nombre de taux de taxes :',
-    'ERROR_TAX_RATE_EXISTS' => 'ATTENTION : Des taux de taxes sont définis pour cette zone. Veuillez supprimer le(s) taux de taxes avant d\'enlever cette zone',
+    'ERROR_TAX_RATE_EXISTS' => 'ATTENTION : des taux de taxes sont définis pour cette zone. Veuillez supprimer le(s) taux de taxes avant d\'enlever cette zone',
 ];
 
 return $define;

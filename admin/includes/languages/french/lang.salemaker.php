@@ -35,7 +35,7 @@ $define = [
     'TEXT_INFO_HEADING_DELETE_SALE' => 'Supprimer la solde',
     'TEXT_INFO_DELETE_INTRO' => 'Êtes-vous certain(e) de vouloir supprimer définitivement cette solde ?',
     'TEXT_MORE_INFO' => '(Plus d\'infos)',
-    'TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES' => '&nbsp;Attention : Cette catégorie fait déjà l\'objet de %s solde(s)',
+    'TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES' => '&nbsp;Attention : cette catégorie fait déjà l\'objet de %s solde(s)',
 ];
 
 return $define;

@@ -9,7 +9,7 @@
 $define = [
     'HEADING_TITLE' => 'Gestionnaire de nom d\'option',
     'TEXT_ATTRIBUTES_CONTROLLER' => 'Contrôleur d\'attributs',
-    'TEXT_WARNING_TEXT_OPTION_NAME_RESTORED' => 'Avertissement : La valeur d\'option TEXT ID#0 a été trouvée manquante dans la table de base de données "' . TABLE_PRODUCTS_OPTIONS_VALUES . '". Cela peut être dû à un plugin mal codé.<br>La valeur a été restauré correctement.',
+    'TEXT_WARNING_TEXT_OPTION_NAME_RESTORED' => 'Avertissement : la valeur d\'option TEXT ID#0 a été trouvée manquante dans la table de base de données "' . TABLE_PRODUCTS_OPTIONS_VALUES . '". Cela peut être dû à un plugin mal codé.<br>La valeur a été restauré correctement.',
     'TEXT_PRODUCT_OPTIONS_INFO' => '<strong> Remarque : modifiez le nom de l\'option pour des paramètres supplémentaires </strong>',
     'TEXT_WARNING_OF_DELETE' => 'Cette option est utilisé par le ou les produits répertoriés ci-dessous: il ne peut pas être supprimé tant que toutes les valeurs d\'option (attributs) associés à ce nom d\'option n\'ont pas été supprimés de ces produits (cela peut être fait en utilisant les outils globaux ci-dessous)',
     'TEXT_OK_TO_DELETE' => 'Cette option n\'est utilisé par aucun produit - vous pouvez le supprimer en toute sécurité.<br><strong>Attention :</strong> cela supprimera à la fois le nom d\'option ET toutes les valeurs d\'option associées à ce nom d\'option.',
@@ -51,8 +51,8 @@ $define = [
     'SUCCESS_PRODUCT_OPTION_VALUE' => 'Nom de l\'option "%1$s" : valeur de l\'option "%2$s" ajoutée au produit "%3$s".',
     'SUCCESS_PRODUCT_OPTIONS_VALUES_SORT_ORDER' => 'Nom de l\'option "%1$s" : produit "%2$s" Valeurs de l\'option mises à jour dans l\'ordre de tri par défaut pour le nom de l\'option "%1$s".',
     'SUCCESS_PRODUCTS_OPTIONS_VALUES' => 'Option Name "%1$s" : produit "%2$s" mise à jour avec des valeurs d\'option supplémentaires',
-    'ERROR_PRODUCTS_OPTIONS_PRODUCTS' => 'Attention : Aucun produit correspondant n\'a été trouvé avec le nom d\'option "%s" (rien n\'a été mis à jour).',
-    'ERROR_PRODUCTS_OPTIONS_VALUES' => 'Attention : Tous les produits correspondants ont déjà toutes les valeurs d\'option pour le nom d\'option "%s" (rien n\'a été mis à jour).',
+    'ERROR_PRODUCTS_OPTIONS_PRODUCTS' => 'Attention : aucun produit correspondant n\'a été trouvé avec le nom d\'option "%s" (rien n\'a été mis à jour).',
+    'ERROR_PRODUCTS_OPTIONS_VALUES' => 'Attention : tous les produits correspondants ont déjà toutes les valeurs d\'option pour le nom d\'option "%s" (rien n\'a été mis à jour).',
     'TEXT_COMMENT_OPTION_VALUE_DELETE_ALL' => '<strong>REMARQUE :</strong> Toutes les valeurs d\'option seront supprimées de la correspondance / du ou des produits sélectionnés. Cela ne supprimera pas les valeurs d\'option définies pour ce nom d\'option.',
     'TEXT_OPTION_VALUE_DELETE_ALL' => 'Supprimer toutes les valeurs d\'option de TOUS les produits utilisant ce nom d\'option',
     'TEXT_INFO_OPTION_VALUE_DELETE_ALL' => 'Pour TOUS les produits qui utilisent le nom d\'option sélectionné, supprimez toutes les valeurs d\'option / le nom d\'option.',
@@ -68,7 +68,7 @@ $define = [
     'TEXT_SELECT_OPTION_TO' => 'Copier dans le nom de l\'option :',
     'SUCCESS_OPTION_VALUE_COPIED' => 'Valeur d\'option "%6$s" ID#%5$u copié du nom d\'option "%2$s" ID#%1$u vers le nom d\'option "%4$s" ID#%3$u.',
     'SUCCESS_OPTION_VALUES_COPIED' => '%5$u Valeur(s) d\'option copiée du nom d\'option "%2$s" ID#%1$u vers le nom d\'option "%4$s" ID#%3$u.',
-    'ERROR_OPTION_VALUES_COPIED' => 'Erreur : Impossible de copier les valeurs d\'option dans le même nom d\'option ("%2$s" ID#%1$u vers "%4$s" ID#%3$u)!',
+    'ERROR_OPTION_VALUES_COPIED' => 'Erreur : impossible de copier les valeurs d\'option dans le même nom d\'option ("%2$s" ID#%1$u vers "%4$s" ID#%3$u)!',
     'ERROR_OPTION_VALUES_NONE' => 'Erreur : le nom d\'option "%2$s" ID#%1$u n\'a aucune valeur d\'option définie (rien à copier)!',
 ];
 

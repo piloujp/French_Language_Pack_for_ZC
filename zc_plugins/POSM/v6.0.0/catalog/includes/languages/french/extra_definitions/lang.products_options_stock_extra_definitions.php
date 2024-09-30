@@ -16,7 +16,7 @@ $define = [
         'PRODUCTS_OPTIONS_STOCK_MIXED' => '%u %s, %u %s',
 
     // -----
-    // If your store has products with multiple options and you've enabled the 'Dependent Attributes: Insert "Please Choose"?' setting,
+    // If your store has products with multiple options and you've enabled the 'Dependent Attributes: insert "Please Choose"?' setting,
     // the following constants are used.
     //
     // The "First Choose" text is applied to the first option (if it's a drop-down) and the "Next Choose" text is

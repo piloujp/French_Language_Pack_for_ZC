@@ -27,7 +27,7 @@ $define = [
     'TEXT_INFO_STATUS_CHANGED' => 'Statut modifie?:',
     'TEXT_SEARCH_FEATURED' => 'Rechercher les categories phares actuelles',
     'WARNING_FEATURED_PRE_ADD_CID_DUPLICATE' => 'Avertissement?: l\'ID de categorie?#%u est deja une categorie phare.',
-    'WARNING_FEATURED_PRE_ADD_CID_EMPTY' => 'Avertissement?: Aucune ID de categorie n\'a ete specifiee.',
+    'WARNING_FEATURED_PRE_ADD_CID_EMPTY' => 'Avertissement?: aucune ID de categorie n\'a ete specifiee.',
     'WARNING_FEATURED_PRE_ADD_CID_NO_EXIST' => 'Avertissement?: l\'ID de categorie?#%u n\'existe pas.',
 ];
 

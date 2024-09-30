@@ -20,8 +20,8 @@ $define = [
     'TEXT_INFO_HEADING_NEW_LANGUAGE' => 'Nouvelle langue',
     'TEXT_INFO_HEADING_EDIT_LANGUAGE' => 'Éditer la langue',
     'TEXT_INFO_HEADING_DELETE_LANGUAGE' => 'Supprimer la langue',
-    'ERROR_REMOVE_DEFAULT_LANGUAGE' => 'ERREUR : La langue par défaut ne peut être supprimée. Veuillez définir une autre langue par défaut avant de réessayer.',
-    'ERROR_DUPLICATE_LANGUAGE_CODE' => 'ERREUR : Une langue associée à ce code existe déjà.',
+    'ERROR_REMOVE_DEFAULT_LANGUAGE' => 'ERREUR : la langue par défaut ne peut être supprimée. Veuillez définir une autre langue par défaut avant de réessayer.',
+    'ERROR_DUPLICATE_LANGUAGE_CODE' => 'ERREUR : une langue associée à ce code existe déjà.',
 ];
 
 return $define;

@@ -8,7 +8,7 @@
 
 $define = [
     'HEADING_TITLE' => 'AVERTISSEMENT!',
-    'ALERT_PART1' => 'AVERTISSEMENT: Vous ne pourrez accéder à l\'Administration tant que vous n\'aurez pas',
+    'ALERT_PART1' => 'AVERTISSEMENT: vous ne pourrez accéder à l\'Administration tant que vous n\'aurez pas',
     'ALERT_RENAME_ADMIN' => 'renommé le répertoire admin.',
     'ALERT_REMOVE_ZCINSTALL' => 'Supprimez le dossier zc_install.<br>(Utilisez votre programme FTP ou le panneau de contrôle de votre hébergement.)',
     'ADMIN_RENAME_FAQ_NOTE' => 'De l\'aide pour renommer le répertoire admin peut être trouvée ici',

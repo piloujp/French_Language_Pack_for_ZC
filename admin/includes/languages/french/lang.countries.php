@@ -20,7 +20,7 @@ $define = [
     'TEXT_INFO_HEADING_NEW_COUNTRY' => 'Nouveau pays',
     'TEXT_INFO_HEADING_EDIT_COUNTRY' => 'Éditer pays',
     'TEXT_INFO_HEADING_DELETE_COUNTRY' => 'Supprimer pays',
-    'ERROR_COUNTRY_IN_USE' => 'ERREUR: Impossible de supprimer le pays sélectionné car il est utilisé par des enregistrements clients.',
+    'ERROR_COUNTRY_IN_USE' => 'ERREUR: impossible de supprimer le pays sélectionné car il est utilisé par des enregistrements clients.',
     'ISO_COUNTRY_CODES_LINK' => '<a href="https://fr.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements" rel="noreferrer noopener" target="_blank">ISO 3166 Country Codes Reference</a>',
 ];
 

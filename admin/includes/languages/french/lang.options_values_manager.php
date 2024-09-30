@@ -12,10 +12,10 @@ $define = [
     'TABLE_TEXT_FILENAME' => 'Fichier :',
     'TABLE_TEXT_MAX_DAYS' => 'Jours avant expiration :',
     'TABLE_TEXT_MAX_COUNT' => 'Nombre maximum de downloads :',
-    'TEXT_WARNING_OF_DELETE' => '<span class="alert">Cette option est liée à des produits et des valeurs - La supprimer présente des risques.<br>NOTE : Aucun fichier downloadable associé à cette valeur d\'option ne sera supprimé du serveur.</span>',
+    'TEXT_WARNING_OF_DELETE' => '<span class="alert">Cette option est liée à des produits et des valeurs - La supprimer présente des risques.<br>NOTE : aucun fichier downloadable associé à cette valeur d\'option ne sera supprimé du serveur.</span>',
     'TEXT_OK_TO_DELETE' => 'Cette option n\'est liée à aucun produit ou valeur - Vous pouvez la supprimer sans risque.',
     'ATTRIBUTE_POSSIBLE_OPTIONS_VALUE_WARNING_DUPLICATE_SPECIFIC' =>  'Ajout probable de valeurs d\'options dupliquées : "<b>%1$s</b>" %2$s pour le nom de l\'option "%3$s" (identifiants de valeurs : %4$s)',
-    'TEXT_DOWNLOADS_DISABLED' => 'NOTE : Les téléchargements sont désactivés',
+    'TEXT_DOWNLOADS_DISABLED' => 'NOTE : les téléchargements sont désactivés',
     'TABLE_TEXT_MAX_DAYS_SHORT' => 'Jours : ',
     'TABLE_TEXT_MAX_COUNT_SHORT' => 'Max : ',
     'TEXT_SORT' => ' Classement : ',
@@ -39,9 +39,9 @@ $define = [
     'TEXT_SELECT_OPTION_VALUES_TO_CATEGORIES_ID' => 'Laissez vide pour TOUS les produits ou<br>entrez un ID de catégorie pour les produits à actualiser',
     'TEXT_OPTION_VALUE_COPY_OPTIONS_TO' => '<strong>Copier un nom et une valeur d\'option vers TOUS les produits ayant le nom d\'option ...</strong>',
     'TEXT_INFO_OPTION_VALUE_COPY_OPTIONS_TO' => 'Sélectionnez un nom et une valeur d\'option que vous souhaitez ajouter à tous les produits ou à tous les produits d\'une catégorie déterminée ayant un nom d\'option existant distinct.
-                                                   <br><strong>Exemple :</strong> Ajouter le nom d\'option : Couleur, la valeur d\'option : Rouge à tous les produits possédant le nom d\'option : Taille
-                                                   <br><strong>Exemple :</strong> Ajouter le nom d\'option : Couleur, la valeur d\'option : Vert avec les valeurs par défaut depuis le produit ID : 34 vers tous les produits possédant le nom d\'option : Taille
-                                                   <br><strong>Exemple :</strong> Ajouter le nom d\'option : Couleur, la valeur d\'option : Vert avec les valeurs par défaut depuis le produit ID : 34 vers tous les produits possédant le nom d\'option : Taille pour la catégorie ID : 65
+                                                   <br><strong>Exemple :</strong> Ajouter le nom d\'option : couleur, la valeur d\'option : rouge à tous les produits possédant le nom d\'option : taille
+                                                   <br><strong>Exemple :</strong> Ajouter le nom d\'option : couleur, la valeur d\'option : vert avec les valeurs par défaut depuis le produit ID : 34 vers tous les produits possédant le nom d\'option : taille
+                                                   <br><strong>Exemple :</strong> Ajouter le nom d\'option : couleur, la valeur d\'option : vert avec les valeurs par défaut depuis le produit ID : 34 vers tous les produits possédant le nom d\'option : taille pour la catégorie ID : 65
         ',
     'TEXT_SELECT_OPTION_TO_ADD_TO' => 'Ajouter à ce nom d\'option :',
     'TEXT_SELECT_OPTION_FROM_ADD' => 'Nom d\'option à ajouter :',
@@ -49,16 +49,16 @@ $define = [
     'TEXT_SELECT_OPTION_FROM_PRODUCTS_ID' => 'Prendre les nouvelles valeurs par défaut de l\'attribut depuis le produit ID# ou laisser vide pour ne prendre aucune valeur par défaut :',
     'TEXT_INFO_FROM' => ' de : ',
     'TEXT_INFO_TO' => ' vers : ',
-    'ERROR_OPTION_VALUES_COPIED' => 'ERREUR : Duplication de nom et de valeur d\'option',
-    'ERROR_OPTION_VALUES_COPIED_MISMATCH' => 'ERREUR : Mauvaise corespondance du nom et de la valeur d\'option choisis',
-    'ERROR_OPTION_VALUES_NONE' => 'ERREUR : Rien trouvé pour la copie',
+    'ERROR_OPTION_VALUES_COPIED' => 'ERREUR : duplication de nom et de valeur d\'option',
+    'ERROR_OPTION_VALUES_COPIED_MISMATCH' => 'ERREUR : mauvaise corespondance du nom et de la valeur d\'option choisis',
+    'ERROR_OPTION_VALUES_NONE' => 'ERREUR : rien trouvé pour la copie',
     'SUCCESS_OPTION_VALUES_COPIED' => 'Copie réussie ! ',
-    'ERROR_OPTION_VALUES_COPIED_MISMATCH_PRODUCTS_ID' => 'ERREUR : Nom/Valeur d\'option manquant(e) pour le produit ID#',
+    'ERROR_OPTION_VALUES_COPIED_MISMATCH_PRODUCTS_ID' => 'ERREUR : nom/Valeur d\'option manquant(e) pour le produit ID#',
     'TEXT_OPTION_VALUE_DELETE_ALL' => '<strong>Effacer sur TOUS les produits, l\'attribut ayant le nom et la valeur d\'option ...</strong>',
     'TEXT_INFO_OPTION_VALUE_DELETE_ALL' => 'Sélectionnez un nom et une valeur d\'option existants que vous souhaitez supprimer de TOUS les produits, ou de TOUS les produits d\'une catégorie',
     'TEXT_SELECT_DELETE_OPTION_FROM' => 'Nom d\'option :',
     'TEXT_SELECT_DELETE_OPTION_VALUES_FROM' => 'Valeur d\'option :',
-    'ERROR_OPTION_VALUES_DELETE_MISMATCH' => 'ERREUR : Le nom et la valeur de cette option ne correspondent pas',
+    'ERROR_OPTION_VALUES_DELETE_MISMATCH' => 'ERREUR : le nom et la valeur de cette option ne correspondent pas',
     'SUCCESS_OPTION_VALUES_DELETE' => 'Suppression réussie de : ',
     'LABEL_FILTER' => 'Sélectionnez la valeur de l\'option pour filtrer',
     'TEXT_DISPLAY_NUMBER_OF_OPTION_VALUES' => 'Affichage de <b>%1$d</b> à <b>%2$d</b> (sur <b>%3$d</b> valeurs d\'option)',

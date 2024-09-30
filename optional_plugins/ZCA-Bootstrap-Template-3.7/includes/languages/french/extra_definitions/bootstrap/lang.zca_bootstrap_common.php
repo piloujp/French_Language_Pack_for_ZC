@@ -16,7 +16,7 @@ $define = [
 
 // -----
 // Used on the products_all and product listing for the alpha-filter dropdown.
-// Note: Defined in multiple language files for zc158 and zc200!
+// Note: defined in multiple language files for zc158 and zc200!
 //
     'TEXT_SHOW' => 'Filtrer par :',
 
@@ -112,7 +112,7 @@ $define = [
 // <h1> text for index pages where the 'normal' heading-text isn't used by a
 // store ... for accessibility.
 //
-// Note: For zc200, this constant will be in /includes/languages/english/lang.index.php.
+// Note: for zc200, this constant will be in /includes/languages/english/lang.index.php.
 //
     'HEADING_TITLE_SCREENREADER' => 'Voir le contenu supplémentaire ci-dessous',
 ];

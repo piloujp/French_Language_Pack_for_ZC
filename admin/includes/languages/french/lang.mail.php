@@ -17,11 +17,11 @@ $define = [
     'TEXT_SELECT_ATTACHMENT' => 'Pièces jointes<br>sur serveur : ',
     'TEXT_SELECT_ATTACHMENT_TO_UPLOAD' => 'Pièces jointes<br>à uploader<br>&amp; joindre : ',
     'TEXT_ATTACHMENTS_DIR' => 'Répertoire pour uploader : ',
-    'NOTICE_EMAIL_SENT_TO' => 'Note : E-mail envoyé à : %s',
+    'NOTICE_EMAIL_SENT_TO' => 'Note : e-mail envoyé à : %s',
     'NOTICE_EMAIL_FAILED_SEND' => 'ATTENTION : Échec d\'envoi du mail à tous les destinataires : %s',
-    'ERROR_NO_CUSTOMER_SELECTED' => 'ERREUR : Aucun client sélectionné.',
-    'ERROR_NO_SUBJECT' => 'ERREUR : Aucun sujet indiqué.',
-    'ERROR_ATTACHMENTS' => 'ERREUR : Vous ne pouvez pas sélectionner à la fois UPLOADER et AJOUTER des pièces jointes. Un seul choix est possible.',
+    'ERROR_NO_CUSTOMER_SELECTED' => 'ERREUR : aucun client sélectionné.',
+    'ERROR_NO_SUBJECT' => 'ERREUR : aucun sujet indiqué.',
+    'ERROR_ATTACHMENTS' => 'ERREUR : vous ne pouvez pas sélectionner à la fois UPLOADER et AJOUTER des pièces jointes. Un seul choix est possible.',
 ];
 
 return $define;

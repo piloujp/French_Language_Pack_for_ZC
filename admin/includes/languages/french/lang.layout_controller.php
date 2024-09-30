@@ -11,9 +11,9 @@ $define = [
     'TEXT_CURRENTLY_VIEWING' => 'Actuellement consulté : ',
     'TEXT_THIS_IS_PRIMARY_TEMPLATE' => ' (Principal)',
     'TABLE_HEADING_BOXES_PATH' => 'Chemin des cases : ',
-    'TEXT_WARNING_NEW_BOXES_FOUND' => 'AVERTISSEMENT : Nouvelles cases trouvées : ',
+    'TEXT_WARNING_NEW_BOXES_FOUND' => 'AVERTISSEMENT : nouvelles cases trouvées : ',
     'TEXT_ORIGINAL_DEFAULTS' => '[Paramètres par défaut d\'origine/principaux de Zen-Cart',
-    'TEXT_CAUTION_EDITING_NOT_LIVE_TEMPLATE' => 'CAUTION: Vous modifiez les paramètres d\'un modèle qui n\'est pas le modèle principal utilisé par les clients.',
+    'TEXT_CAUTION_EDITING_NOT_LIVE_TEMPLATE' => 'CAUTION: vous modifiez les paramètres d\'un modèle qui n\'est pas le modèle principal utilisé par les clients.',
 
     'TEXT_HEADING_MISSING_BOXES' => 'Cases manquantes',
     'BUTTON_REMOVE_SELECTED' => 'Supprimer la sélection',
@@ -22,7 +22,7 @@ $define = [
     'BUTTON_CLOSE' => 'Fermer',
 
     'TEXT_INFO_HEADING_DELETE_BOX' => 'Supprimer les cases latérales manquantes',
-    'TEXT_INFO_DELETE_MISSING_LAYOUT_BOX_NOTE' => 'REMARQUE : Cela ne supprime pas les fichiers et vous pouvez rajouter les cases à tout moment en les ajoutant au bon répertoire.<br><br><strong>Cases à supprimer : </strong>',
+    'TEXT_INFO_DELETE_MISSING_LAYOUT_BOX_NOTE' => 'REMARQUE : cela ne supprime pas les fichiers et vous pouvez rajouter les cases à tout moment en les ajoutant au bon répertoire.<br><br><strong>Cases à supprimer : </strong>',
     'SUCCESS_BOX_DELETED' => 'Ces cases ont été supprimées : ',
 
     'TEXT_RESET_SETTINGS' => 'Réinitialiser les paramètres',
@@ -31,7 +31,7 @@ $define = [
     'TEXT_SETTINGS_COPY_FROM' => 'Copier l\'état/les paramètres de tri DE : ',
     'TEXT_SETTINGS_COPY_TO' => ' À : ',
     'SUCCESS_BOX_RESET' => 'Les paramètres de [%1$s] ont été réinitialisés aux paramètres actuels de [%2$s].',
-    'TEXT_ERROR_INVALID_RESET_SUBMISSION' => 'ERREUR : Choix de réinitialisation non valide',
+    'TEXT_ERROR_INVALID_RESET_SUBMISSION' => 'ERREUR : choix de réinitialisation non valide',
 
     'TEXT_INSTRUCTIONS' => 'Si votre appareil est équipé d\'une souris, vous pouvez faire glisser et déposer une case pour modifier son emplacement de colonne ou son ordre de tri dans ses emplacements de colonne actifs. Sinon, utilisez les icônes de flèche vers le haut et vers le bas pour modifier l\'emplacement ou l\'ordre de tri d\'une case. Utilisez une icône <i class="fa-solid fa-xmark"></i> pour déplacer rapidement une case active vers son groupe inactif.',
     'BUTTON_SHOW_NOTES' => 'Afficher les remarques :',
@@ -45,7 +45,7 @@ $define = [
     'TEXT_NOTE5' => 'Si vous avez apporté des modifications et que vous quittez cet outil, votre navigateur vous informera que vous avez des modifications non enregistrées.',
 
     'TEXT_COLUMN_DISABLED' => 'Colonne désactivée globalement',
-    'TEXT_DISABLED_MESSAGE' => 'Les modifications apportées à cette colonne seront enregistrées, mais ne seront pas affichées sur la vitrine. Voir le paramètre associé dans Configuration :: Paramètres de mise en page.',
+    'TEXT_DISABLED_MESSAGE' => 'Les modifications apportées à cette colonne seront enregistrées, mais ne seront pas affichées sur la vitrine. Voir le paramètre associé dans Configuration :: paramètres de mise en page.',
     'TEXT_HEADING_MAIN_PAGE_BOXES' => 'Cases de la page principale',
     'TEXT_HEADING_ACTIVE_LEFT' => 'Cases actives de la colonne de gauche',
     'TEXT_HEADING_ACTIVE_RIGHT' => 'Cases actives de la colonne de droite',

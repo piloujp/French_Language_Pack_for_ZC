@@ -18,9 +18,9 @@ $define = [
     'TEXT_PLEASE_WAIT' => 'Veuillez patienter .. Envoi des mails ..<br><br>Veuillez ne pas interrompre le processus !',
     'TEXT_FINISHED_SENDING_EMAILS' => 'Envoi des mails terminé !',
     'TEXT_AFTER_EMAIL_INSTRUCTIONS' => '%s mails envoyés. (Chaque case à cocher indique 1 destinataire. Survolez la case à cocher pour voir l\'adresse e-mail.)<br><br>Surveillez votre Boîte de Réception (' . EMAIL_FROM . ') pour :<UL><LI>a) les messages de retour</LI><LI>b) des adresses e-mail qui ne sont plus valides</LI><LI>c) ou qui demandent à être effacées.</LI></UL>Vous pouvez supprimer ces adresses via le Menu correspondant aux Clients, dans Admin | Menu Clients.',
-    'ERROR_NEWSLETTER_TITLE' => 'ERREUR : Intitulé de bulletin requis',
-    'ERROR_NEWSLETTER_MODULE' => 'ERREUR : Module bulletin (newsletter) requis',
-    'ERROR_PLEASE_SELECT_AUDIENCE' => 'ERREUR : Veuillez sélectionner un public pour recevoir ce bulletin',
+    'ERROR_NEWSLETTER_TITLE' => 'ERREUR : intitulé de bulletin requis',
+    'ERROR_NEWSLETTER_MODULE' => 'ERREUR : module bulletin (newsletter) requis',
+    'ERROR_PLEASE_SELECT_AUDIENCE' => 'ERREUR : veuillez sélectionner un public pour recevoir ce bulletin',
 ];
 
 return $define;

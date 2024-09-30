@@ -27,8 +27,8 @@ $define = [
     'TEXT_INFO_HEADING_EDIT_CURRENCY' => 'Éditer la devise',
     'TEXT_INFO_HEADING_DELETE_CURRENCY' => 'Supprimer la devise',
     'TEXT_INFO_SET_AS_DEFAULT' => 'définir comme défaut  (requiert une actualisation manuelle des taux de change)',
-    'ERROR_REMOVE_DEFAULT_CURRENCY' => 'ERREUR : La devise par défaut ne peut être supprimée. Veuillez définir une autre devise par défaut et réessayer.',
-    'ERROR_INVALID_CURRENCY_ENTRY' => 'ERREUR : Les informations que vous avez entré étaient incomplètes, et n\'ont pas été sauvegardées. Vous devez indiquer un code devise et un nom.',
+    'ERROR_REMOVE_DEFAULT_CURRENCY' => 'ERREUR : la devise par défaut ne peut être supprimée. Veuillez définir une autre devise par défaut et réessayer.',
+    'ERROR_INVALID_CURRENCY_ENTRY' => 'ERREUR : les informations que vous avez entré étaient incomplètes, et n\'ont pas été sauvegardées. Vous devez indiquer un code devise et un nom.',
 ];
 
 return $define;

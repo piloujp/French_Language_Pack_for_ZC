@@ -8,7 +8,7 @@
 // Based on the Find Duplicate Models plugin (https://www.zen-cart.com/downloads.php?do=file&id=1323) by swguy.
 //
 $define = [
-    'HEADING_TITLE' => 'POSM: Rechercher des modèles en double',
+    'HEADING_TITLE' => 'POSM : rechercher des modèles en double',
     'HEADING_PRODUCTS_LINK' => 'Products Link',
     'HEADING_POSM_LINK' => 'Lien POSM',
     'HEADING_PRODUCTS_MODEL' => 'Modèle de produits', 

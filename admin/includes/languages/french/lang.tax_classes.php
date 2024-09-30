@@ -17,8 +17,8 @@ $define = [
     'TEXT_INFO_HEADING_NEW_TAX_CLASS' => 'Nouvelle classe de taxes',
     'TEXT_INFO_HEADING_EDIT_TAX_CLASS' => 'Éditer la classe de taxes',
     'TEXT_INFO_HEADING_DELETE_TAX_CLASS' => 'Supprimer la classe de taxes',
-    'ERROR_TAX_RATE_EXISTS_FOR_CLASS' => 'ERREUR : Impossible de supprimer cette classe de taxes -- Des taux de taxes sont liés à cette classe de taxes.',
-    'ERROR_TAX_RATE_EXISTS_FOR_PRODUCTS' => 'ERREUR : Impossible de supprimer cette classe de taxes -- Il y a %s produits qui utilisent cette classe de taxes.',
+    'ERROR_TAX_RATE_EXISTS_FOR_CLASS' => 'ERREUR : impossible de supprimer cette classe de taxes -- Des taux de taxes sont liés à cette classe de taxes.',
+    'ERROR_TAX_RATE_EXISTS_FOR_PRODUCTS' => 'ERREUR : impossible de supprimer cette classe de taxes -- Il y a %s produits qui utilisent cette classe de taxes.',
 ];
 
 return $define;

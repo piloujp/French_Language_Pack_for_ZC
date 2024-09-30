@@ -12,7 +12,7 @@ $define = [
     'BOX_LOCALIZATION_PRODUCTS_OPTIONS_STOCK' => 'Étiquettes « En rupture de stock »',
     'BOX_CONFIGURATION_PRODUCTS_OPTIONS_STOCK' => 'Gestionnaire de stock des Options',
     'BOX_TOOLS_CONVERT_SBA2POSM' => 'Convertir SBA en POSM',
-    'BOX_TOOLS_POSM_FIND_DUPMODELS' => 'POSM : Rechercher les modèles en double',
+    'BOX_TOOLS_POSM_FIND_DUPMODELS' => 'POSM : rechercher les modèles en double',
 
     // -----
     // Utilisé par le script d'initialisation, lors de la vérification que le fichier de fonction EO contient les notificateurs "appropriés",
@@ -41,7 +41,7 @@ $define = [
     // -----
     // Utilisé par Catalogue-> Gérer le stock des options pour avertir l'administrateur lorsque le niveau de réapprovisionnement s'est avéré invalide.
     //
-    'CAUTION_POSM_REORDER_LEVEL' => "Le paramètre <em>Stock d'options : Niveau de réapprovisionnement</em> contenait une valeur non valide (%s); la valeur a été remise à 0.",
+    'CAUTION_POSM_REORDER_LEVEL' => "Le paramètre <em>Stock d'options : niveau de réapprovisionnement</em> contenait une valeur non valide (%s); la valeur a été remise à 0.",
 
     // -----
     // Utilisé à la fois par Catalogue-> Gérer le stock des options et par l'outil « Tout afficher » pour alerter l'administrateur d'un numéro de modèle en double non autorisé et pour fournir un numéro de modèle trié.

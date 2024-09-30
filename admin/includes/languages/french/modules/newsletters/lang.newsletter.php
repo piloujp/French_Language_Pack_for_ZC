@@ -19,8 +19,8 @@ $define = [
     'TEXT_PLEASE_SELECT_AUDIENCE' => 'Veuillez sélectionner le public de ce bulletin : ',
     'TEXT_PLEASE_WAIT' => 'Veuillez patienter .. Envoi des mails ..<br><br>Veuillez ne pas interrompre le processus !',
     'TEXT_FINISHED_SENDING_EMAILS' => 'Envoi des mails terminé !',
-    'ERROR_NEWSLETTER_TITLE' => 'ERREUR : Intitulé de bulletin requis',
-    'ERROR_NEWSLETTER_MODULE' => 'ERREUR : Module bulletin (newsletter) requis',
+    'ERROR_NEWSLETTER_TITLE' => 'ERREUR : intitulé de bulletin requis',
+    'ERROR_NEWSLETTER_MODULE' => 'ERREUR : module bulletin (newsletter) requis',
 ];
 
 return $define;

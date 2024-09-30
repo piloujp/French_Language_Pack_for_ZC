@@ -30,7 +30,7 @@ $define = [
     'TEXT_DELETE_PRODUCTS' => 'Supprimer cette collection de médias ainsi que tous les articles qui lui sont liés ?',
     'TEXT_DELETE_WARNING_PRODUCTS' => '<b>ATTENTION:</b> Il y a %s articles encore liés à cette collection de médias !',
     'TEXT_WARNING_FOLDER_UNWRITABLE' => 'REMARQUE : le dossier multimédia ' . DIR_FS_CATALOG_MEDIA . ' n\'est pas accessible en écriture. Impossible de d\'envoyer les fichiers.',
-    'ERROR_UNKNOWN_DATA' => 'ERREUR: Données inconnues fournies ... Opération annulée',
+    'ERROR_UNKNOWN_DATA' => 'ERREUR: données inconnues fournies ... Opération annulée',
     'TEXT_ADD' => 'Ajouter',
 ];
 

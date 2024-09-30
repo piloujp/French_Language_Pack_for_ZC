@@ -28,6 +28,6 @@ $define = [
 // "Emplacement un, 5.00; Emplacement deux, 3.50; Emplacement trois, 0.00"
 // "Emplacement un, Emplacement deux, Emplacement trois"
 // ou laissez-le vide pour utiliser simplement le même texte que celui défini dans l'administration, quelle que soit la langue
-// CONSEIL : Ce champ doit rester vide pour la langue par défaut, sinon le champ Paramètres de l\'administration n'est jamais utilisé.
+// CONSEIL : ce champ doit rester vide pour la langue par défaut, sinon le champ Paramètres de l\'administration n'est jamais utilisé.
 
 return $define;
