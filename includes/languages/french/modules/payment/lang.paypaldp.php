@@ -25,7 +25,7 @@ $define = [
     'MODULE_PAYMENT_PAYPALDP_INVALID_RESPONSE' => 'Nous n\'avons pas pu traiter votre commande. Veuillez sélectionner un autre mode de paiement, ou contactez nous pour trouver une solution.',
     'MODULE_PAYMENT_PAYPALDP_TEXT_GEN_ERROR' => 'Une erreur est survenue en contactant l\'organisme de paiement. Veuillez réessayer, sélectionner un autre mode de paiement, ou contactez nous pour trouver une solution.',
     'MODULE_PAYMENT_PAYPALDP_TEXT_EMAIL_ERROR_MESSAGE' => 'Cher propriétaire de boutique,'."\n".'Une erreur est survenue en essayant d\'initialiser une transaction de paiement-validation. Par courtoisie, uniquement le "numéro" d\'erreur a été affiché à votre client. Vous trouverez le détail de cette erreur ci-dessous.'."\n\n",
-    'MODULE_PAYMENT_PAYPALDP_TEXT_EMAIL_ERROR_SUBJECT' => 'ALERTE: Erreur de paiement direct PayPal',
+    'MODULE_PAYMENT_PAYPALDP_TEXT_EMAIL_ERROR_SUBJECT' => 'ALERTE: erreur de paiement direct PayPal',
     'MODULE_PAYMENT_PAYPALDP_TEXT_ADDR_ERROR' => 'Les informations d\'adresse que vous avez entré ne semblent pas valides ou ne correspondent pas. Veuillez choisir ou ajouter une adresse différente puis réessayer.',
     'MODULE_PAYMENT_PAYPALDP_TEXT_INSUFFICIENT_FUNDS_ERROR' => 'PayPal n\'a pas pu solder cette transaction correctement. Veuillez choisir une autre option de paiement ou changer les options de solde dans votre compte PayPal avant de procéder au paiement.',
     'MODULE_PAYMENT_PAYPALDP_TEXT_ERROR' => 'Une erreur est survenue en essayant de traiter votre carte de crédit. Veuillez réessayer, sélectionner un autre mode de paiement, ou contactez nous pour trouver une solution.',
@@ -44,7 +44,7 @@ $define = [
     'MODULE_PAYMENT_PAYPALDP_TEXT_SANDBOX_VS_LIVE_ERROR' => 'Nous nous excusons pour la gêne occasionnée. Les paramètres d\'identification du compte PayPal ne sont pas encore définis, ou les informations de sécurité de l\'API sont incorrectes. Nous ne pouvons pas terminer votre transaction. Veuillez avertir le propriétaire de la boutique afin qu\'il corrige ce problème.',
     'MODULE_PAYMENT_PAYPALDP_TEXT_WPP_BAD_COUNTRY_ERROR' => 'Nous sommes désolé -- Le compte PayPal configuré par le propriétaire de la boutique est situé dans un pays qui n\'est pas pris en charge par Paiement PayPal Pro pour le moment. Veuillez choisir un autre mode de paiement pour finaliser votre commande.',
     'MODULE_PAYMENT_PAYPALDP_TEXT_CANNOT_USE_THIS_CURRENCY_ERROR' => 'Nous sommes désolé -- La carte de crédit que vous utilisez n\'est pas compatible avec la devise que vous avez choisie pour l\'encaissement. Veuillez modifier votre choix de devise ou choisir un autre mode de paiement pour finaliser votre commande.',
-    'MODULE_PAYMENT_PAYPALDP_TEXT_NOT_CONFIGURED' => '<span class="alert">&nbsp;(NOTE: Le module n\'est pas encore configuré)</span>',
+    'MODULE_PAYMENT_PAYPALDP_TEXT_NOT_CONFIGURED' => '<span class="alert">&nbsp;(NOTE: le module n\'est pas encore configuré)</span>',
     'MODULE_PAYMENT_PAYPALDP_TEXT_CARD_TYPE_NOT_SUPPORTED' => 'Vous avez essayé de payer votre achat en utilisant une carte de crédit qui n\'est pas acceptée par ce marchand. Nous nous excusons pour la gêne occasionnée et nous vous invitons à réessayer avec un type de carte différent, ou contacter le propriétaire de la boutique pour d\'autres choix de modes de paiement.',
     'MODULE_PAYMENT_PAYPALDP_TEXT_TRY_OTHER_PAYMENT_METHOD' => 'PayPal a refusé la source de financement que vous avez sélectionnée. Veuillez essayer un autre type de paiement dans votre compte PayPal, ou essayez un autre mode de paiement. ',
     'MODULE_PAYMENT_PAYPALDP_TEXT_GETDETAILS_ERROR' => 'Il y a eu un problème en récupérant les détails de la transaction. ',
@@ -65,7 +65,7 @@ $define = [
     'MODULE_PAYMENT_PAYPALDP_TEXT_VOID_INITIATED' => 'Demande d\'annulation PayPal initiée. ID Transaction: %s. Rafraîchissez la page pour voir les détails de la confirmation mis à jour dans la rubrique Historique des états de commande/Commentaires.',
     'MODULE_PAYMENT_PAYPALDP_TEXT_GEN_API_ERROR' => 'Il y a eu une erreur dans la tentative de transaction. Veuillez lire le guide de référence API ou les journaux de transaction pour des informations détaillées.',
     'MODULE_PAYMENT_PAYPALDP_TEXT_INVALID_ZONE_ERROR' => 'Nous nous excusons de la gêne occasionnée; cependant, pour le moment nous ne pouvons pas utiliser ce mode de paiement pour traiter les commandes provenant du lieu géographique que vous avez sélectionné comme votre adresse de compte. Veuillez continuer en utilisant l\'encaissement normal et un autre mode de paiement pour finaliser votre commande.',
-    'CENTINEL_AUTHENTICATION_ERROR' => 'Échec de l\'authentification : Votre institution financière a indiqué qu\'elle n\'a pas pu authentifier cette transaction. Pour vous protéger contre toute utilisation non autorisée, cette carte ne peut pas être utilisée pour finaliser votre achat. Vous pouvez finaliser l\'achat en sélectionnant un autre mode de paiement.',
+    'CENTINEL_AUTHENTICATION_ERROR' => 'Échec de l\'authentification : votre institution financière a indiqué qu\'elle n\'a pas pu authentifier cette transaction. Pour vous protéger contre toute utilisation non autorisée, cette carte ne peut pas être utilisée pour finaliser votre achat. Vous pouvez finaliser l\'achat en sélectionnant un autre mode de paiement.',
     'CENTINEL_PROCESSING_ERROR' => 'Un problème est survenu lors de l\'obtention de l\'autorisation pour votre transaction. Veuillez saisir à nouveau vos informations de paiement et/ou choisir un autre mode de paiement.',
     'CENTINEL_ERROR_CODE_8000' => '8000',
     'CENTINEL_ERROR_CODE_8000_DESC' => 'Protocole non reconnu, doit être http:// ou https://',
@@ -154,12 +154,38 @@ $define = [
     'MODULES_PAYMENT_PAYPALDP_TEXT_EMAIL_FMF_SUBJECT' => 'État du contrôle de paiement frauduleux : ',
     'MODULES_PAYMENT_PAYPALDP_TEXT_EMAIL_FMF_INTRO' => 'Ceci est une notification automatique pour vous informer que PayPal a marqué le paiement d\'une nouvelle commande comme &quot;Paiement devant être contrôlé&quot; par leur équipe anti-fraude. Habituellement, le contrôle est effectué dans les 36 heures. Il vous est FORTEMENT RECOMMANDÉ de NE PAS EXPÉDIER la commande tant que le contrôle n\'est pas terminé. Vous pouvez voir le dernier état du contrôle de la commande en vous connectant à votre compte PayPal et en listant les transactions récentes.',
     'MODULES_PAYMENT_PAYPALWPP_AGGREGATE_CART_CONTENTS' => 'Tous les articles dans votre panier (voir les détails dans la boutique et sur votre reçu de la boutique).',
+// bof constant configuration titles and descriptions for order total module paypaldp
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_STATUS' => 'Activer ce module de paiement',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_STATUS' => 'Voulez-vous activer ce module de paiement ? Utilisez le paramètre « <strong>Retired</strong> » si vous envisagez de supprimer ce module de paiement mais que vous avez encore des actions administratives à effectuer sur les commandes passées avec ce module.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_SORT_ORDER' => 'Ordre de tri',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_SORT_ORDER' => 'Ordre d\'affichage.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_ZONE' => 'Zone de paiement',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_ZONE' => 'Si une zone est sélectionnée, activez uniquement ce mode de paiement pour cette zone.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_ORDER_STATUS_ID' => 'Définir le statut de la commande',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_ORDER_STATUS_ID' => 'Définissez le statut des commandes dont le paiement a été effectué sur cette valeur.<br><strong>Recommandé : « En cours »</strong>',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_ORDER_PENDING_STATUS_ID' => 'Définir le statut des commandes impayées',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_ORDER_PENDING_STATUS_ID' => 'Définissez le statut des commandes impayées sur cette valeur.<br><strong>Recommandé : « En attente »</strong>',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_REFUNDED_STATUS_ID' => 'Définir le statut des commandes remboursées',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_REFUNDED_STATUS_ID' => 'Définissez le statut des commandes remboursées sur cette valeur.<br><strong>Recommandé : « En attente »</strong>',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_TRANSACTION_MODE' => 'Action de paiement',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_TRANSACTION_MODE' => 'Comment souhaitez-vous obtenir le paiement ?<br><strong>Défaut : vente finale</strong>',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_CURRENCY' => 'Devise de transaction',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_CURRENCY' => 'Dans quelle devise la commande doit-elle être envoyée à PayPal ? <br>REMARQUE : si une devise non prise en charge est envoyée à PayPal, elle sera automatiquement convertie en USD (ou GBP si vous avez un compte en Angleterre).<br><strong>Par défaut : devise sélectionnée</strong>',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_MERCHANT_COUNTRY' => 'Pays du marchand',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_MERCHANT_COUNTRY' => 'Dans quel pays votre compte PayPal est-il enregistré ? <br><u>Choix :</u><br><font color=green>Vous devrez fournir des <strong>paramètres API</strong> dans le module Express Checkout.</font><br><strong>Les commerçants des États-Unis et du Canada</strong> ont besoin des informations d\'identification de l\'API PayPal et d\'un compte PayPal Payments Pro.<br><strong>Les commerçants britanniques</strong> doivent fournir des <strong>paramètres PAYFLOW</strong> (et avoir un compte Payflow)<br><strong>Les commerçants australiens</strong> choisissent le Canada<br><em>(Ce paramètre concerne en réalité la spécification interne de l\'API PayPal, et pas tellement le pays : États-Unis=1.5, Royaume-Uni=2.0, Canada/Australie=3.0)</em>',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_EC_RETURN_FMF_DETAILS' => 'Filtres de gestion de la fraude - FMF',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_EC_RETURN_FMF_DETAILS' => 'Si vous avez activé la prise en charge FMF dans votre compte PayPal et que vous souhaitez l\'utiliser dans vos transactions, définissez cette option sur Oui. Sinon, laissez-la sur Non.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_SERVER' => 'En direct ou en Sandbox',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_SERVER' => '<strong>Live : </strong> Utilisé pour traiter les transactions en direct<br><strong>Sandbox : </strong>Pour les développeurs et les tests',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_DEBUGGING' => 'Mode débogage',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_DEBUGGING' => 'Souhaitez-vous activer le mode débogage ? Un journal complet et détaillé des transactions ayant échoué sera envoyé par courrier électronique au propriétaire du magasin.',
+// eof constant configuration titles and descriptions for order total module paypaldp
 ];
 
 if (IS_ADMIN_FLAG === true) {
     $define['MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION'] = '<strong>PayPal Payments Pro</strong>%s<br>' . '<a href="https://www.paypal.com" rel="noreferrer noopener" target="_blank">Gérez votre compte PayPal.</a>' . '<br><br><font color="green">Configuration Instructions :</font><br><span class="alert">1. </span><a href="https://www.zen-cart.com/partners/paypal-pro" rel="noopener" target="_blank">Créez votre compte PayPal - cliquez ici.</a><br>' .
         (isset($define['MODULE_PAYMENT_PAYPALDP_STATUS']) ? '' : '... et cliquez sur "installer" ci-dessus pour activer PayPal Payments Pro.<br><a href="https://www.zen-cart.com/getpaypal" rel="noopener" target="_blank">Pour une aide détaillée supplémentaire, consultez cet article de FAQ</a><br>') .
-        (!isset($define['MODULE_PAYMENT_PAYPALWPP_APISIGNATURE']) || $define['MODULE_PAYMENT_PAYPALWPP_APISIGNATURE'] === '' ? '<span class="alert">2. </span><strong>Informations d\'identification API</strong> à partir de l\'option Informations d\'identification API dans la zone Paramètres de votre profil PayPal. Ce module utilise l\'option <strong>Signature API</strong> : Vous devrez saisir le nom d\'utilisateur, le mot de passe et la signature dans les champs ci-dessous.' : '<span class="alert">2. </span>Assurez-vous d\'avoir saisi les données de sécurité appropriées pour le nom d\'utilisateur/le mot de passe, etc., ci-dessous.') .
+        (!isset($define['MODULE_PAYMENT_PAYPALWPP_APISIGNATURE']) || $define['MODULE_PAYMENT_PAYPALWPP_APISIGNATURE'] === '' ? '<span class="alert">2. </span><strong>Informations d\'identification API</strong> à partir de l\'option Informations d\'identification API dans la zone Paramètres de votre profil PayPal. Ce module utilise l\'option <strong>Signature API</strong> : vous devrez saisir le nom d\'utilisateur, le mot de passe et la signature dans les champs ci-dessous.' : '<span class="alert">2. </span>Assurez-vous d\'avoir saisi les données de sécurité appropriées pour le nom d\'utilisateur/le mot de passe, etc., ci-dessous.') .
         '<font color="green"><hr><strong>Requis:</strong></font><br><hr>*<strong>Express Checkout</strong> doit être installé et activé pour pouvoir utiliser PayPal Payments Pro, conformément aux conditions d\'utilisation de PayPal.<br>*Nécessite également CURL sur SSL pour les communications sortantes. CURL doit être activé pour les ports 80 et 443.<hr>';
 }
 
