@@ -14,7 +14,7 @@ $define = [
     'MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR_MESSAGE' => 'Une erreur est survenue lors du traitement de votre carte de crédit. Merci de bien vouloir recommencer.',
     'MODULE_PAYMENT_AUTHORIZENET_TEXT_DECLINED_MESSAGE' => 'Votre carte de crédit a été refusée. Veuillez essayer une autre carte ou contacter votre banque pour plus d\'informations.',
     'MODULE_PAYMENT_AUTHORIZENET_TEXT_ERROR' => 'Erreur de carte de crédit !',
-// bof constant configuration titles and descriptions for order total module authorizenet
+// bof constant configuration titles and descriptions for payment module authorizenet
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_STATUS' => 'Activer le module « Authorize.net »',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_STATUS' => 'Souhaitez-vous accepter les paiements Authorize.net ?',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_LOGIN' => 'ID de connexion',
@@ -47,7 +47,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_STORE_DATA' => 'Voulez-vous enregistrer les données de communication de la passerelle dans la base de données ?',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_DEBUGGING' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_DEBUGGING' => 'Activer la journalisation de débogage ? Un journal détaillé des transactions échouées peut être envoyé par courrier électronique au propriétaire du magasin.',
-// eof constant configuration titles and descriptions for order total module authorizenet
+// eof constant configuration titles and descriptions for payment module authorizenet
 ];
 
 if (defined('MODULE_PAYMENT_AUTHORIZENET_STATUS') && MODULE_PAYMENT_AUTHORIZENET_STATUS == 'True') {

@@ -42,7 +42,7 @@ $define = [
     'MODULE_PAYMENT_PAYPAL_ENTRY_TXN_ID' => 'ID# transaction : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_PARENT_TXN_ID' => 'ID# transaction parent : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_COMMENTS' => 'Commentaires système : ',
-// bof constant configuration titles and descriptions for order total module paypal
+// bof constant configuration titles and descriptions for payment module paypal
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_STATUS' => 'Activer le module « PayPal »',
     'CFGDESC_MODULE_PAYMENT_PAYPAL_STATUS' => 'Souhaitez-vous accepter les paiements PayPal ?',
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_BUSINESS_ID' => 'ID d\'entreprise',
@@ -73,7 +73,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPAL_HANDLER' => '<strong>Live : </strong> Utilisé pour traiter les transactions en direct<br><strong>Sandbox : </strong>Pour les développeurs et les tests',
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_IPN_DEBUG' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_PAYPAL_IPN_DEBUG' => 'Activer la journalisation de débogage ? <br>REMARQUE : cela peut VRAIMENT encombrer votre boîte de réception et utiliser de l\'espace disque !<br>La journalisation va dans le dossier /logs.<br>Le courrier électronique est envoyé à l\'adresse du propriétaire du magasin.<br>L\'option de courrier électronique n\'est PAS recommandée.<br><strong>Laissez OFF pour un fonctionnement normal.</strong>',
-// eof constant configuration titles and descriptions for order total module paypal
+// eof constant configuration titles and descriptions for payment module paypal
 ];
 
 if (IS_ADMIN_FLAG === true) {

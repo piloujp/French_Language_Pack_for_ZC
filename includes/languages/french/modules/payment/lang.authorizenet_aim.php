@@ -51,7 +51,7 @@ $define = [
     'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_TEXT_COMMENTS' => 'Notes (s\'afficheront dans l\'historique de commande): ',
     'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_DEFAULT_MESSAGE' => 'Transaction annulée',
     'MODULE_PAYMENT_AUTHORIZENET_AIM_ENTRY_VOID_SUFFIX' => 'Les annulations doivent être effectuées avant que la transaction d\'origine soit acceptée dans le batch journalier.',
-// bof constant configuration titles and descriptions for order total module authorizenet_aim
+// bof constant configuration titles and descriptions for payment module authorizenet_aim
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS' => 'Activer le module « Authorize.net (AIM) »',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS' => 'Souhaitez-vous accepter les paiements Authorize.net avec la méthode AIM ?',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_LOGIN' => 'ID de connexion',
@@ -84,7 +84,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_REVIEW_ORDER_STATUS_ID' => 'Définissez le statut des commandes effectuées avec ce module de paiement, MAIS qui doivent être examinées pour être traitées :',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_DEBUGGING' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_DEBUGGING' => 'Activer la journalisation de débogage ? Un journal détaillé des transactions échouées peut être envoyé par courrier électronique au propriétaire du magasin.',
-// eof constant configuration titles and descriptions for order total module authorizenet_aim
+// eof constant configuration titles and descriptions for payment module authorizenet_aim
 ];
 
 if (defined('MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS') && MODULE_PAYMENT_AUTHORIZENET_AIM_STATUS == 'True') {

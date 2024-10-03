@@ -149,7 +149,7 @@ $define = [
     'MODULES_PAYMENT_PAYPALDP_TEXT_EMAIL_FMF_INTRO' => 'Ceci est une notification automatique pour vous informer que PayPal a marqué le paiement d\'une nouvelle commande comme &quot;Paiement devant être contrôlé&quot; par leur équipe anti-fraude. Habituellement, le contrôle est effectué dans les 36 heures. Il vous est FORTEMENT RECOMMANDÉ de NE PAS EXPÉDIER la commande tant que le contrôle n\'est pas terminé. Vous pouvez voir le dernier état du contrôle de la commande en vous connectant à votre compte PayPal et en listant les transactions récentes.',
     'MODULES_PAYMENT_PAYPALWPP_TEXT_BLANK_ADDRESS' => 'PROBLÈME : nous sommes désolés. PayPal a retourné de manière inattendue une adresse vide.<br />Pour terminer votre achat, veuillez fournir votre adresse en cliquant sur le bouton &quot;S\'enregistrer&quot; ci-dessous pour créer un compte dans notre boutique. Vous pourrez alors choisir PayPal à nouveau lors de l\'encaissement. Nous nous excusons pour la gêne occasionnée. Si vous avez des difficultés avec l\'encaissement, veuillez cliquer sur le lien Contactez Nous pour nous les expliquer en détail de sorte que nous puissions vous aider avec votre achat et empêcher le problème à l\'avenir. Merci.',
     'MODULES_PAYMENT_PAYPALWPP_AGGREGATE_CART_CONTENTS' => 'Tous les articles dans votre panier (voir les détails dans la boutique et sur votre reçu de la boutique).',
-// bof constant configuration titles and descriptions for order total module paypalwpp
+// bof constant configuration titles and descriptions for order payment paypalwpp
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_STATUS' => 'Activer ce module de paiement',
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_STATUS' => 'Voulez-vous activer ce module de paiement ? Utilisez le paramètre « <strong>Retired</strong> » si vous envisagez de supprimer ce module de paiement mais que vous avez encore des actions administratives à effectuer sur les commandes passées avec ce module.',
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_SORT_ORDER' => 'Ordre de tri',
@@ -200,7 +200,7 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_SERVER' => '<strong>Live : </strong> Utilisé pour traiter les transactions en direct<br><strong>Sandbox : </strong>Pour les développeurs et les tests',
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_DEBUGGING' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_DEBUGGING' => 'Souhaitez-vous activer le mode débogage ? Un journal complet et détaillé des transactions ayant échoué sera envoyé par courrier électronique au propriétaire du magasin.',
-// eof constant configuration titles and descriptions for order total module paypalwpp
+// eof constant configuration titles and descriptions for payment module paypalwpp
 ];
 
 if (IS_ADMIN_FLAG === true) {
