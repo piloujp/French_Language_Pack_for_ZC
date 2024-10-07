@@ -1,7 +1,7 @@
 <?php
 $define = [
-    'MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE' => 'Frais de Petite Commande',
-    'MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION' => 'Frais de petite commande',
+    'MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE' => 'Frais pour les petites commandes',
+    'MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION' => 'Frais pour les commandes à montant total bas',
 // bof constant configuration titles and descriptions for order total module ot_loworderfee
     'CFGTITLE_MODULE_ORDER_TOTAL_LOWORDERFEE_STATUS' => 'Ce module est installé',
 //    'CFGDESC_MODULE_ORDER_TOTAL_LOWORDERFEE_STATUS' => 'Voulez-vous que ce module s\'affiche ?',
