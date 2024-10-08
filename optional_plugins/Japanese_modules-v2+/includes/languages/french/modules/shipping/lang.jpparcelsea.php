@@ -3,7 +3,6 @@ $define = [
 	'MODULE_SHIPPING_JPPARCELSEA_TEXT_TITLE' =>        'Colis internationaux de surface',
 	'MODULE_SHIPPING_JPPARCELSEA_TEXT_DESCRIPTION' =>  'Réglages du module Colis internationaux de surface',
 	'MODULE_SHIPPING_JPPARCELSEA_TEXT_WAY_NORMAL' =>   'Colis internationaux de surface (2-3 mois)',
-	'MODULE_SHIPPING_JPPARCELSEA_TEXT_NOTAVAILABLE' => 'Non disponible pour ce pays.',
 //bof constant configuration titles and descriptions for jpParcelsea Shipping
     'CFGTITLE_MODULE_SHIPPING_JPPARCELSEA_STATUS' => 'Activer la méthode d\'expédition des colis internationaux de surface',
     'CFGDESC_MODULE_SHIPPING_JPPARCELSEA_STATUS' => 'Souhaitez-vous proposer des envois au tarif des colis internationaux de Surface ?',
