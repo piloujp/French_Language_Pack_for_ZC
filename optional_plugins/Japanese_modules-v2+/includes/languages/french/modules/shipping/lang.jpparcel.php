@@ -1,7 +1,7 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_JPPARCEL_TEXT_OVERSIZE' =>     'Too heavy for this service.',
-	'MODULE_SHIPPING_JPPARCEL_TEXT_ILLEGAL_AREA' => 'Illegal area.',
-	'MODULE_SHIPPING_JPPARCEL_TEXT_OUT_OF_AREA' =>  'Out of area.',
+	'MODULE_SHIPPING_JPPARCEL_TEXT_OVERSIZE' =>     'Trop lourd pour ce service.',
+	'MODULE_SHIPPING_JPPARCEL_TEXT_ILLEGAL_AREA' => 'Zone illégale.',
+	'MODULE_SHIPPING_JPPARCEL_TEXT_OUT_OF_AREA' =>  'Hors zone.',
 ];
 return $define;
