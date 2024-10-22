@@ -779,7 +779,7 @@ $define = [
     'CFGTITLE_SESSION_BLOCK_SPIDERS' => 'Prévenir les sessions des Spiderbots',
     'CFGDESC_SESSION_BLOCK_SPIDERS' => 'Empêcher les robots connus de démarrer une session.',
     'CFGTITLE_SESSION_RECREATE' => 'Recréer une session',
-    'CFGDESC_SESSION_RECREATE' => 'Recréez la session pour générer un nouvel ID de session lorsque le client se connecte ou crée un compte (PHP >=4.1 nécessaire).',
+    'CFGDESC_SESSION_RECREATE' => 'Recréez la session pour générer un nouvel ID de session lorsque le client se connecte ou crée un compte.',
     'CFGTITLE_SESSION_IP_TO_HOST_ADDRESS' => 'Statut de conversion IP en hôte',
     'CFGDESC_SESSION_IP_TO_HOST_ADDRESS' => 'Convertir l\'adresse IP en adresse d\'hôte<br><br>Remarque : sur certains serveurs, cela peut ralentir le démarrage initial d\'une session ou l\'exécution des e-mails',
     'CFGTITLE_SECURITY_CODE_LENGTH' => 'Longueur du code de réduction',
