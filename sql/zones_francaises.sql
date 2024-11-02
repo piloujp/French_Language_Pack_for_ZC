@@ -16,8 +16,6 @@ CREATE TABLE french_zones (PRIMARY KEY (zone_id)) as SELECT zone_id, zone_countr
 # Delete old French zones
 DELETE FROM zones WHERE zone_country_id IN (@coid0,@coid1,@coid2,@coid3,@coid4,@coid5,@coid6,@coid7,@coid8,@coid9,@coid10);
 
-ALTER TABLE zones MODIFY COLUMN zone_name VARCHAR(64);
-
 INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES
 (@coid0, '01', 'Ain'),
 (@coid0, '02', 'Aisne'),

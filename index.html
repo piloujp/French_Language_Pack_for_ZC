@@ -172,9 +172,9 @@ a.anclink {
           Directory: french<br>
           Sort Order: 0</p>
         <p class="texte">Set French as default if you want. Then <b>import/run</b>
-          SQL queries in file '<b>..\sql\orders_status_update.sql</b>' (provided
+          SQL queries in file '<b>../sql/orders_status_update.sql</b>' (provided
           with the language pack) to update order status table with French.
-          Finally, <b>import French zones</b> into database using file '<b>..\sql\zones_francaises.sql</b>'.</p>
+          Finally, <b>import French zones</b> into database using file '<b>../sql/zones_francaises.sql</b>'.</p>
         <p class="texte">Now you can go to configuration chapter to get ready
           for sale.</p>
       </div>
@@ -205,9 +205,9 @@ a.anclink {
           Directory: french<br>
           Sort Order: 0</p>
         <p class="texte">Set French as default if you want. Then <b>import/run</b>
-          SQL queries in file '<b>..\sql\orders_status_update.sql</b>' (provided
+          SQL queries in file '<b>../sql/orders_status_update.sql</b>' (provided
           with the language pack) to update order status table with French.
-          Finally, <b>import French zones</b> into database using file '<b>..\sql\zones_francaises.sql</b>'.</p>
+          Finally, <b>import French zones</b> into database using file '<b>../sql/zones_francaises.sql</b>'.</p>
         <p class="texte">If all is good, you can go to configuration chapter.</p>
       </div>
       <p class="title2">Configuration</p>
@@ -243,10 +243,18 @@ a.anclink {
         to offer automatic resizing of images, caching thumbnails, and more. You
         can upload multiple sizes of an image from the Admin image handler page.</p>
       <p class="title3">Bonus content</p>
-      <p class="texte">You will find translation for few plugins in folder
-        'optional_plugins'.<br>
-      </p>
-      <p class="texte"> </p>
+      <p class="texte">You will find some language files translation for few
+        plugins in folder '.../optional plugins/Encapsulated' for encapsulated
+        plugins and '.../optional plugins/Non-Encapsulated' for non-encapsulated
+        plugins. To use these, just copy files as follow:</p>
+      <p class="texte">For encapsulated plugins, copy the whole plugin folder in
+        your cart 'zc_plugins' folder.<br>
+        For non-encapsulated plugins, copy the 'includes' and 'admin' folders to
+        your cart root, but you must rename the 'admin' folder to your actual
+        admin folder name before.</p>
+      <p class="texte">Be aware that some plugins like Bootstrap Japanese
+        version have customized files other than language files and you might
+        need to merge those rather than copy them.</p>
       <p class="title2">Uninstall</p>
       <p class="texte">Set default language to English or whatever you want and
         <b>delete French language</b> from Zen Cart Admin menu
@@ -332,10 +340,10 @@ a.anclink {
           Directory: french<br>
           Sort Order: 0</p>
         <p class="texte">Définissez le français par défaut si vous le souhaitez.
-          Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>..\sql\orders_status_update.sql</b>'
+          Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>../sql/orders_status_update.sql</b>'
           (fourni avec le pack de langue) pour mettre à jour la table d'état des
           commandes avec le français. Finalement, <b>importer les zones
-            françaises</b> dans la base de données en utilisant le fichier '<b>..\sql\zones_francaises.sql</b>'.</p>
+            françaises</b> dans la base de données en utilisant le fichier '<b>../sql/zones_francaises.sql</b>'.</p>
         <p class="texte">Vous pouvez maintenant aller au chapitre de
           configuration pour vous préparer à la vente.</p>
       </div>
@@ -365,10 +373,10 @@ a.anclink {
           Directory: french<br>
           Sort Order: 0</p>
         <p class="texte">Définissez le français par défaut si vous le souhaitez.
-          Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>..\sql\orders_status_update.sql</b>'
+          Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>../sql/orders_status_update.sql</b>'
           (fourni avec le pack de langue) pour mettre à jour la table d'état des
           commandes avec le français. Finalement, <b>importer les zones
-            françaises</b> dans la base de données en utilisant le fichier '<b>..\sql\zones_francaises.sql</b>'.</p>
+            françaises</b> dans la base de données en utilisant le fichier '<b>../sql/zones_francaises.sql</b>'.</p>
         <p class="texte">Vous pouvez maintenant aller au chapitre de
           configuration pour vous préparer à la vente.</p>
       </div>
@@ -412,10 +420,21 @@ a.anclink {
         la mise en cache des vignettes, etc. Vous pouvez télécharger plusieurs
         tailles d’image à partir de la page du gestionnaire d’images Admin.</p>
       <p class="title3">Bonus</p>
-      <p class="texte">Vous trouverez la traduction de quelques plugins dans le
-        dossier «&nbsp;optional_plugins&nbsp;».<br>
-      </p>
-      <p class="texte"> </p>
+      <p class="texte">Vous trouverez quelques fichiers de traduction de langue
+        pour quelques plugins dans le dossier '.../optional
+        plugins/Encapsulated' pour les plugins encapsulés et '.../optional
+        plugins/Non-Encapsulated' pour les plugins non encapsulés. Pour les
+        utiliser, copiez simplement les fichiers comme suit&nbsp;:</p>
+      <p class="texte">Pour les plugins encapsulés, copiez l'intégralité du
+        dossier du plugin dans le dossier «&nbsp;zc_plugins&nbsp;» de votre
+        site.<br>
+        Pour les plugins non encapsulés, copiez les dossiers
+        «&nbsp;includes&nbsp;» et «&nbsp;admin&nbsp;» à la racine de votre site,
+        mais vous devez auparavant renommer le dossier «&nbsp;admin&nbsp;» avec
+        le nom réel de votre dossier d'administration.</p>
+      <p class="texte">Sachez que certains plugins comme la version japonaise de
+        Bootstrap ont des fichiers personnalisés autres que des fichiers de
+        langue et vous devrez peut-être les fusionner plutôt que de les copier.</p>
       <p class="title2">Uninstall</p>
       <p class="texte">Définissez l'anglais comme la langue par défaut ou celle
         de votre choix et <b>supprimez la langue française à partir du menu
