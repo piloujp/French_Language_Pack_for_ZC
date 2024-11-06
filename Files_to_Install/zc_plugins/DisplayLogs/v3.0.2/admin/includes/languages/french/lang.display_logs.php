@@ -30,7 +30,7 @@ $define = [
     'JS_MESSAGE_DELETE_ALL_CONFIRM' => 'Êtes-vous sûr de vouloir supprimer ces \'+n+\' fichiers ?',
     'JS_MESSAGE_DELETE_SELECTED_CONFIRM' => 'Etes-vous sûr de vouloir supprimer le(s) fichier(s) \'+selected+\' sélectionné(s) ?',
     'WARNING_NOT_SECURE' => '<span class="errorText">REMARQUE : vous n\'avez pas activé SSL. Le contenu des fichiers que vous affichez à partir de cette page ne sera pas chiffré et pourrait présenter un risque de sécurité.</span>',
-    'WARNING_NO_FILES_SELECTED' => 'Aucun fichier n\'a été sélectionné pour suppression !',
+    'WARNING_NO_FILES_SELECTED' => 'Aucun fichier n\\\'a été sélectionné pour suppression !',
     'WARNING_SOME_FILES_DELETED' => 'Avertissement : seuls %u des %u fichiers journaux ont été supprimés; vérifiez les autorisations.',
     'SUCCESS_FILES_DELETED' => '%u fichiers journaux ont été supprimés.',
 ];
