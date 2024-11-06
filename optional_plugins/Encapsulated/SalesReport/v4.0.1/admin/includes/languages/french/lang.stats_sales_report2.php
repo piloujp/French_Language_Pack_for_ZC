@@ -49,7 +49,7 @@ $defines = [
     'INCLUDE_CUSTOMERS' => '',
     'DISPLAY_TABLE_HEADING_CUSTOMERS' => true,
     'DISPLAY_TABLE_HEADING_PRODUCTS' => true,
-    'TEXT_CUSTOMER_TABLE_HEADING' => ' Commandes pour : ',  //Prefix used to print before customer name(s) when filtering by customer
+    'TEXT_CUSTOMER_TABLE_HEADING' => ' Commandes de : ',  //Prefix used to print before customer name(s) when filtering by customer
 
     //////////////////////////////////////////////////////////
     // PRODUCT MANUFACTURERS COLUMN
@@ -82,7 +82,7 @@ $defines = [
     // TIMEFRAME DATE DISPLAY
     // Note:  Other constants moved to the main processing file for v3.2.1.
     //
-    'DATE_SPACER' => ' à<br>&nbsp;&nbsp;&nbsp;',
+    'DATE_SPACER' => ' au<br>&nbsp;&nbsp;&nbsp;',
 
     //////////////////////////////////////////////////////////
     // EXCLUDE SPECIFIED PRODUCTS
@@ -264,7 +264,7 @@ $defines = [
     'ALERT_JS_HIGHLIGHT' => '#FF40CF',
     'ALERT_MSG_START' => 'Il y a une ou plusieurs erreurs dans vos sélections :',
     'ALERT_DATE_INVALID_LENGTH' => '> Les dates doivent comporter 10 caractères : ',
-    'ALERT_DATE_INVALID' => '> Ceci n\'est pas une date valide : ',
+    'ALERT_DATE_INVALID' => '> Ceci n\\\'est pas une date valide : ',
     'ALERT_MSG_FINISH' => 'Veuillez corriger le(s) problème(s) et soumettre à nouveau votre recherche.',
 
     // Other text defines
@@ -282,16 +282,16 @@ $defines = [
     'TEXT_NO_DATA' => '-- AUCUNE COMMANDE DANS LA PERIODE --',
 
     // Buttons
-    'BUTTON_TIMEFRAME_PRESET' => 'Choisissez le préréglage',
-    'BUTTON_TIMEFRAME_CUSTOM' => 'Personnaliser',
+    'BUTTON_TIMEFRAME_PRESET' => 'Choisir un préréglage',
+    'BUTTON_TIMEFRAME_CUSTOM' => 'Choisir une plage personnalisée',
 ];
 
 // -----
 // Some of the language definitions reuse the main definitions; add them separately since
 // they're not defined at this point.
 //
-$defines['ALERT_CSV_CONFLICT'] = '> La sortie CSV n\'est pas disponible pour l\'affichage ' . $defines['SELECT_DETAIL_MATRIX'] . '.';
-$defines['ERROR_CSV_CONFLICT'] = 'La sortie CSV n\'est pas disponible pour l\'affichage <em>' . $defines['SELECT_DETAIL_MATRIX'] . '</em> ; veuillez ressélectionner les options du rapport.';
+$defines['ALERT_CSV_CONFLICT'] = '> La sortie CSV n\\\'est pas disponible pour l\\\'affichage ' . $defines['SELECT_DETAIL_MATRIX'] . '.';
+$defines['ERROR_CSV_CONFLICT'] = 'La sortie CSV n\\\'est pas disponible pour l\\\'affichage <em>' . $defines['SELECT_DETAIL_MATRIX'] . '</em> ; veuillez ressélectionner les options du rapport.';
 $defines['TEXT_PRINT_FORMAT_TITLE'] = 'CONSEIL : cliquez sur \'' . $defines['PAGE_HEADING'] . '\' pour revenir à la vue d\'affichage';
 
 return $defines;
