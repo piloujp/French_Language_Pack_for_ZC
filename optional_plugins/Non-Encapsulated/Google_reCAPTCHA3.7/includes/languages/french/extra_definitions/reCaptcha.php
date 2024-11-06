@@ -13,4 +13,4 @@ $define = [
     'RECAPTCHA_INVALID_INPUT_RESPONSE' => 'Désolé, veuillez vérifier à nouveau que vous n\'êtes pas un robot',
 ];
     
-retrun $define;
+return $define;
