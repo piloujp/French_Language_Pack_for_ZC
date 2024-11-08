@@ -179,6 +179,14 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_SERVER' => '<strong>Live : </strong> Utilisé pour traiter les transactions en direct<br><strong>Sandbox : </strong>Pour les développeurs et les tests',
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_DEBUGGING' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_DEBUGGING' => 'Souhaitez-vous activer le mode débogage ? Un journal complet et détaillé des transactions ayant échoué sera envoyé par courrier électronique au propriétaire du magasin.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_CARDINAL_PROCESSOR' => 'ID du processeur Cardinal',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_CARDINAL_PROCESSOR' => 'L\'ID du processeur pour le service Cardinal Centinel. ',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_CARDINAL_MERCHANT' => 'ID de marchand Cardinal',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_CARDINAL_MERCHANT' => 'L\'identifiant du commerçant pour le service Cardinal Centinel. ',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_CARDINAL_PASSWORD' => 'Mot de passe de transaction Cardinal',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_CARDINAL_PASSWORD' => 'Saisissez votre mot de passe de transaction Cardinal depuis votre console d\'administration Cardinal Merchant. Il permet de sécuriser et de vérifier que la transaction provient légitimement de votre boutique.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_CARDINAL_AUTHENTICATE_REQ' => 'Accepter uniquement les commandes protégées par rétrofacturation via Cardinal ?',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_CARDINAL_AUTHENTICATE_REQ' => 'Procéder à l’autorisation uniquement lorsque le résultat de l’authentification Cardinal offre une protection contre la rétrofacturation ? ',
 // eof constant configuration titles and descriptions for payment module paypaldp
 ];
 

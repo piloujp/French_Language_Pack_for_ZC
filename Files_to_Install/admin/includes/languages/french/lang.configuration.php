@@ -70,6 +70,7 @@ $define = [
     'TEXT_MAX_ADMIN_DISPLAY_PRODUCTS_TO_CATEGORIES_COLUMNS_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_EZPAGE_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_PREVIEW' => 'La valeur doit être un entier.',
+// Begining of constant configuration group titles  for table configuration_group
 /*
     'CFG_GRP_TITLE_MY_STORE' => 'Ma Boutique',
     'CFG_GRP_TITLE_MINIMUM_VALUES' => 'Valeurs minimales',
@@ -98,7 +99,6 @@ $define = [
     'CFG_GRP_TITLE_DEFINE_PAGE_STATUS' => 'Status des pages de définitions',
     'CFG_GRP_TITLE_EZ-PAGES_SETTINGS' => 'Réglages des EZ-Pages',
 */
-//bof constant configuration group page titles
     'CFG_GRP_TITLE_MY_STORE' => '%%BOX_CONFIGURATION_MY_STORE%%',
     'CFG_GRP_TITLE_MINIMUM_VALUES' => '%%BOX_CONFIGURATION_MINIMUM_VALUES%%',
     'CFG_GRP_TITLE_MAXIMUM_VALUES' => '%%BOX_CONFIGURATION_MAXIMUM_VALUES%%',
@@ -124,8 +124,8 @@ $define = [
     'CFG_GRP_TITLE_INDEX_LISTING' => '%%BOX_CONFIGURATION_INDEX_LISTING%%',
     'CFG_GRP_TITLE_DEFINE_PAGE_STATUS' => '%%BOX_CONFIGURATION_DEFINE_PAGE_STATUS%%',
     'CFG_GRP_TITLE_EZPAGES_SETTINGS' => '%%BOX_CONFIGURATION_EZPAGES_SETTINGS%%',
-//eof constant configuration group page titles
-//bof constant configuration titles and descriptions
+// End of constant configuration group titles for table configuration_group
+// Begining of constant configuration titles and descriptions for table configuration
     'CFGTITLE_STORE_NAME' => 'Nom du magasin',
     'CFGDESC_STORE_NAME' => 'Le nom de mon magasin',
     'CFGTITLE_STORE_OWNER' => 'Propriétaire',
@@ -1244,7 +1244,7 @@ $define = [
     'CFGDESC_SESSION_USE_ROOT_COOKIE_PATH' => 'Normalement, Zen Cart utilise le répertoire dans lequel se trouve la boutique comme chemin d\'accès aux cookies. Cela peut entraîner des problèmes avec certains serveurs. Ce paramètre vous permet de définir le chemin d\'accès du cookie à la racine du serveur, plutôt qu\'au répertoire du magasin. Il ne doit être utilisé que si vous rencontrez des problèmes avec les sessions. <strong>Valeur par défaut = False</strong><br><br><strong>La modification de ce paramètre peut entraîner des problèmes de connexion à votre administration. Vous devez effacer les cookies de votre navigateur pour résoudre ce problème.</strong>',
     'CFGTITLE_SESSION_ADD_PERIOD_PREFIX' => 'Ajouter un point comme préfixe au domaine du cookie',
     'CFGDESC_SESSION_ADD_PERIOD_PREFIX' => 'Normalement, Zen Cart ajoute un point comme préfixe au domaine du cookie, par exemple .www.mondomaine.com. Cela peut parfois entraîner des problèmes avec certaines configurations de serveur. Si vous rencontrez des problèmes de session, vous pouvez essayer de définir cette valeur sur False. <strong>Valeur par défaut = True</strong>',
-//eof constant configuration titles and descriptions    
+// End of constant configuration titles and descriptions for table configuration
 ];
 
 return $define;

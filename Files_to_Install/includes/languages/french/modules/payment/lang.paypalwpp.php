@@ -200,6 +200,14 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_SERVER' => '<strong>Live : </strong> Utilisé pour traiter les transactions en direct<br><strong>Sandbox : </strong>Pour les développeurs et les tests',
     'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_DEBUGGING' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_PAYPALWPP_DEBUGGING' => 'Souhaitez-vous activer le mode débogage ? Un journal complet et détaillé des transactions ayant échoué sera envoyé par courrier électronique au propriétaire du magasin.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_PFUSER' => 'PAYFLOW : Utilisateur',
+    'CFGDESC_MODULE_PAYMENT_PAYPALWPP_PFUSER' => 'Si vous configurez un ou plusieurs utilisateurs supplémentaires sur le compte, cette valeur correspond à l\'ID de l\'utilisateur autorisé à traiter les transactions. Sinon, elle doit être identique à celle de VENDOR. Cette valeur est sensible à la casse.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_PFPARTNER' => 'PAYFLOW : Partenaire',
+    'CFGDESC_MODULE_PAYMENT_PAYPALWPP_PFPARTNER' => 'Le nom de votre partenaire Payflow associé à votre compte Payflow. Cette valeur est sensible à la casse.<br>Valeurs typiques : <strong>PayPal</strong> ou <strong>ZenCart</strong>',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_PFVENDOR' => 'PAYFLOW : Marchand',
+    'CFGDESC_MODULE_PAYMENT_PAYPALWPP_PFVENDOR' => 'Votre identifiant de connexion marchand que vous avez créé lors de votre inscription au compte Payflow Pro. Cette valeur est sensible à la casse.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALWPP_PFPASSWORD' => 'PAYFLOW : Mot de passe',
+    'CFGDESC_MODULE_PAYMENT_PAYPALWPP_PFPASSWORD' => 'Mot de passe de 6 à 32 caractères que vous avez défini lors de l\'enregistrement du compte. Cette valeur est sensible à la casse.',
 // eof constant configuration titles and descriptions for payment module paypalwpp
 ];
 
