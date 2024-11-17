@@ -1,4 +1,5 @@
 <?php
+
 $define = [
     'CFG_GRP_TITLE_VAT4EU_PLUGIN' => 'Plugin TVA pour les pays de l\'UE (VAT4EU)',
     'CFGTITLE_VAT4EU_MODULE_VERSION' => 'Version du plugin et date de sortie',
