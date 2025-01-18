@@ -9,6 +9,7 @@ $define = [
     'MODULE_SHIPPING_YAMATO_TEXT_OVERSIZE' => 'Le poids ou la taille dépasse les limites.',
     'MODULE_SHIPPING_YAMATO_TEXT_ILLEGAL_ZONE' => 'Préfecture spécifiée incorrecte.',
     'MODULE_SHIPPING_YAMATO_TEXT_OUT_OF_AREA' => 'Hors zone de livraison.',
+    'MODULE_SHIPPING_YAMATO_TEXT_DIMENSION_MISSING' => 'Erreur! Dimension(s) de produit(s) manquante(s).',
 //bof constant configuration titles and descriptions for Yamato Shipping
     'CFGTITLE_MODULE_SHIPPING_YAMATO_STATUS' => 'Activer la méthode d\'expédition Yamato',
     'CFGDESC_MODULE_SHIPPING_YAMATO_STATUS' => 'Souhaitez-vous proposer une livraison au tarif Yamato ?',
