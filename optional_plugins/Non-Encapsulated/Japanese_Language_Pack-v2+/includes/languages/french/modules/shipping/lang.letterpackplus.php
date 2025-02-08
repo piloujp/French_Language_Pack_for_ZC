@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_LETTERPACKPLUS_TEXT_TITLE' => 'LetterPack Plus',
-	'MODULE_SHIPPING_LETTERPACKPLUS_TEXT_DESCRIPTION' => 'Réglages du module LetterPack Plus',
-	'MODULE_SHIPPING_LETTERPACKPLUS_TEXT_WAY' => 'Taux fixe pour tout le Japon',
+    'MODULE_SHIPPING_LETTERPACKPLUS_TEXT_TITLE' => 'LetterPack Plus',
+    'MODULE_SHIPPING_LETTERPACKPLUS_TEXT_DESCRIPTION' => 'Réglages du module LetterPack Plus',
+    'MODULE_SHIPPING_LETTERPACKPLUS_TEXT_WAY' => 'Taux fixe pour tout le Japon',
 //bof constant configuration titles and descriptions for letterpackplus Shipping
     'CFGTITLE_MODULE_SHIPPING_LETTERPACKPLUS_STATUS' => 'Activer l\'expédition par Letter Pack Plus',
     'CFGDESC_MODULE_SHIPPING_LETTERPACKPLUS_STATUS' => 'Souhaitez-vous proposer le tarif d\'expédition Letter Pack Plus ?',

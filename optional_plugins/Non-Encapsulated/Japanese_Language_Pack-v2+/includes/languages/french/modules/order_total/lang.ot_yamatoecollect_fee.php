@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_ORDER_TOTAL_YAMATOECOLLECT_TITLE' => 'Frais de paiement à la livraison Yamato',
-	'MODULE_ORDER_TOTAL_YAMATOECOLLECT_DESCRIPTION' => 'Frais de contre remboursement pour la livraison par Yamato',
-	'TEXT_INFO_YAMATOECOLLECT_FEES' => '<strong>Remarque :</strong> des frais peuvent s\'appliquer',
+    'MODULE_ORDER_TOTAL_YAMATOECOLLECT_TITLE' => 'Frais de paiement à la livraison Yamato',
+    'MODULE_ORDER_TOTAL_YAMATOECOLLECT_DESCRIPTION' => 'Frais de contre remboursement pour la livraison par Yamato',
+    'TEXT_INFO_YAMATOECOLLECT_FEES' => '<strong>Remarque :</strong> des frais peuvent s\'appliquer',
 //bof constant configuration titles and descriptions for ot_yamatoecollect_fee
     'CFGTITLE_MODULE_ORDER_TOTAL_YAMATOECOLLECT_STATUS' => 'Affichage YAMATOECOLLECT',
     'CFGDESC_MODULE_ORDER_TOTAL_YAMATOECOLLECT_STATUS' => 'Voulez-vous que ce module s\'affiche ?',

@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_ORDER_TOTAL_SAGAWAECOLLECT_TITLE' => 'Frais de paiement à la livraison Sagawa',
-	'MODULE_ORDER_TOTAL_SAGAWAECOLLECT_DESCRIPTION' => 'Frais de contre remboursement pour la livraison par Sagawa',
-	'TEXT_INFO_SAGAWAECOLLECT_FEES' => '<strong>Remarque :</strong> des frais peuvent s\'appliquer',
+    'MODULE_ORDER_TOTAL_SAGAWAECOLLECT_TITLE' => 'Frais de paiement à la livraison Sagawa',
+    'MODULE_ORDER_TOTAL_SAGAWAECOLLECT_DESCRIPTION' => 'Frais de contre remboursement pour la livraison par Sagawa',
+    'TEXT_INFO_SAGAWAECOLLECT_FEES' => '<strong>Remarque :</strong> des frais peuvent s\'appliquer',
 //bof constant configuration titles and descriptions for ot_sagawaecollect_fee
     'CFGTITLE_MODULE_ORDER_TOTAL_SAGAWAECOLLECT_STATUS' => 'Affichage SAGAWAECOLLECT',
     'CFGDESC_MODULE_ORDER_TOTAL_SAGAWAECOLLECT_STATUS' => 'Voulez-vous que ce module s\'affiche ?',

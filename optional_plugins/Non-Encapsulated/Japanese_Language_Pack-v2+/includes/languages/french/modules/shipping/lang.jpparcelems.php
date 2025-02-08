@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_JPPARCELEMS_TEXT_TITLE' =>        'Courrier express international',
-	'MODULE_SHIPPING_JPPARCELEMS_TEXT_DESCRIPTION' =>  'Réglages du module Courrier express international',
-	'MODULE_SHIPPING_JPPARCELEMS_TEXT_WAY_NORMAL' =>   'EMS (4-10 jours)',
+    'MODULE_SHIPPING_JPPARCELEMS_TEXT_TITLE' =>        'Courrier express international',
+    'MODULE_SHIPPING_JPPARCELEMS_TEXT_DESCRIPTION' =>  'Réglages du module Courrier express international',
+    'MODULE_SHIPPING_JPPARCELEMS_TEXT_WAY_NORMAL' =>   'EMS (4-10 jours)',
 //bof constant configuration titles and descriptions for jpParcelems Shipping
     'CFGTITLE_MODULE_SHIPPING_JPPARCELEMS_STATUS' => 'Activer la méthode d\'expédition EMS',
     'CFGDESC_MODULE_SHIPPING_JPPARCELEMS_STATUS' => 'Souhaitez-vous proposer une expédition au tarif EMS ?',

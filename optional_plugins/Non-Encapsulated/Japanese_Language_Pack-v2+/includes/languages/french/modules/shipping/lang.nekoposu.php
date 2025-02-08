@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_NEKOPOSU_TEXT_TITLE' => 'Yamato Nekoposu',
-	'MODULE_SHIPPING_NEKOPOSU_TEXT_DESCRIPTION' => 'Réglages du module Yamato Nekoposu',
-	'MODULE_SHIPPING_NEKOPOSU_TEXT_WAY' => 'Taux fixe pour tout le Japon',
+    'MODULE_SHIPPING_NEKOPOSU_TEXT_TITLE' => 'Yamato Nekoposu',
+    'MODULE_SHIPPING_NEKOPOSU_TEXT_DESCRIPTION' => 'Réglages du module Yamato Nekoposu',
+    'MODULE_SHIPPING_NEKOPOSU_TEXT_WAY' => 'Taux fixe pour tout le Japon',
 //bof constant configuration titles and descriptions for nekoposu Shipping
     'CFGTITLE_MODULE_SHIPPING_NEKOPOSU_STATUS' => 'Activer l\'expédition par Nekoposu',
     'CFGDESC_MODULE_SHIPPING_NEKOPOSU_STATUS' => 'Souhaitez-vous proposer la livraison au tarif Nekoposu ?',

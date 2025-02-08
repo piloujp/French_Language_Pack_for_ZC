@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_JPPARCELAIR_TEXT_TITLE' =>        'Colis internationaux par avion',
-	'MODULE_SHIPPING_JPPARCELAIR_TEXT_DESCRIPTION' =>  'Réglages du module Colis internationaux par avion',
-	'MODULE_SHIPPING_JPPARCELAIR_TEXT_WAY_NORMAL' =>   'Colis internationaux par avion (7-15 jours)',
+    'MODULE_SHIPPING_JPPARCELAIR_TEXT_TITLE' =>        'Colis internationaux par avion',
+    'MODULE_SHIPPING_JPPARCELAIR_TEXT_DESCRIPTION' =>  'Réglages du module Colis internationaux par avion',
+    'MODULE_SHIPPING_JPPARCELAIR_TEXT_WAY_NORMAL' =>   'Colis internationaux par avion (7-15 jours)',
 //bof constant configuration titles and descriptions for jpParcelair Shipping
     'CFGTITLE_MODULE_SHIPPING_JPPARCELAIR_STATUS' => 'Activer la méthode d\'expédition par colis internationaux aériens',
     'CFGDESC_MODULE_SHIPPING_JPPARCELAIR_STATUS' => 'Souhaitez-vous proposer l\'expédition de colis internationaux au tarif aérien ?',

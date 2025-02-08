@@ -1,7 +1,7 @@
 <?php
 $define = [
-	'MODULE_PAYMENT_SAGAWAECOLLECT_TEXT_TITLE' => 'Paiement à la livraison de Sagawa',
-	'MODULE_PAYMENT_SAGAWAECOLLECT_TEXT_DESCRIPTION' => 'Paiement à la livraison de Sagawa',
+    'MODULE_PAYMENT_SAGAWAECOLLECT_TEXT_TITLE' => 'Paiement à la livraison de Sagawa',
+    'MODULE_PAYMENT_SAGAWAECOLLECT_TEXT_DESCRIPTION' => 'Paiement à la livraison de Sagawa',
 // bof constant configuration titles and descriptions for payment module sagawaecollect
     'CFGTITLE_MODULE_PAYMENT_SAGAWAECOLLECT_STATUS' => 'Activer le module de paiement à la livraison de Sagawa',
     'CFGDESC_MODULE_PAYMENT_SAGAWAECOLLECT_STATUS' => 'Souhaitez-vous accepter les paiements à la livraison de Sagawa ?',

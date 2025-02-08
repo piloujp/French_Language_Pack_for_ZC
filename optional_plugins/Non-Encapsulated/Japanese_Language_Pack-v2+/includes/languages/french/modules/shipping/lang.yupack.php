@@ -1,14 +1,14 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_YUPACK_TEXT_TITLE' =>        'Yu-Pack 1-4 jours',
-	'MODULE_SHIPPING_YUPACK_TEXT_DESCRIPTION' =>  'Réglages du module Yu-Pack de la poste japonaise',
-	'MODULE_SHIPPING_YUPACK_TEXT_WAY_NORMAL' =>   'Standard',
-	'MODULE_SHIPPING_YUPACK_TEXT_WAY_COOL' =>     'Express réfrigéré',
-	'MODULE_SHIPPING_YUPACK_TEXT_WAY_TOP' =>      'Top Express',
-	'MODULE_SHIPPING_YUPACK_TEXT_NOTAVAILABLE' => 'Ce service n\'est pas offert entre les régions sélectionnées.',
-	'MODULE_SHIPPING_YUPACK_TEXT_OVERSIZE' =>     'Le poids ou la taille dépasse les limites.',
-	'MODULE_SHIPPING_YUPACK_TEXT_ILLEGAL_ZONE' => 'Préfecture spécifiée incorrecte.',
-	'MODULE_SHIPPING_YUPACK_TEXT_OUT_OF_AREA' =>  'Hors zone de livraison.',
+    'MODULE_SHIPPING_YUPACK_TEXT_TITLE' =>        'Yu-Pack 1-4 jours',
+    'MODULE_SHIPPING_YUPACK_TEXT_DESCRIPTION' =>  'Réglages du module Yu-Pack de la poste japonaise',
+    'MODULE_SHIPPING_YUPACK_TEXT_WAY_NORMAL' =>   'Standard',
+    'MODULE_SHIPPING_YUPACK_TEXT_WAY_COOL' =>     'Express réfrigéré',
+    'MODULE_SHIPPING_YUPACK_TEXT_WAY_TOP' =>      'Top Express',
+    'MODULE_SHIPPING_YUPACK_TEXT_NOTAVAILABLE' => 'Ce service n\'est pas offert entre les régions sélectionnées.',
+    'MODULE_SHIPPING_YUPACK_TEXT_OVERSIZE' =>     'Le poids ou la taille dépasse les limites.',
+    'MODULE_SHIPPING_YUPACK_TEXT_ILLEGAL_ZONE' => 'Préfecture spécifiée incorrecte.',
+    'MODULE_SHIPPING_YUPACK_TEXT_OUT_OF_AREA' =>  'Hors zone de livraison.',
     'MODULE_SHIPPING_YUPACK_TEXT_DIMENSION_MISSING' => 'Erreur! Dimension(s) de produit(s) manquante(s).',
 //bof constant configuration titles and descriptions for YuPack Shipping
     'CFGTITLE_MODULE_SHIPPING_YUPACK_STATUS' => 'Activer la méthode d\'expédition Yu-Pack',

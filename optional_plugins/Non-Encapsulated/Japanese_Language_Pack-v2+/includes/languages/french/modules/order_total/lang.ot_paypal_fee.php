@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_ORDER_TOTAL_PAYPAL_TITLE' => 'Frais PayPal',
-	'MODULE_ORDER_TOTAL_PAYPAL_DESCRIPTION' => 'Frais PayPal',
-	'TEXT_INFO_PAYPAL_FEES' => '<strong>Remarque :</strong> des frais peuvent s\'appliquer',
+    'MODULE_ORDER_TOTAL_PAYPAL_TITLE' => 'Frais PayPal',
+    'MODULE_ORDER_TOTAL_PAYPAL_DESCRIPTION' => 'Frais PayPal',
+    'TEXT_INFO_PAYPAL_FEES' => '<strong>Remarque :</strong> des frais peuvent s\'appliquer',
 //bof constant configuration titles and descriptions for ot_paypal_fee
     'CFGTITLE_MODULE_ORDER_TOTAL_PAYPAL_STATUS' => 'Afficher les frais PayPal',
     'CFGDESC_MODULE_ORDER_TOTAL_PAYPAL_STATUS' => 'Voulez-vous que ce module s\'affiche ?',

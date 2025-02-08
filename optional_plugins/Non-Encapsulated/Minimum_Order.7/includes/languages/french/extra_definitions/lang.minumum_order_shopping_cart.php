@@ -12,8 +12,8 @@
 
 
 $define = [
-	'TEXT_ORDER_UNDER_MIN_AMOUNT' => 'Un montant minimum de commande de %s est requis pour pouvoir procéder au paiement.',
-	'TEXT_FIRST_ORDER_UNDER_MIN_AMOUNT' => 'Un montant minimum de commande de %s est requis pour que votre première commande soit validée.'
+    'TEXT_ORDER_UNDER_MIN_AMOUNT' => 'Un montant minimum de commande de %s est requis pour pouvoir procéder au paiement.',
+    'TEXT_FIRST_ORDER_UNDER_MIN_AMOUNT' => 'Un montant minimum de commande de %s est requis pour que votre première commande soit validée.'
 ];
 
 return $define;

@@ -1,7 +1,7 @@
 <?php
 $define = [
-	'MODULE_PAYMENT_YAMATOECOLLECT_TEXT_TITLE' => 'Paiement à la livraison Yamato',
-	'MODULE_PAYMENT_YAMATOECOLLECT_TEXT_DESCRIPTION' => 'Paiement à la livraison Yamato',
+    'MODULE_PAYMENT_YAMATOECOLLECT_TEXT_TITLE' => 'Paiement à la livraison Yamato',
+    'MODULE_PAYMENT_YAMATOECOLLECT_TEXT_DESCRIPTION' => 'Paiement à la livraison Yamato',
 // bof constant configuration titles and descriptions for payment module yamatoecollect
     'CFGTITLE_MODULE_PAYMENT_YAMATOECOLLECT_STATUS' => 'Activer le module Yamato de paiement à la livraison',
     'CFGDESC_MODULE_PAYMENT_YAMATOECOLLECT_STATUS' => 'Souhaitez-vous accepter les paiements à la livraison de Yamato ?',

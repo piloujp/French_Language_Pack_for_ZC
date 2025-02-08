@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_SHIPPING_LETTERPACKLITE_TEXT_TITLE' => 'LetterPack Lite',
-	'MODULE_SHIPPING_LETTERPACKLITE_TEXT_DESCRIPTION' => 'Réglages du module LetterPack Lite',
-	'MODULE_SHIPPING_LETTERPACKLITE_TEXT_WAY' => 'Taux fixe pour tout le Japon',
+    'MODULE_SHIPPING_LETTERPACKLITE_TEXT_TITLE' => 'LetterPack Lite',
+    'MODULE_SHIPPING_LETTERPACKLITE_TEXT_DESCRIPTION' => 'Réglages du module LetterPack Lite',
+    'MODULE_SHIPPING_LETTERPACKLITE_TEXT_WAY' => 'Taux fixe pour tout le Japon',
 //bof constant configuration titles and descriptions for letterpacklite Shipping
     'CFGTITLE_MODULE_SHIPPING_LETTERPACKLITE_STATUS' => 'Activer l\'expédition par Letter Pack Lite',
     'CFGDESC_MODULE_SHIPPING_LETTERPACKLITE_STATUS' => 'Souhaitez-vous proposer le tarif d\'expédition Letter Pack Lite ?',

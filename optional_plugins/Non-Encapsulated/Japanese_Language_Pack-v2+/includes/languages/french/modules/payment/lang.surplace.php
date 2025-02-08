@@ -1,8 +1,8 @@
 <?php
 $define = [
-	'MODULE_PAYMENT_SURPLACE_TEXT_TITLE' => 'Paiement en boutique',
-	'MODULE_PAYMENT_SURPLACE_TEXT_DESCRIPTION' => '<BR>Paiement en magasin ou sur le terrain.',
-	'MODULE_PAYMENT_SURPLACE_TEXT_EMAIL_FOOTER' => 'Veuillez nous contacter pour organiser une rencontre.',
+    'MODULE_PAYMENT_SURPLACE_TEXT_TITLE' => 'Paiement en boutique',
+    'MODULE_PAYMENT_SURPLACE_TEXT_DESCRIPTION' => '<BR>Paiement en magasin ou sur le terrain.',
+    'MODULE_PAYMENT_SURPLACE_TEXT_EMAIL_FOOTER' => 'Veuillez nous contacter pour organiser une rencontre.',
 // bof constant configuration titles and descriptions for payment module surplace
     'CFGTITLE_MODULE_PAYMENT_SURPLACE_STATUS' => 'Activer le paiement en boutique',
     'CFGDESC_MODULE_PAYMENT_SURPLACE_STATUS' => 'Souhaitez-vous accepter le paiement en boutique ?',
