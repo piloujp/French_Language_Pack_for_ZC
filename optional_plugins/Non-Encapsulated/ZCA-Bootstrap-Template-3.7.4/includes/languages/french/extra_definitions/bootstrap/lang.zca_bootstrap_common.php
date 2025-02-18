@@ -75,7 +75,7 @@ $define = [
 
     'TABLE_HEADING_PRODUCTS' => 'Nom du produit',
     'TABLE_HEADING_MANUFACTURER' => 'Fabricant',
-    'TABLE_HEADING_PRICE' => 'Price',
+    'TABLE_HEADING_PRICE' => 'Prix',
     'TABLE_HEADING_WEIGHT' => 'Poids',
     'TABLE_HEADING_BUY_NOW' => 'Acheter maintenant',
     'TEXT_NO_PRODUCTS' => 'Il n\'y a aucun produit à lister dans cette catégorie.',
@@ -112,7 +112,7 @@ $define = [
 // <h1> text for index pages where the 'normal' heading-text isn't used by a
 // store ... for accessibility.
 //
-// Note: for zc200, this constant will be in /includes/languages/english/lang.index.php.
+// Note: For zc200, this constant will be in /includes/languages/english/lang.index.php.
 //
     'HEADING_TITLE_SCREENREADER' => 'Voir le contenu supplémentaire ci-dessous',
 ];
