@@ -15,7 +15,7 @@ $define = [
     'CFGDESC_COLUMN_WIDTH_LEFT' => 'Largeur de la colonne de gauche<br>px peut être inclus<br>Par défaut = 150 px<br><br><b>Cette configuration n\'a aucun effet avec les composants réactifs ZCA ou les thèmes Bootstrap ZCA</b>',
     'CFGDESC_COLUMN_WIDTH_RIGHT' => 'Largeur de la colonne de droite<br>px peut être inclus<br>Par défaut = 150 px<br><b>Cette configuration n\'a aucun effet avec les composants réactifs ZCA ou les thèmes ZCA Bootstrap</b>',
     'CFGDESC_PRODUCT_LISTING_COLUMNS_PER_ROW' => 'Sélectionnez le nombre de colonnes de produits à afficher par ligne dans la liste des produits.<br>Recommandé : 3<br>1 = mode [lignes].<br><br>Pour le modèle <code>bootstrap</code>, utilisez 0 (colonnes fluides) ou 1 (lignes).<br>',
-// Boostrap configuration setings
+// Boostrap configuration settings
     'CFGTITLE_BS4_AJAX_SEARCH_ENABLE' => 'Activer la recherche AJAX ?',
     'CFGDESC_BS4_AJAX_SEARCH_ENABLE' => 'Activer la fonction de recherche AJAX du modèle ?',
     'CFGTITLE_BS4_AJAX_SEARCH_RESULTS_PER_PAGE' => 'Recherche AJAX : résultats maximum',
