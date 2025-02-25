@@ -3,10 +3,10 @@ $define = [
     'NAVBAR_TITLE_1' => 'Connexion',
     'NAVBAR_TITLE_2' => 'Mot de passe oublié',
     'HEADING_TITLE' => 'Mot de passe oublié',
-    'TEXT_MAIN' => 'Entrez ci-dessous l\'adresse e-mail de votre compte client et nous vous enverrons un message contenant votre nouveau mot de passe.',
-    'EMAIL_PASSWORD_REMINDER_SUBJECT' => STORE_NAME . ' - Nouveau mot de passe',
-    'EMAIL_PASSWORD_REMINDER_BODY' => 'Un nouveau mot de passe a été demandé depuis ' . $_SERVER['REMOTE_ADDR'] . '.' . "\n\n" . 'Votre nouveau mot de passe pour vous connecter sur \'' . STORE_NAME . '\' est :' . "\n\n" . '   %s' . "\n\nAprès vous être connecté(e) à l\'aide du nouveau mot de passe, vous pouvez le changer en allant dans 'Mon compte'",
-    'SUCCESS_PASSWORD_SENT' => 'Merci. Si cette adresse e-mail se trouve dans notre système, nous l\'utiliserons pour envoyer des instructions de récupération de mot de passe (n\'oubliez pas de vérifier votre dossier Spam).',
+    'TEXT_MAIN' => 'Saisissez votre adresse e-mail ci-dessous et nous vous enverrons des instructions pour réinitialiser votre mot de passe.',
+    'EMAIL_PASSWORD_RESET_SUBJECT' => '%%STORE_NAME%% - Réinitialisation du mot de passe',
+    'EMAIL_PASSWORD_RESET_BODY' => "Une réinitialisation du mot de passe a été demandée par %1s. \n\nPour réinitialiser votre mot de passe pour '%2s', veuillez visiter l'URL suivante :\n\n%3s \n\n",
+    'SUCCESS_PASSWORD_RESET_SENT' => 'Merci. Si cette adresse e-mail se trouve dans notre système, nous l\'utiliserons pour envoyer des instructions de récupération de mot de passe (n\'oubliez pas de vérifier votre dossier Spam).',
 ];
 
 return $define;

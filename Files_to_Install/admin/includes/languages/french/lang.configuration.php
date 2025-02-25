@@ -61,6 +61,7 @@ $define = [
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_FEATURED_ADMIN_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_FEATURED_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_FEATURED_PRODUCTS_LENGTH' => 'La valeur doit être un entier.',
+    'TEXT_MAX_ADMIN_RANDOM_SELECT_FEATURED_CATEGORIES_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_ADMIN_RANDOM_SELECT_FEATURED_PRODUCTS_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_ADMIN_DISPLAY_SPECIAL_PRODUCTS_INDEX_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_ADMIN_SHOW_NEW_PRODUCTS_LIMIT_LENGTH' => 'La valeur doit être un entier.',
@@ -70,6 +71,8 @@ $define = [
     'TEXT_MAX_ADMIN_DISPLAY_PRODUCTS_TO_CATEGORIES_COLUMNS_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_ADMIN_DISPLAY_SEARCH_RESULTS_EZPAGE_LENGTH' => 'La valeur doit être un entier.',
     'TEXT_MAX_PREVIEW' => 'La valeur doit être un entier.',
+    'TEXT_HINT_PASSWORD_RESET_TOKEN_LENGTH' => 'La valeur doit être un entier entre 12 et 100.',
+    'TEXT_HINT_PASSWORD_RESET_TOKEN_VALID_MINUTES' => 'La valeur doit être un entier entre 1 et 1440.',
 // Begining of constant configuration group titles  for table configuration_group
 /*
     'CFG_GRP_TITLE_MY_STORE' => 'Ma Boutique',
@@ -180,6 +183,10 @@ $define = [
     'CFGDESC_PADSS_PWD_EXPIRY_ENFORCED' => 'La conformité PA-DSS exige que les mots de passe administrateur soient modifiés après 90 jours et que l\'on ne puissent pas réutiliser les 4 derniers mots de passe. <strong>Désactiver cette option rend votre site NON CONFORME aux règles PA-DSS, invalidant ainsi toute certification.</strong>',
     'CFGTITLE_PADSS_AJAX_CHECKOUT' => 'PA-DSS Ajax Checkout?',
     'CFGDESC_PADSS_AJAX_CHECKOUT' => 'La conformité PA-DSS exige que, pour certains modes de paiement intégrés, nous utilisions ajax pour faire l\'écran de confirmation de paiement. Bien que cela ne se produise que si l’un de ces modes de paiement est réellement présent, certaines personnes peuvent préférer le flux de paiement traditionnel. <strong>Désactiver cette option rend votre site NON CONFORME aux règles PA-DSS, invalidant ainsi toute certification.</strong>',
+    'CFGTITLE_PASSWORD_RESET_TOKEN_LENGTH' => 'Longueur du jeton (token) de réinitialisation du mot de passe',
+    'CFGDESC_PASSWORD_RESET_TOKEN_LENGTH' => 'Nombre de caractères dans un jeton　(token) de réinitialisation de mot de passe généré. La valeur par défaut est 24. Autorisé : 12 à 100, mais cela affecte la longueur de l\'URL, donc 12 à 30 est l\'idéal',
+    'CFGTITLE_PASSWORD_RESET_TOKEN_LENGTH' => 'Jeton de réinitialisation de mot de passe valide pour',
+    'CFGDESC_PASSWORD_RESET_TOKEN_LENGTH' => 'Durée de validité d\'un jeton de réinitialisation de mot de passe en minutes. Par défaut : 60 minutes (1 heure). Autorisé : 1 à 1 440. La durée optimale est de 60 à 120 minutes.',
     'CFGTITLE_EMP_LOGIN_ADMIN_ID' => 'Passer la commande pour le client : iD d\'administrateur unique',
     'CFGDESC_EMP_LOGIN_ADMIN_ID' => 'Identifiez le numéro d\'identification d\'un administrateur autorisé à utiliser la fonctionnalité <em>Passer une commande</em> sur la liste des clients, quel que soit le profil d\'administrateur qui lui a été attribué. Définissez la valeur sur 0 pour désactiver la fonctionnalité <em>ID d\'administrateur unique</em>.',
     'CFGTITLE_EMP_LOGIN_AUTOMATIC' => 'Passer la commande pour le client : connexion sans mot de passe',
