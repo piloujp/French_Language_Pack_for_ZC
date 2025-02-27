@@ -211,6 +211,8 @@ $define = [
     'CFGDESC_CURL_PROXY_SERVER_DETAILS' => 'Si vous disposez d\'un service d\'hébergement qui nécessite l\'utilisation d\'un proxy pour communiquer avec des sites externes via cURL, entrez leur adresse proxy ici.<br>Format : address:port<br>par ex.: 127.0.0.1:3128',
     'CFGTITLE_HTML_EDITOR_PREFERENCE' => 'Editeur HTML',
     'CFGDESC_HTML_EDITOR_PREFERENCE' => 'Veuillez sélectionner l\'éditeur HTML/Rich-Text que vous souhaitez utiliser pour rédiger des e-mails liés à l\'administration, des newsletters et des descriptions de produits.',
+    'CFGTITLE_TINYMCE_EDITOR_API_KEY' => 'Clé API de l\'éditeur TinyMCE',
+    'CFGDESC_TINYMCE_EDITOR_API_KEY' => 'Les fonctionnalités de base de l\'éditeur sont gratuites, en mode GPL.<br>Activez éventuellement les fonctionnalités premium de l\'éditeur TinyMCE en fournissant la clé API de votre compte et en enregistrant le domaine du site Web de votre boutique dans votre compte Tiny.<br>Inscrivez-vous sur <a href="https://www.tiny.cloud/auth/signup/" target="_blank">www.tiny.cloud</a><br><br>Valeur par défaut : <strong>GPL</strong> pour le mode gratuit non enregistré avec les fonctionnalités de base.',
     'CFGTITLE_NOTIFY_CUSTOMER_DEFAULT' => 'Valeur par défaut pour informer le client de la mise à jour du statut de la commande ?',
     'CFGDESC_NOTIFY_CUSTOMER_DEFAULT' => 'Définissez le comportement par défaut du courrier électronique lors de la mise à jour du statut de la commande : envoyer un courrier électronique, Ne pas envoyer de courrier électronique ou Masquer la mise à jour.',
     'CFGTITLE_SHOW_COUNTS_ADMIN' => 'Afficher le nombre de catégories – Administrateur',
