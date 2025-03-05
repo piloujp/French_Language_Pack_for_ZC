@@ -118,10 +118,8 @@ a.anclink {
 
 </style> </head>
   <body>
-    <div class="en" id="en"> <img id="lang" src="flags-US-FR_small.webp" alt="Toggle language"
-
-        title="Pour changer entre l'anglais et le français, cliquez ici!" onclick="chglan()"
-
+    <div class="en" id="en"> <img id="lang" src="flags-US-FR_small.webp" alt="Toggle language"
+        title="Pour changer entre l'anglais et le français, cliquez ici!" onclick="chglan()"
         height="24" width="56">
       <div>
         <h1 class="title">Zen Cart v2 French language pack documentation</h1>
@@ -194,9 +192,9 @@ a.anclink {
           <b>must add French language folder and files</b> to their language
           folder. If you don't have the French translation for these plugins,
           just copy 'english' folder and rename the copy to 'french'. If these
-          files are missing, Zen Cart® will crash when trying to use French
-          language. After that, you will have time to do the French translation
-          for these plugins later.</p>
+          files are missing, Zen Cart® might default to English or possibly
+          crash when trying to use French language. After that, you will have
+          time to do the French translation for these plugins later.</p>
         <p class="texte">Now <b>you must add French language to Zen Cart</b>
           through 'admin&gt;Localization&gt;Languages'. This has to be done
           manually through admin interface as it sets everything necessary for a
@@ -217,20 +215,17 @@ a.anclink {
         a new tax class (VTA) and rate, set your store location and postal code,
         define some geo-zones for your shipping modules and set these modules
         and payment ones too according to these zones.<br>
-        Please have a look at Zen Cart documentation, starting by here: <a href="https://docs.zen-cart.com/user/new_user_topics/"
-
+        Please have a look at Zen Cart documentation, starting by here: <a href="https://docs.zen-cart.com/user/new_user_topics/"
           title="Zen Cart Documentation" target="_blank">https://docs.zen-cart.com/user/new_user_topics/</a></p>
       <p class="title3">Recommended plugins</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
-
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
           title="Language/Currency Links in Header" target="_blank">Language/Currency
           Links in Header</a></p>
       <p class="texte"></p>
       <p class="texte">This plugin should be in any multilingual Zen Cart.
         Having language switch in header is very useful and practical especially
         on mobile displays.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
-
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
           title="Postcode auto fill plugin part 1" target="_blank">Postcode auto
           fill</a></p>
       <p class="texte">This plugin was designed to help customers to fill create
@@ -241,8 +236,7 @@ a.anclink {
         that postal code databases are big and plugin had to be separated in two
         parts. Importing big files in MySQL with phpMyAdmin could be problem too
         if PHP and MySQL are not set properly.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
-
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
           title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
           1.5.7+)</a> </p>
       <p class="texte">This plugin enhances Zen Cart images by adding a handler
@@ -271,24 +265,26 @@ a.anclink {
         Don't forget to remove any admin setting you did specifically for
         French. </p>
       <p class="title2">Version history</p>
-      <p class="texte">v1.0.0 - June 12 2024<br>
-        Original release.</p>
-      <p class="texte">v1.1.0 - August 4 2024<br>
-        Added french zones.<br>
-        Added admin menus translation</p>
-      <p class="texte">v1.2.0 - September 1 2024<br>
-        Update for Zencart v2.1.0.</p>
+      <p class="texte">v2.1.0-FR1 - March 5 2025<br>
+        Added plugins translations for a total of 24 plugins translated (10
+        encapsulated and 14 non-encapsulated).<br>
+        Updates for new TinyMCE editor and new ZC password reset system.</p>
+      <p class="texte">v2.1.0 - November 25 2024<br>
+        Update for the version 2.1.0 official release of Zen Cart.</p>
       <p class="texte">v2.1.0 - October 4 2024<br>
         Update for ZC version 2.1.0-Beta1.<br>
         Admin menus are now translated live without modification of database.<br>
         Modules settings and description are although translated the same way.</p>
-      <p class="texte">v2.1.0 - November 25 2024<br>
-        Update for the version 2.1.0 official release of Zen Cart.</p>
+      <p class="texte">v1.2.0 - September 1 2024<br>
+        Update for Zencart v2.1.0.</p>
+      <p class="texte">v1.1.0 - August 4 2024<br>
+        Added french zones.<br>
+        Added admin menus translation</p>
+      <p class="texte">v1.0.0 - June 12 2024<br>
+        Original release.</p>
     </div>
-    <div class="fr" id="fr"> <img id="lang" src="flags-US-FR_small.webp" alt="Changer de langue"
-
-        title="Click here to change language between English and French" onclick="chglan()"
-
+    <div class="fr" id="fr"> <img id="lang" src="flags-US-FR_small.webp" alt="Changer de langue"
+        title="Click here to change language between English and French" onclick="chglan()"
         height="24" width="56">
       <div>
         <h1 class="title">Documentation pour Zen Cart v2 French language pack</h1>
@@ -368,9 +364,10 @@ a.anclink {
             le dossier et les fichiers de langue française</b> à leur dossier de
           langue. Si vous n'avez pas la traduction française de ces plugins,
           copiez simplement le dossier « english » et renommez la copie en «
-          french ». Si ces fichiers sont manquants, Zen Cart® plantera lorsque
-          vous tenterez d'utiliser la langue française. Après cela, vous aurez
-          le temps de faire la traduction française de ces plugins plus tard.</p>
+          french ». Si ces fichiers sont manquants, Zen Cart® utilisera
+          l'anglais par défaut ou éventuellement plantera lorsque vous essayerez
+          d'utiliser la langue française. Après cela, vous aurez le temps de
+          faire la traduction française de ces plugins plus tard.</p>
         <p class="texte">Vous devez maintenant <b>ajouter la langue française à
             Zen Cart</b> via 'admin&gt;Localisation&gt;Langues'. Cela doit être
           fait manuellement via l'interface d'administration car elle configure
@@ -395,21 +392,18 @@ a.anclink {
         définir des zones géographiques pour vos modules d'expédition et définir
         également ces modules ainsi que ceux de paiement en fonction de ces
         zones. . Veuillez consulter la documentation Zen Cart, en commençant par
-        ici&nbsp;: <a href="https://docs.zen-cart.com/user/new_user_topics/" title="Zen Cart Documentation"
-
+        ici&nbsp;: <a href="https://docs.zen-cart.com/user/new_user_topics/" title="Zen Cart Documentation"
           target="_blank">https://docs.zen-cart.com/user/new_user_topics/</a></p>
       <p class="texte"> </p>
       <p class="title3">Plugins recommandés</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
-
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
           title="Language/Currency Links in Header" target="_blank">Language/Currency
           Links in Header</a></p>
       <p class="texte"></p>
       <p class="texte">Ce plugin devrait être dans n'importe quel Zen Cart
         multilingue. Avoir le changement de langue dans l’en-tête est très utile
         et pratique notamment sur les écrans mobiles.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
-
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
           title="Postcode auto fill plugin part 1" target="_blank">Postcode auto
           fill</a></p>
       <p class="texte">Ce plugin a été conçu pour aider les clients à remplir un
@@ -423,8 +417,7 @@ a.anclink {
         parties. L'importation de gros fichiers dans MySQL avec phpMyAdmin peut
         également poser problème si PHP et MySQL ne sont pas correctement
         configurés.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
-
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
           title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
           1.5.7+)</a> </p>
       <p class="texte">Ce plugin améliore les images Zen Cart en ajoutant un
@@ -458,21 +451,25 @@ a.anclink {
         N'oubliez pas de modifier tout paramètre d'administration que vous avez
         ajusté spécifiquement pour le français.</p>
       <p class="title2">Historique des versions</p>
-      <p class="texte">v1.0.0 - 12 juin 12 2024<br>
-        Version originale.</p>
-      <p class="texte">v1.1.0 - 4 août 2024<br>
-        Ajout des zones françaises.<br>
-        Ajout des traductions pour les menus de l'interface d'administration.</p>
-      <p class="texte">v1.2.0 - 1 septembre 2024<br>
-        Mise à jour pour la version 2.1.0 de Zen Cart.<br>
-      </p>
+      <p class="texte">v2.1.0-FR1 - 5 Mars 2025<br>
+        Ajout de traductions de plugins pour un total de 24 plugins traduits (10
+        encapsulés et 14 non encapsulés).<br>
+        Mises à jour pour le nouvel éditeur TinyMCE et le nouveau système de
+        réinitialisation du mot de passe ZC.</p>
+      <p class="texte">v2.1.0 - 25 novembre 2024<br>
+        Mise à jour pour la version 2.1.0 officielle de Zen Cart.</p>
       <p class="texte">v2.1.0 - 4 octobre 2024<br>
         Mise à jour pour la version 2.1.0-Beta1 de Zen Cart.<br>
         Les menus de l'administrations sont traduits à la volée sans
         modification de la base de données.<br>
         Il en est de même pour les différents réglages des modules.</p>
-      <p class="texte">v2.1.0 - 25 novembre 2024<br>
-        Mise à jour pour la version 2.1.0 officielle de Zen Cart.</p>
+      <p class="texte">v1.2.0 - 1 septembre 2024<br>
+        Mise à jour pour la version 2.1.0 de Zen Cart.</p>
+      <p class="texte">v1.1.0 - 4 août 2024<br>
+        Ajout des zones françaises.<br>
+        Ajout des traductions pour les menus de l'interface d'administration.</p>
+      <p class="texte">v1.0.0 - 12 juin 12 2024<br>
+        Version originale.</p>
     </div>
     <script>
         function shide(ele) {
