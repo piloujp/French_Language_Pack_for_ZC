@@ -87,7 +87,7 @@ $define = [
     'TABLE_HEADING_CUSTOMER_COMMENTS' => 'Commentaires<br>Client',
     'TEXT_COMMENTS_YES' => 'Commentaires clients - OUI',
     'TEXT_COMMENTS_NO' => 'Commentaires clients - NON',
-    'TEXT_CUSTOMER_LOOKUP' => '<i class="fa fa-search"></i> Rechercher un client ',
+    'TEXT_CUSTOMER_LOOKUP' => '<i class="fa-solid fa-magnifying-glass"></i> Rechercher un client ',
     'TEXT_INVALID_ORDER_STATUS' => '<span class = "alert">(État de la commande invalide)</span>',
     'BUTTON_TO_LIST' => 'Liste de commandes',
     'SELECT_ORDER_LIST' => 'Aller à la commande:',
