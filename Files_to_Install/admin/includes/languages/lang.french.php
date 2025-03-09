@@ -11,8 +11,8 @@
 $define = [
     'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X (%Z)',
     'ARIA_PAGINATION_' => '',
-    'ARIA_PAGINATION_CURRENT_PAGE' => 'Page actuelle',
     'ARIA_PAGINATION_CURRENTLY_ON' => ', maintenant sur la page %s',
+    'ARIA_PAGINATION_CURRENT_PAGE' => 'Page actuelle',
     'ARIA_PAGINATION_ELLIPSIS_NEXT' => 'Obtenir le prochain groupe de pages',
     'ARIA_PAGINATION_ELLIPSIS_PREVIOUS' => 'Récupérer le groupe de pages précédent',
     'ARIA_PAGINATION_GOTO' => 'Aller à',

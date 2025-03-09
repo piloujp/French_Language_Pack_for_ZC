@@ -26,8 +26,8 @@ $define = [
     'ERROR_NO_AMOUNT_ENTERED' => 'Erreur : valeur de certificat invalide.',
     'ERROR_NO_SUBJECT' => 'Erreur : aucun sujet Email indiqué.',
     'TEXT_GV_ANNOUNCE' => 'Nous sommes heureux de vous offrir un ' . '%%TEXT_GV_NAME%%' . ' de %s.',
-    'TEXT_GV_TO_REDEEM_TEXT' => 'Avec le lien suivant, vous pouvez utiliser le %%TEXT_GV_NAME%%' . "\n\n " . '%1$s%2$s' . "\n\n" . 'ou visitez' . STORE_NAME . " à " . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . "\n" . 'et entrez le code %2$s sur la page de paiement.',
-    'TEXT_GV_TO_REDEEM_HTML' => '<a href="%1$s%2$s"> Cliquez ici pour utiliser le %%TEXT_GV_NAME%%</a> ou visitez <a href="' . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . '">' . STORE_NAME . '</a> et saisissez le code <strong>%2$s</strong> sur la page de paiement.',
+    'TEXT_GV_TO_REDEEM_TEXT' => 'Avec le lien suivant, vous pouvez utiliser le ' . '%%TEXT_GV_NAME%%' . "\n\n " . '%1$s%2$s' . "\n\n" . 'ou visitez' . STORE_NAME . " à " . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . "\n" . 'et entrez le code %2$s sur la page de paiement.',
+    'TEXT_GV_TO_REDEEM_HTML' => '<a href="%1$s%2$s"> Cliquez ici pour utiliser le ' . '%%TEXT_GV_NAME%%' . '</a> ou visitez <a href="' . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . '">' . STORE_NAME . '</a> et saisissez le code <strong>%2$s</strong> sur la page de paiement.',
 ];
 
 return $define;
