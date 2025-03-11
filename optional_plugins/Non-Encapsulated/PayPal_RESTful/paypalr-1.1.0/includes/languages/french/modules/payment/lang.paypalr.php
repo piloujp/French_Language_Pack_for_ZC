@@ -2,7 +2,7 @@
 /**
  * Language definitions for the paypalr (PayPal Restful Api) payment module.
  *
- * Last updated: v1.0.0
+ * Last updated: v1.1.0
  */
 $define = [
     'MODULE_PAYMENT_PAYPALR_TEXT_TITLE' => 'Paiement PayPal',
@@ -214,6 +214,14 @@ $define = [
     'MODULE_PAYMENT_PAYPALR_MERCHANT_EMAIL' => 'E-mail du vendeur :',
     'MODULE_PAYMENT_PAYPALR_MERCHANT_ID' => 'ID du commerçant :',
     'MODULE_PAYMENT_PAYPALR_SELLER_PROTECTION' => 'Protection du vendeur :',
+    'MODULE_PAYMENT_PAYPALR_PROCESSOR_RESPONSE' => 'Réponse du processeur :',
+        'MODULE_PAYMENT_PAYPALR_AVS_CODE' => 'Code AVS (%s)',
+        'MODULE_PAYMENT_PAYPALR_RESPONSE_CODE' => 'Code de réponse (%s)',
+        'MODULE_PAYMENT_PAYPALR_CVV_CODE' => 'Code CVV (%s)',
+    'MODULE_PAYMENT_PAYPALR_AUTH_RESULT' => 'Résultat de l\'authentification :',
+        'MODULE_PAYMENT_PAYPALR_LIABILITY' => 'Transfert de responsabilité (%s)',
+        'MODULE_PAYMENT_PAYPALR_AUTH_STATUS' => 'État d\'authentification (%s)',
+        'MODULE_PAYMENT_PAYPALR_ENROLL_STATUS' => 'Statut d\'inscription (%s)',
     'MODULE_PAYMENT_PAYPALR_AMOUNT_MISMATCH' => 'Incohérence du montant de la commande : %s',    //- %s is the base order-calculation amount/currency-code
     'MODULE_PAYMENT_PAYPALR_CALCULATED_AMOUNT' => 'Montant calculé :',
     'MODULE_PAYMENT_PAYPALR_INVOICE_NUMBER' => 'Facture #　:',
@@ -330,6 +338,8 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPALR_CURRENCY' => 'Dans quelle devise la commande doit-elle être envoyée à PayPal ? <br>REMARQUE : Si une devise non prise en charge est envoyée à PayPal, elle sera automatiquement convertie dans la <em>devise de rechange</em>.<br><strong>Par défaut : Devise sélectionnée</strong>',
     'CFGTITLE_MODULE_PAYMENT_PAYPALR_CURRENCY_FALLBACK' => 'Devise de rechange',
     'CFGDESC_MODULE_PAYMENT_PAYPALR_CURRENCY_FALLBACK' => 'Si la <b>devise de transaction</b> est définie sur <em>devise sélectionnée</em>, quelle devise doit être utilisée comme solution de secours lorsque la devise sélectionnée par le client n\'est pas prise en charge par PayPal ?<br><b>Valeur par défaut : USD</b>',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALR_SCA_ALWAYS' => 'Déclencher 3D Secure à <b>chaque</b> transaction ?',
+    'CFGDESC_MODULE_PAYMENT_PAYPALR_SCA_ALWAYS' => 'Choisissez <var>true</var> pour déclencher 3D Secure pour <b>chaque</b> transaction, quelles que soient les exigences SCA.<br><br><b>Valeur par défaut</b> : <var>false</var>',
     'CFGTITLE_MODULE_PAYMENT_PAYPALR_ACCEPT_CARDS' => 'Accepter les cartes de crédit ?',
     'CFGDESC_MODULE_PAYMENT_PAYPALR_ACCEPT_CARDS' => 'Le module de paiement doit-il accepter les paiements par carte de crédit ?Si vous exécutez des transactions <var>en direct</var>, votre boutique <b>doit</b> être configurée pour utiliser le protocole <var>https</var> pour que les paiements par carte soient acceptés !<br><br>Si votre boutique utilise le paiement en une page, vous pouvez limiter les paiements par carte de crédit aux titulaires de compte.<br><b>Par défaut : false</b>',
     'CFGTITLE_MODULE_PAYMENT_PAYPALR_HANDLING_OT' => 'Listez les <var>frais de traitement</var> dans les totaux de commandes',
