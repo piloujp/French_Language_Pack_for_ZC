@@ -1,4 +1,4 @@
-<a href="https://docs.zen-cart.com/user/" target="_ blank" rel="noopener"><img src="images / large / zencart-docs.jpg" alt="Zen Cart Documentation "title =" Consultez la documentation en ligne de Zen Cart! " class="home-image"></a>
+<a href="https://docs.zen-cart.com/user/" target="_ blank" rel="noopener"><img src="images/large/zencart-docs.jpg" alt="Zen Cart Documentation "title =" Consultez la documentation en ligne de Zen Cart! " class="home-image"></a>
 <p class="greaterText">Le package de modèles utilise PHP Mobile Detect pour servir la mise en page optimisée en fonction du périphérique.
     Si vous utilisez un ordinateur de bureau et que vous souhaitez afficher la disposition de la tablette, <a class="red" href="index.php?main_page=index&amp;layoutType=tablet">utilisez ce lien. </a>
     Si vous souhaitez afficher la mise en page Mobile <a class="red" href="index.php?main_page=index&amp;layoutType=mobile">utilisez ce lien.</a>
