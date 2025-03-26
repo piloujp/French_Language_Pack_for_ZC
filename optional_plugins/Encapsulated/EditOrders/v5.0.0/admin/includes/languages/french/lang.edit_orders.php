@@ -146,8 +146,11 @@ $define = [
     'TEXT_LABEL_MODULE' => 'Module :',
     'TEXT_LABEL_TITLE' => 'Titre :',
     'TEXT_LABEL_VALUE' => 'Valeur :',
+    'TEXT_LABEL_COST_INCL' => 'Coût (TTC) :',
+    'TEXT_LABEL_COST_EXCL' => 'Coût (HT) :',
     'TEXT_OT_ADD_MODAL_TITLE' => 'Ajouter le total de la commande (%s)',
     'TEXT_OT_UPDATE_MODAL_TITLE' => 'Modification du total de la commande (%s)',    //- %s is filled in with the order-total's class, e.g. ot_shipping
+    'TEXT_FIELD_CANNOT_BE_EMPTY' => 'Ce champ ne peut pas être vide.',
 
 // Adding/updating a product
     'ERROR_PRODUCT_NOT_FOUND' => 'Le produit demandé (%s) n\'est pas présent dans la commande.',

@@ -12,8 +12,6 @@ $define = [
 // Admin configuration
     'CFGTITLE_EO_ADDRESSES_DISPLAY_ORDER' => 'Adresses, ordre d\'affichage',
     'CFGDESC_EO_ADDRESSES_DISPLAY_ORDER' => 'Dans quel ordre, de gauche à droite, <em>Editeur de commandes</em> doit-il afficher les adresses d\'une commande ? Choisissez <b>CSB</b> pour afficher le <em>Client</em>, la <em>livraison</em> puis la <em>Facturation</em> ; choisissez <b>CBS</b> pour afficher le <em>Client</em>, la <em>Facturation</em> puis la <em>Livraison</em>.',
-    'CFGTITLE_EO_TOTAL_RESET_DEFAULT' => 'Réinitialiser les totaux lors de la mise à jour – Par défaut',
-    'CFGDESC_EO_TOTAL_RESET_DEFAULT' => 'Choisissez la valeur par défaut pour la case à cocher <em>Réinitialiser les totaux avant la mise à jour</em>. Si votre boutique utilise des modules de totaux de commande qui effectuent des recalculs liés aux taxes (comme « Prix de groupe »), définissez cette valeur sur <b>activé</b>.',
     'CFGTITLE_EO_SHIPPING_DROPDOWN_STRIP_TAGS' => 'Supprimer les étiquettes du nom de module d\'expédition ?',
     'CFGDESC_EO_SHIPPING_DROPDOWN_STRIP_TAGS' => 'Lorsque cette option est activée, les balises HTML et PHP présentes dans le titre d\'un module d\'expédition sont supprimées du texte affiché dans le menu déroulant d\'expédition.<br><br>Si des balises partielles ou brisées sont présentes dans le titre, cela peut entraîner la suppression d\'une quantité de texte plus importante que prévu. Si cela se produit, vous devrez mettre à jour le ou les modules d\'expédition concernés ou désactiver cette option.',
     'CFGTITLE_EO_PRODUCT_PRICE_CALC_METHOD' => 'Calcul du prix du produit &mdash; Méthode',
