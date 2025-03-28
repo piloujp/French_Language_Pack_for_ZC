@@ -5,7 +5,6 @@ $define = [
     'NAVBAR_TITLE_2' => 'Historique',
     'NAVBAR_TITLE_3' => 'Commande #%s',
     'HEADING_TITLE' => 'Informations de commande',
-    'TEXT_MISSING_SHIPPING_INFO' => 'ATTENTION : informations d\'expédition manquantes',
 ];
 
 return $define;

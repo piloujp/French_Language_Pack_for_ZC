@@ -460,6 +460,7 @@ $define = [
     'TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE' => 'Se connecter à la boutique',
     'TEXT_MANUFACTURER' => 'Fabricant : ',
     'TEXT_MAXIMUM_CHARACTERS_ALLOWED' => ' caractères maximum  autorisés',
+    'TEXT_MISSING_SHIPPING_INFO' => 'ATTENTION : informations d\'expédition manquantes',
     'TEXT_MORE_INFORMATION' => 'Pour plus d\'informations, veuillez visiter la <a href="%s" rel="noreferrer noopener" target="_blank">page Web</a> de ce produit.',
     'TEXT_NO_ALL_PRODUCTS' => 'Plus de produits seront ajoutés bientôt. Merci de revenir ultérieurement.',
     'TEXT_NO_CAT_RESTRICTIONS' => 'Ce coupon est valable pour toutes les catégories.',
