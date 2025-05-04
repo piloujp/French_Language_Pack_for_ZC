@@ -162,21 +162,8 @@ a.anclink {
         <p class="texte">Zen Cart installer will start in English, you can
           change to French, and do some system checks. If there is no big
           problem with system check, you can proceed to install like a normal
-          Zen Cart by clicking on 'Clean install' button. After your first login
-          in admin, installation is done!</p>
-        <p class="texte">Now <b>you must add French language to Zen Cart</b>
-          through 'admin&gt;Localization&gt;Languages'. This has to be done
-          manually through admin interface as it sets everything necessary for a
-          new language in Zen cart.</p>
-        <p class="texte">Name: French<br>
-          Code: fr<br>
-          Image: icon.gif<br>
-          Directory: french<br>
-          Sort Order: 0</p>
-        <p class="texte">Set French as default if you want. Then <b>import/run</b>
-          SQL queries in file '<b>../sql/orders_status_update.sql</b>' (provided
-          with the language pack) to update order status table with French.
-          Finally, <b>import French zones</b> into database using file '<b>../sql/zones_francaises.sql</b>'.</p>
+          Zen Cart by clicking on 'Continue' button. After your first login in
+          admin, installation is done!</p>
         <p class="texte">Now you can go to configuration chapter to get ready
           for sale.</p>
       </div>
@@ -184,11 +171,11 @@ a.anclink {
           installed cart<br>
         </a></p>
       <div id="allinst">
-        <p class="texte">When installing over an existing Zen Cart 2.x.x, it is
-          easier than a new install.</p>
+        <p class="texte">When installing over an existing Zen Cart, it is not
+          much more difficult than a new install.</p>
         <p class="texte">First, <b>Extract Zen Cart French Language Pack</b>
-          and <b>rename admin folder</b> to the same name name of your running
-          Zen Cart®. Then <b>copy folders admin</b> (renamed to your real admin
+          and <b>rename admin folder</b> to the same name as your running Zen
+          Cart®. Then <b>copy folders admin</b> (renamed to your real admin
           folder name), <b>includes and zc_plugins</b> from <i>Files_to_Install</i>
           folder (or <i>Files_to_Install_for_v1.5.8</i> folder for Zen Cart
           v1.5.8a) to your cart.</p>
@@ -269,6 +256,9 @@ a.anclink {
         Don't forget to remove any admin setting you did specifically for
         French. </p>
       <p class="title2">Version history</p>
+      <p class="texte">v2.1.2 - May 05 2025<br>
+        New installer with automatic language setting.<br>
+        Added few plugins translations.</p>
       <p class="texte">v2.1.1 - March 10 2025<br>
         Added plugins translations for a total of 24 plugins translated (10
         encapsulated and 14 non-encapsulated).<br>
@@ -308,7 +298,7 @@ a.anclink {
       <p class="texte">N'oubliez pas que ce pack linguistique est destiné à Zen
         Cart 2.0.0 et supérieur&nbsp;! Il n'est pas compatible avec les
         anciennes versions.</p>
-      <p class="texte">Si vous avez un panier déjà installé, <span id="important">vous
+      <p class="texte">Si vous avez une boutique déjà installée, <span id="important">vous
           devez effectuer une sauvegarde complète incluant la base de données</span>.
         Pour les fichiers, une copie est facile, mais pour la base de données,
         vous devez l'exporter vers un fichier SQL que vous pourrez réimporter
@@ -339,37 +329,22 @@ a.anclink {
           anglais (vous pourrez passer au français) et effectuerq quelques
           vérifications du système. S'il n'y a pas de gros problème avec la
           vérification du système, vous pouvez procéder à l'installation comme
-          avec un Zen Cart normal en cliquant sur le bouton « Nouvelle
-          installation ». Après votre première connexion en admin,
-          l'installation est terminée !</p>
-        <p class="texte">Vous devez maintenant <b>ajouter la langue française à
-            Zen Cart</b> via 'admin&gt;Localisation&gt;Langues'. Cela doit être
-          fait manuellement via l'interface d'administration car elle configure
-          tout ce qui est nécessaire pour une nouvelle langue dans Zen Cart®.</p>
-        <p class="texte">Name: French<br>
-          Code: fr<br>
-          Image: icon.gif<br>
-          Directory: french<br>
-          Sort Order: 0</p>
-        <p class="texte">Définissez le français par défaut si vous le souhaitez.
-          Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>../sql/orders_status_update.sql</b>'
-          (fourni avec le pack de langue) pour mettre à jour la table d'état des
-          commandes avec le français. Finalement, <b>importer les zones
-            françaises</b> dans la base de données en utilisant le fichier '<b>../sql/zones_francaises.sql</b>'.</p>
+          avec un Zen Cart normal en cliquant sur le bouton « Continuer ». Après
+          votre première connexion en admin, l'installation est terminée !</p>
         <p class="texte">Vous pouvez maintenant aller au chapitre de
           configuration pour vous préparer à la vente.</p>
       </div>
       <p class="title3"><a class="menu_links" onclick="shide('allinstfr')">Boutique
           déjà installée</a></p>
       <div id="allinstfr">
-        <p class="texte">Lors de l'installation sur un Zen Cart 2.x.x existant,
-          c'est plus facile qu'une nouvelle installation. Tout d’abord, <b>
-            décompressez le pack de langue française</b> et <b>renommez le
-            dossier admin</b> avec le même nom que celui de votre Zen Cart® en
-          cours d’utilisation. <b>Copiez</b> ensuite sur votre site les
-          dossiers <b>admin</b> (renommé en votre vrai nom de dossier
-          administrateur), <b>include</b> et <b>zc_plugins</b> qui sont dans
-          le répertoire <i>Files_to_Install</i> (ou <i>Files_to_Install_for_v1.5.8</i>
+        <p class="texte">Lors de l'installation sur un Zen Cart existant, ce
+          n'est pas beaucoup plus difficile qu'une nouvelle installation.</p>
+        <p class="texte">Tout d’abord, <b> décompressez le pack de langue
+            française</b> et <b>renommez le dossier admin</b> avec le même nom
+          que celui de votre Zen Cart® en cours d’utilisation. <b>Copiez</b>
+          ensuite sur votre site les dossiers <b>admin</b> (renommé en votre
+          vrai nom de dossier administrateur), <b>include</b> et <b>zc_plugins</b>
+          qui sont dans le répertoire <i>Files_to_Install</i> (ou <i>Files_to_Install_for_v1.5.8</i>
           pour Zen Cart v1.5.8a).</p>
         <p class="texte"><b>Si des plugins sont installés</b>, vous devez <b>ajouter
             le dossier et les fichiers de langue française</b> à leur dossier de
@@ -460,6 +435,9 @@ a.anclink {
         N'oubliez pas de modifier tout paramètre d'administration que vous avez
         ajusté spécifiquement pour le français.</p>
       <p class="title2">Historique des versions</p>
+      <p class="texte">v2.1.2 - 5 Mai 2025<br>
+        Nouveau script d'installation avec réglage automatique de la langue.<br>
+        Ajout de quelques traductions de plugins.</p>
       <p class="texte">v2.1.1 - 10 Mars 2025<br>
         Ajout de traductions de plugins pour un total de 24 plugins traduits (10
         encapsulés et 14 non encapsulés).<br>
