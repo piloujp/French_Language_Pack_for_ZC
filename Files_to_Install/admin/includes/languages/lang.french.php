@@ -235,6 +235,7 @@ $define = [
     'ERROR_PASSWORDS_NOT_MATCHING' => 'Le mot de passe et la confirmation doivent correspondre',
     'ERROR_PASSWORD_RULES' => 'Les mots de passe doivent contenir à la fois des lettres et des chiffres, doivent comporter au moins %s caractères et ne doivent pas être identiques aux 4 derniers mots de passe utilisés. Les mots de passe expirent tous les 90 jours, après quoi vous serez invité à Choisissez un nouveau mot de passe.',
     'ERROR_PAYMENT_MODULES_NOT_DEFINED' => 'NOTE : vous n\'avez pas de module de paiement activé. Veuillez aller dans Modules->Paiement à configurer.',
+    'ERROR_PRODUCT_OPTION_SELECTION' => '<br> ... Valeurs d\'options non valides sélectionnées ',
     'ERROR_SHIPPING_CONFIGURATION' => '<strong>Erreurs de configuration d\'expédition! </strong>',
     'ERROR_SHIPPING_MODULES_NOT_DEFINED' => 'NOTE : vous n\'avez pas de module d\'expédition activé. Veuillez aller à Modules->Expédition pour configurer.',
     'ERROR_SHIPPING_ORIGIN_ZIP' => '<strong>Attention : </strong>Le code postal du magasin n\'est pas défini. Voir Configuration | Expédition / Emballage pour le définir.',
