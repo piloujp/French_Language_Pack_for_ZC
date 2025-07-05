@@ -157,6 +157,7 @@ return [
 'TEXT_ERROR_SET_TIME_LIMIT' => 'Paramètre max_execution_time désactivé',
 'TEXT_ERROR_GD' => 'Extension GD non activée',
 'TEXT_ERROR_INTL' => 'Extension INTL non activée. Requis pour la gestion des dates et la prise en charge des paramètres régionaux.',
+'TEXT_ERROR_MBSTRING' => 'L\'extension MBSTRING n\'est pas activée. Nécessaire pour la prise en charge des caractères multioctets (lettres accentuées et la plupart des langues non anglaises).',
 'TEXT_ERROR_JSON' => 'Extension JSON non activée. Requis pour analyser les données dans de nombreuses parties de l’application.',
 'TEXT_ERROR_FILEINFO' => 'Extension Fileinfo non activée. Utilisé pour calculer la taille des fichiers.',
 'TEXT_ERROR_ZLIB' => 'Extension Zlib non activée',

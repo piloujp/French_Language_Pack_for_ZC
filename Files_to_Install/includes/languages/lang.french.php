@@ -521,6 +521,7 @@ $define = [
     'TEXT_TOTAL_AMOUNT' => '&nbsp;&nbsp;Montant total : ',
     'TEXT_TOTAL_ITEMS' => 'Articles au total : ',
     'TEXT_TOTAL_WEIGHT' => '&nbsp;&nbsp;Poids : ',
+    'TEXT_UNKNOWN_ORDERS_STATUS_NAME' => 'Inconnu (%u)',   //- %u is filled in by the Customer class to contain the missing orders_status_id
     'TEXT_UNKNOWN_TAX_RATE' => 'Taxe de vente',
     'TEXT_VALID_COUPON' => 'Félicitations vous avez remboursé le bon de réduction',
     'TEXT_WORDS_FREE' => ' Mot(s) gratuit(s) ',
