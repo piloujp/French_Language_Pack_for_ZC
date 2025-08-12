@@ -200,7 +200,6 @@ $define = [
         'MODULE_PAYMENT_PAYPALR_DETAILS_TYPE_CARD' => 'Carte de crédit',
     'MODULE_PAYMENT_PAYPALR_BUYER_INFO' => 'Informations de l\'acheteur',
     'MODULE_PAYMENT_PAYPALR_PAYER_NAME' => 'Nom du payeur :',
-    'MODULE_PAYMENT_PAYPALR_PAYER_EMAIL' => 'E-mail du payeur :',
     'MODULE_PAYMENT_PAYPALR_BUSINESS_NAME' => 'Nom de l\'entreprise :',
     'MODULE_PAYMENT_PAYPALR_ADDRESS_NAME' => 'Nom du destinataire :',
     'MODULE_PAYMENT_PAYPALR_ADDRESS_STREET' => 'rue :',

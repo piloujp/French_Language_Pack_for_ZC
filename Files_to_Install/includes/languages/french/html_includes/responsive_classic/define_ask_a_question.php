@@ -7,6 +7,6 @@ if ($call_for_price === false) {
 } else {
     //put Call For Price HTML below
 ?>
-<p>Appelez pour un prix - Nous vous repondrons !</p>
+<p>Appelez pour un prix - Nous vous répondrons !</p>
 <?php
 }
