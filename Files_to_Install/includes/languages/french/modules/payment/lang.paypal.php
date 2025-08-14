@@ -73,6 +73,8 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPAL_HANDLER' => '<strong>Live : </strong> Utilisé pour traiter les transactions en direct<br><strong>Sandbox : </strong>Pour les développeurs et les tests',
     'CFGTITLE_MODULE_PAYMENT_PAYPAL_IPN_DEBUG' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_PAYPAL_IPN_DEBUG' => 'Activer la journalisation de débogage ? <br>REMARQUE : cela peut VRAIMENT encombrer votre boîte de réception et utiliser de l\'espace disque !<br>La journalisation va dans le dossier /logs.<br>Le courrier électronique est envoyé à l\'adresse du propriétaire du magasin.<br>L\'option de courrier électronique n\'est PAS recommandée.<br><strong>Laissez OFF pour un fonctionnement normal.</strong>',
+    'CFGTITLE_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'Adresse Email de débogage',
+    'CFGDESC_MODULE_PAYMENT_PAYPAL_DEBUG_EMAIL_ADDRESS' => 'L\'adresse e-mail à utiliser pour le débogage PayPal',
 // eof constant configuration titles and descriptions for payment module paypal
 ];
 
