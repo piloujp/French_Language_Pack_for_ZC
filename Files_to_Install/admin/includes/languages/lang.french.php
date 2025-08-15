@@ -3,13 +3,13 @@
  * @copyright Copyright 2003-2024 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
-* @version $Id: brittainmark 2024 Jun 01 Modified in v2.1.0-alpha1 $
+* @version $Id: piloujp 2025 Aug 15 Modified in v2.2.0-alpha1 $
 */
 
 @setlocale(LC_TIME, ['fr_FR', 'fr_FR.utf8', 'fr', 'French']);
 
 $define = [
-    'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X (%Z)',
+    'ADMIN_NAV_DATE_TIME_FORMAT' => '%A %d %b %Y %X (%z)',
     'ARIA_PAGINATION_' => '',
     'ARIA_PAGINATION_CURRENTLY_ON' => ', maintenant sur la page %s',
     'ARIA_PAGINATION_CURRENT_PAGE' => 'Page actuelle',
@@ -150,6 +150,8 @@ $define = [
     'DATE_FORMAT_DATE_PICKER' => 'dd-mm-yy',
     'DATE_FORMAT_LONG' => '%A %d %B, %Y',
     'DATE_FORMAT_SHORT' => '%d/%m/%Y',
+    'DATE_FORMAT_SHORT_NO_DAY' => '%B %Y',
+    'DATE_FORMAT_SHORT_NO_YEAR' => '%d/%m',
     'DATE_FORMAT_SPIFFYCAL' => 'dd/MM/yyyy',
     'DATE_TIME_FORMAT' => '%%DATE_FORMAT_SHORT%%' . ' %H:%M:%S',
     'DEDUCTION_TYPE_DROPDOWN_0' => 'Déduire le montant',
@@ -453,6 +455,7 @@ $define = [
     'TEXT_ATTRIBUTE_COPY_UPDATING' => 'L\'attribut ID#%1$u est mis à jour pour le produit ID#%2$u',
     'TEXT_ATTRIBUTES_INSERT_INFO' => '<strong>Définissez les paramètres d\'attribut, puis appuyez sur Insérer pour appliquer</strong>',
     'TEXT_ATTRIBUTE_PRICE_BASE_INCLUDED' => 'Inclure dans le prix de base<br>Lors de la tarification par attributs',
+    'TEXT_AVAILABLE' => 'Disponible',
     'TEXT_AVAILABLE_DATE' => 'Date de disponibilité : ',
     'TEXT_BANNERS_BANNER_CLICKS' => 'Clics sur la bannière',
     'TEXT_BANNERS_BANNER_VIEWS' => 'Nb d\'affichage de la bannière',
@@ -513,6 +516,8 @@ $define = [
     'TEXT_DISPLAY_NUMBER_OF_ZONES' => 'Affiche <b>%1$d</b> sur <b>%2$d</b> zones',
     'TEXT_DOCS_HELP' => 'Aide disponible sur le site de documentation Zen Cart',
     'TEXT_DOWNLOADABLE_PRODUCTS_MISCONFIGURED' => 'La configuration de certains produits téléchargeables entraîne la livraison gratuite pour tous les articles du panier. Voir Admin > Catalogue > Gestionnaire de téléchargements.',
+    'TEXT_DISABLED' => 'Désactivé',
+    'TEXT_ENABLED' => 'Activé',
     'TEXT_EDITOR_INFO' => 'Editeur de texte',
     'TEXT_EMAIL' => 'Email',
     'TEXT_EMAIL_ADDRESS_VALIDATE' => 'Le texte saisi n\'a pas été reconnu comme une adresse e-mail acceptable, c\'est-à-dire Nom &lt;email@domain&gt; ou &lt;email@domain&gt; ou email@domain ou toute combinaison de ces éléments séparés par une virgule. Veuillez saisir à nouveau, les valeurs non reconnues ont été supprimées.',
