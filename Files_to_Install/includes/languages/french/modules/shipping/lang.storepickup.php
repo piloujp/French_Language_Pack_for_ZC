@@ -3,7 +3,7 @@ $define = [
     'MODULE_SHIPPING_STOREPICKUP_TEXT_TITLE' => 'Retrait en Point de Vente',
     'MODULE_SHIPPING_STOREPICKUP_TEXT_DESCRIPTION' => 'Retrait sur place par le client',
     'MODULE_SHIPPING_STOREPICKUP_TEXT_WAY' => 'Sur place',
-    'MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS' => "",
+    'MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS' => '',
     // bof constant configuration titles and descriptions for Storepickup Shipping
     'CFGTITLE_MODULE_SHIPPING_STOREPICKUP_STATUS' => 'Activer l\'expédition pour le retrait en magasin',
     'CFGDESC_MODULE_SHIPPING_STOREPICKUP_STATUS' => 'Souhaitez-vous proposer un tarif de livraison en magasin ?',
@@ -22,8 +22,8 @@ $define = [
     // eof constant configuration titles and descriptions for Storepickup Shipping
 ];
 
-// MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS permet de définir plusieurs emplacements/methodes par langue. Il n'est utilisé que si l'acheteur a sélectionné une langue autre que celle par défaut.
-// Le contenu de la définition MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS doit être le même que celui des multiples emplacements dans les paramères du module d'expédition dans votre administration, juste avec les noms modifiés.
+// MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS permet de définir plusieurs emplacements/méthodes par langue. Il n'est utilisé que si l'acheteur a sélectionné une langue autre que celle par défaut.
+// Le contenu de la définition MODULE_SHIPPING_STOREPICKUP_MULTIPLE_WAYS doit être le même que celui des paramères du module d'expédition dans votre administration, juste avec les noms modifiés.
 // Les formats typiques sont?:
 // "Emplacement un, 5.00; Emplacement deux, 3.50; Emplacement trois, 0.00"
 // "Emplacement un, Emplacement deux, Emplacement trois"

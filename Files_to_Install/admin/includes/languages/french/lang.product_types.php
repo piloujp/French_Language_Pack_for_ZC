@@ -149,7 +149,7 @@ $define = [
     'PRODUCT_TYPE_LAYOUT_TITLE_FOR_DEFAULT_DOCUMENT_PRODUCT_PRODUCTS_IS_ALWAYS_FREE_SHIPPING' => 'Statut par défaut des produits à livraison gratuite - Règles d\'expédition normales - Lors de l\'ajout de nouveaux produits ?',
     'PRODUCT_TYPE_LAYOUT_DESC_FOR_DEFAULT_DOCUMENT_PRODUCT_PRODUCTS_IS_ALWAYS_FREE_SHIPPING' => 'Quel doit être le statut de livraison gratuite par défaut lors de l\'ajout de nouveaux produits ?<br>Oui, livraison toujours gratuite<br>Non, livraison gratuite toujours désactivée<br>Produits/téléchargements en promotion nécessitent une expédition',
     'PRODUCT_TYPE_LAYOUT_TITLE_FOR_SHOW_PRODUCT_FREE_SHIPPING_INFO_MODEL' => 'Afficher le modèle',
-    'PRODUCT_TYPE_LAYOUT_DESC_FOR_SHOW_PRODUCT_FREE_SHIPPING_INFO_MODEL' => 'Display Model Number on Product Info 0= off 1= on',
+    'PRODUCT_TYPE_LAYOUT_DESC_FOR_SHOW_PRODUCT_FREE_SHIPPING_INFO_MODEL' => 'Afficher le numéro de modèle dans les informations de produit 0= off 1= on',
     'PRODUCT_TYPE_LAYOUT_TITLE_FOR_SHOW_PRODUCT_FREE_SHIPPING_INFO_WEIGHT' => 'Afficher le poids',
     'PRODUCT_TYPE_LAYOUT_DESC_FOR_SHOW_PRODUCT_FREE_SHIPPING_INFO_WEIGHT' => 'Afficher le poids dans les informations de produit 0= off 1= on',
     'PRODUCT_TYPE_LAYOUT_TITLE_FOR_SHOW_PRODUCT_FREE_SHIPPING_INFO_WEIGHT_ATTRIBUTES' => 'Afficher le poids des options',
