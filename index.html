@@ -118,8 +118,10 @@ a.anclink {
 
 </style> </head>
   <body>
-    <div class="en" id="en"> <img id="lang" src="flags-US-FR_small.webp" alt="Toggle language"
-        title="Pour changer entre l'anglais et le français, cliquez ici!" onclick="chglan()"
+    <div class="en" id="en"> <img id="lang" src="flags-US-FR_small.webp" alt="Toggle language"
+
+        title="Pour changer entre l'anglais et le français, cliquez ici!" onclick="chglan()"
+
         height="24" width="56">
       <div>
         <h1 class="title">Zen Cart v2 French language pack documentation</h1>
@@ -133,8 +135,6 @@ a.anclink {
       <p class="title2">Install</p>
       <p class="texte">Before starting there are few&nbsp; things to do or
         check.</p>
-      <p class="texte">Don't forget, this language pack is for Zen Cart 2.0.0
-        and above! It is not compatible with older versions.</p>
       <p class="texte">If you have a cart already installed, you must <span id="important">do
           a complete backup including database</span>. For files a copy is easy,
         but for database you must export it to an SQL file you can import again
@@ -198,7 +198,8 @@ a.anclink {
         <p class="texte">Set French as default if you want. Then <b>import/run</b>
           SQL queries in file '<b>../sql/orders_status_update.sql</b>' (provided
           with the language pack) to update order status table with French.
-          Finally, <b>import French zones</b> into database using file '<b>../sql/zones_francaises.sql</b>'.</p>
+          Finally, <b>import French zones</b> into database using file '<b>../sql/zones_francaises.sql</b>'
+          if it is not already done.</p>
       </div>
       <p class="title2">Configuration</p>
       <p class="texte">You might want to set&nbsp; Euro as default currency
@@ -206,17 +207,27 @@ a.anclink {
         rate, set your store location and postal code, define some geo-zones for
         your shipping modules and set these modules and payment ones too
         according to these zones.<br>
-        Please have a look at Zen Cart documentation, starting by here: <a href="https://docs.zen-cart.com/user/new_user_topics/"
+        Please have a look at Zen Cart documentation, starting by here: <a href="https://docs.zen-cart.com/user/new_user_topics/"
+
           title="Zen Cart Documentation" target="_blank">https://docs.zen-cart.com/user/new_user_topics/</a></p>
       <p class="title3">Recommended plugins</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
+
+          title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
+          1.5.7+)</a> </p>
+      <p class="texte">This plugin enhances Zen Cart images by adding a handler
+        to offer automatic resizing of images, caching thumbnails, and more. You
+        can upload multiple sizes of an image from the Admin image handler page.</p>
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+
           title="Language/Currency Links in Header" target="_blank">Language/Currency
           Links in Header</a></p>
       <p class="texte"></p>
       <p class="texte">This plugin should be in any multilingual Zen Cart.
         Having language switch in header is very useful and practical especially
         on mobile displays.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+
           title="Postcode auto fill plugin part 1" target="_blank">Postcode auto
           fill</a></p>
       <p class="texte">This plugin was designed to help customers to fill create
@@ -227,12 +238,6 @@ a.anclink {
         that postal code databases are big and plugin had to be separated in two
         parts. Importing big files in MySQL with phpMyAdmin could be problem too
         if PHP and MySQL are not set properly.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
-          title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
-          1.5.7+)</a> </p>
-      <p class="texte">This plugin enhances Zen Cart images by adding a handler
-        to offer automatic resizing of images, caching thumbnails, and more. You
-        can upload multiple sizes of an image from the Admin image handler page.</p>
       <p class="title3">Bonus content</p>
       <p class="texte">You will find some language files translation for few
         plugins in folder '.../optional plugins/Encapsulated' for encapsulated
@@ -256,6 +261,9 @@ a.anclink {
         Don't forget to remove any admin setting you did specifically for
         French. </p>
       <p class="title2">Version history</p>
+      <p class="texte">v2.2.0 - ???? ?? 2025<br>
+        Update for Zen Cart version 2.2.0.<br>
+        It is mainly an update of the installer and SQL files.</p>
       <p class="texte">v2.1.3 - July 29 2025<br>
         Added plugins translations for Inventory Updater, Offsite Payment and
         Access Blocker. There is now a total of 19 encapsulated and 22
@@ -287,8 +295,10 @@ a.anclink {
       <p class="texte">v1.0.0 - June 12 2024<br>
         Original release.</p>
     </div>
-    <div class="fr" id="fr"> <img id="lang" src="flags-US-FR_small.webp" alt="Changer de langue"
-        title="Click here to change language between English and French" onclick="chglan()"
+    <div class="fr" id="fr"> <img id="lang" src="flags-US-FR_small.webp" alt="Changer de langue"
+
+        title="Click here to change language between English and French" onclick="chglan()"
+
         height="24" width="56">
       <div>
         <h1 class="title">Documentation pour Zen Cart v2 French language pack</h1>
@@ -302,9 +312,6 @@ a.anclink {
         plugins et le programme d'installation.</p>
       <p class="title2">Instalatlion</p>
       <p class="texte">Avant de commencer, il y a quelques points à vérifier.</p>
-      <p class="texte">N'oubliez pas que ce pack linguistique est destiné à Zen
-        Cart 2.0.0 et supérieur&nbsp;! Il n'est pas compatible avec les
-        anciennes versions.</p>
       <p class="texte">Si vous avez une boutique déjà installée, <span id="important">vous
           devez effectuer une sauvegarde complète incluant la base de données</span>.
         Pour les fichiers, une copie est facile, mais pour la base de données,
@@ -373,8 +380,9 @@ a.anclink {
         <p class="texte">Définissez le français par défaut si vous le souhaitez.
           Ensuite, <b>importez/exécutez</b> les requêtes SQL dans le fichier '<b>../sql/orders_status_update.sql</b>'
           (fourni avec le pack de langue) pour mettre à jour la table d'état des
-          commandes avec le français. Finalement, <b>importer les zones
-            françaises</b> dans la base de données en utilisant le fichier '<b>../sql/zones_francaises.sql</b>'.</p>
+          commandes avec le français. Finalement, si ce n'a pas déjà été fait, <b>importer
+            les zones françaises</b> dans la base de données en utilisant le
+          fichier '<b>../sql/zones_francaises.sql</b>'.</p>
       </div>
       <p class="title2">Configuration</p>
       <p class="texte">Vous souhaiterez peut-être définir l'euro comme devise
@@ -383,18 +391,29 @@ a.anclink {
         l'emplacement de votre magasin et votre code postal, définir des zones
         géographiques pour vos modules d'expédition et définir également ces
         modules ainsi que ceux de paiement en fonction de ces zones. . Veuillez
-        consulter la documentation Zen Cart, en commençant par ici&nbsp;: <a href="https://docs.zen-cart.com/user/new_user_topics/"
+        consulter la documentation Zen Cart, en commençant par ici&nbsp;: <a href="https://docs.zen-cart.com/user/new_user_topics/"
+
           title="Zen Cart Documentation" target="_blank">https://docs.zen-cart.com/user/new_user_topics/</a></p>
       <p class="texte"> </p>
       <p class="title3">Plugins recommandés</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
+
+          title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
+          1.5.7+)</a> </p>
+      <p class="texte">Ce plugin améliore les images Zen Cart en ajoutant un
+        gestionnaire pour proposer un redimensionnement automatique des images,
+        la mise en cache des vignettes, etc. Vous pouvez télécharger plusieurs
+        tailles d’image à partir de la page du gestionnaire d’images Admin.</p>
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=30"
+
           title="Language/Currency Links in Header" target="_blank">Language/Currency
           Links in Header</a></p>
       <p class="texte"></p>
       <p class="texte">Ce plugin devrait être dans n'importe quel Zen Cart
         multilingue. Avoir le changement de langue dans l’en-tête est très utile
         et pratique notamment sur les écrans mobiles.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2370"
+
           title="Postcode auto fill plugin part 1" target="_blank">Postcode auto
           fill</a></p>
       <p class="texte">Ce plugin a été conçu pour aider les clients à remplir un
@@ -408,13 +427,6 @@ a.anclink {
         parties. L'importation de gros fichiers dans MySQL avec phpMyAdmin peut
         également poser problème si PHP et MySQL ne sont pas correctement
         configurés.</p>
-      <p class="texte"><a href="https://www.zen-cart.com/downloads.php?do=file&amp;id=2169"
-          title="Image Handler 5" target="_blank">Image Handler 5 (Zen Cart
-          1.5.7+)</a> </p>
-      <p class="texte">Ce plugin améliore les images Zen Cart en ajoutant un
-        gestionnaire pour proposer un redimensionnement automatique des images,
-        la mise en cache des vignettes, etc. Vous pouvez télécharger plusieurs
-        tailles d’image à partir de la page du gestionnaire d’images Admin.</p>
       <p class="title3">Bonus</p>
       <p class="texte">Vous trouverez quelques fichiers de traduction de langue
         pour quelques plugins dans le dossier '.../optional
@@ -442,24 +454,18 @@ a.anclink {
         N'oubliez pas de modifier tout paramètre d'administration que vous avez
         ajusté spécifiquement pour le français.</p>
       <p class="title2">Historique des versions</p>
+      <p class="texte">v2.2.0 - ?? ???? 2025<br>
+        Mise à jour pour Zen Cart version 2.2.0.<br>
+        Il s'agit principalement d'une mise à jour de l'installateur et des fichiers SQL.</p>
       <p class="texte">v2.1.3 - 29 Juillet 2025<br>
-        <span class="HwtZe" lang="fr"><span class="jCAhz ChMk0b"><span class="ryNqvb">Ajout
-              de traductions pour les plugins Inventory Updater, Offsite Payment
-              et Access Blocker.</span></span> <span class="jCAhz ChMk0b"><span
-              class="ryNqvb">Il y a désormais 19 traductions</span></span></span><span
-          class="HwtZe" lang="fr"><span class="jCAhz ChMk0b"><span class="ryNqvb"><span
-                class="HwtZe" lang="fr"><span class="jCAhz ChMk0b"><span class="ryNqvb">
-                    pour les plugins</span></span></span> encapsulés et 22
-              traductions pour les non encapsulés.</span></span></span><br>
-        <span class="HwtZe" lang="fr"><span class="jCAhz ChMk0b"><span class="ryNqvb">Mise
-              à jour des </span></span></span><span class="HwtZe" lang="fr"><span
-            class="jCAhz ChMk0b"><span class="ryNqvb"><span class="HwtZe" lang="fr"><span
-                  class="jCAhz ChMk0b"><span class="ryNqvb">traductions pour les
-                  </span></span></span>plugins «&nbsp;ZCA bootstrap
-              Template&nbsp;», «&nbsp;BFFM&nbsp;», «&nbsp;AbuseIPDB&nbsp;»,
-              «&nbsp;POSM&nbsp;», «&nbsp;Image Handler&nbsp;»,
-              «&nbsp;VAT4EU&nbsp;», «&nbsp;How did you here about us&nbsp;» et
-              «&nbsp;Log Manager&nbsp;».</span></span></span><br>
+        Ajout de traductions pour les plugins Inventory Updater, Offsite Payment
+        et Access Blocker.<br>
+        Il y a désormais 19 traductions pour les plugins encapsulés et 22
+        traductions pour les non encapsulés.<br>
+        Mise à jour des traductions pour les plugins «&nbsp;ZCA bootstrap
+        Template&nbsp;», «&nbsp;BFFM&nbsp;», «&nbsp;AbuseIPDB&nbsp;»,
+        «&nbsp;POSM&nbsp;», «&nbsp;Image Handler&nbsp;», «&nbsp;VAT4EU&nbsp;»,
+        «&nbsp;How did you here about us&nbsp;» et «&nbsp;Log Manager&nbsp;».<br>
         Quelques mises à jour des fichiers de ZC et corrections de bugs/fautes
         de frappe ont également été effectuées.</p>
       <p class="texte">v2.1.2 - 5 Mai 2025<br>
