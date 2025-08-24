@@ -3,7 +3,7 @@ $define = [
     'MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_TITLE' => 'Par Unité',
     'MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_DESCRIPTION' => 'Par unité',
     'MODULE_SHIPPING_PERWEIGHTUNIT_TEXT_WAY' => 'Meilleure route',
-    // bof constant configuration titles and descriptions for perweightunit Shipping
+// bof constant configuration titles and descriptions for perweightunit Shipping
     'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_STATUS' => 'Activer l\'expédition par unité de poids',
     'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_STATUS' => 'Souhaitez-vous proposer une livraison basée sur des unités ?<br><br>Quantité de produits x Unités (poids des produits) x Coût par unité',
     'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_COST' => 'Frais d\'expédition par unité',
@@ -20,7 +20,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_ZONE' => 'Si une zone est sélectionnée, activez ce mode d\'expédition uniquement pour cette zone.',
     'CFGTITLE_MODULE_SHIPPING_PERWEIGHTUNIT_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_SHIPPING_PERWEIGHTUNIT_SORT_ORDER' => 'Ordre d\'affichage.',
-    // eof constant configuration titles and descriptions for perweightunit Shipping
+// eof constant configuration titles and descriptions for perweightunit Shipping
 ];
 
 return $define;

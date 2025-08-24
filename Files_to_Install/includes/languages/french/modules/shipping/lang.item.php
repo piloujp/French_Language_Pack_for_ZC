@@ -3,7 +3,7 @@ $define = [
     'MODULE_SHIPPING_ITEM_TEXT_TITLE' => 'Par Article',
     'MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION' => 'Par article',
     'MODULE_SHIPPING_ITEM_TEXT_WAY' => 'La meilleure façon',
-    // bof constant configuration titles and descriptions for item Shipping
+// bof constant configuration titles and descriptions for item Shipping
     'CFGTITLE_MODULE_SHIPPING_ITEM_STATUS' => 'Activer l\'expédition à l\'articles',
     'CFGDESC_MODULE_SHIPPING_ITEM_STATUS' => 'Souhaitez-vous proposer une livraison à l\'article ?',
     'CFGTITLE_MODULE_SHIPPING_ITEM_COST' => 'Frais de livraison',
@@ -18,7 +18,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_ITEM_ZONE' => 'Si une zone est sélectionnée, activez ce mode d\'expédition uniquement pour cette zone.',
     'CFGTITLE_MODULE_SHIPPING_ITEM_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_SHIPPING_ITEM_SORT_ORDER' => 'Ordre d\'affichage.',
-    // eof constant configuration titles and descriptions for item Shipping
+// eof constant configuration titles and descriptions for item Shipping
 ];
 
 return $define;

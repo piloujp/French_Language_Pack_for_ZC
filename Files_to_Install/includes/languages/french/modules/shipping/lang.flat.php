@@ -3,7 +3,7 @@ $define = [
     'MODULE_SHIPPING_FLAT_TEXT_TITLE' => 'Au Forfait',
     'MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION' => 'Forfait de livraison',
     'MODULE_SHIPPING_FLAT_TEXT_WAY' => 'La meilleure façon',
-    // bof constant configuration titles and descriptions for flat Shipping
+// bof constant configuration titles and descriptions for flat Shipping
     'CFGTITLE_MODULE_SHIPPING_FLAT_STATUS' => 'Activer l\'expédition forfaitaire',
     'CFGDESC_MODULE_SHIPPING_FLAT_STATUS' => 'Souhaitez-vous proposer des frais de port à tarif forfaitaire ?',
     'CFGTITLE_MODULE_SHIPPING_FLAT_COST' => 'Frais de livraison',
@@ -16,7 +16,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_FLAT_ZONE' => 'Si une zone est sélectionnée, activez ce mode d\'expédition uniquement pour cette zone.',
     'CFGTITLE_MODULE_SHIPPING_FLAT_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_SHIPPING_FLAT_SORT_ORDER' => 'Ordre d\'affichage.',
-    // eof constant configuration titles and descriptions for flat Shipping
+// eof constant configuration titles and descriptions for flat Shipping
 ];
 
 return $define;

@@ -1,7 +1,7 @@
 <?php
 $define = [
     'MODULE_ORDER_TOTAL_GV_TITLE' => TEXT_GV_NAMES,
-    'MODULE_ORDER_TOTAL_GV_HEADER' => TEXT_GV_NAMES.'/Bons de Réduction',
+    'MODULE_ORDER_TOTAL_GV_HEADER' => TEXT_GV_NAMES . '/Bons de Réduction',
     'MODULE_ORDER_TOTAL_GV_DESCRIPTION' => TEXT_GV_NAMES,
     'MODULE_ORDER_TOTAL_GV_USER_PROMPT' => 'Appliquer le montant: ',
     'MODULE_ORDER_TOTAL_GV_TEXT_ENTER_CODE' => TEXT_GV_REDEEM,
@@ -11,7 +11,7 @@ $define = [
     'MODULE_ORDER_TOTAL_GV_INCLUDE_ERROR' => ' Définir Inclure taxes = true, va seulement être utile si recalculer = None',
 // bof constant configuration titles and descriptions for order total module ot_gv
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_STATUS' => 'Ce module est installé',
-//    'CFGDESC_MODULE_ORDER_TOTAL_GV_STATUS' => 'Voulez-vous que ce module s\'affiche ?',
+    'CFGDESC_MODULE_ORDER_TOTAL_GV_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_ORDER_TOTAL_GV_SORT_ORDER' => 'Ordre d\'affichage.',
     'CFGTITLE_MODULE_ORDER_TOTAL_GV_QUEUE' => 'Mettre les achats en file d\'attente',

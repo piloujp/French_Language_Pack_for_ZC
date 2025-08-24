@@ -3,7 +3,7 @@ $define = [
     'MODULE_SHIPPING_TABLE_TEXT_TITLE' => 'Tableau Tarifaire',
     'MODULE_SHIPPING_TABLE_TEXT_DESCRIPTION' => 'Tableau tarifaire',
     'MODULE_SHIPPING_TABLE_TEXT_WAY' => 'La meilleure façon',
-    // bof constant configuration titles and descriptions for table Shipping
+// bof constant configuration titles and descriptions for table Shipping
     'CFGTITLE_MODULE_SHIPPING_TABLE_STATUS' => 'Activer l\'expédition basée sur un tableau tarifaire',
     'CFGDESC_MODULE_SHIPPING_TABLE_STATUS' => 'Souhaitez-vous proposer une livraison basée sur un tableau de tarifs ?',
     'CFGTITLE_MODULE_SHIPPING_TABLE_COST' => 'Tableau des frais d\'expédition',
@@ -22,7 +22,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_TABLE_ZONE' => 'Si une zone est sélectionnée, activez ce mode d\'expédition uniquement pour cette zone.',
     'CFGTITLE_MODULE_SHIPPING_TABLE_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_SHIPPING_TABLE_SORT_ORDER' => 'Ordre d\'affichage.',
-    // eof constant configuration titles and descriptions for table Shipping
+// eof constant configuration titles and descriptions for table Shipping
 ];
 
 return $define;

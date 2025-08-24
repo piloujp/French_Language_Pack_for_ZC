@@ -16,9 +16,9 @@ $define = [
     'MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_NUMBER' => 'Numéro de carte: ',
     'MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_EXPIRES' => 'Date d\'expiration de la carte: ',
     'MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_ISSUE' => 'Date d\'émission de la carte: ',
-    'MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_MAESTRO_ISSUENUMBER' => 'Date d\'émission Maestro : ',
+    'MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_MAESTRO_ISSUENUMBER' => 'N°d\'émission Maestro :',
     'MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_CHECKNUMBER' => 'Numéro CVV: ',
-    'MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_CHECKNUMBER_LOCATION' => '(3 derniers chiffres au dos de votre carte)',
+    'MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_CHECKNUMBER_LOCATION' => '(au dos de votre carte)',
     'MODULE_PAYMENT_PAYPALDP_TEXT_TRANSACTION_FOR' => 'Transaction pour',
     'MODULE_PAYMENT_PAYPALDP_TEXT_DECLINED' => 'Votre carte de crédit a été refusée. Veuillez essayer une autre carte ou contactez votre banque pour plus d\'informations.',
     'MODULE_PAYMENT_PAYPALDP_CANNOT_BE_COMPLETED' => 'Nous n\'avons pas pu valider votre commande. Veuillez sélectionner un autre mode de paiement, ou contactez nous pour trouver une solution.',
@@ -157,6 +157,8 @@ $define = [
 // bof constant configuration titles and descriptions for payment module paypaldp
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_STATUS' => 'Activer ce module de paiement',
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_STATUS' => 'Voulez-vous activer ce module de paiement ? Utilisez le paramètre « <strong>Retired</strong> » si vous envisagez de supprimer ce module de paiement mais que vous avez encore des actions administratives à effectuer sur les commandes passées avec ce module.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_SERVER' => 'En direct ou en Sandbox',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_SERVER' => '<strong>Live : </strong> Utilisé pour traiter les transactions en direct<br><strong>Sandbox : </strong>Pour les développeurs et les tests',
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_SORT_ORDER' => 'Ordre d\'affichage.',
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_ZONE' => 'Zone de paiement',
@@ -171,12 +173,10 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_TRANSACTION_MODE' => 'Comment souhaitez-vous obtenir le paiement ?<br><strong>Défaut : vente finale</strong>',
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_CURRENCY' => 'Devise de transaction',
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_CURRENCY' => 'Dans quelle devise la commande doit-elle être envoyée à PayPal ? <br>REMARQUE : si une devise non prise en charge est envoyée à PayPal, elle sera automatiquement convertie en USD (ou GBP si vous avez un compte en Angleterre).<br><strong>Par défaut : devise sélectionnée</strong>',
-    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_MERCHANT_COUNTRY' => 'Pays du marchand',
-    'CFGDESC_MODULE_PAYMENT_PAYPALDP_MERCHANT_COUNTRY' => 'Dans quel pays votre compte PayPal est-il enregistré ? <br><u>Choix :</u><br><font color=green>Vous devrez fournir des <strong>paramètres API</strong> dans le module Express Checkout.</font><br><strong>Les commerçants des États-Unis et du Canada</strong> ont besoin des informations d\'identification de l\'API PayPal et d\'un compte PayPal Payments Pro.<br><strong>Les commerçants britanniques</strong> doivent fournir des <strong>paramètres PAYFLOW</strong> (et avoir un compte Payflow)<br><strong>Les commerçants australiens</strong> choisissent le Canada<br><em>(Ce paramètre concerne en réalité la spécification interne de l\'API PayPal, et pas tellement le pays : États-Unis=1.5, Royaume-Uni=2.0, Canada/Australie=3.0)</em>',
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_EC_RETURN_FMF_DETAILS' => 'Filtres de gestion de la fraude - FMF',
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_EC_RETURN_FMF_DETAILS' => 'Si vous avez activé la prise en charge FMF dans votre compte PayPal et que vous souhaitez l\'utiliser dans vos transactions, définissez cette option sur Oui. Sinon, laissez-la sur Non.',
-    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_SERVER' => 'En direct ou en Sandbox',
-    'CFGDESC_MODULE_PAYMENT_PAYPALDP_SERVER' => '<strong>Live : </strong> Utilisé pour traiter les transactions en direct<br><strong>Sandbox : </strong>Pour les développeurs et les tests',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALDP_MERCHANT_COUNTRY' => 'Pays du marchand',
+    'CFGDESC_MODULE_PAYMENT_PAYPALDP_MERCHANT_COUNTRY' => 'Dans quel pays votre compte PayPal est-il enregistré ? <br><u>Choix :</u><br><font color=green>Vous devrez fournir des <strong>paramètres API</strong> dans le module Express Checkout.</font><br><strong>Les commerçants des États-Unis et du Canada</strong> ont besoin des informations d\'identification de l\'API PayPal et d\'un compte PayPal Payments Pro.<br><strong>Les commerçants britanniques</strong> doivent fournir des <strong>paramètres PAYFLOW</strong> (et avoir un compte Payflow)<br><strong>Les commerçants australiens</strong> choisissent le Canada<br><em>(Ce paramètre concerne en réalité la spécification interne de l\'API PayPal, et pas tellement le pays : États-Unis=1.5, Royaume-Uni=2.0, Canada/Australie=3.0)</em>',
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_DEBUGGING' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_PAYPALDP_DEBUGGING' => 'Souhaitez-vous activer le mode débogage ? Un journal complet et détaillé des transactions ayant échoué sera envoyé par courrier électronique au propriétaire du magasin.',
     'CFGTITLE_MODULE_PAYMENT_PAYPALDP_CARDINAL_PROCESSOR' => 'ID du processeur Cardinal',
@@ -191,7 +191,7 @@ $define = [
 ];
 
 if (IS_ADMIN_FLAG === true) {
-    $define['MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION'] = '<strong>PayPal Payments Pro</strong>%s<br>' . '<a href="https://www.paypal.com" rel="noreferrer noopener" target="_blank">Gérez votre compte PayPal.</a><br><br><font color="green">Configuration Instructions :</font><br><span class="alert">1. </span><a href="https://www.zen-cart.com/partners/paypal-pro" rel="noopener" target="_blank">Créez votre compte PayPal - cliquez ici.</a><br>' .
+    $define['MODULE_PAYMENT_PAYPALDP_TEXT_ADMIN_DESCRIPTION'] = '<strong>Paiements PayPal Pro</strong>%s<br><a href="https://www.paypal.com" rel="noreferrer noopener" target="_blank">Gérez votre compte PayPal.</a><br><br><font color="green">Instructions de configuration :</font><br><span class="alert">1. </span><a href="https://www.zen-cart.com/partners/paypal-pro" rel="noopener" target="_blank">Créez votre compte PayPal - cliquez ici.</a><br>' .
         (isset($define['MODULE_PAYMENT_PAYPALDP_STATUS']) ? '' : '... et cliquez sur "installer" ci-dessus pour activer PayPal Payments Pro.<br><a href="https://www.zen-cart.com/getpaypal" rel="noopener" target="_blank">Pour une aide détaillée supplémentaire, consultez cet article de FAQ</a><br>') .
         (!isset($define['MODULE_PAYMENT_PAYPALWPP_APISIGNATURE']) || $define['MODULE_PAYMENT_PAYPALWPP_APISIGNATURE'] === '' ? '<span class="alert">2. </span><strong>Informations d\'identification API</strong> à partir de l\'option Informations d\'identification API dans la zone Paramètres de votre profil PayPal. Ce module utilise l\'option <strong>Signature API</strong> : vous devrez saisir le nom d\'utilisateur, le mot de passe et la signature dans les champs ci-dessous.' : '<span class="alert">2. </span>Assurez-vous d\'avoir saisi les données de sécurité appropriées pour le nom d\'utilisateur/le mot de passe, etc., ci-dessous.') .
         '<font color="green"><hr><strong>Requis:</strong></font><br><hr>*<strong>Express Checkout</strong> doit être installé et activé pour pouvoir utiliser PayPal Payments Pro, conformément aux conditions d\'utilisation de PayPal.<br>*Nécessite également CURL sur SSL pour les communications sortantes. CURL doit être activé pour les ports 80 et 443.<hr>';

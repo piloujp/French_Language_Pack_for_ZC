@@ -5,7 +5,7 @@ $define = [
     'MODULE_SHIPPING_ZONES_TEXT_WAY' => 'Livraison vers',
     'MODULE_SHIPPING_ZONES_INVALID_ZONE' => 'Pas de livraison possible vers le pays sélectionné',
     'MODULE_SHIPPING_ZONES_UNDEFINED_RATE' => 'Le coût de livraison ne peut être actuellement déterminé',
-    // bof constant configuration titles and descriptions for zones Shipping
+// bof constant configuration titles and descriptions for zones Shipping
     'CFGTITLE_MODULE_SHIPPING_ZONES_STATUS' => 'Activer l\'expédition par zones',
     'CFGDESC_MODULE_SHIPPING_ZONES_STATUS' => 'Souhaitez-vous proposer une livraison basée sur des zones tarifaires ?',
     'CFGTITLE_MODULE_SHIPPING_ZONES_METHOD' => 'Méthode de calcul',
@@ -42,7 +42,7 @@ $define = [
     'CFGDESC_MODULE_SHIPPING_ZONES_HANDLING_3' => 'Frais de traitement pour cette zone d\'expédition',
     'CFGTITLE_MODULE_SHIPPING_ZONES_HANDLING_METHOD_3' => 'Frais de traitement par commande ou par boîte pour la zone 3 (Quand le poids est utilisé)',
     'CFGDESC_MODULE_SHIPPING_ZONES_HANDLING_METHOD_3' => 'Souhaitez-vous facturer des frais de traitement par commande ou par boîte ?',
-    // eof constant configuration titles and descriptions for zones Shipping
+// eof constant configuration titles and descriptions for zones Shipping
 ];
 
 return $define;

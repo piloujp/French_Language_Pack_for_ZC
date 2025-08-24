@@ -5,14 +5,14 @@ $define = [
 // bof constant configuration titles and descriptions for payment module moneyorder
     'CFGTITLE_MODULE_PAYMENT_MONEYORDER_STATUS' => 'Activer le module « Chèque/Mandat postal »',
     'CFGDESC_MODULE_PAYMENT_MONEYORDER_STATUS' => 'Souhaitez-vous accepter les paiements par chèque/mandat postal ?',
+    'CFGTITLE_MODULE_PAYMENT_MONEYORDER_PAYTO' => 'À l\'ordre de :',
+    'CFGDESC_MODULE_PAYMENT_MONEYORDER_PAYTO' => 'À qui les paiements doivent-ils être effectués ?',
+    'CFGTITLE_MODULE_PAYMENT_MONEYORDER_SORT_ORDER' => 'Ordre de tri',
+    'CFGDESC_MODULE_PAYMENT_MONEYORDER_SORT_ORDER' => 'Ordre d\'affichage.',
     'CFGTITLE_MODULE_PAYMENT_MONEYORDER_ZONE' => 'Zone de paiement',
     'CFGDESC_MODULE_PAYMENT_MONEYORDER_ZONE' => 'Si une zone est sélectionnée, activez uniquement ce mode de paiement pour cette zone.',
     'CFGTITLE_MODULE_PAYMENT_MONEYORDER_ORDER_STATUS_ID' => 'Définir le statut de la commande',
     'CFGDESC_MODULE_PAYMENT_MONEYORDER_ORDER_STATUS_ID' => 'Définir le statut des commandes effectuées avec ce module de paiement sur cette valeur :',
-    'CFGTITLE_MODULE_PAYMENT_MONEYORDER_SORT_ORDER' => 'Ordre de tri',
-    'CFGDESC_MODULE_PAYMENT_MONEYORDER_SORT_ORDER' => 'Ordre d\'affichage.',
-    'CFGTITLE_MODULE_PAYMENT_MONEYORDER_PAYTO' => 'À l\'ordre de :',
-    'CFGDESC_MODULE_PAYMENT_MONEYORDER_PAYTO' => 'À qui les paiements doivent-ils être effectués ?',
 // eof constant configuration titles and descriptions for payment module moneyorder
 ];
 if (defined('MODULE_PAYMENT_MONEYORDER_STATUS')) {

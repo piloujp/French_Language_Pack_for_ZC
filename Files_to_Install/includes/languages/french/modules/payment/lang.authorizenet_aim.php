@@ -60,8 +60,6 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_TXNKEY' => 'Clé de transaction utilisée pour envoyer des données de transaction.<br>Voir <a href="https://support.authorize.net/s/article/How-do-I-obtain-my-API-Login-ID-and-Transaction-Key" rel="noopener" target="_blank">Comment obtenir mon identifiant de connexion API et ma clé de transaction</a>',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_TESTMODE' => 'Mode de transaction',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_TESTMODE' => 'Mode de transaction utilisé pour le traitement des commandes.<br><strong>Production</strong>=Traitement en direct avec des informations d\'identification de compte réelles<br><strong>Test</strong>=Simulations avec des informations d\'identification de compte réelles<br><strong>Sandbox</strong>=Utilisez une clé de transaction sandbox spéciale pour effectuer des tests spéciaux des réponses de transaction réussies/échouées (obtenez les informations d\'identification sandbox via <a href="https://developer.authorize.net/hello_world/sandbox/">developer.authorize.net</a>)',
-    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Devise prise en charge',
-    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Quelle devise votre compte Authnet Gateway est-il configuré pour accepter ?<br>(Les achats dans toute autre devise seront pré-convertis dans cette devise avant l\'envoi en utilisant les taux de change définis dans l\'administration de votre boutique.)',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_AUTHORIZATION_TYPE' => 'Type d\'autorisation',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_AUTHORIZATION_TYPE' => 'Souhaitez-vous que les transactions par carte de crédit soient autorisées uniquement ou autorisées et chargées ?',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_STORE_DATA' => 'Activer le stockage dans la base de données',
@@ -84,6 +82,8 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_REVIEW_ORDER_STATUS_ID' => 'Définissez le statut des commandes effectuées avec ce module de paiement, MAIS qui doivent être examinées pour être traitées :',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_DEBUGGING' => 'Mode débogage',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_DEBUGGING' => 'Activer la journalisation de débogage ? Un journal détaillé des transactions échouées peut être envoyé par courrier électronique au propriétaire du magasin.',
+    'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Devise prise en charge',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Quelle devise votre compte Authnet Gateway est-il configuré pour accepter ?<br>(Les achats dans toute autre devise seront pré-convertis dans cette devise avant l\'envoi en utilisant les taux de change définis dans l\'administration de votre boutique.)',
 // eof constant configuration titles and descriptions for payment module authorizenet_aim
 ];
 

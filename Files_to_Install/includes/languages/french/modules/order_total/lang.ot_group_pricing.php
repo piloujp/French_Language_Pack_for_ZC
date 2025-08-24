@@ -4,7 +4,7 @@ $define = [
     'MODULE_ORDER_TOTAL_GROUP_PRICING_DESCRIPTION' => 'Réduction de Groupe',
 // bof constant configuration titles and descriptions for order total module ot_group_pricing
     'CFGTITLE_MODULE_ORDER_TOTAL_GROUP_PRICING_STATUS' => 'Ce module est installé',
-//    'CFGDESC_MODULE_ORDER_TOTAL_GROUP_PRICING_STATUS' => 'Voulez-vous que ce module s\'affiche ?',
+    'CFGDESC_MODULE_ORDER_TOTAL_GROUP_PRICING_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_GROUP_PRICING_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_ORDER_TOTAL_GROUP_PRICING_SORT_ORDER' => 'Ordre d\'affichage.',
     'CFGTITLE_MODULE_ORDER_TOTAL_GROUP_PRICING_INC_SHIPPING' => 'Inclure les frais de port',

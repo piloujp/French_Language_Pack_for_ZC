@@ -1,7 +1,7 @@
 <?php
 $define = [
     'MODULE_ORDER_TOTAL_COUPON_TITLE' => 'Bons de Réduction',
-    'MODULE_ORDER_TOTAL_COUPON_HEADER' => TEXT_GV_NAMES.'/Bons de Réduction',
+    'MODULE_ORDER_TOTAL_COUPON_HEADER' => TEXT_GV_NAMES . '/Bons de Réduction',
     'MODULE_ORDER_TOTAL_COUPON_DESCRIPTION' => 'Bons de Réduction',
     'MODULE_ORDER_TOTAL_COUPON_TEXT_ENTER_CODE' => TEXT_GV_REDEEM,
     'MODULE_ORDER_TOTAL_COUPON_REDEEM_INSTRUCTIONS' => '<p>Veuillez entrer votre code de réduction dans le champ ci-dessous. Votre réduction sera appliquée au total et ajoutée à votre panier dès que vous aurez cliqué sur Continuer.</p><p>NOTE: vous pouvez utiliser un seul bon de réduction par commande.</p>',
@@ -11,7 +11,7 @@ $define = [
     'MODULE_ORDER_TOTAL_COUPON_INCLUDE_ERROR' => ' Définir Inclure taxes = true, va seulement être utile si recalculer = None',
 // bof constant configuration titles and descriptions for order total module ot_coupon
     'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_STATUS' => 'Ce module est installé',
-//    'CFGDESC_MODULE_ORDER_TOTAL_COUPON_STATUS' => 'Voulez-vous que ce module s\'affiche ?',
+    'CFGDESC_MODULE_ORDER_TOTAL_COUPON_STATUS' => '',
     'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_SORT_ORDER' => 'Ordre de tri',
     'CFGDESC_MODULE_ORDER_TOTAL_COUPON_SORT_ORDER' => 'Ordre d\'affichage.',
     'CFGTITLE_MODULE_ORDER_TOTAL_COUPON_INC_SHIPPING' => 'Inclure les frais de port',
