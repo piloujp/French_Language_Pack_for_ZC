@@ -2,6 +2,7 @@
 $define = [
     'MODULE_PAYMENT_MONEYORDER_TEXT_TITLE' => 'Chèque/Mandat postal',
     'MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION' => 'Les clients peuvent envoyer leur paiement par courrier. Leur e-mail de confirmation de commande leur demandera de : <br><br>Veuillez établir votre chèque ou virement bancaire à l\'ordre de :<br>' . (defined('MODULE_PAYMENT_MONEYORDER_PAYTO') ? MODULE_PAYMENT_MONEYORDER_PAYTO : '<br>(le nom de votre magasin)') . '<br><br>Envoyez votre paiement à :<br>' . nl2br(STORE_NAME_ADDRESS) . '<br><br>' . 'Votre commande ne sera pas expédiée tant que nous n\'aurons pas reçu le paiement.',
+    'MODULE_PAYMENT_MONEYORDER_REMINDER' => 'Veuillez vous assurer d\'inscrire votre numéro de commande sur le recto de votre chèque ou mandat-postal.',
 // bof constant configuration titles and descriptions for payment module moneyorder
     'CFGTITLE_MODULE_PAYMENT_MONEYORDER_STATUS' => 'Activer le module « Chèque/Mandat postal »',
     'CFGDESC_MODULE_PAYMENT_MONEYORDER_STATUS' => 'Souhaitez-vous accepter les paiements par chèque/mandat postal ?',

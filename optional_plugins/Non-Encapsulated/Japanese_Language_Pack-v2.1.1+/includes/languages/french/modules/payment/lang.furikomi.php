@@ -16,6 +16,7 @@ $define = [
 //    . "\nNom du compte : " . (defined('MODULE_PAYMENT_FURIKOMI_ACCNAM2') ? MODULE_PAYMENT_FURIKOMI_ACCNAM2 : 'Nom du compte')
 //    . "\nCode Swift :   " . (defined('MODULE_PAYMENT_FURIKOMI_SWIFT2') ? MODULE_PAYMENT_FURIKOMI_SWIFT2 : 'Code Swift')
     . '</pre><p>Merci pour votre commande qui sera expédiée après réception du paiement sur le compte ci-dessus.',
+    'MODULE_PAYMENT_FURIKOMI_ALREADY_INSTALLED' => 'Le module Furikomi est déjà installé.',
 // bof constant configuration titles and descriptions for payment module furikomi
     'CFGTITLE_MODULE_PAYMENT_FURIKOMI_STATUS' => 'Activer le module de virement bancaire',
     'CFGDESC_MODULE_PAYMENT_FURIKOMI_STATUS' => 'Souhaitez-vous accepter les paiements par virement bancaire direct ?',
