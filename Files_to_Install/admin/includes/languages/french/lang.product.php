@@ -74,6 +74,12 @@ $define = [
     'TEXT_PRODUCTS_PRICE_INFO' => 'Prix : ',
     'WARNING_PRODUCT_DOES_NOT_EXIST' => 'Attention : l\'ID produit #%u n\'est pas modifiable, il n\'existe pas.',
     'TEXT_PRODUCTS_WHOLESALE_PRICE' => 'Prix de gros : ',
+    'TEXT_PRODUCTS_ADDITIONAL_IMAGES' => 'Images de produits supplémentaires',
+    'TEXT_PRODUCTS_ADDITIONAL_IMAGES_ADD' => 'Ajouter des images de produits supplémentaires',
+    'TEXT_IMAGES_OVERWRITE' => 'Écraser les images existantes sur le serveur ? S\'applique à l\'image principale et aux images supplémentaires.',
+    'TEXT_IMAGE_USED_BY_OTHER_PRODUCTS' => 'Le fichier image n\'a pas été supprimé du serveur car il est utilisé par un autre produit.',
+    'TEXT_BUTTON_ADD_ADDITIONAL_IMAGE' => 'Ajouter des images supplémentaires',
+    'TEXT_BUTTON_DRAG_DROP_ADDITIONAL_IMAGE' => 'Faites glisser et déposez les images ici ou cliquez pour sélectionner',
 ];
 
 return $define;
