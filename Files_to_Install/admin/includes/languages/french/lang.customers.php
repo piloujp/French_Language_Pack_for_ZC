@@ -44,6 +44,7 @@ $define = [
     'EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE' => 'Votre mot de passe a été changé par l\'administrateur de la boutique. Votre nouveau mot de passe est : ',
     'EMAIL_CUSTOMER_PWD_CHANGE_SUBJECT' => 'Réinitialisation du mot de passe du compte',
     'EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE_FOR_ADMIN' => 'Vous avez réinitialisé le mot de passe d\'un client : ' . "\n" . '%1$s' . "\n\n" . 'ID administrateur : %2$s',
+    'CUSTOMERS_AUTH_WAITING_FOR_ACTIVATION' => 'En attente d\'activation',
     'CUSTOMERS_AUTHORIZATION' => 'Statut d\'autorisation du client',
     'CUSTOMERS_AUTHORIZATION_0' => 'Approuvé',
     'CUSTOMERS_AUTHORIZATION_1' => 'En attente d\'approbation - Doit être autorisé pour naviguer',
