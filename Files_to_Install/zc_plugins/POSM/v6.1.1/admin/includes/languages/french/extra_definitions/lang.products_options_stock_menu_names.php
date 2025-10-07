@@ -1,9 +1,9 @@
 <?php
 // -----
 // Part of the "Product Options Stock" plugin by Cindy Merkin (cindy@vinosdefrutastropicales.com)
-// Copyright (c) 2014-2024 Vinos de Frutas Tropicales
+// Copyright (c) 2014-2025 Vinos de Frutas Tropicales
 //
-// Last updated: POSM 6.1.0
+// Last updated: POSM 6.1.1
 //
 $define = [
     'BOX_REPORTS_PRODUCTS_OPTIONS_STOCK' => 'Ventes par options de produits',
@@ -66,5 +66,11 @@ $define = [
     //
     'POSM_JS_CAUTION_OPTION_REMOVAL' => 'ATTENTION !\n\nLes attributs de ce produit sont gérés par le Gestionnaire de Stock des Options de Produits.\n\nSi vous confirmez la suppression de cette option, **toutes** les options gérées seront supprimées et la quantité du produit sera définie sur 0.',
     'POSM_JS_CAUTION_ATTRIBUTE_REMOVAL' => 'ATTENTION !\n\nLes attributs de ce produit sont gérés par le Gestionnaire de Stock des Options de Produits.\n\nSi vous confirmez la suppression de cet attribut, %u option(s) gérée(s) sera(ont) supprimée(s) et la quantité du produit sera mise à jour en conséquence.',
+
+    // -----
+    // Used by includes/javascript/product_posm.php.
+    //
+    'POSM_BUTTON_MANAGE_STOCK' => 'Gérer le stock',
+    'POSM_TEXT_PRODUCTS_QTY_CLICK' => 'Cliquez pour gérer le stock des options de ce produit :',
 ];
 return $define;
