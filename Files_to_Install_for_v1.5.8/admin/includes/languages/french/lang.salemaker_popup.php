@@ -8,7 +8,7 @@
 
 $define = [
     'HEADING_TITLE' => 'Soldeur',
-    'SUBHEADING_TITLE' => 'Conseils d\'utilisation pour le Soldeur :',
+    'SUBHEADING_TITLE' => 'Conseils d’utilisation pour le Soldeur :',
 ];
 
 return $define;

@@ -35,7 +35,7 @@ $define = [
     'TEXT_ALL_ZONES' => 'Toutes zones',
     'TEXT_ALL_COUNTRIES' => 'Tous les pays',
     'TEXT_INFO_NUMBER_TAX_RATES' => 'Nombre de taux de taxes :',
-    'ERROR_TAX_RATE_EXISTS' => 'ATTENTION : des taux de taxes sont définis pour cette zone. Veuillez supprimer le(s) taux de taxes avant d\'enlever cette zone',
+    'ERROR_TAX_RATE_EXISTS' => 'ATTENTION : des taux de taxes sont définis pour cette zone. Veuillez supprimer le(s) taux de taxes avant d’enlever cette zone',
 ];
 
 return $define;

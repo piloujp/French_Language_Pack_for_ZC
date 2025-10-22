@@ -10,7 +10,7 @@ $define = [
     'RECAPTCHA_MISSING_INPUT_SECRET' => 'reCaptcha : clé secrète manquante',
     'RECAPTCHA_INVALID_INPUT_SECRET' => 'reCaptcha : clé secrète invalide',
     'RECAPTCHA_MISSING_INPUT_RESPONSE' => 'Veuillez cliquer sur la case reCaptcha « Je ne suis pas un robot » pour prouver que vous êtes humain !',
-    'RECAPTCHA_INVALID_INPUT_RESPONSE' => 'Désolé, veuillez vérifier à nouveau que vous n\'êtes pas un robot',
+    'RECAPTCHA_INVALID_INPUT_RESPONSE' => 'Désolé, veuillez vérifier à nouveau que vous n’êtes pas un robot',
 ];
 
 return $define;

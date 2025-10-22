@@ -7,8 +7,8 @@
 */
 
 $define = [
-    'ADMIN_PLUGIN_MANAGER_NAME_FOR_EXPORTSHIPPINGINFORMATION' => 'Exporter les informations d\'expédition des commandes II',
-    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_EXPORTSHIPPINGINFORMATION' => 'Exportez les informations d\'expédition de vos commandes Zen Cart au format CSV pour les utiliser dans des programmes externes.',
+    'ADMIN_PLUGIN_MANAGER_NAME_FOR_EXPORTSHIPPINGINFORMATION' => 'Exporter les informations d’expédition des commandes II',
+    'ADMIN_PLUGIN_MANAGER_DESCRIPTION_FOR_EXPORTSHIPPINGINFORMATION' => 'Exportez les informations d’expédition de vos commandes Zen Cart au format CSV pour les utiliser dans des programmes externes.',
 ];
 
 return $define;

@@ -9,9 +9,9 @@ $define = [
     'ENTRY_CATEGORIES' => 'Limiter a la categorie : ',
     'ENTRY_MANUFACTURERS' => 'Limiter au fabricant',
     'ENTRY_PRICE_RANGE' => 'Recherche par gamme de prix',
-    'ENTRY_DATE_RANGE' => 'Recherche par date d\'ajout',
+    'ENTRY_DATE_RANGE' => 'Recherche par date d’ajout',
     'TABLE_HEADING_IMAGE' => '',
-    'TEXT_NO_PRODUCTS' => 'Il n\'y a aucun produit correspondant aux criteres de recherche.',
+    'TEXT_NO_PRODUCTS' => 'Il n’y a aucun produit correspondant aux criteres de recherche.',
     'KEYWORD_FORMAT_STRING' => 'mots cles',
 ];
 

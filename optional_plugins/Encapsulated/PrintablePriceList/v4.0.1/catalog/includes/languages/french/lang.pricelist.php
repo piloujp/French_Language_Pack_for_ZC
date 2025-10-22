@@ -20,14 +20,14 @@ $define = [
     'TEXT_PL_NOTHING_FOUND' => 'Aucun produit ou catégorie ne correspond à votre recherche, veuillez effectuer une autre sélection.',
 
     'STORE_NAME_ADDRESS_PL' => str_replace("\n", ' - ', STORE_NAME_ADDRESS),
-    'TEXT_PL_AVAIL_TILL' => 'Offre spéciale valable jusqu\'au : ',
+    'TEXT_PL_AVAIL_TILL' => 'Offre spéciale valable jusqu’au : ',
     'TEXT_PL_SPECIAL' => 'Offre spéciale ',
     'TEXT_PL_PRODUCT_HAS_NO_PRICE' => '--.--',
     'TEXT_PL_CATEGORIES' => 'Toutes les catégories',
     'NAVBAR_TITLE' => 'Printable Price List',
     'TABLE_HEADING_SOH' => 'Stock', // bmoroney
     'TABLE_HEADING_ADDTOCART' => 'Ajouter au panier',//Added by Vartan Kat for Add to cart button
-    'PL_TEXT_GROUP_NOT_ALLOWED' => 'Désolé, vous n\'êtes pas autorisé à voir cette liste.',
+    'PL_TEXT_GROUP_NOT_ALLOWED' => 'Désolé, vous n’êtes pas autorisé à voir cette liste.',
     'PL_PRINT_ME' => 'Imprimer cette page',
 
     'TEXT_OPTIONS_AVAILABLE' => 'Options disponibles :',

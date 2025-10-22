@@ -2,12 +2,12 @@
 $define = [
     'MODULE_ORDER_TOTAL_PAYPAL_TITLE' => 'Frais PayPal',
     'MODULE_ORDER_TOTAL_PAYPAL_DESCRIPTION' => 'Frais PayPal',
-    'TEXT_INFO_PAYPAL_FEES' => '<strong>Remarque :</strong> des frais peuvent s\'appliquer',
+    'TEXT_INFO_PAYPAL_FEES' => '<strong>Remarque :</strong> des frais peuvent s’appliquer',
 //bof constant configuration titles and descriptions for ot_paypal_fee
     'CFGTITLE_MODULE_ORDER_TOTAL_PAYPAL_STATUS' => 'Afficher les frais PayPal',
-    'CFGDESC_MODULE_ORDER_TOTAL_PAYPAL_STATUS' => 'Voulez-vous que ce module s\'affiche ?',
-    'CFGTITLE_MODULE_ORDER_TOTAL_PAYPAL_SORT_ORDER' => 'Ordre de tri d\'affichage',
-    'CFGDESC_MODULE_ORDER_TOTAL_PAYPAL_SORT_ORDER' => 'Ordre de tri d\'affichage. Le nombre le plus bas est affiché en premier.',
+    'CFGDESC_MODULE_ORDER_TOTAL_PAYPAL_STATUS' => 'Voulez-vous que ce module s’affiche ?',
+    'CFGTITLE_MODULE_ORDER_TOTAL_PAYPAL_SORT_ORDER' => 'Ordre de tri d’affichage',
+    'CFGDESC_MODULE_ORDER_TOTAL_PAYPAL_SORT_ORDER' => 'Ordre de tri d’affichage. Le nombre le plus bas est affiché en premier.',
     'CFGTITLE_MODULE_ORDER_TOTAL_PAYPAL_FEE0JP' => 'Frais pour moins de 300 000 JPY au Japon',
     'CFGDESC_MODULE_ORDER_TOTAL_PAYPAL_FEE0JP' => 'Frais PayPal en % pour un paiement entre 0 et 300 000 JPY au Japon',
     'CFGTITLE_MODULE_ORDER_TOTAL_PAYPAL_FEE0' => 'Frais pour moins de 300 000 JPY',

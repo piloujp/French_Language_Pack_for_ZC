@@ -27,15 +27,15 @@ define('HEADING_ACTION', 'Action');
 define('COLUMN_HEADING_SCOPE', 'Portée du modèle :');
 define('INSTRUCTIONS_SCOPE', 'Un modèle DbIo peut être soit <em>privé</em> pour votre usage exclusif, soit <em>public</em> et disponible pour tous les utilisateurs administrateurs autorisés.');
 define('COLUMN_HEADING_NAME', 'Nom du modèle :');
-define('INSTRUCTIONS_NAME', 'Lorsque vous effectuez une exportation basée sur un modèle, le nom du modèle fait partie du nom de fichier de l\'exportation. Utilisez uniquement des caractères alphanumériques et des traits de soulignement (_) pour le nom. Le nom que vous choisissez doit être unique dans la portée sélectionnée de vos modèles disponibles.');
+define('INSTRUCTIONS_NAME', 'Lorsque vous effectuez une exportation basée sur un modèle, le nom du modèle fait partie du nom de fichier de l’exportation. Utilisez uniquement des caractères alphanumériques et des traits de soulignement (_) pour le nom. Le nom que vous choisissez doit être unique dans la portée sélectionnée de vos modèles disponibles.');
 define('COLUMN_HEADING_DESCRIPTION', 'Description du modèle :');
 define('INSTRUCTIONS_DESCRIPTION', 'Utilisez la description du modèle (le HTML est interdit !) pour vous rappeler son objectif. Vous pouvez personnaliser la description pour chaque langue prise en charge par votre boutique.');
 define('COLUMN_HEADING_CHOOSE_FIELDS', 'Choisissez les champs du modèle :');
 define('COLUMN_HEADING_COPY_FIELDS', 'Champs du modèle :');
-define('INSTRUCTIONS_CHOOSE', 'Vous pouvez déplacer les champs disponibles (à gauche) vers ceux sélectionnés (à droite) pour ce modèle. Vous pouvez sélectionner plusieurs champs simultanément en maintenant la touche « Ctrl » enfoncée tout en cliquant sur d\'autres champs. Une fois les champs sélectionnés pour ce modèle, utilisez les boutons pour les déplacer vers le haut ou vers le bas dans votre liste personnalisée. Lorsque le modèle est utilisé pour une opération d\'exportation, le fichier .CSV obtenu contient les colonnes dans l\'ordre spécifié.');
-define('INSTRUCTIONS_CHOOSE_COPY', 'Lorsque vous copiez un modèle, celui-ci contient initialement les champs précédemment configurés. Une fois le modèle copié, vous pouvez modifier la copie pour ajuster les champs. Si vous ne pouvez pas afficher tous les champs, utilisez la souris et faites glisser la liste déroulante vers le bas jusqu\'à ce qu\'ils soient tous visibles.');
+define('INSTRUCTIONS_CHOOSE', 'Vous pouvez déplacer les champs disponibles (à gauche) vers ceux sélectionnés (à droite) pour ce modèle. Vous pouvez sélectionner plusieurs champs simultanément en maintenant la touche « Ctrl » enfoncée tout en cliquant sur d’autres champs. Une fois les champs sélectionnés pour ce modèle, utilisez les boutons pour les déplacer vers le haut ou vers le bas dans votre liste personnalisée. Lorsque le modèle est utilisé pour une opération d’exportation, le fichier .CSV obtenu contient les colonnes dans l’ordre spécifié.');
+define('INSTRUCTIONS_CHOOSE_COPY', 'Lorsque vous copiez un modèle, celui-ci contient initialement les champs précédemment configurés. Une fois le modèle copié, vous pouvez modifier la copie pour ajuster les champs. Si vous ne pouvez pas afficher tous les champs, utilisez la souris et faites glisser la liste déroulante vers le bas jusqu’à ce qu’ils soient tous visibles.');
 
-define('NO_TEMPLATES_EXIST', 'Aucun modèle n\'est actuellement défini. Utilisez le bouton « Nouveau modèle » pour en ajouter un !');
+define('NO_TEMPLATES_EXIST', 'Aucun modèle n’est actuellement défini. Utilisez le bouton « Nouveau modèle » pour en ajouter un !');
 define('TEXT_ENTER_REPORT_DESCRIPTION_HERE', 'Saisissez la description du rapport ici.');
 
 define('BUTTON_EDIT', 'Modifier');
@@ -54,12 +54,12 @@ define('BUTTON_UPDATE_TITLE', 'Cliquez ici pour mettre à jour ce modèle DbIo')
 define('BUTTON_RETURN', 'Gestionnaire DbIo');
 define('BUTTON_RETURN_TITLE', 'Cliquez ici pour revenir à la page principale de DbIo Manager');
 define('BUTTON_CANCEL', 'Annuler');
-define('BUTTON_CANCEL_TITLE', 'Cliquez ici pour annuler l\'action en cours');
+define('BUTTON_CANCEL_TITLE', 'Cliquez ici pour annuler l’action en cours');
 
 define('INSTRUCTIONS_MAIN',
-    'Utilisez cette page pour personnaliser un modèle d\'exportation pour le gestionnaire <em>%1$s</em> de DbIo. Vous pouvez choisir un sous-ensemble de champs pris en charge par ce gestionnaire et personnaliser l\'ordre d\'exportation de ces champs vers les colonnes du fichier .csv associé. Pour plus d\'informations, consultez cet <a href="https://github.com/lat9/dbio/wiki/Manage-DbIo-Templates" target="_blank" rel="noreferrer noopener">article wiki</a>.' .
+    'Utilisez cette page pour personnaliser un modèle d’exportation pour le gestionnaire <em>%1$s</em> de DbIo. Vous pouvez choisir un sous-ensemble de champs pris en charge par ce gestionnaire et personnaliser l’ordre d’exportation de ces champs vers les colonnes du fichier .csv associé. Pour plus d’informations, consultez cet <a href="https://github.com/lat9/dbio/wiki/Manage-DbIo-Templates" target="_blank" rel="noreferrer noopener">article wiki</a>.' .
     '<br><br>' .
-    'La portée d\'un modèle peut être soit <b>' . TEXT_SCOPE_PUBLIC . '</b>, disponible pour tous les utilisateurs administrateurs, soit <b>' . TEXT_SCOPE_PRIVATE . '</b>, disponible uniquement pour votre usage. Son nom sera inclus dans le nom du fichier CSV exporté si le modèle est utilisé pour personnaliser une action d\'exportation, par exemple <code>dbio.%1$s.template_name.datetime_string</code>. La description que vous fournissez s\'affiche sur l\'écran principal du <strong>Gestionnaire d\'E/S de base de données</strong> lorsque le modèle est sélectionné, ce qui vous permet de confirmer ses fonctionnalités.'
+    'La portée d’un modèle peut être soit <b>' . TEXT_SCOPE_PUBLIC . '</b>, disponible pour tous les utilisateurs administrateurs, soit <b>' . TEXT_SCOPE_PRIVATE . '</b>, disponible uniquement pour votre usage. Son nom sera inclus dans le nom du fichier CSV exporté si le modèle est utilisé pour personnaliser une action d’exportation, par exemple <code>dbio.%1$s.template_name.datetime_string</code>. La description que vous fournissez s’affiche sur l’écran principal du <strong>Gestionnaire d’E/S de base de données</strong> lorsque le modèle est sélectionné, ce qui vous permet de confirmer ses fonctionnalités.'
 );
 
 define('ERROR_UNKNOWN_HANDLER', 'Un nom de gestionnaire inconnu a été spécifié, veuillez réessayer.');

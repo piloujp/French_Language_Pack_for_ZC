@@ -14,28 +14,28 @@ $define = [
     'NAVBAR_TITLE' => 'Plan du site XML',
     'HEADING_TITLE' => 'SiteMapXML (' . SITEMAPXML_VERSION . ')',
 
-    'TEXT_EXECUTION_TIME' => 'Total : temps d\'exécution %s, requêtes DB %s, temps des requêtes DB %s.',
-    'TEXT_TOTAL_SITEMAP' => 'Total : fichiers %s, éléments %s (%s octets), temps d\'exécution %s, requêtes de base de données %s, temps des requêtes de base de données %s.',
+    'TEXT_EXECUTION_TIME' => 'Total : temps d’exécution %s, requêtes DB %s, temps des requêtes DB %s.',
+    'TEXT_TOTAL_SITEMAP' => 'Total : fichiers %s, éléments %s (%s octets), temps d’exécution %s, requêtes de base de données %s, temps des requêtes de base de données %s.',
     'TEXT_FILE_SITEMAP_INFO' => 'Fichier <a href="%s" target="_blank">%s</a>. %s éléments écrits (%s octets), taille du fichier : %s octets',
     'TEXT_WRITTEN' => 'Éléments %s écrits (%s octets), taille du fichier : %s octets',
 
     'TEXT_URL_FILE' => 'URL - ',
     'TEXT_INCLUDE_FILE' => 'Inclure',
-    'TEXT_FILE_NOT_CHANGED' => 'n\'a pas changé - utilise le(s) fichier(s) existant(s)',
-    'TEXT_FAILED_TO_OPEN' => 'Échec de l\'ouverture du fichier « %s » !!!',
+    'TEXT_FILE_NOT_CHANGED' => 'n’a pas changé - utilise le(s) fichier(s) existant(s)',
+    'TEXT_FAILED_TO_OPEN' => 'Échec de l’ouverture du fichier « %s » !!!',
     'TEXT_FAILED_TO_CREATE' => 'Impossible de créer le fichier « %s ». Vous devrez peut-être utiliser le panneau de configuration ou le gestionnaire de fichiers de votre hébergeur web pour modifier efficacement les autorisations.',
     'TEXT_FAILED_TO_CHMOD' => 'Le fichier « %s » est en lecture seule. Vous devrez peut-être utiliser le panneau de configuration ou le gestionnaire de fichiers de votre hébergeur web pour modifier efficacement les autorisations.',
 
     'TEXT_HEAD_SITEMAP_INDEX' => 'Index du plan du site',
     'TEXT_HEAD_SITEMAP_INDEX_NONE' => 'Index du plan du site non généré : aucun plan de site trouvé (aucun plugin sélectionné)',
 
-    'TEXT_ERROR_CURL_NOT_FOUND' => 'Fonctions CURL introuvables - requises pour les fonctions ping/vérification d\'URL',
+    'TEXT_ERROR_CURL_NOT_FOUND' => 'Fonctions CURL introuvables - requises pour les fonctions ping/vérification d’URL',
     'TEXT_ERROR_CURL_INIT' => 'Erreur cURL : initialiser cURL',
     'TEXT_ERROR_CURL_EXEC' => 'Erreur cURL : « <b>%s</b> » en lisant « %s »',
     'TEXT_ERROR_CURL_NO_HTTPCODE' => 'Erreur cURL : aucun code http lisant « %s »',
     'TEXT_ERROR_CURL_ERR_HTTPCODE' => 'Erreur cURL : Erreur lors de la lecture de « %s », code http « <b>%s</b> »',
     'TEXT_ERROR_CURL_0_DOWNLOAD' => 'Erreur cURL : taille de téléchargement nulle lors de la lecture de « %s »',
-    'TEXT_ERROR_CURL_ERR_DOWNLOAD' => 'Erreur cURL : Lecture d\'une page dont la taille est inférieure à « %s ». Téléchargement = %s, longueur du contenu = %s.',
+    'TEXT_ERROR_CURL_ERR_DOWNLOAD' => 'Erreur cURL : Lecture d’une page dont la taille est inférieure à « %s ». Téléchargement = %s, longueur du contenu = %s.',
 
     'TEXT_HEAD_PRODUCTS' => 'Plan du site des produits',
     'TEXT_HEAD_CATEGORIES' => 'Plan du site des catégories',
@@ -48,7 +48,7 @@ $define = [
     'TEXT_HEAD_TESTIMONIALS' => 'Plan du site du gestionnaire de témoignages',
 
     'TEXT_HEAD_NEWS' => 'Plan du site des actualités',
-    'TEXT_HEAD_NEWS_ARTICLES' => 'Plan du site des articles d\'actualité',
+    'TEXT_HEAD_NEWS_ARTICLES' => 'Plan du site des articles d’actualité',
 
     'TEXT_HEAD_PRODUCTS_VIDEO' => 'Plan du site vidéo des produits',
 

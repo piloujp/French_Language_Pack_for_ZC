@@ -7,13 +7,13 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Ordre de tri des noms d\'options',
-    'TEXT_EDIT_ALL' => 'Édition de tous les noms d\'options',
+    'HEADING_TITLE' => 'Ordre de tri des noms d’options',
+    'TEXT_EDIT_ALL' => 'Édition de tous les noms d’options',
     'TEXT_CURRENT_NAME' => 'Nom en cours',
     'TEXT_OPTION_TYPE' => 'Type',
     'TEXT_SELECTED_LANGUAGE' => 'Langue sélectionnée : ',
-    'TEXT_UPDATE_SUBMIT' => 'Mettre à jour l\'ordre de tri',
-    'SUCCESS_OPTION_SORT_ORDER' => 'Mise à jour réussie du classement des noms d\'options',
+    'TEXT_UPDATE_SUBMIT' => 'Mettre à jour l’ordre de tri',
+    'SUCCESS_OPTION_SORT_ORDER' => 'Mise à jour réussie du classement des noms d’options',
 ];
 
 return $define;

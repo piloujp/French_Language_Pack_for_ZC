@@ -13,10 +13,10 @@ $define = [
     'MODULES_PAYMENT_PAYPALSTD_LINEITEM_TEXT_SURCHARGES_LONG' => 'Frais de manutention et autres charges applicables',
     'MODULES_PAYMENT_PAYPALSTD_LINEITEM_TEXT_DISCOUNTS_SHORT' => 'Remises',
     'MODULES_PAYMENT_PAYPALSTD_LINEITEM_TEXT_DISCOUNTS_LONG' => 'Rabais appliqués, incluant les bons de réduction, chèques-cadeaux, etc',
-    'MODULES_PAYMENT_PAYPALSTD_NOT_RECOMMENDED' => 'Veuillez noter que ce module n\'est plus recommandé. Voir <a href="https://docs.zen-cart.com/user/payment/paypal_standard/" target="_blank" rel="noreferrer noopener">cette page</a> pour une explication.',
+    'MODULES_PAYMENT_PAYPALSTD_NOT_RECOMMENDED' => 'Veuillez noter que ce module n’est plus recommandé. Voir <a href="https://docs.zen-cart.com/user/payment/paypal_standard/" target="_blank" rel="noreferrer noopener">cette page</a> pour une explication.',
     'MODULE_PAYMENT_PAYPAL_ENTRY_FIRST_NAME' => 'Prénom : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_LAST_NAME' => 'Nom : ',
-    'MODULE_PAYMENT_PAYPAL_ENTRY_BUSINESS_NAME' => 'Nom de l\'entreprise : ',
+    'MODULE_PAYMENT_PAYPAL_ENTRY_BUSINESS_NAME' => 'Nom de l’entreprise : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_ADDRESS_NAME' => 'Adresse nom : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_ADDRESS_STREET' => 'Adresse : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_ADDRESS_CITY' => 'Ville : ',
@@ -27,7 +27,7 @@ $define = [
     'MODULE_PAYMENT_PAYPAL_ENTRY_EBAY_ID' => ' ID# Ebay : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_PAYER_ID' => 'ID# payeur : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_PAYER_STATUS' => 'Statut du payeur : ',
-    'MODULE_PAYMENT_PAYPAL_ENTRY_ADDRESS_STATUS' => 'Statut de l\'adresse : ',
+    'MODULE_PAYMENT_PAYPAL_ENTRY_ADDRESS_STATUS' => 'Statut de l’adresse : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_TYPE' => 'Type de paiement : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_PAYMENT_STATUS' => 'Statut du paiement : ',
     'MODULE_PAYMENT_PAYPAL_ENTRY_PENDING_REASON' => 'Motif de mise en attente : ',
@@ -45,7 +45,7 @@ $define = [
 ];
 
 if (IS_ADMIN_FLAG === true) {
-    $define['MODULE_PAYMENT_PAYPAL_TEXT_DESCRIPTION'] = '<strong>PayPal Payments Standard</strong> (Service PayPal plus ancien, moins fiable que Express Checkout)<br><a href="https://www.paypal.com" rel="noreferrer noopener" target="_blank">Gérez votre compte PayPal.</a><br><br><b>Instructions de configuration :</b><br>1. <a href="https://www.zen-cart.com/partners/paypal-std" rel="noopener" target="_blank">Créez votre compte PayPal - cliquez ici.</a><br>2. Dans votre compte PayPal, sous "Profil",<ul><li>définissez votre URL de <strong>Préférences de notification de paiement instantanée</strong> à :<br><pre>' . str_replace('index.php?main_page=index', 'ipn_main_handler.php', zen_catalog_href_link(FILENAME_DEFAULT)) . '</pre><br>(Si une autre URL valide est déjà saisie, vous pouvez la laisser telle quelle.)<br><span class="alert">Assurez-vous que la case à cocher pour activer l\'IPN est cochée !</span><br><br></li><li>dans les <strong>Préférences de paiement du site Web</strong>, définissez votre <strong>URL de retour automatique</strong> sur :<br><pre>' . zen_catalog_href_link(FILENAME_CHECKOUT_PROCESS, '', 'SSL', false) . '</pre></li>' . (defined('MODULE_PAYMENT_PAYPALSTD_STATUS') ? '' : '<li>... et cliquez sur "installer" ci-dessus pour activer le support PayPal Standard... et "modifier" pour indiquer à Zen Cart vos paramètres PayPal.</li>') . '</ul><hr><strong>Requis :</strong><br><br>*<strong>Compte PayPal</strong> (<a href="https://www.zen-cart.com/partners/paypal-std" rel="noopener" target="_blank">cliquez pour installer/configurer</a>)<br>*<strong>CURL avec SSL</strong> est fortement recommandé<br>*<strong>Le port 80 (et le port 443 si SSL est activé)</strong> est utilisé pour la communication <strong>*bidirectionnelle*</strong> avec la passerelle, et doit donc être ouvert sur le routeur/pare-feu de votre hôte.<br>*<strong>Les paramètres</strong> de votre compte PayPal doivent être configurés comme décrit ci-dessus.';
+    $define['MODULE_PAYMENT_PAYPAL_TEXT_DESCRIPTION'] = '<strong>PayPal Payments Standard</strong> (Service PayPal plus ancien, moins fiable que Express Checkout)<br><a href="https://www.paypal.com" rel="noreferrer noopener" target="_blank">Gérez votre compte PayPal.</a><br><br><b>Instructions de configuration :</b><br>1. <a href="https://www.zen-cart.com/partners/paypal-std" rel="noopener" target="_blank">Créez votre compte PayPal - cliquez ici.</a><br>2. Dans votre compte PayPal, sous "Profil",<ul><li>définissez votre URL de <strong>Préférences de notification de paiement instantanée</strong> à :<br><pre>' . str_replace('index.php?main_page=index', 'ipn_main_handler.php', zen_catalog_href_link(FILENAME_DEFAULT)) . '</pre><br>(Si une autre URL valide est déjà saisie, vous pouvez la laisser telle quelle.)<br><span class="alert">Assurez-vous que la case à cocher pour activer l’IPN est cochée !</span><br><br></li><li>dans les <strong>Préférences de paiement du site Web</strong>, définissez votre <strong>URL de retour automatique</strong> sur :<br><pre>' . zen_catalog_href_link(FILENAME_CHECKOUT_PROCESS, '', 'SSL', false) . '</pre></li>' . (defined('MODULE_PAYMENT_PAYPALSTD_STATUS') ? '' : '<li>... et cliquez sur "installer" ci-dessus pour activer le support PayPal Standard... et "modifier" pour indiquer à Zen Cart vos paramètres PayPal.</li>') . '</ul><hr><strong>Requis :</strong><br><br>*<strong>Compte PayPal</strong> (<a href="https://www.zen-cart.com/partners/paypal-std" rel="noopener" target="_blank">cliquez pour installer/configurer</a>)<br>*<strong>CURL avec SSL</strong> est fortement recommandé<br>*<strong>Le port 80 (et le port 443 si SSL est activé)</strong> est utilisé pour la communication <strong>*bidirectionnelle*</strong> avec la passerelle, et doit donc être ouvert sur le routeur/pare-feu de votre hôte.<br>*<strong>Les paramètres</strong> de votre compte PayPal doivent être configurés comme décrit ci-dessus.';
 } else {
     $define['MODULE_PAYMENT_PAYPAL_TEXT_DESCRIPTION'] = '<strong>PayPal</strong>';
 }

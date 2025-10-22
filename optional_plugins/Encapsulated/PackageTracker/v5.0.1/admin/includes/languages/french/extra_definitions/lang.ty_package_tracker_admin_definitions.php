@@ -18,7 +18,7 @@ $define = [
     // -----
     // Used to sprintf the carrier-name (%1$s), tracking-id (%2$s) and the carrier-link (%3$s) into the to-be-sent tracking-update email.
     //
-    'EMAIL_TEXT_TRACKID_UPDATE' => "\n\n" . 'Votre identifiant de suivi %1$s est %2$s' . "\n" . '<br><a href=\"%3$s\">Cliquez ici</a> pour suivre votre colis.' . "\n" . '<br>Si le lien ci-dessus ne fonctionne pas, copiez l\'adresse URL suivante et collez-la dans votre navigateur Web.' . "\n" . '<br>%3$s' . "\n\n" . '<br><br>Un délai de 24 heures peut être nécessaire pour que les informations de suivi apparaissent sur le site Web.' . "\n<br>",
+    'EMAIL_TEXT_TRACKID_UPDATE' => "\n\n" . 'Votre identifiant de suivi %1$s est %2$s' . "\n" . '<br><a href=\"%3$s\">Cliquez ici</a> pour suivre votre colis.' . "\n" . '<br>Si le lien ci-dessus ne fonctionne pas, copiez l’adresse URL suivante et collez-la dans votre navigateur Web.' . "\n" . '<br>%3$s' . "\n\n" . '<br><br>Un délai de 24 heures peut être nécessaire pour que les informations de suivi apparaissent sur le site Web.' . "\n<br>",
 
     // -----
     // Defines the label used for the plugin's configuration settings.

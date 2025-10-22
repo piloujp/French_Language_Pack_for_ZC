@@ -6,9 +6,9 @@
 // Last updated: v4.0.0
 //
 $define = [
-    'VAT4EU_GB_COUNTRY_REMOVED' => 'Le pays « GB » a été supprimé de la liste des <em>pays de l\'UE</em> de VAT4EU.',
+    'VAT4EU_GB_COUNTRY_REMOVED' => 'Le pays « GB » a été supprimé de la liste des <em>pays de l’UE</em> de VAT4EU.',
 
-    'BOX_CONFIG_VAT4EU' => 'TVA pour les pays de l\'UE',
+    'BOX_CONFIG_VAT4EU' => 'TVA pour les pays de l’UE',
 
     // -----
     // These two definitions are used in different spots.
@@ -26,7 +26,7 @@ $define = [
     'VAT4EU_CUSTOMERS_HEADING' => 'Numéro de TVA',
 
     'VAT4EU_ENTRY_VAT_MIN_ERROR' => '<span class="errorText">Un <em>numéro de TVA</em> doit avoir au moins %u caractères.</span>',
-    'VAT4EU_ENTRY_VAT_PREFIX_INVALID' => '<span class="errorText">Le <em>numéro de TVA</em> doit commencer par <b>%1$s</b>, puisque l\'adresse est dans <em>%2$s</em>.</span>',
+    'VAT4EU_ENTRY_VAT_PREFIX_INVALID' => '<span class="errorText">Le <em>numéro de TVA</em> doit commencer par <b>%1$s</b>, puisque l’adresse est dans <em>%2$s</em>.</span>',
     'VAT4EU_ENTRY_VAT_INVALID_CHARS' => '<span class="errorText">Caractères non valides détectés dans le <em>numéro de TVA</em>.</span>',
     'VAT4EU_ENTRY_VAT_VIES_INVALID' => '<span class="errorText">Échec de la validation VIES du <em>numéro de TVA</em> .</span>',
     'VAT4EU_ENTRY_VAT_NOT_SUPPORTED' => '<span class="errorText">Le pays dans cette adresse (%s) ne prend pas en charge les numéros de TVA.</span>',
@@ -35,9 +35,9 @@ $define = [
     // -----
     // Used as in the title attribute when displaying VAT Numbers' status in Customers->Customers.
     //
-    'VAT4EU_ADMIN_OVERRIDE' => 'Remplacée par l\'administrateur',
+    'VAT4EU_ADMIN_OVERRIDE' => 'Remplacée par l’administrateur',
     'VAT4EU_VIES_OK' => 'Validé par VIES',
-    'VAT4EU_NOT_VALIDATED' => 'Nécessite une validation de l\'administrateur',
+    'VAT4EU_NOT_VALIDATED' => 'Nécessite une validation de l’administrateur',
     'VAT4EU_VIES_NOT_OK' => 'Trouvé non valide par VIES',
 
     // -----

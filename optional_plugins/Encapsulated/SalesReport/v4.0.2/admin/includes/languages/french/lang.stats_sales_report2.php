@@ -131,11 +131,11 @@ $defines = [
     'SEARCH_TIMEFRAME_SORT' => 'Trier par période',
     'SEARCH_DATE_PRESET' => 'Plage de dates prédéfinie',
     'SEARCH_DATE_CUSTOM' => 'Plage de dates personnalisées',
-    'SEARCH_DATE_TODAY' => ' Aujourd\'hui (%s)',
+    'SEARCH_DATE_TODAY' => ' Aujourd’hui (%s)',
     'SEARCH_DATE_YESTERDAY' => ' Hier (%s)',
     'SEARCH_DATE_LAST_MONTH' => ' Le mois dernier (%s)',
     'SEARCH_DATE_THIS_MONTH' => ' Ce mois-ci (%s)',
-    'SEARCH_DATE_LAST_YEAR' => ' L\'année dernière (%s)',
+    'SEARCH_DATE_LAST_YEAR' => ' L’année dernière (%s)',
     'SEARCH_DATE_LAST_12_MONTHS' => ' Les 12 derniers mois',
     'SEARCH_DATE_YTD' => ' Année à ce jour (%s)',
     'SEARCH_START_DATE' => 'Date de début',
@@ -154,7 +154,7 @@ $defines = [
     'SEARCH_SORT_PRODUCT' => 'Trier les produits par...',
     'SEARCH_SORT_ORDER' => 'Trier les commandes par...',
     'SEARCH_SORT_THEN' => 'Ensuite, trier par...',
-    'BUTTON_SEARCH' => 'Montre-moi l\'argent !',
+    'BUTTON_SEARCH' => 'Montre-moi l’argent !',
     'BUTTON_DEFAULT_SEARCH' => 'Recherche rapide',
     'SEARCH_WAIT_TEXT' => 'Traitement en cours, veuillez patienter...',
 
@@ -172,8 +172,8 @@ $defines = [
     'SELECT_DETAIL_PRODUCT' => '&nbsp;+ Détail des produits',
     'SELECT_DETAIL_ORDER' => '&nbsp;+ Détail des commandes',
     'SELECT_DETAIL_MATRIX' => 'Statistiques sur la période',
-    'SELECT_OUTPUT_DISPLAY' => 'Affichage à l\'écran',
-    'SELECT_OUTPUT_PRINT' => 'Format d\'impression',
+    'SELECT_OUTPUT_DISPLAY' => 'Affichage à l’écran',
+    'SELECT_OUTPUT_PRINT' => 'Format d’impression',
     'SELECT_OUTPUT_CSV' => 'Exportation CSV',
     'SELECT_PRODUCT_ID' => 'ID du produit',
     'SELECT_QUANTITY' => 'Quantité',
@@ -184,7 +184,7 @@ $defines = [
     'CHECKBOX_CSV_HEADER' => ' Titres des colonnes sur la première ligne',
     'CHECKBOX_NEW_WINDOW' => ' Ouvrir les résultats dans une nouvelle fenêtre',
     'CHECKBOX_VALIDATE_TOTALS' => ' Afficher la colonne de validation du total de la commande',
-    'CHECKBOX_DISPLAY_EMAIL_ADDRESS' => ' Afficher l\'adresse e-mail du client ?',
+    'CHECKBOX_DISPLAY_EMAIL_ADDRESS' => ' Afficher l’adresse e-mail du client ?',
 
     // Report Column Headings
     // Timeframe
@@ -225,7 +225,7 @@ $defines = [
 
     // Data Matrix
     'MATRIX_GENERAL_STATS' => 'Statistiques générales',
-    'MATRIX_ORDER_REVENUE' => 'Chiffre d\'affaires total',
+    'MATRIX_ORDER_REVENUE' => 'Chiffre d’affaires total',
     'MATRIX_ORDER_PRODUCT_COUNT' => 'Nombre total de produits',
     'MATRIX_LARGEST' => 'Commande la plus importante : ',
     'MATRIX_SMALLEST' => 'Commande la plus petite : ',
@@ -237,12 +237,12 @@ $defines = [
     'MATRIX_ORDER_STATS' => 'Statistiques de commande',
     'MATRIX_TOTAL_PAYMENTS' => 'Modes de paiement',
     'MATRIX_TOTAL_CC' => 'Cartes de crédit',
-    'MATRIX_TOTAL_SHIPPING' => 'Méthodes d\'expédition',
+    'MATRIX_TOTAL_SHIPPING' => 'Méthodes d’expédition',
     'MATRIX_TOTAL_CURRENCIES' => 'Devises utilisées',
     'MATRIX_TOTAL_CUSTOMERS' => 'Clients uniques',
     'MATRIX_PRODUCT_STATS' => 'Statistiques produit',
     'MATRIX_PRODUCT_SPREAD' => 'Diffusion du produit',
-    'MATRIX_PRODUCT_REVENUE_RATIO' => '% du chiffre d\'affaires total',
+    'MATRIX_PRODUCT_REVENUE_RATIO' => '% du chiffre d’affaires total',
     'MATRIX_PRODUCT_QUANTITY_RATIO' => 'Quantité totale %',
 
     // CSV Export
@@ -257,7 +257,7 @@ $defines = [
     'CSV_NEWLINE' => "\n",
 
     // Print Format
-    'PRINT_DATE_TO' => ' jusqu\'au ',
+    'PRINT_DATE_TO' => ' jusqu’au ',
     'PRINT_DATE_TARGET' => 'Date de ',
     'PRINT_TIMEFRAMES' => '%s périodes triées %s',
     'PRINT_DATE_PURCHASED' => 'date de création de la commande',
@@ -271,7 +271,7 @@ $defines = [
     'ALERT_JS_HIGHLIGHT' => '#FF40CF',
     'ALERT_MSG_START' => 'Il y a une ou plusieurs erreurs dans vos sélections :',
     'ALERT_DATE_INVALID_LENGTH' => '> Les dates doivent comporter 10 caractères : ',
-    'ALERT_DATE_INVALID' => '> Ceci n\\\'est pas une date valide : ',
+    'ALERT_DATE_INVALID' => '> Ceci n’est pas une date valide : ',
     'ALERT_MSG_FINISH' => 'Veuillez corriger le(s) problème(s) et soumettre à nouveau votre recherche.',
 
     // Other text defines
@@ -279,13 +279,13 @@ $defines = [
     'ALT_TEXT_SORT_ASC' => 'Trier à nouveau par ordre CROISSANT',
     'ALT_TEXT_SORT_DESC' => 'Trier à nouveau par ordre DÉCROISSANT',
     'TEXT_REPORT_TIMESTAMP' => 'Heure du rapport : ',
-    'TEXT_PARSE_TIME' => 'Temps d\'analyse : %s sec.',
-    'TEXT_EMPTY_SELECT' => '(doesn\'t matter)',
+    'TEXT_PARSE_TIME' => 'Temps d’analyse : %s sec.',
+    'TEXT_EMPTY_SELECT' => '(sans importance)',
     'TEXT_QTY' => '| Qté : ',
     'TEXT_DIFF' => ' | Diff　: ',
     'TEXT_SAME' => '| (ident.)',
     'TEXT_SAME_ONE' => '| --',
-    'TEXT_PRINT_FORMAT' => 'afficher le rapport au format d\'impression',
+    'TEXT_PRINT_FORMAT' => 'afficher le rapport au format d’impression',
     'TEXT_NO_DATA' => '-- AUCUNE COMMANDE DANS LA PERIODE --',
 
     // Buttons
@@ -297,8 +297,8 @@ $defines = [
 // Some of the language definitions reuse the main definitions; add them separately since
 // they're not defined at this point.
 //
-$defines['ALERT_CSV_CONFLICT'] = '> La sortie CSV n\\\'est pas disponible pour l\\\'affichage ' . $defines['SELECT_DETAIL_MATRIX'] . '.';
-$defines['ERROR_CSV_CONFLICT'] = 'La sortie CSV n\\\'est pas disponible pour l\\\'affichage <em>' . $defines['SELECT_DETAIL_MATRIX'] . '</em> ; veuillez ressélectionner les options du rapport.';
-$defines['TEXT_PRINT_FORMAT_TITLE'] = 'CONSEIL : cliquez sur \'' . $defines['PAGE_HEADING'] . '\' pour revenir à la vue d\'affichage';
+$defines['ALERT_CSV_CONFLICT'] = '> La sortie CSV n’est pas disponible pour l’affichage ' . $defines['SELECT_DETAIL_MATRIX'] . '.';
+$defines['ERROR_CSV_CONFLICT'] = 'La sortie CSV n’est pas disponible pour l’affichage <em>' . $defines['SELECT_DETAIL_MATRIX'] . '</em> ; veuillez ressélectionner les options du rapport.';
+$defines['TEXT_PRINT_FORMAT_TITLE'] = 'CONSEIL : cliquez sur « ' . $defines['PAGE_HEADING'] . ' » pour revenir à la vue d’affichage';
 
 return $defines;

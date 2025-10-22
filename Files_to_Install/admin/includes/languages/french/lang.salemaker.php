@@ -16,8 +16,8 @@ $define = [
     'TEXT_SALEMAKER_SPECIALS_CONDITION' => 'Si un produit est en promotion : ',
     'TEXT_SALEMAKER_DATE_START' => 'Date de début : ',
     'TEXT_SALEMAKER_DATE_END' => 'Date de fin : ',
-    'TEXT_SALEMAKER_CATEGORIES' => '<b>OU</b> cochez les catégories auxquelles cette solde s\'applique : ',
-    'TEXT_SALEMAKER_POPUP' => '<a href="javascript:session_win();"><span class="errorText"><b>Cliquez ici pour des conseils sur l\'utilisation du Soldeur (SaleMaker).</b></span></a>',
+    'TEXT_SALEMAKER_CATEGORIES' => '<b>OU</b> cochez les catégories auxquelles cette solde s’applique : ',
+    'TEXT_SALEMAKER_POPUP' => '<a href="javascript:session_win();"><span class="errorText"><b>Cliquez ici pour des conseils sur l’utilisation du Soldeur (SaleMaker).</b></span></a>',
     'TEXT_SALEMAKER_ENTIRE_CATALOG' => 'Cochez cette case si vous voulez appliquer la solde à <b>tous les produits</b> : ',
     'TEXT_SALEMAKER_TOP' => 'Tout le catalogue',
     'TEXT_INFO_DATE_STATUS_CHANGE' => 'Dernier changement de statut : ',
@@ -34,8 +34,8 @@ $define = [
     'TEXT_INFO_COPY_INTRO' => 'Entrez un nom pour la copie de<br>&nbsp;&nbsp;"%s"',
     'TEXT_INFO_HEADING_DELETE_SALE' => 'Supprimer la solde',
     'TEXT_INFO_DELETE_INTRO' => 'Êtes-vous certain(e) de vouloir supprimer définitivement cette solde ?',
-    'TEXT_MORE_INFO' => '(Plus d\'infos)',
-    'TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES' => '&nbsp;Attention : cette catégorie fait déjà l\'objet de %s solde(s)',
+    'TEXT_MORE_INFO' => '(Plus d’infos)',
+    'TEXT_WARNING_SALEMAKER_PREVIOUS_CATEGORIES' => '&nbsp;Attention : cette catégorie fait déjà l’objet de %s solde(s)',
 ];
 
 return $define;

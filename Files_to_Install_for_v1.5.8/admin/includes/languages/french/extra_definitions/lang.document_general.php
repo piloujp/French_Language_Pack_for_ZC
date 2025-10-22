@@ -13,7 +13,7 @@ $define = [
     'TEXT_DOCUMENT_NAME' => 'Nom de Document :',
     'TEXT_DOCUMENT_DETAILS' => 'Contenu du document :',
     'TEXT_DOCUMENT_IMAGE' => 'Image de Document :',
-    'TEXT_DOCUMENT_IMAGE_DIR' => 'Télécharger dans l\'annuaire :',
+    'TEXT_DOCUMENT_IMAGE_DIR' => 'Télécharger dans l’annuaire :',
     'TEXT_DOCUMENT_URL' => 'URL du document :',
     'TEXT_DOCUMENT_URL_WITHOUT_HTTP' => '<small>(sans http://)</small>',
 ];

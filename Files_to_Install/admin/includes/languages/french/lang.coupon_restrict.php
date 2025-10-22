@@ -20,8 +20,8 @@ $define = [
     'TEXT_ALL_CATEGORIES' => 'Toutes les catégories',
     'TEXT_ALL_PRODUCTS_ADD' => 'Ajouter tous les produits de cette catégorie',
     'TEXT_ALL_PRODUCTS_REMOVE' => 'Supprimer tous les produits de cette catégorie',
-    'TEXT_INFO_ADD_DENY_ALL' => '<strong>Pour \'Ajouter tous les produits de cette catégorie\', uniquement les produits qui n\'ont pas encore de restrictions seront ajoutés.<br>
-                    Pour \'Supprimer tous les produits de cette catégorie\', uniquement les produits indiqués \'Autorisé\' ou \'Interdit\' seront supprimés.</strong>',
+    'TEXT_INFO_ADD_DENY_ALL' => '<strong>Pour ajouter tous les produits de cette catégorie, uniquement les produits qui n’ont pas encore de restrictions seront ajoutés.<br>
+                    Pour supprimer tous les produits de cette catégorie, uniquement les produits indiqués « Autorisé » ou « Interdit » seront supprimés.</strong>',
     'ERROR_DISCOUNT_COUPON_DEFINED_CATEGORY' => 'Catégorie incomplète',
     'ERROR_DISCOUNT_COUPON_DEFINED_PRODUCT' => 'Produit incomplet',
     'HEADER_MANUFACTURER_NAME' => '<br> - OU - <br>'.'Fabricant:',
@@ -35,7 +35,7 @@ $define = [
     'TEXT_STATUS_TOGGLE' => 'Basculer',
     'TEXT_STATUS_TOGGLE_TITLE' => 'Cliquez ici pour changer le statut de la restriction',
     'TEXT_ALLOWED' => 'Le produit ou la catégorie est autorisé',
-    'TEXT_DENIED' => 'Le produit ou la catégorie n\'est pas autorisé',
+    'TEXT_DENIED' => 'Le produit ou la catégorie n’est pas autorisé',
     'TEXT_NO_CATEGORY_RESTRICTIONS' => 'Aucune restriction de catégorie actuelle',
     'TEXT_NO_PRODUCT_RESTRICTIONS' => 'Aucune restriction de produit actuelle',
 ];

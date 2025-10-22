@@ -9,8 +9,8 @@
 $define = [
     'TEXT_MIN_ADMIN_USER_LENGTH' => 'Doit avoir une longueur de 4 ou plus.',
     'TEXT_DATA_OUT_OF_RANGE' => 'Données hors limites',
-    'TEXT_MIN_GENERAL_ADMIN' => 'La valeur minimale entrée n\'était pas un nombre entier.',
-    'TEXT_MAX_GENERAL_ADMIN' => 'La valeur saisie comme maximum n\'était pas un nombre entier.',
+    'TEXT_MIN_GENERAL_ADMIN' => 'La valeur minimale entrée n’était pas un nombre entier.',
+    'TEXT_MAX_GENERAL_ADMIN' => 'La valeur saisie comme maximum n’était pas un nombre entier.',
     'TEXT_MIN_ADMIN_FIRST_NAME_LENGTH' => 'La valeur doit être un entier',
     'TEXT_MIN_ADMIN_LAST_NAME_LENGTH' => 'La valeur doit être un entier',
     'TEXT_MIN_ADMIN_DOB_LENGTH' => 'La valeur doit être un entier',

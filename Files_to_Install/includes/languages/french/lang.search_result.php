@@ -7,7 +7,7 @@ $define = [
     'ENTRY_CATEGORIES' => 'Categories:',
     'ENTRY_MANUFACTURERS' => 'Fabricants : ',
     'TABLE_HEADING_IMAGE' => '',
-    'TEXT_NO_PRODUCTS' => 'Il n\'y a aucun produit correspondant aux criteres de recherche.',
+    'TEXT_NO_PRODUCTS' => 'Il n’y a aucun produit correspondant aux criteres de recherche.',
     'TEXT_SHOW' => 'Filtrer par : ',
 ];
 

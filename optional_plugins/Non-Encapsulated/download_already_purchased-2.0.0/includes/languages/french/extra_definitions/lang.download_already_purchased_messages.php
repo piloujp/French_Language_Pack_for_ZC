@@ -17,9 +17,9 @@
 // %2$s ... Either a link to the associated account_history_info page to reference the associated customer order or a link to the contact_us page.
 //
 return [
-    'DAP_MESSAGE_DOWNLOAD_AVAILABLE_NOT_ADDED' => 'Vous avez un téléchargement actif disponible pour <em>%1$s</em> ! Cliquez <a href="%2$s">ici</a> pour accéder à ce téléchargement ; le produit n\'a pas été ajouté à votre panier.',
+    'DAP_MESSAGE_DOWNLOAD_AVAILABLE_NOT_ADDED' => 'Vous avez un téléchargement actif disponible pour <em>%1$s</em> ! Cliquez <a href="%2$s">ici</a> pour accéder à ce téléchargement ; le produit n’a pas été ajouté à votre panier.',
 
-    'DAP_MESSAGE_DOWNLOAD_EXPIRED_CALL_US_NOT_ADDED' => 'Vous avez déjà acheté <em>%1$s</em>, mais votre lien de téléchargement a actuellement expiré. <a href="%2$s">Contactez-nous</a> et nous réactiverons ce téléchargement ; le produit n\'a pas été ajouté à votre panier.',
+    'DAP_MESSAGE_DOWNLOAD_EXPIRED_CALL_US_NOT_ADDED' => 'Vous avez déjà acheté <em>%1$s</em>, mais votre lien de téléchargement a actuellement expiré. <a href="%2$s">Contactez-nous</a> et nous réactiverons ce téléchargement ; le produit n’a pas été ajouté à votre panier.',
 
     'DAP_MESSAGE_DOWNLOAD_AVAILABLE_REMOVED' => 'Vous avez un téléchargement actif disponible pour <em>%1$s</em> ! Cliquez <a href="%2$s">ici</a> pour accéder à ce téléchargement ; le produit a été supprimé de votre panier.',
 

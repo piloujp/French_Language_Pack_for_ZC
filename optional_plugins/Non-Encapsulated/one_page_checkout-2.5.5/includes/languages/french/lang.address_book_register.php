@@ -9,6 +9,6 @@
 // for the OPC plugin.
 //
 $define = [
-    'TEXT_NO_ADDRESSES' => 'Poursuivez l\'enregistrement de votre compte en fournissant une adresse <em>principale</em>. Cette adresse sera utilisée comme adresses de facturation et de livraison présélectionnées pour toutes les commandes futures.<br><br>Cliquez sur le bouton <em>%s</em> pour continuer.',
+    'TEXT_NO_ADDRESSES' => 'Poursuivez l’enregistrement de votre compte en fournissant une adresse <em>principale</em>. Cette adresse sera utilisée comme adresses de facturation et de livraison présélectionnées pour toutes les commandes futures.<br><br>Cliquez sur le bouton <em>%s</em> pour continuer.',
 ];
 return $define;

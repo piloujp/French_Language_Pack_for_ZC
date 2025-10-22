@@ -6,7 +6,7 @@
 // Last updated for OPC v2.4.2.
 //
 $define = [
-    'EMAIL_TEXT_INVOICE_URL_GUEST' => 'Vérifier l\'état de la commande :',
+    'EMAIL_TEXT_INVOICE_URL_GUEST' => 'Vérifier l’état de la commande :',
     'EMAIL_TEXT_INVOICE_URL_CLICK_GUEST' => 'Cliquez ici pour vérifier le statut de votre commande',
 ];
 return $define;

@@ -36,7 +36,7 @@ $define = [
     'TEXT_BUTTON_REPORT_SAVE' => 'Enregistrer CSV',
     'TEXT_BUTTON_REPORT_BACK_DESC' => 'Retour au résumé par mois',
     'TEXT_BUTTON_REPORT_INVERT_DESC' => 'Inverser les lignes du haut vers le bas',
-    'TEXT_BUTTON_REPORT_PRINT_DESC' => 'Afficher le rapport dans une fenêtre optimisée pour l\'impression',
+    'TEXT_BUTTON_REPORT_PRINT_DESC' => 'Afficher le rapport dans une fenêtre optimisée pour l’impression',
     'TEXT_BUTTON_REPORT_HELP_DESC' => 'À propos de ce rapport et comment utiliser ses fonctionnalités',
     'TEXT_BUTTON_REPORT_GET_DETAIL' => 'Cliquez ici pour consulter le résumé quotidien de ce mois.',
 
@@ -50,7 +50,7 @@ $define = [
     'TABLE_HEADING_TAX_COLL' => 'Taxess perçues',
     'TABLE_HEADING_SHIPHNDL' => 'Frais de port et de manutention',
     'TABLE_HEADING_LOWORDER' => 'Frais de petite commande',
-    'TABLE_HEADING_VOUCHER' => 'bons d\'achat',
+    'TABLE_HEADING_VOUCHER' => 'bons d’achat',
     'TABLE_HEADING_COUPON' => 'Coupons',
     'TABLE_HEADING_OTHER' => 'Autre',
     'TABLE_FOOTER_YEAR' => 'ANNÉE',
@@ -59,7 +59,7 @@ $define = [
     // Language constants used by the report's AJAX handler (/includes/classes/ajax/zcAjaxMonthlySales.php).
     //
     'SMS_AJAX_ORDER_ID' => 'Num. de commande',
-    'SMS_AJAX_DATE_PURCHASED' => 'Date d\'achat',
+    'SMS_AJAX_DATE_PURCHASED' => 'Date d’achat',
     'SMS_AJAX_TAX_DESCRIPTION' => 'Description de la taxe',
     'SMS_AJAX_TAX' => 'Taxe',
     'SMS_AJAX_TAX_TOTAL' => 'Total :',

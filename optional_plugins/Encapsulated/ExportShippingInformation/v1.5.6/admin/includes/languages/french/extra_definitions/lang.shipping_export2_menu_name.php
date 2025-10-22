@@ -14,6 +14,6 @@
 */
 // Last updated: Shippping Export II, v1.5.4
 $define = [
-    'BOX_TOOLS_SHIPPING_EXPORT2' => 'Exporter les informations d\'expédition des commandes II',
+    'BOX_TOOLS_SHIPPING_EXPORT2' => 'Exporter les informations d’expédition des commandes II',
 ];
 return $define;

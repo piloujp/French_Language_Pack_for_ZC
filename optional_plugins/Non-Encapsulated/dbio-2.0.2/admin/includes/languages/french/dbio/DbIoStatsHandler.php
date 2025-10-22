@@ -7,4 +7,4 @@
 // -----
 // Defines the handler's descriptive text.
 //
-define('DBIO_STATS_DESCRIPTION', 'Ce format de rapport prend en charge l\'exportation uniquement de tous les champs de la table <code>dbio_stats</code>.<br><br><b>Remarque :</b> une fois l\'exportation terminée, la table <code>dbio_stats</code> sera vidée.');
+define('DBIO_STATS_DESCRIPTION', 'Ce format de rapport prend en charge l’exportation uniquement de tous les champs de la table <code>dbio_stats</code>.<br><br><b>Remarque :</b> une fois l’exportation terminée, la table <code>dbio_stats</code> sera vidée.');

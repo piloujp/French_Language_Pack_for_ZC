@@ -19,7 +19,7 @@ $define = [
     // lors de la vérification des dates de retour en stock « expirées » et de l'installation ou des mises à jour de la messagerie.
     //
     'POSM_EO_DOWNLEVEL' => 'La version <em>Modifier les commandes</em> (v%s) actuellement installée <em>ne prend pas en charge</em> le <em>Gestionnaire de stock des options de produits</em>; veuillez mettre à jour vers EO v4.2.0 ou version ultérieure.',
-    'POSM_BIS_DATES_EXPIRED' => 'Une ou plusieurs dates de retour en stock sont dans leur période d\'expiration (%1$u jours); cliquez <a href="%2$s">ici</a> pour plus d\'informations',
+    'POSM_BIS_DATES_EXPIRED' => 'Une ou plusieurs dates de retour en stock sont dans leur période d’expiration (%1$u jours); cliquez <a href="%2$s">ici</a> pour plus d’informations',
     'POSM_INSTALLED' => 'La version %s du gestionnaire de stock des options de produits a été installée avec succès.',
     'POSM_UPDATED' => 'Le gestionnaire de stock des options des produits a été mis à jour avec succès de la version %1$s à %2$s.',
 
@@ -32,7 +32,7 @@ $define = [
     // -----
     // Utilisé par l'observateur de stock des options de niveau administrateur pour signaler qu'un ou plusieurs enregistrements de stock ont ​​été supprimés.
     //
-    'CAUTION_REMOVING_OPTIONS_STOCK' => 'L\'opération a entraîné la suppression de %u enregistrement(s) de stock d\'options de produits.',
+    'CAUTION_REMOVING_OPTIONS_STOCK' => 'L’opération a entraîné la suppression de %u enregistrement(s) de stock d’options de produits.',
 
     // -----
     // Utilisé par l'observateur de stock des options de niveau administrateur pour signaler qu'un ou plusieurs enregistrements de stock ont ​​été copiés.
@@ -49,9 +49,9 @@ $define = [
     'ERROR_DUPLICATE_MODEL_FOUND' => 'Le numéro de modèle (<em>%s</em>) est déjà utilisé et doit être modifié pour enregistrer ces informations.',
     'JSCRIPT_ERROR_DUPLICATE_MODEL' => "'Ce numéro de modèle ('+modelNum+') est déjà utilisé et doit être modifié pour enregistrer ces informations.'",
     'ERROR_MODEL_TOO_LONG' => 'Le numéro de modèle (%s) saisi comporte trop de caractères; veuillez la saisir à nouveau.',
-    'ERROR_INVALID_QUANTITY' => 'La valeur de quantité d\'une variante doit être numérique et non négative, veuillez la saisir à nouveau.',
+    'ERROR_INVALID_QUANTITY' => 'La valeur de quantité d’une variante doit être numérique et non négative, veuillez la saisir à nouveau.',
 
-    'POSM_TEXT_SORT_BY' => 'Trier les combinaisons d\'options par : ',
+    'POSM_TEXT_SORT_BY' => 'Trier les combinaisons d’options par : ',
     'POSM_TEXT_SORT_BY_MODEL_ASC' => 'Numéro de modèle, A-Z',
     'POSM_TEXT_SORT_BY_MODEL_DESC' => 'Numéro de modèle, Z-A',
     'POSM_TEXT_SORT_BY_DEFINITION' => 'Ordre de tri des attributs',

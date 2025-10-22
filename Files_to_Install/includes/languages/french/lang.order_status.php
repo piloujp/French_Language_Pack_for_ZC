@@ -16,7 +16,7 @@ $define = [
     'HEADING_TOTAL' => 'Total',
     'HEADING_QUANTITY' => 'Qté.',
 
-    'HEADING_SHIPPING_METHOD' => 'Méthode d\'expédition',
+    'HEADING_SHIPPING_METHOD' => 'Méthode d’expédition',
     'HEADING_PAYMENT_METHOD' => 'Mode de paiement',
 
     'HEADING_ORDER_HISTORY' => 'Historique des statuts et commentaires',
@@ -35,9 +35,9 @@ $define = [
     'ERROR_INVALID_ORDER' => 'Vous avez entré un numéro de commande invalide.',
     'ERROR_NO_MATCH' => 'Aucune correspondance trouvée pour votre entrée.',
 
-    'TEXT_LOOKUP_INSTRUCTIONS' => 'Pour connaître l\'état d\'une commande, veuillez saisir le numéro de commande et l\'adresse e-mail avec laquelle elle a été passée.',
+    'TEXT_LOOKUP_INSTRUCTIONS' => 'Pour connaître l’état d’une commande, veuillez saisir le numéro de commande et l’adresse e-mail avec laquelle elle a été passée.',
 
-    'FOOTER_DOWNLOAD' => 'Vous pouvez également télécharger vos produits ultérieurement sur \'%s\'',
-    'FOOTER_DOWNLOAD_COWOA' => 'Vous pouvez télécharger vos produits en utilisant la page « Statut de la commande » jusqu\'à ce que vous atteigniez le nombre maximum de téléchargements ou que vous manquiez de temps !',
+    'FOOTER_DOWNLOAD' => 'Vous pouvez également télécharger vos produits ultérieurement sur « %s »',
+    'FOOTER_DOWNLOAD_COWOA' => 'Vous pouvez télécharger vos produits en utilisant la page « Statut de la commande » jusqu’à ce que vous atteigniez le nombre maximum de téléchargements ou que vous manquiez de temps !',
 ];
 return $define;

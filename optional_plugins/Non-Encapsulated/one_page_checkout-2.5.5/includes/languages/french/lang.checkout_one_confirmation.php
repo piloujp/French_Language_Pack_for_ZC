@@ -22,13 +22,13 @@ $define = [
     'BILLING_ADDRESS' => '(Adresse de facturation) ',
     'SHIPPING_ADDRESS' => '(Adresse de livraison) ',
 
-    'CAUTION_SHIPPING_CHANGED' => 'Les frais d\'expédition ont été recalculés, car l\'adresse de livraison a été modifiée.',
+    'CAUTION_SHIPPING_CHANGED' => 'Les frais d’expédition ont été recalculés, car l’adresse de livraison a été modifiée.',
     'ERROR_INVALID_SHIPPING_SELECTION' => 'Sélection de livraison non valide. Veuillez effectuer une autre sélection.',
     'ERROR_PLEASE_RESELECT_SHIPPING_METHOD' => 'Vos options de livraison disponibles ont changé. Veuillez resélectionner votre mode de livraison souhaité.',
 
-    'NO_JAVASCRIPT_MESSAGE' => 'JavaScript n\'est pas activé ; veuillez cliquer sur le bouton de confirmation ci-dessous pour traiter votre commande.',
+    'NO_JAVASCRIPT_MESSAGE' => 'JavaScript n’est pas activé ; veuillez cliquer sur le bouton de confirmation ci-dessous pour traiter votre commande.',
     'CHECKOUT_ONE_CONFIRMATION_LOADING' => 'confirmation_one_loading.gif',
-    'CHECKOUT_ONE_CONFIRMATION_LOADING_ALT' => 'Veuillez patienter s\'il vous plaît ...',
+    'CHECKOUT_ONE_CONFIRMATION_LOADING_ALT' => 'Veuillez patienter s’il vous plaît ...',
     'ERROR_NOJS_ORDER_CHANGED' => 'Les détails de votre commande ont changé. Veuillez vérifier les détails actuels et soumettre à nouveau.',
 
     'ERROR_INVALID_TEMPORARY_ENTRIES' => 'Certaines des informations que vous avez saisies ne sont pas correctes, veuillez les saisir à nouveau.',

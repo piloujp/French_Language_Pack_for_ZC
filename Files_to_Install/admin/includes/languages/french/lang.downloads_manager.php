@@ -24,7 +24,7 @@ $define = [
     'TEXT_INFO_FILENAME_MISSING' => '&nbsp;Fichier manquant',
     'TEXT_INFO_FILENAME_GOOD' => '&nbsp;Fichier valide',
     'TEXT_WARNING_PRODUCT_MISCONFIGURED_SHORT' => 'Le produit téléchargeable est mal configuré', 
-    'TEXT_WARNING_PRODUCT_MISCONFIGURED' => 'Le produit ne doit pas être livré gratuitement ou virtuel. Consultez la <a href="https://docs.zen-cart.com/user/products/downloadable/#additional-notes-about-downloads-and-shipping-costs">documentation sur les frais d\'expédition</a>.',  
+    'TEXT_WARNING_PRODUCT_MISCONFIGURED' => 'Le produit ne doit pas être livré gratuitement ou virtuel. Consultez la <a href="https://docs.zen-cart.com/user/products/downloadable/#additional-notes-about-downloads-and-shipping-costs">documentation sur les frais d’expédition</a>.',  
 ];
 
 return $define;

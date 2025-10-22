@@ -32,10 +32,10 @@ $define = [
     'TEXT_DISABLE_SUCCESS' => 'Plugin désactivé avec succès',
     'TEXT_ENABLE_SUCCESS' => 'Plugin activé avec succès',
     'TEXT_CLEANUP_SUCCESS' => 'Répertoires supprimés avec succès',
-    'TEXT_CLEANUP_ERROR' => 'Veuillez vérifier les autorisations des fichiers. Certains répertoires n\'ont pas été supprimés',
+    'TEXT_CLEANUP_ERROR' => 'Veuillez vérifier les autorisations des fichiers. Certains répertoires n’ont pas été supprimés',
     'TEXT_UPGRADE_AVAILABLE' => 'Mise à jour disponible',
     'TEXT_VERSION_INSTALLED' => '<strong>Version installée :</strong> %s',
-    'TEXT_NEW_PLUGIN_DOWNLOAD_AVAILABLE' => 'Une nouvelle version %1$s est disponible en téléchargement sur le <a target="_blank" rel="noreferrer" href="https://www.zen-cart.com/downloads.php?do=file&id=%2$s">forum d\'assistance</a>',
+    'TEXT_NEW_PLUGIN_DOWNLOAD_AVAILABLE' => 'Une nouvelle version %1$s est disponible en téléchargement sur le <a target="_blank" rel="noreferrer" href="https://www.zen-cart.com/downloads.php?do=file&id=%2$s">forum d’assistance</a>',
     'TEXT_CONFIRM_UNINSTALL' => 'Êtes-vous sûr de vouloir désinstaller ce plugin ?',
     'TEXT_CONFIRM_UPGRADE' => 'Êtes-vous sûr de vouloir mettre à jour ce plugin ?',
     'TEXT_CONFIRM_DISABLE' => 'Êtes-vous sûr de vouloir désactiver ce plugin ?',
@@ -46,8 +46,8 @@ $define = [
     'TEXT_INFO_CONFIRM_CLEAN' => 'Confirmer les répertoires de versions à nettoyer/supprimer',
     'TEXT_LABEL_STATUS' => 'Status : ',
     'ERROR_NOT_FOUND_IN_SQL_FUNCTIONS_MAP' => 'Vérifiez votre instruction SQL. Une carte de fonctions SQL est introuvable pour : ',
-    'ERROR_INVALID_SYNTAX' => 'Le tableau ne peut pas être identifié car la syntaxe n\'est pas valide dans : ',
-    'ERROR_SQL_PATCH' => 'Erreur lors du traitement de l\'installation SQL.',
+    'ERROR_INVALID_SYNTAX' => 'Le tableau ne peut pas être identifié car la syntaxe n’est pas valide dans : ',
+    'ERROR_SQL_PATCH' => 'Erreur lors du traitement de l’installation SQL.',
 ];
 
 return $define;

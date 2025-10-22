@@ -7,7 +7,7 @@
 // -----
 // Defines the handler's descriptive text.
 //
-define ('DBIO_PRODUCTS_DESCRIPTION', 'Ce format de rapport prend en charge l\'import/export de <b>tous</b> les champs des tables « produits » et « description_produits », qui contiennent les informations de base sur les produits. Vous pouvez utiliser les filtres fournis pour limiter la sortie de ce rapport en fonction du statut, du fabricant ou de l\'arborescence des catégories d\'un produit.');
+define ('DBIO_PRODUCTS_DESCRIPTION', 'Ce format de rapport prend en charge l’import/export de <b>tous</b> les champs des tables « produits » et « description_produits », qui contiennent les informations de base sur les produits. Vous pouvez utiliser les filtres fournis pour limiter la sortie de ce rapport en fonction du statut, du fabricant ou de l’arborescence des catégories d’un produit.');
 
 // -----
 // Definitions that are used for the export-filters, displayed on Tools->Database I/O Manager

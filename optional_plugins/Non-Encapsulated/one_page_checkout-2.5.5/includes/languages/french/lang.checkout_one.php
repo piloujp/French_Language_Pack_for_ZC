@@ -7,7 +7,7 @@
 //
 $define = [
     'NAVBAR_TITLE_1' => 'Paiement',
-    'NAVBAR_TITLE_2' => 'Sélectionnez les moyens d\'Expédition/de Paiement et confirmez votre commande',
+    'NAVBAR_TITLE_2' => 'Sélectionnez les moyens d’Expédition/de Paiement et confirmez votre commande',
 
     'HEADING_TITLE' => 'Paiement',
     'BUTTON_SAVE_CHANGES_ALT' => 'Enregistrer les modifications',
@@ -15,35 +15,35 @@ $define = [
     'BUTTON_CANCEL_CHANGES_ALT' => 'Annuler',
     'BUTTON_CANCEL_CHANGES_TITLE' => 'Annuler toutes les modifications apportées à cette adresse',
 
-    'TEXT_ADD_TO_ADDRESS_BOOK' => 'Ajouter au carnet d\'adresses',
-    'TITLE_ADD_TO_ADDRESS_BOOK' => 'Cochez cette case pour ajouter cette adresse à votre carnet d\'adresses personnel',
+    'TEXT_ADD_TO_ADDRESS_BOOK' => 'Ajouter au carnet d’adresses',
+    'TITLE_ADD_TO_ADDRESS_BOOK' => 'Cochez cette case pour ajouter cette adresse à votre carnet d’adresses personnel',
 
     'TITLE_CONTACT_INFORMATION' => 'Coordonnées',
     'ENTRY_EMAIL_ADDRESS_CONF' => 'Confirmez votre email:',
     'ENTRY_EMAIL_ADDRESS_CONF_TEXT' => '*',
-    'ERROR_EMAIL_MUST_MATCH_CONFIRMATION' => 'L\'<em>adresse e-mail</em> doit être identique à l\'<em>adresse e-mail de confirmation</em>.',
+    'ERROR_EMAIL_MUST_MATCH_CONFIRMATION' => 'L’<em>adresse e-mail</em> doit être identique à l’<em>adresse e-mail de confirmation</em>.',
     'TEXT_CONTACT_INFORMATION' => 'Nous utiliserons ces informations <em>uniquement</em> pour vous contacter à propos de cette commande.',
 
     'TEXT_SELECT_FROM_SAVED_ADDRESSES' => 'Sélectionnez parmi les adresses enregistrées',
 
     'TABLE_HEADING_SHIPPING_ADDRESS' => 'Adresse de livraison',
-    'TEXT_CHOOSE_SHIPPING_DESTINATION' => 'Votre commande sera expédiée à l\'adresse ci-dessus ou vous pouvez modifier l\'adresse de livraison en cliquant sur le bouton <em>Modifier l\'adresse</em>.',
+    'TEXT_CHOOSE_SHIPPING_DESTINATION' => 'Votre commande sera expédiée à l’adresse ci-dessus ou vous pouvez modifier l’adresse de livraison en cliquant sur le bouton <em>Modifier l’adresse</em>.',
     'TITLE_SHIPPING_ADDRESS' => 'Adresse de livraison :',
 
     'TABLE_HEADING_SHIPPING_METHOD' => 'Mode de livraison :',
     'TEXT_CHOOSE_SHIPPING_METHOD' => '',
     'TITLE_PLEASE_SELECT' => 'Veuillez sélectionner',
-    'TEXT_ENTER_SHIPPING_INFORMATION' => 'Il s\'agit actuellement du seul mode de livraison disponible pour cette commande.',
+    'TEXT_ENTER_SHIPPING_INFORMATION' => 'Il s’agit actuellement du seul mode de livraison disponible pour cette commande.',
     'TITLE_NO_SHIPPING_AVAILABLE' => 'Non disponible pour le moment',
-    'TEXT_NO_SHIPPING_AVAILABLE' => '<span class="alert">Désolé, nous n\'expédions pas dans votre région pour le moment.</span><br>Veuillez nous contacter pour d\'autres dispositions.',
+    'TEXT_NO_SHIPPING_AVAILABLE' => '<span class="alert">Désolé, nous n’expédions pas dans votre région pour le moment.</span><br>Veuillez nous contacter pour d’autres dispositions.',
 
     'TABLE_HEADING_COMMENTS' => 'Instructions spéciales ou commentaires',
 
-    'ERROR_PLEASE_RESELECT_SHIPPING_METHOD' => 'Les options d\'expédition disponibles ou le prix du mode de livraison que vous avez choisie ont changé. Veuillez resélectionner/vérifier le mode de livraison souhaité.',
+    'ERROR_PLEASE_RESELECT_SHIPPING_METHOD' => 'Les options d’expédition disponibles ou le prix du mode de livraison que vous avez choisie ont changé. Veuillez resélectionner/vérifier le mode de livraison souhaité.',
     'ERROR_UNKNOWN_SHIPPING_SELECTION' => 'Un mode de livraison inconnu a été soumis. Veuillez contacter le propriétaire du magasin.',
     'ERROR_INVALID_REQUEST' => 'Une demande inconnue a été reçue. Veuillez contacter le propriétaire du magasin.',
 
-    'ERROR_AJAX_SHIPPING_SELECTION' => 'Le mode de livraison que vous avez sélectionné n\'a pas été compris. Veuillez contacter le propriétaire du magasin.',
+    'ERROR_AJAX_SHIPPING_SELECTION' => 'Le mode de livraison que vous avez sélectionné n’a pas été compris. Veuillez contacter le propriétaire du magasin.',
 
 // -----
 // These definitions are prepended to any address-value-related error message as an indication
@@ -60,27 +60,27 @@ $define = [
 // If a customer receives this message during checkout, there's a PHP Warning logged to indicate
 // the underlying issue.
 //
-    'ERROR_OPC_ADDRESS_INVALID' => 'Désolé, nous n\'avons pas pu valider une ou plusieurs adresses de cette commande ; veuillez les vérifier et les ressaisir si nécessaire.',
+    'ERROR_OPC_ADDRESS_INVALID' => 'Désolé, nous n’avons pas pu valider une ou plusieurs adresses de cette commande ; veuillez les vérifier et les ressaisir si nécessaire.',
 
 // -----
 // NOTE: The following constants are used in the page's jscript_main.php file as javascript text literals or
 // for messages displayed to the customer during AJAX processing issues (displayed in a 'alert'.
 //
-// If you want to include single-quotes in a value, you'll need to specify them as \\\'; for a new-line,
+// If you want to include single-quotes in a value, you'll need to specify them as ’; for a new-line,
 // use \n.  Just be sure to keep a constant's string within a set of single-quotes and you should be good-to-go!
 //
     'JS_ERROR_SESSION_TIMED_OUT' => 'Désolé, votre session a expiré.\n\nLes articles de votre panier ont été enregistrés et seront restaurés lors de votre prochaine connexion.',
     'JS_ERROR_OPC_NOT_ENABLED' => 'Notre processus de paiement accéléré est temporairement indisponible. Vous serez redirigé vers notre processus de paiement alternatif.',
 
-    'JS_ERROR_AJAX_TIMEOUT' => 'La mise à jour des détails de votre commande prend un peu plus de temps que d\\\'habitude.',
-    'JS_ERROR_AJAX_SHIPPING_TIMEOUT' => 'La mise à jour des frais de livraison de votre commande prend un peu plus de temps que d\\\'habitude.',
-    'JS_ERROR_AJAX_PAYMENT_TIMEOUT' => 'La mise à jour du mode de paiement de votre commande prend un peu plus de temps que d\\\'habitude.',
-    'JS_ERROR_AJAX_SET_ADDRESS_TIMEOUT' => 'La définition de l\\\'adresse de votre commande prend un peu plus de temps que d\\\'habitude.',
-    'JS_ERROR_AJAX_RESTORE_ADDRESS_TIMEOUT' => 'La restauration des valeurs d\\\'adresse de votre commande prend un peu plus de temps que d\\\'habitude.',
-    'JS_ERROR_AJAX_VALIDATE_ADDRESS_TIMEOUT' => 'La validation des détails de l\\\'adresse de votre commande prend un peu plus de temps que d\\\'habitude.',
+    'JS_ERROR_AJAX_TIMEOUT' => 'La mise à jour des détails de votre commande prend un peu plus de temps que d’habitude.',
+    'JS_ERROR_AJAX_SHIPPING_TIMEOUT' => 'La mise à jour des frais de livraison de votre commande prend un peu plus de temps que d’habitude.',
+    'JS_ERROR_AJAX_PAYMENT_TIMEOUT' => 'La mise à jour du mode de paiement de votre commande prend un peu plus de temps que d’habitude.',
+    'JS_ERROR_AJAX_SET_ADDRESS_TIMEOUT' => 'La définition de l’adresse de votre commande prend un peu plus de temps que d’habitude.',
+    'JS_ERROR_AJAX_RESTORE_ADDRESS_TIMEOUT' => 'La restauration des valeurs d’adresse de votre commande prend un peu plus de temps que d’habitude.',
+    'JS_ERROR_AJAX_VALIDATE_ADDRESS_TIMEOUT' => 'La validation des détails de l’adresse de votre commande prend un peu plus de temps que d’habitude.',
 
-    'JS_ERROR_AJAX_RESTORE_CUSTOMER_TIMEOUT' => 'La restauration de vos coordonnées client prend un peu plus de temps que d\\\'habitude.',
-    'JS_ERROR_AJAX_VALIDATE_CUSTOMER_TIMEOUT' => 'La validation des informations de votre client prend un peu plus de temps que d\\\'habitude.',
+    'JS_ERROR_AJAX_RESTORE_CUSTOMER_TIMEOUT' => 'La restauration de vos coordonnées client prend un peu plus de temps que d’habitude.',
+    'JS_ERROR_AJAX_VALIDATE_CUSTOMER_TIMEOUT' => 'La validation des informations de votre client prend un peu plus de temps que d’habitude.',
 
     'JS_ERROR_CONTACT_US' => '  Veuillez fermer ce message et réessayer.\n\nSi vous continuez à recevoir ce message, veuillez nous contacter.',
 
@@ -101,18 +101,18 @@ $define = [
 // ----- From checkout_payment -----
 
     'TABLE_HEADING_BILLING_ADDRESS' => 'Adresse de facturation',
-    'TEXT_SELECTED_BILLING_DESTINATION' => 'Votre adresse de facturation est indiquée ci-dessus. L\'adresse de facturation doit correspondre à l\'adresse figurant sur votre relevé de carte de crédit. Vous pouvez modifier l\'adresse de facturation en cliquant sur le bouton <em>Modifier l\'adresse</em>.',
+    'TEXT_SELECTED_BILLING_DESTINATION' => 'Votre adresse de facturation est indiquée ci-dessus. L’adresse de facturation doit correspondre à l’adresse figurant sur votre relevé de carte de crédit. Vous pouvez modifier l’adresse de facturation en cliquant sur le bouton <em>Modifier l’adresse</em>.',
 
     'TABLE_HEADING_PAYMENT_METHOD' => 'Mode de paiement',
     'TEXT_SELECT_PAYMENT_METHOD' => 'Veuillez sélectionner un mode de paiement pour cette commande.',
     'TEXT_ENTER_PAYMENT_INFORMATION' => '',
 
     'TITLE_NO_PAYMENT_OPTIONS_AVAILABLE' => 'Non disponible pour le moment',
-    'TEXT_NO_PAYMENT_OPTIONS_AVAILABLE' => '<span class="alert">Désolé, nous n\'acceptons pas les paiements de votre région pour le moment.</span><br />Veuillez nous contacter pour d\'autres dispositions.',
+    'TEXT_NO_PAYMENT_OPTIONS_AVAILABLE' => '<span class="alert">Désolé, nous n’acceptons pas les paiements de votre région pour le moment.</span><br />Veuillez nous contacter pour d’autres dispositions.',
 
     'TABLE_HEADING_CONDITIONS' => '<span class="termsconditions">Termes et conditions</span>',
     'TEXT_CONDITIONS_DESCRIPTION' =>  '<span class="termsdescription">Veuillez prendre connaissance des termes et conditions liés à cette commande en cochant la case suivante. Les termes et conditions peuvent être consultés <a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '"><span class="pseudolink">ici</span></a>.</span>',
-    'TEXT_CONDITIONS_CONFIRM' => '<span class="termsiagree">J\'ai lu et accepté les termes et conditions liés à cette commande.</span>',
+    'TEXT_CONDITIONS_CONFIRM' => '<span class="termsiagree">J’ai lu et accepté les termes et conditions liés à cette commande.</span>',
 
     'TEXT_CHECKOUT_AMOUNT_DUE' => 'Montant total dû : ',
     'TEXT_YOUR_TOTAL' => 'Votre total',
@@ -143,7 +143,7 @@ $define = [
     'BUTTON_CHECKOUT_ONE_REVIEW_ALT' => 'Vérifier la commande',
 
     'CHECKOUT_ONE_LOADING' => 'confirmation_one_loading.gif',
-    'CHECKOUT_ONE_LOADING_ALT' => 'Veuillez patienter s\'il vous plaît ...',
+    'CHECKOUT_ONE_LOADING_ALT' => 'Veuillez patienter s’il vous plaît ...',
 
 // -----
 // Use these definitions to set any messages you might want to convey to your customers on the checkout-one page.

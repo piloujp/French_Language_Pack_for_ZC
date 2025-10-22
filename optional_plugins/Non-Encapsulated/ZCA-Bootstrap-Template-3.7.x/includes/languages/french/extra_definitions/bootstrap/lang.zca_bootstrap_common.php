@@ -23,12 +23,12 @@ $define = [
 // -----
 // Used during checkout and on various address-rendering pages.
 //
-    'TEXT_SELECT_OTHER_PAYMENT_DESTINATION' => 'Veuillez sélectionner l\'adresse de facturation préférée si la facture de cette commande doit être livrée ailleurs.',
-    'TEXT_SELECT_OTHER_SHIPPING_DESTINATION' => 'Veuillez sélectionner l\'adresse de livraison préférée si cette commande doit être livrée ailleurs.',
+    'TEXT_SELECT_OTHER_PAYMENT_DESTINATION' => 'Veuillez sélectionner l’adresse de facturation préférée si la facture de cette commande doit être livrée ailleurs.',
+    'TEXT_SELECT_OTHER_SHIPPING_DESTINATION' => 'Veuillez sélectionner l’adresse de livraison préférée si cette commande doit être livrée ailleurs.',
     'NEW_ADDRESS_TITLE' => 'Entrez une nouvelle adresse',
     'TEXT_PRIMARY_ADDRESS' => ' (Adresse principale)',
     'PRIMARY_ADDRESS' => ' (Adresse principale)',
-    'TABLE_HEADING_ADDRESS_BOOK_ENTRIES' => 'Choisissez parmi les entrées de votre carnet d\'adresses',
+    'TABLE_HEADING_ADDRESS_BOOK_ENTRIES' => 'Choisissez parmi les entrées de votre carnet d’adresses',
 
 // -----
 // Used on the product*_info pages.
@@ -44,7 +44,7 @@ $define = [
 // -----
 // Used on the product_music_info page.
 //
-    'TEXT_ARTIST_URL' => 'Pour plus d\'informations, veuillez visiter la <a href="%s" target="_blank">page Web</a> de l\'artiste.',
+    'TEXT_ARTIST_URL' => 'Pour plus d’informations, veuillez visiter la <a href="%s" target="_blank">page Web</a> de l’artiste.',
     'TEXT_PRODUCT_RECORD_COMPANY' => 'Maison de disques : ',
 
 // -----
@@ -52,8 +52,8 @@ $define = [
 //
     'TEXT_CART_MODAL_HELP' => '[aide (?)]',
     'HEADING_TITLE_CART_MODAL' => 'Panier visiteurs / Panier membres',
-    'TEXT_CART_ARIA_HEADING_DELETE_COLUMN' => 'Cliquez sur l\'icône dans cette colonne pour le supprimer de votre panier.',
-    'TEXT_CART_ARIA_HEADING_UPDATE_COLUMN' => 'Cliquez sur l\'icône dans cette colonne pour mettre à jour la quantité dans votre panier.',
+    'TEXT_CART_ARIA_HEADING_DELETE_COLUMN' => 'Cliquez sur l’icône dans cette colonne pour le supprimer de votre panier.',
+    'TEXT_CART_ARIA_HEADING_UPDATE_COLUMN' => 'Cliquez sur l’icône dans cette colonne pour mettre à jour la quantité dans votre panier.',
 
 // -----
 // Used on various pages that display the cart's contents.
@@ -78,14 +78,14 @@ $define = [
     'TABLE_HEADING_PRICE' => 'Prix',
     'TABLE_HEADING_WEIGHT' => 'Poids',
     'TABLE_HEADING_BUY_NOW' => 'Acheter maintenant',
-    'TEXT_NO_PRODUCTS' => 'Il n\'y a aucun produit à lister dans cette catégorie.',
-    'TEXT_NO_PRODUCTS2' => 'Aucun produit n\'est disponible auprès de ce fabricant.',
+    'TEXT_NO_PRODUCTS' => 'Il n’y a aucun produit à lister dans cette catégorie.',
+    'TEXT_NO_PRODUCTS2' => 'Aucun produit n’est disponible auprès de ce fabricant.',
 
 // -----
 // Used by various /modalboxes
 //
     'TEXT_MODAL_CLOSE' => 'Fermer',
-    'TEXT_MORE_INFO' => '[Plus d\'infos]',
+    'TEXT_MORE_INFO' => '[Plus d’infos]',
     'ARIA_REVIEW_STAR' => 'étoile',
     'ARIA_REVIEW_STARS' => 'étoiles',
 

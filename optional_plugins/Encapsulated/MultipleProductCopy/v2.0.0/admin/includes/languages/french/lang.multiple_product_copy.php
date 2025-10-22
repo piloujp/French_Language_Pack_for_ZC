@@ -27,15 +27,15 @@ $define = [
     'TEXT_ALL_CATEGORIES' => 'Toutes les catégories', // this constant declared earlier to be used subsequently
 
     'TEXT_MOVE_TO' => 'Déplacer les produits',
-    'TEXT_MOVE_PRODUCTS_INFO_SEARCH_CATEGORY' => '<p>Lorsque la recherche est limitée à une catégorie de recherche :<br>Les produits liés seront dissociés de cette catégorie et liés à la catégorie cible.<br>L\'ID de catégorie principale des produits de leur catégorie principale sera modifié en celui de la catégorie cible.</p>',
+    'TEXT_MOVE_PRODUCTS_INFO_SEARCH_CATEGORY' => '<p>Lorsque la recherche est limitée à une catégorie de recherche :<br>Les produits liés seront dissociés de cette catégorie et liés à la catégorie cible.<br>L’ID de catégorie principale des produits de leur catégorie principale sera modifié en celui de la catégorie cible.</p>',
 
-    'TEXT_MOVE_PRODUCTS_INFO_SEARCH_GLOBAL' => '<p>Lorsque la recherche n\'est pas restreinte ("%%TEXT_ALL_CATEGORIES%%") :<br>L\'identifiant de la catégorie principale de tous les produits sélectionnés sera remplacé par celui de la catégorie cible. Les liens des produits resteront inchangés.',
+    'TEXT_MOVE_PRODUCTS_INFO_SEARCH_GLOBAL' => '<p>Lorsque la recherche n’est pas restreinte ("%%TEXT_ALL_CATEGORIES%%") :<br>L’identifiant de la catégorie principale de tous les produits sélectionnés sera remplacé par celui de la catégorie cible. Les liens des produits resteront inchangés.',
     'TEXT_TARGET_CATEGORY' => 'Catégorie cible (pour copier/déplacer) :',
 
     'TEXT_COPY_AS_DELETE_SPECIALS' => 'Supprimer les promotions des produits',
     'TEXT_COPY_AS_DELETE_LINKED' => 'Supprimer les produits liés',
     'TEXT_COPY_AS_DELETE_ALL' => 'Supprimer tous les produits',
-    'TEXT_COPY_AS_DELETE_ALL_INFO' => 'Cette option permet la suppression définitive de plusieurs produits. La sélection d\'un produit (lié ou principal) supprimera <span style="text-decoration: underline">TOUS LES INSTANCES</span> (principales et liées) de ce produit. À UTILISER AVEC PRÉCAUTION et assurez-vous d\'avoir préalablement effectué une sauvegarde vérifiée de votre base de données !',
+    'TEXT_COPY_AS_DELETE_ALL_INFO' => 'Cette option permet la suppression définitive de plusieurs produits. La sélection d’un produit (lié ou principal) supprimera <span style="text-decoration: underline">TOUS LES INSTANCES</span> (principales et liées) de ce produit. À UTILISER AVEC PRÉCAUTION et assurez-vous d’avoir préalablement effectué une sauvegarde vérifiée de votre base de données !',
 
 // Search Criteria
     'TEXT_ENTER_CRITERIA' => 'Critères de recherche/filtrage :',
@@ -63,23 +63,23 @@ $define = [
     'TEXT_TIPS' => '<h2>Remarques :</h2>
 <h3>Recherche:</h3>
 <ul><li>Les produits actuellement existants dans la catégorie cible sont automatiquement exclus des résultats de recherche.</li>
-<li>Les mots-clés de recherche peuvent être laissés vides si une catégorie ou un fabricant est sélectionné, ou si l\'un des champs Prix du magasin contient une valeur.</li>
+<li>Les mots-clés de recherche peuvent être laissés vides si une catégorie ou un fabricant est sélectionné, ou si l’un des champs Prix du magasin contient une valeur.</li>
 <li>Vous pouvez effectuer une recherche en utilisant uniquement <strong>un</strong> des champs Prix du magasin si vous souhaitez trouver tous les produits dont les prix sont supérieurs/inférieurs à un montant spécifique.</li>
 <li>Le séparateur décimal dans les entrées de prix du magasin <strong>doit</strong> être un « .　» (point décimal), exemple : <b>49.99</b></li></ul>
 <h3>Copier en tant que produits dupliqués (nouveaux) :</h3>
-<ul><li>Les attributs peuvent être copiés en option. Cependant, pour les téléchargements, le nom du fichier téléchargé n\'est PAS copié.</li>
+<ul><li>Les attributs peuvent être copiés en option. Cependant, pour les téléchargements, le nom du fichier téléchargé n’est PAS copié.</li>
 <li>Les avis ne sont PAS copiés.</li></ul>
 <h3>Suppression de produits</h3>
 <h4>Supprimer définitivement les produits de TOUTES les catégories :</h4>
 <ul><li>Les suppressions sont permanentes et ne peuvent pas être annulées</li>
-<li>Si l\'image principale du produit est unique, elle sera supprimée, tout comme les images principales moyennes et grandes. Les images supplémentaires et les images de grande taille supplémentaires ne seront PAS supprimées.</li></ul>
-<h4>Supprimer les produits liés d\'UNE catégorie :</h4>
-<ul><li>La suppression d\'une catégorie dissociera un produit de cette catégorie.</li>
-<li>Si cette catégorie est l\'ID de la catégorie principale d\'un produit, le produit ne sera pas supprimé.</li></ul>',
+<li>Si l’image principale du produit est unique, elle sera supprimée, tout comme les images principales moyennes et grandes. Les images supplémentaires et les images de grande taille supplémentaires ne seront PAS supprimées.</li></ul>
+<h4>Supprimer les produits liés d’UNE catégorie :</h4>
+<ul><li>La suppression d’une catégorie dissociera un produit de cette catégorie.</li>
+<li>Si cette catégorie est l’ID de la catégorie principale d’un produit, le produit ne sera pas supprimé.</li></ul>',
 
 //RESULTS page 2
     'TEXT_PRODUCTS_FOUND' => '%u produit(s) correspondant(s) trouvé(s).',
-    'WARNING_MAX_INPUT_VARS_LIMIT' => 'ATTENTION : les résultats de recherche sont limités à %1$u produits. Le paramètre d\'environnement PHP « max_input_vars » (actuellement « %2$u ») devra être augmenté si vous souhaitez sélectionner davantage de produits.',
+    'WARNING_MAX_INPUT_VARS_LIMIT' => 'ATTENTION : les résultats de recherche sont limités à %1$u produits. Le paramètre d’environnement PHP « max_input_vars » (actuellement « %2$u ») devra être augmenté si vous souhaitez sélectionner davantage de produits.',
 // Search Critera summary
     'TEXT_SEARCH_RESULT_CATEGORY' => 'Catégorie de recherche : %s',
     'TEXT_SEARCH_RESULT_KEYWORDS' => 'Mots-clés de recherche : « %s »',
@@ -102,7 +102,7 @@ $define = [
     'TABLE_HEADING_MASTER_CATEGORY' => 'Catégorie principale',
     'IMAGE_ICON_MASTER' => 'Produit dans la catégorie principale',
     'IMAGE_ICON_LINKED_EDIT_LINKS' => 'le produit est lié -> Modifier dans le gestionnaire de liens',
-    'IMAGE_ICON_NOT_LINKED_EDIT_LINKS' => 'le produit n\'est pas lié -> Modifier dans le gestionnaire de liens',
+    'IMAGE_ICON_NOT_LINKED_EDIT_LINKS' => 'le produit n’est pas lié -> Modifier dans le gestionnaire de liens',
 
     'TEXT_PRODUCT_MASTER_CATEGORY_CHANGE' => 'déplacer ce produit/modifier la catégorie principale',
     'TEXT_PRODUCT_SPECIAL_EDIT' => 'modifier ce prix promotionnel',
@@ -138,16 +138,16 @@ $define = [
 //if (!defined('TEXT_DUPLICATE_IDENTIFIER')) {
     'TEXT_DUPLICATE_IDENTIFIER' => '[COPIER]',
 //}
-    'TEXT_COPY_AS_DUPLICATE_ATTRIBUTES' => 'Attributs copiés du produit d\'ID n°%1$u vers le produit dupliqué d\'ID n°%2$u',
-    'TEXT_COPY_AS_DUPLICATE_METATAGS' => 'Les métabalises pour la langue d\'ID n°%1$u ont été copiées du profuit d\'ID n°%2$u vers le produit dupliqué d\'ID n°%3$u',
-    'TEXT_COPY_AS_DUPLICATE_CATEGORIES' => 'Catégorie liée d\'ID n°%1$u copiée du produit d\'ID n°%2$u vers le produit dupliqué d\'ID n°%3$u',
-    'TEXT_COPY_AS_DUPLICATE_DISCOUNTS' => 'Remises copiées du produit d\'ID n°%1$u vers le produit dupliqué d\'ID n°%2$u',
+    'TEXT_COPY_AS_DUPLICATE_ATTRIBUTES' => 'Attributs copiés du produit d’ID n°%1$u vers le produit dupliqué d’ID n°%2$u',
+    'TEXT_COPY_AS_DUPLICATE_METATAGS' => 'Les métabalises pour la langue d’ID n°%1$u ont été copiées du profuit d’ID n°%2$u vers le produit dupliqué d’ID n°%3$u',
+    'TEXT_COPY_AS_DUPLICATE_CATEGORIES' => 'Catégorie liée d’ID n°%1$u copiée du produit d’ID n°%2$u vers le produit dupliqué d’ID n°%3$u',
+    'TEXT_COPY_AS_DUPLICATE_DISCOUNTS' => 'Remises copiées du produit d’ID n°%1$u vers le produit dupliqué d’ID n°%2$u',
 //these two constants used in move_product_confirm
-    'TEXT_PRODUCT_MOVED' => 'Le produit d\'ID n°%1$u a été déplacé vers la catégorie d\'ID n°%2$u',
-    'TEXT_PRODUCT_MASTER_CATEGORY_RESET' => 'L\'ID de catégorie principale du produit n°%1$u a été modifié en ID de catégorie n°%2$u',
+    'TEXT_PRODUCT_MOVED' => 'Le produit d’ID n°%1$u a été déplacé vers la catégorie d’ID n°%2$u',
+    'TEXT_PRODUCT_MASTER_CATEGORY_RESET' => 'L’ID de catégorie principale du produit n°%1$u a été modifié en ID de catégorie n°%2$u',
 
-    'TEXT_COPY_AS_DUPLICATE_SPECIALS' => 'Le prix promotionnel a été copié de l\'ID de produit n°%1$u vers l\'ID de produit dupliqué n°%2$u',
-    'TEXT_COPY_AS_DUPLICATE_FEATURED' => 'Paramètres en vedette copiés du produit d\'ID n°%1$u vers le produit dupliqué d\'ID n°%2$u',
+    'TEXT_COPY_AS_DUPLICATE_SPECIALS' => 'Le prix promotionnel a été copié de l’ID de produit n°%1$u vers l’ID de produit dupliqué n°%2$u',
+    'TEXT_COPY_AS_DUPLICATE_FEATURED' => 'Paramètres en vedette copiés du produit d’ID n°%1$u vers le produit dupliqué d’ID n°%2$u',
 
 //Confirm Move
     'TEXT_PRODUCTS_MOVED_TO' => '%1$u produit(s) déplacé(s) vers la catégorie ID　n°%2$u « %3$s »',
@@ -169,12 +169,12 @@ $define = [
     'ERROR_INVALID_KEYWORDS' => 'Mots-clés invalides',
     'ERROR_NO_PRODUCTS_FOUND' => 'Aucun produit trouvé dans « %2$s » ID　n°%1$u',
     'ERROR_SEARCH_CRITERIA_REQUIRED' => 'Aucun critère de recherche défini ! Définissez une catégorie de recherche / mot-clé / fabricant / champ de prix.',
-    'ERROR_ARRAY_COUNTS' => 'La valeur POST pour le nombre total de produits sélectionnés lors de la recherche n\'a pas été définie. Cela est probablement dû à une limite PHP max_input_vars (actuellement %u) insuffisante pour les produits sélectionnés. Cette limite peut être augmentée par votre hébergeur et doit être supérieure au double du nombre de produits sélectionnés.',
+    'ERROR_ARRAY_COUNTS' => 'La valeur POST pour le nombre total de produits sélectionnés lors de la recherche n’a pas été définie. Cela est probablement dû à une limite PHP max_input_vars (actuellement %u) insuffisante pour les produits sélectionnés. Cette limite peut être augmentée par votre hébergeur et doit être supérieure au double du nombre de produits sélectionnés.',
     'ERROR_NO_SELECTION' => 'Aucun produit sélectionné. Au moins un produit de la liste doit être sélectionné !',
     'ERROR_CHECKBOXES_NOT_ARRAY' => 'Les cases à cocher sélectionnées ne constituent pas un tableau.',
-    'ERROR_CHECKBOX_ID' => 'Une case cochée fait référence au produit d\'ID n°%u. Cet ID de produit n\'a pas été trouvé !',
-    'ERROR_COPY_DUPLICATE_NO_DUP_ID' => 'L\'ID de produit en double/nouveau produit n\'a pas été renvoyé depuis « copy_product_confirm.php » lors de la copie-duplication de l\'ID de produit n°%1$u vers l\'ID de catégorie n°%2$u.',
-    'TEXT_NO_MATCHING_PRODUCTS_FOUND' => 'Aucun produit correspondant aux critères de recherche n\'a été trouvé ou tous les produits correspondants existent déjà dans la catégorie cible.',
+    'ERROR_CHECKBOX_ID' => 'Une case cochée fait référence au produit d’ID n°%u. Cet ID de produit n’a pas été trouvé !',
+    'ERROR_COPY_DUPLICATE_NO_DUP_ID' => 'L’ID de produit en double/nouveau produit n’a pas été renvoyé depuis « copy_product_confirm.php » lors de la copie-duplication de l’ID de produit n°%1$u vers l’ID de catégorie n°%2$u.',
+    'TEXT_NO_MATCHING_PRODUCTS_FOUND' => 'Aucun produit correspondant aux critères de recherche n’a été trouvé ou tous les produits correspondants existent déjà dans la catégorie cible.',
 ];
 
 return $define;

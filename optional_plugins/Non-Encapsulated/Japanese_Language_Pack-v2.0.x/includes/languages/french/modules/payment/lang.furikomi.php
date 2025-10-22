@@ -19,8 +19,8 @@ $define = [
 // bof constant configuration titles and descriptions for payment module furikomi
     'CFGTITLE_MODULE_PAYMENT_FURIKOMI_STATUS' => 'Activer le module de virement bancaire',
     'CFGDESC_MODULE_PAYMENT_FURIKOMI_STATUS' => 'Souhaitez-vous accepter les paiements par virement bancaire direct ?',
-    'CFGTITLE_MODULE_PAYMENT_FURIKOMI_SORT_ORDER' => 'Ordre de tri d\'affichage',
-    'CFGDESC_MODULE_PAYMENT_FURIKOMI_SORT_ORDER' => 'Ordre de tri d\'affichage. Le nombre le plus bas est affiché en premier.',
+    'CFGTITLE_MODULE_PAYMENT_FURIKOMI_SORT_ORDER' => 'Ordre de tri d’affichage',
+    'CFGDESC_MODULE_PAYMENT_FURIKOMI_SORT_ORDER' => 'Ordre de tri d’affichage. Le nombre le plus bas est affiché en premier.',
     'CFGTITLE_MODULE_PAYMENT_FURIKOMI_ZONE' => 'Zone pour ce paiement',
     'CFGDESC_MODULE_PAYMENT_FURIKOMI_ZONE' => 'Si une zone est sélectionnée, activez uniquement ce mode de paiement pour cette zone.',
     'CFGTITLE_MODULE_PAYMENT_FURIKOMI_BANKNAME' => 'Nom de la banque',

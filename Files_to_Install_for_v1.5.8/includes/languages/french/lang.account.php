@@ -11,10 +11,10 @@ $define = [
     'TABLE_HEADING_VIEW' => 'Voir',
     'MY_ACCOUNT_TITLE' => 'Mon Compte',
     'MY_ACCOUNT_INFORMATION' => 'Voir ou changer les informations de mon compte.',
-    'MY_ACCOUNT_ADDRESS_BOOK' => 'Voir ou changer les entrées de mon carnet d\'adresses.',
+    'MY_ACCOUNT_ADDRESS_BOOK' => 'Voir ou changer les entrées de mon carnet d’adresses.',
     'MY_ACCOUNT_PASSWORD' => 'Changer mon mot de passe.',
     'EMAIL_NOTIFICATIONS_TITLE' => 'Notifications par e-mail',
-    'EMAIL_NOTIFICATIONS_NEWSLETTERS' => 'S\'abonner ou se désabonner aux bulletins.',
+    'EMAIL_NOTIFICATIONS_NEWSLETTERS' => 'S’abonner ou se désabonner aux bulletins.',
     'EMAIL_NOTIFICATIONS_PRODUCTS' => 'Voir ou changer ma liste de notifications de produits.',
 ];
 

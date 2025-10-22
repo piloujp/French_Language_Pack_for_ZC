@@ -7,9 +7,9 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Éditeur des pages \'define\' pour: ',
+    'HEADING_TITLE' => 'Éditeur des pages « Define » pour: ',
     'TEXT_FILE_DOES_NOT_EXIST' => 'Fichier inexistant: %s',
-    'ERROR_FILE_NOT_WRITEABLE' => 'ERREUR: impossible d\'écrire dans ce fichier. Veuillez positionner les bonnes permissions utilisateur sur: %s',
+    'ERROR_FILE_NOT_WRITEABLE' => 'ERREUR: impossible d’écrire dans ce fichier. Veuillez positionner les bonnes permissions utilisateur sur: %s',
     'TEXT_INFO_SELECT_FILE' => 'Choisissez un fichier à éditer...',
     'TEXT_INFO_EDITING' => 'Édition du fichier:',
     'TEXT_INFO_CAUTION' => 'NOTE: vous devriez toujours éditer les fichiers situés dans votre répertoire qui a priorité sur le template courant, exemple: /languages/' . 'language' . '/html_includes/YOUR_TEMPLATE_DIRECTORY<br>Assurez-vous de faire des sauvegardes après avoir modifié vos fichiers.',

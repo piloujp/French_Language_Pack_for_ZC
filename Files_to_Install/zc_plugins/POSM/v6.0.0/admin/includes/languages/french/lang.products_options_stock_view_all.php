@@ -6,7 +6,7 @@
 // Last updated:  POSM v5.0.0
 //
 $define = [
-    'HEADING_TITLE' => 'Gestionnaire de stock d\'options de produits &mdash; Tout Afficher',
+    'HEADING_TITLE' => 'Gestionnaire de stock d’options de produits &mdash; Tout Afficher',
 
     'TEXT_LAST_UPDATED' => 'Dernière mise à jour : ',
 
@@ -26,9 +26,9 @@ $define = [
 
     'POSM_VIEW_ALL_UPDATED' => 'Les mises à jour sélectionnées ont été traitées avec succès.',
 
-    'POSM_VIEW_ALL_NO_PRODUCTS_TO_LIST' => 'Il n\'y a aucun produit géré à afficher.',
+    'POSM_VIEW_ALL_NO_PRODUCTS_TO_LIST' => 'Il n’y a aucun produit géré à afficher.',
     'POSM_TEXT_DISPLAY_NUMBER_OF_PRODUCTS' => 'Affichage de <b>%1$u</b> à <b>%2$u</b> (sur <b>%3$u</b> produits)',
 
-    'ERROR_MISSING_INPUTS' => 'La demande de mise à jour n\'a pas pu être traitée. Vous devrez augmenter les valeurs de configuration PHP de votre site pour <code>post_max_size</code> (actuellement %1$s) et/ou <code>max_input_size</code> (actuellement %2$s).',
+    'ERROR_MISSING_INPUTS' => 'La demande de mise à jour n’a pas pu être traitée. Vous devrez augmenter les valeurs de configuration PHP de votre site pour <code>post_max_size</code> (actuellement %1$s) et/ou <code>max_input_size</code> (actuellement %2$s).',
 ];
 return $define;

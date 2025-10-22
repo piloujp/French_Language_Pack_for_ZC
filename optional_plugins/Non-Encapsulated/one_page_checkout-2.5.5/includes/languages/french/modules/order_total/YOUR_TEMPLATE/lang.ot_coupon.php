@@ -7,6 +7,6 @@
 //
 $define = [];
 if (defined('CHECKOUT_ONE_ENABLED') && CHECKOUT_ONE_ENABLED === 'true') {
-    $define['MODULE_ORDER_TOTAL_COUPON_REDEEM_INSTRUCTIONS'] = '<p>Veuillez saisir votre code promo dans la case ci-dessous. Votre coupon sera appliqué au total et reflété sur l\'affichage de votre commande après avoir cliqué sur le bouton à droite ou avoir soumis votre commande. Attention : vous ne pouvez utiliser qu\'un seul coupon par commande.</p>';
+    $define['MODULE_ORDER_TOTAL_COUPON_REDEEM_INSTRUCTIONS'] = '<p>Veuillez saisir votre code promo dans la case ci-dessous. Votre coupon sera appliqué au total et reflété sur l’affichage de votre commande après avoir cliqué sur le bouton à droite ou avoir soumis votre commande. Attention : vous ne pouvez utiliser qu’un seul coupon par commande.</p>';
 }
 return $define;

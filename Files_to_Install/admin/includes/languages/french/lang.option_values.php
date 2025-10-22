@@ -7,20 +7,20 @@
 */
 
 $define = [
-    'HEADING_TITLE' => 'Classement des valeurs d\'options',
-    'TABLE_HEADING_OPTION_VALUE_ID' => 'ID de valeur d\'option',
-    'TABLE_HEADING_OPTION_VALUE_NAME' => 'Nom de la valeur de l\'option',
-    'TEXT_UPDATE_OPTION_VALUES' => 'Mise à jour du classement des valeurs d\'options',
-    'TEXT_SELECT_OPTION' => 'Sélectionner un nom d\'option :',
-    'TEXT_EDIT_OPTION_NAME' => 'Éditer le nom de l\'option : ',
-    'TEXT_NO_OPTION_VALUE' => 'Aucune valeur d\'option définie pour le nom d\'option : ',
+    'HEADING_TITLE' => 'Classement des valeurs d’options',
+    'TABLE_HEADING_OPTION_VALUE_ID' => 'ID de valeur d’option',
+    'TABLE_HEADING_OPTION_VALUE_NAME' => 'Nom de la valeur de l’option',
+    'TEXT_UPDATE_OPTION_VALUES' => 'Mise à jour du classement des valeurs d’options',
+    'TEXT_SELECT_OPTION' => 'Sélectionner un nom d’option :',
+    'TEXT_EDIT_OPTION_NAME' => 'Éditer le nom de l’option : ',
+    'TEXT_NO_OPTION_VALUE' => 'Aucune valeur d’option définie pour le nom d’option : ',
     'TEXT_UPDATE_SUBMIT' => 'Mettre à jour le classement',
-    'TEXT_UPDATE_SORT_LANGUAGE_CURRENT' => 'Mise à jour pour la langue d\'administration actuelle <b>uniquement</b>',
+    'TEXT_UPDATE_SORT_LANGUAGE_CURRENT' => 'Mise à jour pour la langue d’administration actuelle <b>uniquement</b>',
     'TEXT_UPDATE_SORT_LANGUAGE_ALL' => 'Mise à jour pour <b>toutes</b> les langues',
     'TEXT_UPDATE_SORT_ORDERS_OPTIONS_PRODUCTS' => '<strong>Pour un produit : </strong> ',
     'TEXT_UPDATE_SORT_ORDERS_OPTIONS_CATEGORIES' => '<strong>Pour une catégorie : </strong> ',
     'SUCCESS_PRODUCT_UPDATE_SORT_ALL' => 'Mise à jour réussie du classement des attributs pour TOUS les Produits ',
-    'SUCCESS_OPTION_VALUES_SORT_ORDER_NAME' => 'Nom de l\'option "%1$s" (#%2$s) : valeur de l\'option "%3$s" (#%4$s), ordre de tri = %5$s',
+    'SUCCESS_OPTION_VALUES_SORT_ORDER_NAME' => 'Nom de l’option "%1$s" (#%2$s) : valeur de l’option "%3$s" (#%4$s), ordre de tri = %5$s',
     'SUCCESS_CATEGORIES_UPDATE_SORT' => 'Mise à jour réussie du classement des attributs pour la catégorie ID# ',
 ];
 

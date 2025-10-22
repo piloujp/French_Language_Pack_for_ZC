@@ -4,5 +4,5 @@
 // Copyright (c) 2019-2025, Vinos de Frutas Tropicales.
 //
 return [
-    'BOX_ACCESSBLOCK_NAME' => 'Paramètres du bloqueur d\'accès',
+    'BOX_ACCESSBLOCK_NAME' => 'Paramètres du bloqueur d’accès',
 ];

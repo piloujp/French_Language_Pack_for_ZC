@@ -6,5 +6,5 @@
  * Last updated: v1.1.0
  */
 return [
-    'MODULE_PAYMENT_PAYPALR_WEBHOOK_TRY_AGAIN' => 'Veuillez réessayer, sélectionnez un autre mode de paiement ou contactez-nous pour obtenir de l\'aide.',
+    'MODULE_PAYMENT_PAYPALR_WEBHOOK_TRY_AGAIN' => 'Veuillez réessayer, sélectionnez un autre mode de paiement ou contactez-nous pour obtenir de l’aide.',
 ];

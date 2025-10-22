@@ -11,10 +11,10 @@
  */
 define('HEADING_TITLE','Couleurs de ZCA Bootstrap');
 
-define('TEXT_INFORMATION', 'Toutes les couleurs ajoutées pour la version 3.5.2 du modèle et les versions ultérieures sont initialisées lors d\'une mise à niveau vers « non défini », permettant à un magasin de définir ces valeurs pour qu\'elles correspondent à sa palette de couleurs avant utilisation. <b>Seules</b> les couleurs indiquant que « non défini » est une valeur acceptable doivent utiliser cette valeur; sinon, le script de la vitrine qui crée la coloration CSS produira un CSS non valide !<br><br><b>Remarque :</b> la colonne <em>Valeur</em> sera vide si la valeur actuellement configurée est la valeur par défaut.');
+define('TEXT_INFORMATION', 'Toutes les couleurs ajoutées pour la version 3.5.2 du modèle et les versions ultérieures sont initialisées lors d’une mise à niveau vers « non défini », permettant à un magasin de définir ces valeurs pour qu’elles correspondent à sa palette de couleurs avant utilisation. <b>Seules</b> les couleurs indiquant que « non défini » est une valeur acceptable doivent utiliser cette valeur; sinon, le script de la vitrine qui crée la coloration CSS produira un CSS non valide !<br><br><b>Remarque :</b> la colonne <em>Valeur</em> sera vide si la valeur actuellement configurée est la valeur par défaut.');
 
 define('TEXT_INFO_EDIT_INTRO', 'Veuillez apporter les modifications nécessaires');
-define('TEXT_INFO_DATE_ADDED', 'Date d\'ajout :');
+define('TEXT_INFO_DATE_ADDED', 'Date d’ajout :');
 define('TEXT_INFO_LAST_MODIFIED', 'Dernière modification :');
 
 define('TABLE_HEADING_CONFIGURATION_TITLE', 'Titre');

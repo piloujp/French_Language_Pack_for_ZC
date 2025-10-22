@@ -22,7 +22,7 @@ $define = [
     // The "First Choose" text is applied to the first option (if it's a drop-down) and the "Next Choose" text is
     // applied to all subsequent options.
     //
-    'PRODUCTS_OPTIONS_STOCK_PLEASE_CHOOSE' => 'Choisissez d\'abord &hellip;',
+    'PRODUCTS_OPTIONS_STOCK_PLEASE_CHOOSE' => 'Choisissez d’abord &hellip;',
     'PRODUCTS_OPTIONS_STOCK_PLEASE_CHOOSE_NEXT' => 'Choisissez ensuite &hellip;',
 
     'PRODUCTS_OPTIONS_STOCK_RADIO_BUTTON_CHOOSE' => ' (choisissez toutes les options précédentes pour afficher les sélections)',
@@ -46,6 +46,6 @@ $define = [
     // -----
     // This message is issued if an add-to-cart action includes a POSM-managed product ... but the requested option-combination isn't configured.
     //
-    'POSM_ERROR_INVALID_VARIANT' => 'Les combinaisons d\'options que vous avez choisies ne sont pas disponibles; veuillez mettre à jour vos choix et réessayer.',
+    'POSM_ERROR_INVALID_VARIANT' => 'Les combinaisons d’options que vous avez choisies ne sont pas disponibles; veuillez mettre à jour vos choix et réessayer.',
 ];
 return $define;

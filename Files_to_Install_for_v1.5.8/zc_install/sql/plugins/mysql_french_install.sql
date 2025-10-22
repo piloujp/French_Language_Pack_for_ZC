@@ -27,6 +27,13 @@ INSERT IGNORE INTO orders_status (orders_status_id, language_id, orders_status_n
 INSERT IGNORE INTO coupons_description (coupon_id, language_id, coupon_name, coupon_description) SELECT coupon_id, @lan_id, coupon_name, coupon_description FROM coupons_description WHERE language_id = @default_lang;
 INSERT IGNORE INTO ezpages_content (pages_id, languages_id, pages_title, pages_html_text) SELECT pages_id, @lan_id, pages_title, pages_html_text FROM ezpages_content WHERE languages_id = @default_lang;
 
+# For backward compatibility with ZC version < 2.2.0
+SET @tbl_tax_rate_desc_exists = (SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = DATABASE() AND table_name = 'tax_rates_description');
+SET @sql_trd = IF(@tbl_tax_rate_desc_exists = 0,'SELECT 1','INSERT IGNORE INTO tax_rates_description (tax_rates_id, language_id, tax_description) SELECT tax_rates_id, @lan_id, tax_description FROM tax_rates_description WHERE language_id = @default_lang;');
+PREPARE stmt FROM @sql_trd;
+EXECUTE stmt;
+DEALLOCATE PREPARE stmt;
+
 CREATE TABLE IF NOT EXISTS products_options_stock_names (
             pos_name_id int NOT NULL default 0,
             language_id int NOT NULL default 1,
@@ -34,7 +41,7 @@ CREATE TABLE IF NOT EXISTS products_options_stock_names (
             PRIMARY KEY (pos_name_id, language_id)
         ) ENGINE=MyISAM;
 INSERT IGNORE INTO products_options_stock_names (pos_name_id, language_id, pos_name) VALUE (1, @default_lang, 'Back-ordered');
-INSERT IGNORE INTO products_options_stock_names (pos_name_id, language_id, pos_name) VALUE (1, @lan_id, 'En rupture de stock');
+INSERT IGNORE INTO products_options_stock_names (pos_name_id, language_id, pos_name) VALUE (1, @lan_id, 'En rupture de stock') ON DUPLICATE KEY UPDATE pos_name='En rupture de stock';
 
 UPDATE orders_status SET orders_status_name='En attente', sort_order=0 WHERE language_id=@lan_id AND orders_status_name='Pending';
 UPDATE orders_status SET orders_status_name='En cours', sort_order=10 WHERE language_id=@lan_id AND orders_status_name='Processing';

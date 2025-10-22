@@ -22,9 +22,9 @@ $define = [
     'TEXT_SITEMAPXML_CHOOSE_PARAMETERS_REBUILD' => 'Reconstruisez tous les fichiers sitemap*.xml !',
 
     'ERROR_SITEMAPXML_TOKEN_INVALID_HDR' => 'Les plans de site ne peuvent pas être créés',
-    'ERROR_SITEMAPXML_TOKEN_INVALID_MESSAGE' => 'Le jeton d\'exécution (%1$s) que vous avez fourni contient des caractères non valides.',
+    'ERROR_SITEMAPXML_TOKEN_INVALID_MESSAGE' => 'Le jeton d’exécution (%1$s) que vous avez fourni contient des caractères non valides.',
 
-    'WARNING_SITEMAPXML_FORCE_COOKIE_USE' => 'Les moteurs de recherche ne pourront pas explorer votre plan de site tant que vous n\'aurez pas modifié le paramètre de configuration <samp>Sessions :: Forcer l\'utilisation des cookies</samp> sur <b>False</b>.',
+    'WARNING_SITEMAPXML_FORCE_COOKIE_USE' => 'Les moteurs de recherche ne pourront pas explorer votre plan de site tant que vous n’aurez pas modifié le paramètre de configuration <samp>Sessions :: Forcer l’utilisation des cookies</samp> sur <b>False</b>.',
 
     'TEXT_SITEMAPXML_ROBOTS_HDR' => 'Le fichier <code>robots.txt</code> de votre site',
     'SUCCESS_SITEMAPXML_ROBOTS_TXT_OK' => 'Le fichier <code>robots.txt</code> de votre site pointe les moteurs de recherche vers votre plan de site XML <code>%1$s</code> !',
@@ -50,7 +50,7 @@ $define = [
     'TEXT_SITEMAPXML_FILE_LIST_COMMENTS_READONLY' => 'Lecture seule !!!',
     'TEXT_SITEMAPXML_FILE_LIST_COMMENTS_IGNORED' => 'Ignorés',
 
-    'TEXT_SITEMAPXML_FILE_LIST_TYPE_URLSET' => 'Ensemble d\'URL',
+    'TEXT_SITEMAPXML_FILE_LIST_TYPE_URLSET' => 'Ensemble d’URL',
     'TEXT_SITEMAPXML_FILE_LIST_TYPE_SITEMAPINDEX' => 'Index du plan du site',
     'TEXT_SITEMAPXML_FILE_LIST_TYPE_UNDEFINED' => 'Indéfinis!!!',
 
@@ -60,7 +60,7 @@ $define = [
     'TEXT_ACTION_DELETE_FILE' => 'Supprimer',
     'TEXT_ACTION_DELETE_FILE_CONFIRM' => 'You really want to delete the file %s?',
 
-    'TEXT_MESSAGE_FILE_ERROR_OPENED' => 'Erreur lors de l\'ouverture du fichier %s',
+    'TEXT_MESSAGE_FILE_ERROR_OPENED' => 'Erreur lors de l’ouverture du fichier %s',
     'TEXT_MESSAGE_FILE_TRUNCATED' => 'Fichier %s tronqué',
     'TEXT_MESSAGE_FILE_DELETED' => 'Fichier %s supprimé',
     'TEXT_MESSAGE_FILE_ERROR_DELETED' => 'Erreur lors de la suppression du fichier %s',
@@ -74,8 +74,8 @@ if (defined('SITEMAPXML_SITEMAPINDEX')) {
         <p>Une fois les plans de site générés, vous devez les faire remarquer :</p>
         <ol>
             <li>Inscrivez-vous ou connectez-vous à votre compte : <strong><a href="https://www.google.com/webmasters/tools/home" target="_blank" rel="noopener noreferrer" class="splitPageLink">[Google]</a></strong>, <strong><a href="https://ssl.bing.com/webmaster" target="_blank" rel="noopener noreferrer" class="splitPageLink">[Bing]</a></strong>.</li>
-            <li>Soumettez votre plan de site <code>' . $sitemapindex_http_link . '</code> via l\'interface de soumission du moteur de recherche <strong><a href="https://www.google.com/webmasters/tools/home" target="_blank" rel="noopener noreferrer" class="splitPageLink">[Google]</a></strong>.</li>
-            <li>Spécifiez l\'emplacement du plan du site dans votre fichier <a href="' . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . 'robots.txt' . '" target="_blank" class="splitPageLink">robots.txt</a> (<a href="https://sitemaps.org/protocol.php#submit_robots" target="_blank" rel="noopener noreferrer" class="splitPageLink">plus...</a>) : <code>Plan du site　:' . $sitemapindex_http_link . '</code></li>
+            <li>Soumettez votre plan de site <code>' . $sitemapindex_http_link . '</code> via l’interface de soumission du moteur de recherche <strong><a href="https://www.google.com/webmasters/tools/home" target="_blank" rel="noopener noreferrer" class="splitPageLink">[Google]</a></strong>.</li>
+            <li>Spécifiez l’emplacement du plan du site dans votre fichier <a href="' . HTTP_CATALOG_SERVER . DIR_WS_CATALOG . 'robots.txt' . '" target="_blank" class="splitPageLink">robots.txt</a> (<a href="https://sitemaps.org/protocol.php#submit_robots" target="_blank" rel="noopener noreferrer" class="splitPageLink">plus...</a>) : <code>Plan du site　:' . $sitemapindex_http_link . '</code></li>
         </ol>
         <p>Pour mettre à jour <em>automatiquement</em> les plans de site, vous devrez configurer une tâche Cron via le panneau de contrôle de votre hébergeur.</p>
         <p>Pour exécuter la génération en tant que tâche cron (à 5 heures du matin par exemple), vous devrez créer quelque chose de similaire aux exemples suivants.</p>

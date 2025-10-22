@@ -1,7 +1,7 @@
 <?php
 $define = [
-    'NAVBAR_TITLE' => 'Declaration d\'accessibilite',
-    'HEADING_TITLE' => 'Declaration d\'accessibilite',
+    'NAVBAR_TITLE' => 'Déclaration d’accessibilité',
+    'HEADING_TITLE' => 'Déclaration d’accessibilité',
 ];
 
 return $define;

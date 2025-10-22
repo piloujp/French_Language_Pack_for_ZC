@@ -9,6 +9,6 @@
 // in /includes/languages/english/bootstrap/lang.account_history_info.php.
 //
 $define = [
-    'TEXT_MISSING_SHIPPING_INFO' => 'ATTENTION : informations d\'expédition manquantes',
+    'TEXT_MISSING_SHIPPING_INFO' => 'ATTENTION : informations d’expédition manquantes',
 ];
 return $define;

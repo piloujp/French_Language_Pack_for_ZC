@@ -10,7 +10,7 @@ declare(strict_types=1);
  */
 
 $define = [
-       'BOX_TOOLS_IMAGE_CHECKER' => 'Vérificateur d\'images',
+       'BOX_TOOLS_IMAGE_CHECKER' => 'Vérificateur d’images',
 ];
 
 return $define;

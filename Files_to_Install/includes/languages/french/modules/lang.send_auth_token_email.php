@@ -12,6 +12,6 @@ $define = [
     'EMAIL_AUTH_TOKEN_SUBJECT' => STORE_NAME . ' - Activer le compte',
     'EMAIL_AUTH_TOKEN_BODY' => "Pour activer votre compte, veuillez cliquer sur le lien ci-dessous ou copier et coller le lien entier dans votre navigateur :\n\n%1\$s\n\nCe lien expire dans %2\$u minutes.",
 
-    'SUCCESS_AUTH_TOKEN_SENT' => 'Un e-mail a été envoyé à l\'adresse e-mail de votre compte (%1$s). Suivez les instructions pour activer votre compte et vérifiez vos spams.',
+    'SUCCESS_AUTH_TOKEN_SENT' => 'Un e-mail a été envoyé à l’adresse e-mail de votre compte (%1$s). Suivez les instructions pour activer votre compte et vérifiez vos spams.',
 ];
 return $define;

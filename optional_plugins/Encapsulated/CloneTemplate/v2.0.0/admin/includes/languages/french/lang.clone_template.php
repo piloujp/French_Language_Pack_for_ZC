@@ -10,14 +10,14 @@ $define = [
     'HEADING_TITLE' => 'Cloner un modèle <span style="font-size: smaller;">(%s)</span>',
     'TEXT_DESCRIPTION' => '<p>Cet outil vous permet de « cloner » ou de supprimer un modèle <em>existant</em>.</p>',
 
-    'TEXT_INSTRUCTIONS_CLONE' => '<p>Lorsqu\'un modèle est « cloné », tous les fichiers de remplacement et les paramètres du <b>contrôleur de zones de mise en page</b> du modèle source sont copiés dans le nouveau modèle.</p><p>Le nom que vous saisissez dans le champ <b>Nom d\'affichage du nouveau modèle</b> identifiera le nouveau modèle dans la page <strong>Outils->Sélection de modèle</strong>.</p>',
+    'TEXT_INSTRUCTIONS_CLONE' => '<p>Lorsqu’un modèle est « cloné », tous les fichiers de remplacement et les paramètres du <b>contrôleur de zones de mise en page</b> du modèle source sont copiés dans le nouveau modèle.</p><p>Le nom que vous saisissez dans le champ <b>Nom d’affichage du nouveau modèle</b> identifiera le nouveau modèle dans la page <strong>Outils->Sélection de modèle</strong>.</p>',
 
     'TEXT_INSTRUCTIONS_REMOVE' => 'Vous pouvez supprimer tous les fichiers de remplacement de modèle associés à un modèle supplémentaire (non principal).',
-    'TEXT_NOTHING_TO_REMOVE' => 'Il n\'y a pas de modèles supplémentaires disponibles pour la suppression ; les modèles principaux <em>classic</em> et <em>responsive_classic</em> ne peuvent pas être supprimés.',
+    'TEXT_NOTHING_TO_REMOVE' => 'Il n’y a pas de modèles supplémentaires disponibles pour la suppression ; les modèles principaux <em>classic</em> et <em>responsive_classic</em> ne peuvent pas être supprimés.',
 
     'TEXT_TEMPLATE_SOURCE' => 'Nom du répertoire du modèle source : ',
     'TEXT_TEMPLATE_TARGET' => 'Nom du répertoire du nouveau　modèle : ',
-    'TEXT_TEMPLATE_TARGET_NAME' => 'Nom d\'affichage du nouveau　modèle : ',
+    'TEXT_TEMPLATE_TARGET_NAME' => 'Nom d’affichage du nouveau　modèle : ',
     'CLONE_TEMPLATE_GO_ALT' => 'Cliquez ici pour cloner ce modèle',
 
     'TEXT_TEMPLATE_REMOVE_SOURCE' => 'Fichiers de modèles à supprimer : ',
@@ -27,9 +27,9 @@ $define = [
 
     'ERROR_TEMPLATE_TARGET_BLANK' => 'Le champ <b>Nom du répertoire du nouveau　modèle</b> ne peut pas être vide ; veuillez saisir une valeur.',
     'ERROR_TEMPLATE_TARGET_INVALID_CHARS' => 'Le champ <b>Nom du répertoire du nouveau　modèle</b> ne peut contenir que des caractères alphanumériques (a-z, A-Z, 0-9) ou des traits de soulignement (_) ; veuillez réessayer.',
-    'ERROR_TEMPLATE_TARGET_NAME_BLANK' => 'Le champ <b>Nom d\'affichage du nouveau modèle</b> ne peut pas être vide ; veuillez saisir une valeur.',
-    'ERROR_TEMPLATE_TARGET_NAME_INVALID_CHARS' => 'Le champ <b>Nom d\'affichage du nouveau modèle</b> ne peut contenir que des caractères alphanumériques (a-z, A-Z, 0-9) ou des traits de soulignement (_) ; veuillez réessayer.',
-    'ERROR_TEMPLATE_TARGET_NAME_DUPLICATE' => 'Le <b>Nom d\'affichage du nouveau modèle</b> existe déjà ; veuillez saisir un nouveau nom.',
+    'ERROR_TEMPLATE_TARGET_NAME_BLANK' => 'Le champ <b>Nom d’affichage du nouveau modèle</b> ne peut pas être vide ; veuillez saisir une valeur.',
+    'ERROR_TEMPLATE_TARGET_NAME_INVALID_CHARS' => 'Le champ <b>Nom d’affichage du nouveau modèle</b> ne peut contenir que des caractères alphanumériques (a-z, A-Z, 0-9) ou des traits de soulignement (_) ; veuillez réessayer.',
+    'ERROR_TEMPLATE_TARGET_NAME_DUPLICATE' => 'Le <b>Nom d’affichage du nouveau modèle</b> existe déjà ; veuillez saisir un nouveau nom.',
 
     'MESSAGE_COPYING_FILES' => 'Copie des fichiers de %1$s vers %2$s',
     'MESSAGE_REMOVING_FILES' => 'Suppression des fichiers de %s',
