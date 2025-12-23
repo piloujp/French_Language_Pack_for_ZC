@@ -149,7 +149,6 @@ return [
 'TEXT_ERROR_CONFIGURE_REQUIRES_UPDATE' => 'Votre fichier configure.php est une ancienne version et nécessite une mise à jour avant que nous puissions continuer.',
 'TEXT_ERROR_HTACCESS_SUPPORT' => 'La prise en charge des fichiers « .htaccess » n’est pas activée ou ne fonctionne pas correctement.<br>[ <i><strong>NOTE :</strong> Si vous utilisez Nginx, continuez jusqu’à la <u>FIN</u> de cet assistant d’installation pour obtenir des informations sur la résolution de ce problème.<i> ]',
 'TEXT_ERROR_SESSION_SUPPORT' => 'Problèmes avec la prise en charge des sessions',
-'TEXT_ERROR_SESSION_SUPPORT_USE_TRANS_SID' => 'paramètre ini session.use_trans_sid est activé',
 'TEXT_ERROR_SESSION_SUPPORT_AUTO_START' => 'paramètre ini session.auto_start est activé',
 'TEXT_ERROR_DB_CONNECTION' => 'Problèmes de connexion à la base de données',
 'TEXT_ERROR_DB_CONNECTION_DEFAULT' => 'Problèmes possibles avec la connexion à la base de données',
