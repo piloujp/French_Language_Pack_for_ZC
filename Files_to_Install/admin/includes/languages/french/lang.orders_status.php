@@ -20,6 +20,10 @@ $define = [
     'ERROR_REMOVE_DEFAULT_ORDER_STATUS' => 'ERREUR : l’état de commande par défaut ne peut être supprimé. Veuillez définir un autre état de commande par défaut et réessayer.',
     'ERROR_STATUS_USED_IN_ORDERS' => 'ERREUR : cet état de commande est actuellement utilisé par des commandes.',
     'ERROR_STATUS_USED_IN_HISTORY' => 'ERREUR : cet état de commande est actuellement utilisé dans l’historique des états de commande.',
+    'TEXT_INFO_HEADING_COLOR_CODE' => 'Code couleur',
+    'TEXT_INFO_COLOR_BOX_PLACEHOLDER' => 'Laisser vide pour une étiquette par défaut ou sans étiquette',
+    'TEXT_INFO_COLOR_CODE' => 'Saisissez le code hexadécimal ou cliquez sur la case.',
+    'TEXT_INFO_COLOR_CODE_WARNING' => '<strong>Avertissement :</strong> Le texte à l’intérieur de l’étiquette sera blanc, évitez les couleurs claires !',
 ];
 
 return $define;
