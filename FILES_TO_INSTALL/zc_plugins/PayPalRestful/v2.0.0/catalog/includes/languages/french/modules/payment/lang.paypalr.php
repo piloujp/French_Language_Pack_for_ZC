@@ -355,6 +355,8 @@ $define = [
     'CFGDESC_MODULE_PAYMENT_PAYPALR_DEBUGGING' => 'Souhaitez-vous activer le mode débogage ? Un journal complet et détaillé des transactions ayant échoué sera envoyé par courrier électronique au propriétaire du magasin.',
     'CFGTITLE_MODULE_PAYMENT_PAYPALR_SOFT_DESCRIPTOR' => 'Identifiant du magasin (sous-marque) chez PayPal',
     'CFGDESC_MODULE_PAYMENT_PAYPALR_SOFT_DESCRIPTOR' => 'Sur les relevés de carte de crédit de vos clients, le nom de votre entreprise apparaîtra sous la forme <code>PAYPAL*(votrenom)*(nom-de-votre-sous-marque)</code> (22 lettres maximum pour (votrenom)*(nom-de-votre-sous-marque)). Vous pouvez ajouter le nom de la sous-marque ici pour différencier les achats effectués dans cette boutique de vos autres ventes PayPal.',
+    'CFGTITLE_MODULE_PAYMENT_PAYPALR_PAYLATER_MESSAGING' => 'Messages pour PayLater',
+    'CFGDESC_MODULE_PAYMENT_PAYPALR_PAYLATER_MESSAGING' => 'Sur quelles pages le message PayPal PayLater doit-il s’afficher ? (Il ne s’affichera pas automatiquement dans les régions où il n’est pas disponible. Disponible uniquement en USD, GBP, EUR et AUD.) Lorsqu’il est activé, il affiche le prix réduit pour un paiement échelonné pour le produit ou le montant du panier affiché. Cela peut accélérer la décision d’achat. Pour le désactiver, décochez toutes les options.',
 // eof constant configuration titles and descriptions for payment module paypalr
 ];
 
