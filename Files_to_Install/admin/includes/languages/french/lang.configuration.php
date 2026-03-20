@@ -391,7 +391,7 @@ $define = [
     'CFGTITLE_IMAGE_SUFFIX_LARGE' => 'Informations sur le produit – Suffixe d’image grande',
     'CFGDESC_IMAGE_SUFFIX_LARGE' => 'Informations sur le produit, suffixe d’image grande<br>Par défaut = _LRG',
     'CFGTITLE_ADDITIONAL_IMAGES_MODE' => 'Modèle de reconnaissance des noms de fichiers des images supplémentaires',
-    'CFGDESC_ADDITIONAL_IMAGES_MODE' => '« strict » = toujours utiliser le suffixe « _ »<br>« legacy » = utiliser uniquement le suffixe « _ » dans les sous-répertoires<br>(Avant la version 210, legacy était la valeur par défaut)<br>Par défaut = strict',
+    'CFGDESC_ADDITIONAL_IMAGES_MODE' => 'En mode de correspondance des noms de fichiers, vous pouvez utiliser le suffixe « _ » de deux manières : <br>« strict » = toujours utiliser le suffixe « _ »<br>« legacy » = utiliser uniquement le suffixe « _ » dans les sous-répertoires<br>(Avant la version 210, legacy était la valeur par défaut)<br>Par défaut = strict',
     'CFGTITLE_IMAGES_AUTO_ADDED' => 'Informations sur le produit - Nombre d’images supplémentaires par ligne',
     'CFGDESC_IMAGES_AUTO_ADDED' => 'Informations sur le produit : saisissez le nombre d’images supplémentaires à afficher par ligne.<br>Par défaut = 3',
     'CFGTITLE_ADDITIONAL_IMAGES_HANDLING' => 'Gestion des images supplémentaires',

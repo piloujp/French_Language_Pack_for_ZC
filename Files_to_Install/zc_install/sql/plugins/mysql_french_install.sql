@@ -2,10 +2,10 @@
 # * Database modifications for Zen Cart with French Language Pack
 # * @package Installer
 # * @access private
-# * @copyright Copyright 2003-2025 Zen Cart Development Team
+# * @copyright Copyright 2003-2026 Zen Cart Development Team
 # * @copyright Portions Copyright 2003 osCommerce
 # * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
-# * @version $Id: pilou2/piloujp 2025 August 21 Modified in v2.2.0-alpha $
+# * @version $Id: pilou2/piloujp 2026 Mar 20 Modified in v2.2.1 $
 #
 # NOTE: UTF8 files need to be saved with encoding format set to UTF8-without-BOM.
 #
@@ -205,5 +205,5 @@ SELECT project_version_key, project_version_major, project_version_minor, projec
 FROM project_version;
 
 ## Now set to new version
-UPDATE project_version SET project_version_comment = 'New Installation-v220 with French Language Pack v2.2.0', project_version_date_applied = now() WHERE project_version_key = 'Zen-Cart Main';
-UPDATE project_version SET project_version_comment = 'New Installation-v220 with French Language Pack v2.2.0', project_version_date_applied = now() WHERE project_version_key = 'Zen-Cart Database';
+UPDATE project_version SET project_version_comment = 'New Installation-v221 with French Language Pack v2.2.0', project_version_date_applied = now() WHERE project_version_key = 'Zen-Cart Main';
+UPDATE project_version SET project_version_comment = 'New Installation-v221 with French Language Pack v2.2.0', project_version_date_applied = now() WHERE project_version_key = 'Zen-Cart Database';
