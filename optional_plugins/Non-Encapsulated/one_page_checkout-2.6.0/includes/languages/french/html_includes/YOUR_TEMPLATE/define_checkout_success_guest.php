@@ -1,0 +1,2 @@
+<p><strong>Exemple de texte de r&eacute;ussite du paiement ...</strong></p><p>Quelques mots sur le d&eacute;lai d&apos;exp&eacute;dition approximatif ou sur votre politique de traitement pour le paiement en tant qu&apos;invit&eacute; seraient mis ici.</p>
+<p>Cette section de texte provient de l&apos;&eacute;diteur de d&eacute;finition de pages situ&eacute; sous Outils dans l&apos;administration.</p>
