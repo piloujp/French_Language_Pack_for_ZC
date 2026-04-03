@@ -202,7 +202,7 @@ $define = [
     'ENTRY_STREET_ADDRESS_ERROR' => '&nbsp;<span class="errorText">min ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' caractères</span>',
     'ENTRY_SUBURB' => 'Banlieue :',
     'ENTRY_SUBURB_ERROR' => '',
-    'ENTRY_TELEPHONE_NUMBER' => 'Numéro de téléphone :',
+    'ENTRY_TELEPHONE_NUMBER' => 'Numéro de téléphone : ',
     'ENTRY_TELEPHONE_NUMBER_ERROR' => '&nbsp;<span class="errorText">min ' . ENTRY_TELEPHONE_MIN_LENGTH . ' caractères</span>',
     'ERROR_ADMIN_SECURITY_WARNING' => 'Attention : votre connexion administrateur n’est pas sécurisée ... soit vous avez toujours les paramètres de connexion par défaut pour : admin admin ou vous n’avez pas supprimé ou modifié : démo démo <br>Les identifiants doivent être modifiés comme dès que possible pour la sécurité de votre boutique. ',
     'ERROR_CANNOT_DELETE_CUSTOMER_GROUP_DUE_TO_LINKED_CUSTOMERS' => 'ERREUR : impossible de supprimer le groupe car %s clients sont toujours affectés à ce groupe et le remplacement n’a pas été spécifié.',
