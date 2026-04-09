@@ -3,8 +3,8 @@
  * @copyright Copyright 2003-2026 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
-* @version $Id: lat9 2026 Feb 28 Modified in v2.2.1 $
-*/
+ * @version $Id: ZenExpert 2026 Jan 14 Modified in v3.0.0 $
+ */
 
 @setlocale(LC_TIME, ['fr_FR', 'fr_FR.utf8', 'fr', 'French']);
 
@@ -246,19 +246,34 @@ $define = [
     'ERROR_UNABLE_TO_DISPLAY_SERVER_INFORMATION' => 'Désolé, votre configuration PHP ne peut pas être affichée car votre hébergeur a spécifié que [phpinfo] doit être désactivé dans le cadre de [disable_functions] dans les paramètres de php.ini.',
     'FEMALE' => 'Madame',
     'HEADER_ALT_TEXT' => 'Admin Powered by Zen Cart :: l’art du commerce électronique',
+    'HEADER_LOGO_IMAGE_HOME' => '',
     'HEADER_LOGO_IMAGE' => 'logo.gif',
     'HEADER_LOGO_WIDTH' => '192',
     'HEADER_LOGO_HEIGHT' => '68',
+    'HEADER_TEXT_ADMIN' => 'Administration',
+    'HEADER_TEXT_HOSTNAME' => 'Nom d’hôte',
+    'HEADER_TEXT_IP_ADDRESS' => 'Adresse IP',
+    'HEADER_TEXT_LANGUAGES' => 'Langues',
+    'HEADER_TEXT_LOCALE' => 'Paramètres de langue',
+    'HEADER_TEXT_SEARCH_ORDERS' => 'Rechercher des commandes...',
+    'HEADER_TEXT_SECURITY_WARNING' => 'Avertissement : Une action du journal d’activité de l’administrateur est requise !',
+    'HEADER_TEXT_TIMEZONE' => 'Fuseau horaire',
     'HEADER_TITLE_ACCOUNT' => 'Compte',
     'HEADER_TITLE_LOGOFF' => 'Déconnexion',
+    'HEADER_TITLE_MENU' => 'Menu',
+    'HEADER_TITLE_MENU_ERROR' => 'Menu vide ou erreur de configuration.',
     'HEADER_TITLE_ONLINE_CATALOG' => 'Vitrine',
+    'HEADER_TITLE_QUICK_ACTIONS' => 'Actions rapides',
     'HEADER_TITLE_SUPPORT_SITE' => 'Support',
     'HEADER_TITLE_TOP' => 'Accueil',
     'HEADER_TITLE_VERSION' => 'Version',
-    'HEADING_TITLE_VAL' => 'Valeurs des options',
+    'HEADER_TITLE_VERSION_SYSTEM_CHECK' => 'Vérification du système',
+    'HEADER_TITLE_VERSION_UP_TO_DATE' => 'Votre système est à jour.',
     'HEADING_TITLE_SEARCH_DETAIL' => 'Rechercher :',
     'HEADING_TITLE_SEARCH_DETAIL_REPORTS' => 'Rechercher des ID de produit (délimité par des virgules)',
     'HEADING_TITLE_SEARCH_DETAIL_REPORTS_NAME_MODEL' => 'Rechercher un nom/modèle de produit',
+    'HEADING_TITLE_VAL' => 'Valeurs des options',
+    'HEADER_TOGGLE_NAVIGATION' => 'Changer la navigation',
     'HELPTEXT_WHOLESALE_POPUP_TITLE' => 'Fixation des prix de gros',
     'HELPTEXT_WHOLESALE_PRICES' => 'Entrez 0 pour le prix de détail uniquement. Sinon, saisissez les niveaux de prix de gros séparés par le signe moins (-). Un niveau de tarification peut être soit un montant fixe, soit un pourcentage de réduction. Par exemple, « 2,00-10%-1,00 » donne un prix de 2,00 aux clients de niveau 1, de 10 % de réduction à ceux de niveau 2 et de 1,00 à ceux de niveau 3 et supérieur.',
     'HTML_PARAMS' => 'dir="ltr" lang="fr"',
@@ -623,6 +638,7 @@ $define = [
     'TEXT_SHOW_GV_QUEUE' => ' %s en attente d’approbation',
     'TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF' => 'Afficher les fonctionnalités globales - OFF',
     'TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON' => 'Afficher les fonctionnalités globales - ON',
+    'TEXT_SINCE_DATE' => 'Depuis le %s',
     'TEXT_SORT_CATEGORIES_NAME' => 'Nom des catégories',
     'TEXT_SORT_CATEGORIES_SORT_ORDER_CATEGORIES_NAME' => 'Ordre de tri des catégories, nom des catégories',
     'TEXT_SORT_ORDER' => 'Ordre de tri',
