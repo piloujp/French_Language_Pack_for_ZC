@@ -11,6 +11,7 @@ $define = [
     'EMAIL_PRODUCT_REVIEW_CONTENT_DETAILS' => 'Détails de l’avis: %s',
     'TEXT_REVIEW_SUBMITTED_FOR_REVIEW' => 'Merci, votre message a été soumis pour examen.',
     'TEXT_REVIEW_SUBMITTED' => 'Merci vous d’avoir soumis votre avis!',
+    'TEXT_REVIEW_TITLE' => 'Titre de l’avis :',
 ];
 
 return $define;

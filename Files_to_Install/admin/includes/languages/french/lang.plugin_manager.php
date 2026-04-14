@@ -50,6 +50,13 @@ $define = [
     'ERROR_NOT_FOUND_IN_SQL_FUNCTIONS_MAP' => 'Vérifiez votre instruction SQL. Une carte de fonctions SQL est introuvable pour : ',
     'ERROR_INVALID_SYNTAX' => 'Le tableau ne peut pas être identifié car la syntaxe n’est pas valide dans : ',
     'ERROR_SQL_PATCH' => 'Erreur lors du traitement de l’installation SQL.',
+    'ERROR_UNKNOWN_FAILURE' => 'Le plugin a refusé l’action %s, mais n’a fourni aucun message indiquant la raison.',
+        'ERROR_UNKNOWN_FAILURE_DISABLE' => 'désactiver',
+        'ERROR_UNKNOWN_FAILURE_ENABLE' => 'activer',
+        'ERROR_UNKNOWN_FAILURE_INSTALL' => 'installer',
+        'ERROR_UNKNOWN_FAILURE_UNINSTALL' => 'désinstaller',
+        'ERROR_UNKNOWN_FAILURE_UPGRADE' => 'mettre à jour',
+
     'WARNING_NONENCAPSULATED_REMOVAL' => '<b>Remarque :</b> L’installation de ce plugin entraînera (le cas échéant) la suppression <b>définitive</b> des fichiers fournis par une version non encapsulée !',
 ];
 

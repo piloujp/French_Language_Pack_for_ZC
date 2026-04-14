@@ -20,7 +20,6 @@ $define = [
     'TEXT_PRODUCT_IS_FREE' => 'Produit GRATUIT : ',
     'TEXT_PRODUCTS_IS_FREE_EDIT' => '<br>*Le produit est marqué GRATUIT',
     'TEXT_PRODUCT_IS_CALL' => 'Prix sur demande : ',
-    'TEXT_PRODUCTS_IS_CALL_EDIT' => '<br>*Le produit est marqué PRIX SUR DEMANDE',
     'TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES' => 'Prix fixé par attributs : ',
     'TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT' => '<br>*Le prix affiché incluera le plus bas prix dans chaque groupe d’attributs plus le prix',
     'TEXT_PRODUCTS_MIXED' => 'Mixer qté min/unités : ',
