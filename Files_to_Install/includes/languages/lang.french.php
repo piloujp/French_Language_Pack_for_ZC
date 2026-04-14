@@ -8,6 +8,16 @@ global $locales;
 $locales = ['fr_FR', 'fr_FR.utf8', 'fr', 'French'];
 @setlocale(LC_TIME, $locales);
 
+$define_locales = [
+    'CHARSET' => 'utf-8',
+    'DATE_FORMAT' => 'd/m/Y',
+    'DATE_FORMAT_LONG' => '%A %d %B %Y',
+    'DATE_TIME_FORMAT_WITHOUT_SECONDS' => '%d/%m/%Y %H:%M',
+    'DOB_FORMAT_STRING' => 'dd/mm/yyyy',
+    'ENTRY_DATE_OF_BIRTH_ERROR' => 'Votre date de naissance doit être au format suivant : JJ/MM/AAAA (ex : 21/05/1970)',
+    'ENTRY_DATE_OF_BIRTH_TEXT' => '* (ex : 21/05/1970)',
+];
+
 $define = [
     'ARIA_DELETE_ITEM_FROM_CART' => 'Supprimer cet article du panier',
     'ARIA_EDIT_QTY_IN_CART' => 'Modifier la quantité dans le panier',
@@ -91,12 +101,7 @@ $define = [
 
     'CATEGORY_COMPANY' => 'Détails entreprise',
     'CATEGORY_PERSONAL' => 'Vos informations personnelles',
-    'CHARSET' => 'utf-8',
-    'DATE_FORMAT' => 'd/m/Y',
-    'DATE_FORMAT_LONG' => '%A %d %B %Y',
-    'DATE_TIME_FORMAT_WITHOUT_SECONDS' => '%d/%m/%Y %H:%M',
     'DB_ERROR_NOT_CONNECTED' => 'ERREUR : impossible de se connecter à la base de données',
-    'DOB_FORMAT_STRING' => 'dd/mm/yyyy',
     'DOWNLOADS_CONTROLLER_ON_HOLD_MSG' => 'NOTE : les téléchargements ne sont pas disponibles tant que le paiement n’a pas été validé',
     'EMAIL_SALUTATION' => 'Cher(ère)',
     'EMAIL_SEND_FAILED' => 'ERREUR : Échec de l’envoi d’e-mail à : "%1$s" <%2$s> avec le sujet : "%3$s".',
@@ -114,8 +119,6 @@ $define = [
     'ENTRY_CUSTOMERS_REFERRAL' => 'Code de parrainage :',
     'ENTRY_DATE_FROM' => 'Depuis : ',
     'ENTRY_DATE_OF_BIRTH' => 'Date de naissance : ',
-    'ENTRY_DATE_OF_BIRTH_ERROR' => 'Votre date de naissance doit être au format suivant : JJ/MM/AAAA (ex : 21/05/1970)',
-    'ENTRY_DATE_OF_BIRTH_TEXT' => '* (ex : 21/05/1970)',
     'ENTRY_DATE_TO' => 'Jusqu’au : ',
     'ENTRY_EMAIL' => 'Adresse e-mail : ',
     'ENTRY_EMAIL_ADDRESS' => 'Adresse e-mail : ',
@@ -553,4 +556,4 @@ $define = [
     $define['TEXT_SEND_OR_SPEND'] = 'Vous avez un solde disponible sur votre compte ' . $define['TEXT_GV_NAME'] . '. Vous pouvez le dépenser ou l’envoyer à quelqu’un d’autre. Pour envoyer cliquez sur le bouton ci-dessous.';
     $define['VOUCHER_BALANCE'] = 'Solde du compte ' . $define['TEXT_GV_NAME'];
 
-return $define;
+return array_merge($define, $define_locales);
