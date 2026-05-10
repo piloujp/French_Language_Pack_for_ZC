@@ -56,7 +56,7 @@ if (file_exists(dirname(__FILE__) . '/square_webPay.php') === false && file_exis
         'MODULE_PAYMENT_SQUARE_ENTRY_VOID_SUFFIX' => '',
         'MODULE_PAYMENT_SQUARE_ENTRY_VOID_BUTTON_TEXT' => 'Annuler',
     ];
-    $define = array_merge($define, $defineExtra);       
+    $define = array_merge($define, $defineExtra);
 }
 
 

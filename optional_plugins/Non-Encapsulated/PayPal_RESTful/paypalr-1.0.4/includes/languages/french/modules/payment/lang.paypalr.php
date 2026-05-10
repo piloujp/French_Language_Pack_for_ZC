@@ -68,7 +68,7 @@ $define = [
         'MODULE_PAYMENT_PAYPALR_ALERT_SUBJECT_UNKNOWN_DENIAL' => 'Raison de refus inconnue',
         'MODULE_PAYMENT_PAYPALR_ALERT_SUBJECT_LOST_STOLEN_CARD' => 'Carte perdue/volée/frauduleuse',
         'MODULE_PAYMENT_PAYPALR_ALERT_SUBJECT_TOTAL_MISMATCH' => 'Calcul incohérent',
-        'MODULE_PAYMENT_PAYPALR_ALERT_SUBJECT_CONFIRMATION_ERROR' => 'Confirmer le choix de paiement', 
+        'MODULE_PAYMENT_PAYPALR_ALERT_SUBJECT_CONFIRMATION_ERROR' => 'Confirmer le choix de paiement',
 
     'MODULE_PAYMENT_PAYPALR_ALERT_ORDER_CREATION' => 'Le statut de la commande #%1$u a été forcé à « En attente » en raison d’un statut de réponse PayPal de « %2$s ».',
     'MODULE_PAYMENT_PAYPALR_ALERT_MISSING_OBSERVER' => 'L’observateur du module de paiement (auto.paypalrestful.php) n’a pas été chargé ; le module de paiement a été désactivé.',

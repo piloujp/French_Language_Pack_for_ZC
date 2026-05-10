@@ -15,11 +15,11 @@ $define = [
     // Additions for catalog invoice
     'ENTRY_SHIP_TO' => 'ENVOYEZ À　:',
     'ENTRY_SOLD_TO' => 'VENDU À　:',
-    'ENTRY_ORDER_ID' => 'Numéro de commande ',    
+    'ENTRY_ORDER_ID' => 'Numéro de commande ',
     'ENTRY_DATE_PURCHASED' => 'Date d’achat :',
     'ENTRY_PAYMENT_METHOD' => 'Mode de paiement　:',
     'TABLE_HEADING_PRODUCTS_MODEL' => 'Modèle',
-    'TABLE_HEADING_PRODUCTS_NAME' => 'Nom du produit', 
+    'TABLE_HEADING_PRODUCTS_NAME' => 'Nom du produit',
     'TABLE_HEADING_TAX' => 'Taxe',
     'TABLE_HEADING_DATE_ADDED' => 'Date d’ajout',
     'TABLE_HEADING_STATUS' => 'Statut',
