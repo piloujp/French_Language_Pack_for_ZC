@@ -16,7 +16,7 @@ $define = [
 
 // -----
 // Used on the products_all and product listing for the alpha-filter dropdown.
-// Note: defined in multiple language files for zc158 and zc200!
+// Note: Defined in multiple language files for zc158 and zc200!
 //
     'TEXT_SHOW' => 'Filtrer par :',
 
