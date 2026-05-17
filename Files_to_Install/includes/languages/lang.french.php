@@ -188,7 +188,7 @@ $define = [
     'ERROR_DATABASE_MAINTENANCE_NEEDED' => '<a href="https://docs.zen-cart.com/user/troubleshooting/error_71_maintenance_required/" rel="noopener" target="_blank">ERREUR 0071 Il semble y avoir un problème avec la base de données. Une maintenance est requise.</a>',
     'ERROR_DESTINATION_DOES_NOT_EXIST' => 'ERREUR : destination inexistante.',
     'ERROR_DESTINATION_NOT_WRITEABLE' => 'ERREUR : destination non inscriptible.',
-    'ERROR_FILETYPE_NOT_ALLOWED' => 'ERREUR : type de fichier interdit.',
+    'ERROR_FILETYPE_NOT_ALLOWED' => 'Erreur : Le type de fichier téléchargé (%1$s) n’est pas pris en charge. Veuillez réessayer.',
     'ERROR_FILE_NOT_SAVED' => 'ERREUR : fichier non sauvegardé.',
     'ERROR_FILE_TOO_BIG' => 'AVERTISSEMENT : le fichier était trop gros pour être uploadé !<br />La commande peut être passée mais veuillez contacter le site pour de l’aide sur l’upload.',
     'ERROR_INVALID_FROM_DATE' => 'Invalide à partir de',
