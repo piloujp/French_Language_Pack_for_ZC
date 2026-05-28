@@ -63,6 +63,7 @@ $define = [
     'TEXT_VERSION_INSTALLED' => '<strong>Version installée :</strong> %s',
 
     'WARNING_NONENCAPSULATED_REMOVAL' => '<b>Remarque :</b> L’installation de ce plugin entraînera (le cas échéant) la suppression <b>définitive</b> des fichiers fournis par une version non encapsulée !',
+    'WARNING_TEMPLATE_IS_ACTIVE' => 'Ce plugin contient le modèle actuellement sélectionné par l’outil <a href="%1$s">%2$s</a>. Désinstaller le plugin avant de sélectionner un autre modèle aura des conséquences indésirables !',
 ];
 
 return $define;

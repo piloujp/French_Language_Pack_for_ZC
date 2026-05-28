@@ -32,6 +32,7 @@ $define = [
     'TEXT_VIEW_TEMPLATE_SETTINGS' => 'Afficher les paramètres du modèle',
     'TEXT_MODAL_HEADING_INTRO' => 'Paramètres du modèle : ',
     'ERROR_COULD_NOT_READ_FILE' => 'Désolé, le fichier n’a pas pu être lu.',
+    'ERROR_TEMPLATE_SELECTION_NOT_AVAILABLE' => 'Le modèle sélectionné n’est pas disponible. Les modèles de plugins doivent être installés avant de pouvoir être attribués.',
 ];
 
 return $define;
