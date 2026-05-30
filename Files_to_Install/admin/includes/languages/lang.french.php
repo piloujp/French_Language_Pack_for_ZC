@@ -88,7 +88,6 @@ $define = [
     'BOX_CONFIGURATION_EZPAGES_SETTINGS' => 'Paramètres d’EZ-Pages',
     'BOX_CONFIGURATION_FEATURED_LISTING' => 'Liste : produits Phares',
     'BOX_CONFIGURATION_GV_COUPONS' => 'Coupons « chèque cadeau »',
-    'BOX_CONFIGURATION_GZIP_COMPRESSION' => 'Compression GZip',
     'BOX_CONFIGURATION_IMAGES' => 'Images',
     'BOX_CONFIGURATION_INDEX_LISTING' => 'Index des produits',
     'BOX_CONFIGURATION_LAYOUT_SETTINGS' => 'Paramètres de mise en page',

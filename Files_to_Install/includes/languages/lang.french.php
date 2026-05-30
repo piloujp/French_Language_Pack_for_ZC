@@ -542,7 +542,7 @@ $define = [
     $define['BOX_HEADING_GIFT_VOUCHER'] = 'Compte ' . $define['TEXT_GV_NAME'];
     $define['BOX_INFORMATION_GV'] = 'FAQ du ' . $define['TEXT_GV_NAME'];
     $define['ENTRY_EMAIL_PREFERENCE'] = 'Détails de la newsletter et de l’e-mail';
-    if (zen_config('ACCOUNT_NEWSLETTER_STATUS') === '0') {
+    if ((int)zen_config('ACCOUNT_NEWSLETTER_STATUS') === 0) {
        $define['ENTRY_EMAIL_PREFERENCE'] = 'Détails de l’e-mail';
     }
     $define['ERROR_NO_INVALID_REDEEM_GV'] = $define['TEXT_GV_NAME'] . $define['TEXT_GV_REDEEM'] . ' invalide';
