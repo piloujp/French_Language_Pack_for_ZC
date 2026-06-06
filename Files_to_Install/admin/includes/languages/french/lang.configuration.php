@@ -626,7 +626,7 @@ $define = [
     'CFGTITLE_PRODUCTS_OPTIONS_TYPE_READONLY_IGNORED' => 'Type d’option Lecture seule - Ignorer pour Ajouter au panier',
     'CFGDESC_PRODUCTS_OPTIONS_TYPE_READONLY_IGNORED' => 'Lorsqu’un produit utilise uniquement des attributs READONLY, le bouton Ajouter au panier doit-il être activé ou désactivé ?<br>0 = OFF<br>1 = ON',
     'CFGTITLE_SESSION_WRITE_DIRECTORY' => 'Répertoire des sessions',
-    'CFGDESC_SESSION_WRITE_DIRECTORY' => 'Cela devrait pointer vers le dossier spécifié dans votre paramètre DIR_FS_SQL_CACHE dans vos fichiers configure.php.',
+    'CFGDESC_SESSION_WRITE_DIRECTORY' => 'Cela devrait pointer vers le dossier spécifié dans votre paramètre DIR_FS_SQL_CACHE dans votre fichier configure.php.',
     'CFGTITLE_SESSION_USE_FQDN' => 'Domaine des cookies',
     'CFGDESC_SESSION_USE_FQDN' => 'Si la valeur est True, le nom de domaine complet sera utilisé pour stocker le cookie, par exemple www.mondomaine.com. Si la valeur est False, seul un nom de domaine partiel sera utilisé, par exemple mondomaine.com. Si vous n’êtes pas sûr de cela, laissez toujours défini sur True.',
     'CFGTITLE_SESSION_FORCE_COOKIE_USE' => 'Forcer l’utilisation des cookies',
