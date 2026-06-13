@@ -15,7 +15,7 @@ $define = [
     'TEXT_HINT_PASSWORD_RESET_TOKEN_LENGTH' => 'La valeur doit être un entier entre 12 et 100.',
     'TEXT_HINT_PASSWORD_RESET_TOKEN_VALID_MINUTES' => 'La valeur doit être un entier entre 1 et 1440.',
 
-    'TEXT_VALUE_SAVED' => 'La valeur de « %1$s » a été modifiée de « %2$s » à « %3$s ».',
+    'TEXT_VALUE_SAVED' => 'La valeur de « %1$s » a été modifiée de %2$s à %3$s.',
 // bof constant configuration group titles  for table configuration_group
 //    'CFG_GRP_TITLE_MY_STORE' => 'Ma Boutique',
 //    'CFG_GRP_TITLE_MINIMUM_VALUES' => 'Valeurs minimales',
