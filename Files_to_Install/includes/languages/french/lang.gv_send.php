@@ -4,7 +4,7 @@ $define = [
     'HEADING_TITLE_CONFIRM_SEND' => 'Confirmation de l’envoi de ' . TEXT_GV_NAME,
     'HEADING_TITLE_COMPLETED' => TEXT_GV_NAME . ' envoyé',
     'NAVBAR_TITLE' => 'Envoyer ' . TEXT_GV_NAME,
-    'EMAIL_SUBJECT' => 'Message de ' . STORE_NAME,
+    'EMAIL_SUBJECT' => 'Message de ' . zen_config('STORE_NAME'),
     'HEADING_TEXT' => 'Veuillez entrer le nom, adresse e-mail et montant du ' . TEXT_GV_NAME . ' que vous souhaitez envoyer. Pour de plus amples informations, veuillez consulter notre <a href="' . zen_href_link(FILENAME_GV_FAQ) . '">' . GV_FAQ . '.</a>',
     'ENTRY_MESSAGE' => 'Votre Message: ',
     'ENTRY_AMOUNT' => 'Montant à envoyer: ',
