@@ -16,6 +16,7 @@ $define = [
     'TEXT_ADMIN_CONFIRM_PASSWORD' => 'Confirmez le mot de passe : ',
     'ERROR_WRONG_LOGIN' => '<p>Erreur dans la saisie de votre nom d’utilisateur et/ou mot de passe.</p>',
     'ERROR_SECURITY_ERROR' => 'Il y a eu une erreur de sécurité en essayant de vous connecter.',
+    'ERROR_ADMIN_SESSION_INVALID_DUE_TO_PASSWORD_CHANGE' => 'Votre session a expiré car votre mot de passe a été modifié. Veuillez vous reconnecter.',
     'TEXT_PASSWORD_FORGOTTEN' => 'Mot de passe oublié ?',
     'LOGIN_EXPIRY_NOTICE' => '',
     'ERROR_PASSWORD_EXPIRED' => 'NOTE : votre mot de passe a expiré. Veuillez choisir un nouveau mot de passe. Votre mot de passe <strong>doit contenir à la fois des chiffres et des lettres, ainsi qu’un minimum de 7 caractères.</strong>',
