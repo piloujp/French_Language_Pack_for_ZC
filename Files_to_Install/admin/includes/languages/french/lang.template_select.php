@@ -9,7 +9,7 @@
 $define = [
     'HEADING_TITLE' => 'Sélection du modèle (template)',
     'TEXT_INFO_DEFAULT_LANGUAGE' => 'Par défaut (tous)',
-    'TEXT_TEMPLATE_SELECT_INFO' => '<p>Ici, vous pouvez modifier le modèle utilisé pour afficher la vitrine.</p><p>Le modèle par défaut est normalement utilisé pour <strong>toutes</strong> les langues. L’ajout d’affectations de modèle à une langue n’est généralement utile que lorsque vous prenez en charge les langues RTL parallèlement aux langues LTR.</p><p>Il est possible d’afficher un modèle dans une session <em>privée</em>, par exemple lors du test d’un nouveau modèle : consultez l’aide en ligne <strong>?</strong></p>',
+    'TEXT_TEMPLATE_SELECT_INFO' => '<p>Utilisez cet outil pour modifier le modèle qui contrôle le rendu de la boutique. Le modèle par défaut est normalement utilisé pour <strong>toutes</strong> les langues. L’ajout d’associations modèle-langue est généralement utilisé lors de la prise en charge des langues RTL en plus des langues LTR.</p><p>Il est possible d’afficher un modèle dans une session <em>privée</em>, par exemple lors du test d’un nouveau modèle : consultez l’aide en ligne <strong>?</strong></p>',
     'TABLE_HEADING_LANGUAGE' => 'Langue du modèle',
     'TABLE_HEADING_NAME' => 'Nom du modèle',
     'TABLE_HEADING_DIRECTORY' => 'Répertoire du modèle',
