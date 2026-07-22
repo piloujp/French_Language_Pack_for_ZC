@@ -6,8 +6,8 @@
  * @author      Marcopolo
  * @copyright   2026
  * @license     GNU General Public License (GPL) - https://www.zen-cart.com/license/2_0.txt
- * @version     1.0.0
- * @updated     07-13-2026
+ * @version     1.2.0
+ * @updated     07-26-2026
  * @github      https://github.com/CcMarc/AlsoPurchasedTurbo
  */
 $define = [
@@ -28,12 +28,20 @@ $define = [
     'APT_TEXT_DISABLED' => 'Désactivé',
     'APT_TEXT_PAIR_ROWS' => 'Nombre de lignes de paires',
     'APT_TEXT_PRODUCTS_COVERED' => 'Produits avec recommandations',
+    'APT_TEXT_TABLE_SIZE' => 'Taille de la table sur le disque',
+    'APT_TEXT_TABLE_SIZE_RECLAIMABLE' => '(%s récupérables en interne — voir « Optimiser la table » ci-dessous)',
     'APT_TEXT_SEED_STATE' => 'Initialisation historique',
     'APT_TEXT_SEED_DONE' => 'Complété',
     'APT_TEXT_SEED_NOT_STARTED_SHORT' => 'Pas commencé',
     'APT_TEXT_SEED_NOT_STARTED' => 'Les pages produits utilisent le mécanisme de base par défaut.',
     'APT_TEXT_SEED_IN_PROGRESS_SHORT' => 'En cours',
     'APT_TEXT_SEED_IN_PROGRESS' => 'ID de la prochaine commande à traiter : %s (sur un maximum de %s).',
+    'APT_TEXT_LAST_PRUNE' => 'Dernier nettoyage',
+    'APT_TEXT_LAST_OPTIMIZE' => 'Dernière optimisation',
+    'APT_TEXT_LAST_OPTIMIZE_NEVER' => 'Jamais éxecuté',
+    'APT_TEXT_LAST_OPTIMIZE_DETAIL' => '%1$s &mdash; table désormais de %2$s sur le disque (%3$s récupérés)',
+    'APT_TEXT_LAST_PRUNE_NEVER' => 'Jamais éxecuté',
+    'APT_TEXT_LAST_PRUNE_DETAIL' => '%1$s &mdash; %2$s &rarr; %3$s lignes (%4$s supprimées, limite de %5$s par produit)',
 
     'APT_TEXT_SHIMS_EXPLAIN' => 'Selon le modèle actif, voici comment le moteur de données « Également acheté » est intégré. Les mentions « OK » et « INTÉGRÉ » indiquent toutes deux que ce plugin fournit les données.',
     'APT_TEXT_SHIM_OK' => 'OK',
@@ -55,6 +63,20 @@ $define = [
     'APT_TEXT_SETTING_RANKING' => 'Classement (APT_RANKING)',
     'APT_TEXT_SETTING_FALLBACK' => 'Mécanisme de repli pour les requêtes de base (APT_FALLBACK_STOCK)',
     'APT_TEXT_SETTING_DEBUG' => 'Journal de débogage (APT_DEBUG_LOG)',
+    'APT_TEXT_SETTING_MAX_PAIRS' => 'Nombre maximal de paires par produit (APT_MAX_PAIRS_PER_PRODUCT)',
+
+    'APT_BUTTON_PRUNE' => 'Élaguer la table des paires (conserver les meilleures paires)',
+    'APT_HELP_PRUNE' => 'Réduit chaque produit à ses %s paires les plus fortes (le classement suit APT_RANKING). La boutique n’en affichant qu’une petite partie, cette opération peut considérablement réduire la taille de la table sans impact visuel. S’exécute par lots et se poursuit automatiquement ; peut être lancé sans risque à tout moment. S’exécute automatiquement une fois l’initialisation des données terminée.',
+    'APT_TEXT_PRUNE_DISABLED' => 'La suppression des données obsolètes (élagage) est désactivée (le nombre maximal de paires stockées par produit est de 0). Définissez une limite dans « Configuration > Également acheté (turbo) ».',
+    'APT_TEXT_PRUNE_CHUNK_DONE' => 'Élagage… traitement via l’ID de produit %1$s (%2$s lignes supprimées à ce jour). Poursuite automatique…',
+    'APT_TEXT_PRUNE_COMPLETE' => 'Élagage terminé : %s lignes de paires ont été supprimées ; chaque produit contient désormais un maximum de %s paires.',
+    'APT_TEXT_SEED_PRUNE_CHAIN' => 'L’élagage des paires démarre automatiquement pour réduire la table fraîchement ensemencée…',
+
+    'APT_BUTTON_OPTIMIZE' => 'Optimiser la table (récupérer de l’espace disque)',
+    'APT_HELP_OPTIMIZE' => 'Reconstruit la table sur le disque. InnoDB conserve l’espace libéré par les lignes supprimées au sein de l’espace de table plutôt que de le restituer au système d’exploitation ; par conséquent, après une suppression massive, le fichier reste volumineux tant qu’il n’a pas été optimisé. Taille actuelle : %1$s ; espace récupérable en interne : %2$s. L’opération peut prendre plusieurs minutes sur une table volumineuse, mais la boutique reste fonctionnelle pendant la reconstruction.',
+    'APT_TEXT_OPTIMIZE_CONFIRM_JS' => 'Reconstruire la table de paires maintenant ? Cette opération peut prendre plusieurs minutes pour une table volumineuse.',
+    'APT_TEXT_OPTIMIZE_DONE' => 'Optimisation terminée. La table des paires occupe désormais %1$s sur le disque (%2$s récupérés).',
+    'APT_TEXT_PRUNE_OPTIMIZE_HINT' => 'Cette opération de nettoyage a supprimé un grand nombre de lignes. L’espace disque n’est PAS automatiquement récupéré par InnoDB ; exécutez la commande « Optimiser la table (récupérer de l’espace disque) » ci-dessous pour réduire la taille du fichier de la table.',
     'APT_BUTTON_EDIT_PLUGIN_SETTINGS' => 'Modifier dans la configuration » Également acheté (turbo)',
 
     'APT_BUTTON_SEED' => 'Reprendre à partir de l’historique des commandes',
