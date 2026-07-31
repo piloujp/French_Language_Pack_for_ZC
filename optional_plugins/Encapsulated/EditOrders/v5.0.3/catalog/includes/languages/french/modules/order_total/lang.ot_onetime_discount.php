@@ -22,6 +22,16 @@
 $define = [
     'MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_TITLE' => 'Remise unique',
     'MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_DESCRIPTION' => 'Remise unique appliquée à la commande',
+// bof constant configuration titles and descriptions for ot_onetime_discount
+    'CFGTITLE_MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_STATUS' => 'Ce module est installé.',
+    'CFGDESC_MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_STATUS' => '',
+    'CFGTITLE_MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_SORT_ORDER' => 'Ordre de tri',
+    'CFGDESC_MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_SORT_ORDER' => 'Ordre de tri d’affichage.',
+    'CFGTITLE_MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_CHANGE_TITLE' => 'Permettre de modifier le titre',
+    'CFGDESC_MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_CHANGE_TITLE' => 'Permettre de modifier le titre du module lors de la modification d’une commande.',
+    'CFGTITLE_MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_DEDUCTION_ONLY' => 'Activer uniquement les déductions ?',
+    'CFGDESC_MODULE_ORDER_TOTAL_ONETIME_DISCOUNT_DEDUCTION_ONLY' => 'Ce module doit-il permettre <em>uniquement</em> des déductions sur le montant de la commande ? Si cette option est réglée sur <b>true</b> (vrai), toute valeur saisie (qu’elle soit positive ou négative) sera déduite de la commande ; dans le cas contraire, vous pourrez utiliser ce module aussi bien pour ajouter un montant à la commande que pour en déduire. Valeur par défaut : <em>true</em>.',
+// eof constant configuration titles and descriptions for ot_onetime_discount
 ];
 
 return $define;
