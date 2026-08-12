@@ -6,6 +6,16 @@
  * @version $Id: lat9 2025 Sep 24 Modified in v2.2.0 $
 */
 $define = [
+    'BUTTON_GO' => 'Démarrer',
+
+    'ERROR_TEMPLATE_NOT_SELECTABLE' => 'Le modèle que vous aviez sélectionné (%1$s) n’est plus disponible ; les modifications que vous venez de soumettre ont été annulées. Veuillez réessayer.',
+
+    'TEXT_ALL_TEMPLATES' => 'Tous les modèles',
+    'TEXT_CHOOSE_SAVETO' => 'Enregistrer dans :',
+    'TEXT_INHERITED_VALUE' => 'Valeur héritée : %1$s',
+    'TEXT_NO_TEMPLATE_SETTINGS' => 'Ce groupe d’éléments de configuration ne contient aucun paramètre spécifique au modèle.',
+    'TEXT_TEMPLATE_SETTINGS' => 'Ce groupe d’éléments de configuration contient des paramètres que vous pouvez configurer modèle par modèle. Sélectionnez le modèle auquel vos modifications doivent s’appliquer ; votre dernier choix sera mémorisé pour la durée de la session en cours.<br><br>Veuillez noter que si vous enregistrez vos modifications dans un modèle <em>autre que</em> <code>Tous les modèles</code>, seuls les paramètres spécifiques à ce modèle s’fficheront ici pour être mis à jour.',
+
     'TEXT_DATA_OUT_OF_RANGE' => 'Données hors limites',
     'TEXT_MIN_GENERAL_ADMIN' => 'La valeur minimale saisie pour « %1$s » doit être un nombre entier supérieur ou égal à %2$s. La valeur que vous avez saisie (%3$s) n’a pas été enregistrée.',
     'TEXT_MAX_GENERAL_ADMIN' => 'La valeur maximale saisie pour « %1$s » doit être un nombre entier supérieur ou égal à %2$s. La valeur saisie (%3$s) n’a pas été enregistrée.',
