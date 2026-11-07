@@ -95,8 +95,8 @@ INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES
 (@coid0, '19', 'Corrèze'),
 (@coid0, '2A', 'Corse-du-Sud'),
 (@coid0, '2B', 'Haute-Corse'),
-(@coid0, '21', 'Côte-d\'Or'),
-(@coid0, '22', 'Côtes-d\'Armor'),
+(@coid0, '21', 'Côte-d’Or'),
+(@coid0, '22', 'Côtes-d’Armor'),
 (@coid0, '23', 'Creuse'),
 (@coid0, '79', 'Deux-Sèvres'),
 (@coid0, '24', 'Dordogne'),
@@ -162,7 +162,7 @@ INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES
 (@coid0, '81', 'Tarn'),
 (@coid0, '82', 'Tarn-et-Garonne'),
 (@coid0, '90', 'Territoire de Belfort'),
-(@coid0, '95', 'Val-d\'Oise'),
+(@coid0, '95', 'Val-d’Oise'),
 (@coid0, '94', 'Val-de-Marne'),
 (@coid0, '83', 'Var'),
 (@coid0, '84', 'Vaucluse'),
@@ -178,12 +178,12 @@ INSERT INTO zones (zone_country_id, zone_code, zone_name) VALUES
 (@coid5, '976', 'Mayotte'),
 (@coid7, '988', 'Nouvelle-Calédonie'),
 (@coid3, '987', 'Polynésie française'),
-(@coid8, '975', 'Saint-Pierre et Miquelon'),
+(@coid8, '975', 'Saint-Pierre-et-Miquelon'),
 (@coid10, '984', 'Terres australes et antarctiques françaises'),
 /* (xxx, '989', 'Clipperton'),
  (xxx, '977', 'Saint-Barthélemy'),
  (xxx, '978', 'Saint-Martin'),*/
-(@coid9, '986', 'Wallis et Futuna');
+(@coid9, '986', 'Wallis-et-Futuna');
 
 # Update address book and zones to geo zones tables with new zones ids
 UPDATE address_book a JOIN french_zones fz ON a.entry_zone_id = fz.zone_id AND a.entry_country_id IN (@coid0,@coid1,@coid2,@coid3,@coid4,@coid5,@coid6,@coid7,@coid8,@coid9,@coid10) JOIN zones z ON z.zone_name = fz.zone_name SET a.entry_zone_id = z.zone_id;
