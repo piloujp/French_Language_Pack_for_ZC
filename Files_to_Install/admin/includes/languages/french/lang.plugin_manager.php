@@ -51,7 +51,7 @@ $define = [
     'TEXT_INSTALLED_DISABLED' => 'Installé (désactivé)',
     'TEXT_INSTALLED_ENABLED' => 'Installé (activé)',
     'TEXT_LABEL_STATUS' => 'Status : ',
-    'TEXT_NEW_PLUGIN_DOWNLOAD_AVAILABLE' => 'Une nouvelle version %1$s est disponible en téléchargement sur le <a target="_blank" rel="noreferrer" href="https://www.zen-cart.com/downloads.php?do=file&id=%2$s">forum d’assistance</a>',
+    'TEXT_NEW_PLUGIN_DOWNLOAD_AVAILABLE' => 'Une nouvelle version %1$s est disponible en téléchargement dans la <a target="_blank" rel="noreferrer" href="https://www.zen-cart.com/downloads.php?do=file&id=%2$s">librairie de plugins</a>',
     'TEXT_NOT_INSTALLED' => 'Non installé',
     'TEXT_PLUGIN_AUTHOR' => '<strong>Auteur :</strong> %s',
     'TEXT_PLUGIN_DOWNLOAD_PAGE' => '<a target="_blank" rel="noreferrer" href="https://www.zen-cart.com/downloads.php?do=file&id=%s">Page de téléchargement du plugin</a>',
