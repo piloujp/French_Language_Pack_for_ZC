@@ -133,6 +133,7 @@ $define = [
     'ENTRY_ENQUIRY' => 'Message : ',
     'ENTRY_FAX_NUMBER' => 'Fax : ',
     'ENTRY_FAX_NUMBER_TEXT' => '',
+    'ENTRY_FIELD_TOO_LONG_ERROR' => 'Votre %1$s ne doit pas dépasser %2$d caractères.',
     'ENTRY_FIRST_NAME' => 'Prénom : ',
     'ENTRY_FIRST_NAME_ERROR' => 'Votre prénom doit comporter un minimum de ' . zen_config('ENTRY_FIRST_NAME_MIN_LENGTH') . ' caractères. Veuillez rectifier et réessayer.',
     'ENTRY_FIRST_NAME_TEXT' => '*',
