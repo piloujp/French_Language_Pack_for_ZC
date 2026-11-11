@@ -1,4 +1,5 @@
 <?php
+
 $define = [
     'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ADMIN_TITLE' => 'Authorize.net (AIM)',
     'MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ERROR_CURL_NOT_FOUND' => 'Fonctions CURL introuvables - requises pour le module de paiement Authorize.net AIM',
@@ -61,7 +62,7 @@ $define = [
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_TESTMODE' => 'Mode de transaction',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_TESTMODE' => 'Mode de transaction utilisé pour le traitement des commandes.<br><strong>Production</strong>=Traitement en direct avec des informations d’identification de compte réelles<br><strong>Test</strong>=Simulations avec des informations d’identification de compte réelles<br><strong>Sandbox</strong>=Utilisez une clé de transaction sandbox spéciale pour effectuer des tests spéciaux des réponses de transaction réussies/échouées (obtenez les informations d’identification sandbox via <a href="https://developer.authorize.net/hello_world/sandbox/">developer.authorize.net</a>)',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Devise prise en charge',
-    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Quelle devise votre compte Authnet Gateway est-il configuré pour accepter ?<br>(Les achats dans toute autre devise seront pré-convertis dans cette devise avant l\'envoi en utilisant les taux de change définis dans l\'administration de votre boutique.)',
+    'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_CURRENCY' => 'Quelle devise votre compte Authnet Gateway est-il configuré pour accepter ?<br>(Les achats dans toute autre devise seront pré-convertis dans cette devise avant l’envoi en utilisant les taux de change définis dans l’administration de votre boutique.)',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_AUTHORIZATION_TYPE' => 'Type d’autorisation',
     'CFGDESC_MODULE_PAYMENT_AUTHORIZENET_AIM_AUTHORIZATION_TYPE' => 'Souhaitez-vous que les transactions par carte de crédit soient autorisées uniquement ou autorisées et chargées ?',
     'CFGTITLE_MODULE_PAYMENT_AUTHORIZENET_AIM_STORE_DATA' => 'Activer le stockage dans la base de données',
